@@ -1,0 +1,538 @@
+{
+ "_meta": {
+  "dosya": "antitrombotik",
+  "aciklama": "Antitrombotik ilaç aralıkları, böbrek ayarı ve izlem kuralları",
+  "surum": "1.0.0",
+  "tarih": "2026-11-19",
+  "hazirlayan": "",
+  "kontrol_eden": "",
+  "kontrol_tarihi": "",
+  "durum": "taslak",
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+ },
+ "data": {
+  "NX_COMMON": "Derin pleksus ve derin periferik bloklar nöroaksiyel önerilere göre yönetilir (1C; antiplateletlerde 2C).",
+  "CATH": "Kateter yerleştirme ve çıkarma için benzer aralıklar geçerlidir (R36, 1C). Kateter çıkarılması da girişim sayılır.",
+  "AFTER_NA": "Girişim sonrası doz zamanı çıkarılan özette yok; kaynak tabloya bakın.",
+  "ACG": [
+   {
+    "id": "none",
+    "label": "Antitrombotik kullanmıyor"
+   },
+   {
+    "g": "Antiplatelet"
+   },
+   {
+    "id": "asa_lo",
+    "cls": "ap",
+    "label": "Aspirin düşük doz (<200 mg/gün)",
+    "h": [
+     0,
+     0
+    ],
+    "txt": "Ek bekleme yok (0 saat). Yarar/risk analizi uygunsa kontrendikasyon değildir; tek enjeksiyon spinal tercih edilir (R16, 1C).",
+    "after": "Sonraki doz rutin zamanında."
+   },
+   {
+    "id": "asa_hi",
+    "cls": "ap",
+    "label": "Aspirin yüksek doz (200 mg/gün)",
+    "h": [
+     72,
+     168
+    ],
+    "txt": "Son alımdan en az 3 gün (normal trombosit sayısında) ile 7 gün arası (R16, 1C). Tablo, alternatif olarak objektif normal trombosit fonksiyonunu belirtir.",
+    "after": "Sonraki yüksek doz en az 6 saat sonra (2C)."
+   },
+   {
+    "id": "tica",
+    "cls": "ap",
+    "label": "Tikagrelor",
+    "h": [
+     120,
+     120
+    ],
+    "txt": "Son alım en az 5 gün; dozdan bağımsız (R17, 1C).",
+    "after": "En az 24 saat. Kateter varsa sonraki doz çıkarıldıktan sonra (R17, 2C)."
+   },
+   {
+    "id": "clop",
+    "cls": "ap",
+    "label": "Klopidogrel",
+    "h": [
+     120,
+     168
+    ],
+    "txt": "Son alım 5–7 gün; dozdan bağımsız (R17, 1C).",
+    "after": "75 mg ise gecikmeden; 300 mg ise en az 2 gün. Kateter varsa çıkarıldıktan sonra (R17, 2C)."
+   },
+   {
+    "id": "pras",
+    "cls": "ap",
+    "label": "Prasugrel",
+    "h": [
+     168,
+     168
+    ],
+    "txt": "Son alım 7 gün; dozdan bağımsız (R17, 1C).",
+    "after": "En az 24 saat. Kateter varsa çıkarıldıktan sonra (R17, 2C)."
+   },
+   {
+    "g": "K vitamini antagonistleri"
+   },
+   {
+    "id": "war",
+    "cls": "vka",
+    "label": "Warfarin / fluindion",
+    "h": [
+     120,
+     120
+    ],
+    "txt": "INR yerel laboratuvarın normal aralığına dönmüş olmalı, hedef INR'dan bağımsız (R1, 1C). Son alım 5 gün (R1, 2C).",
+    "after": "Sonraki doz postoperatif VTE/terapötik kılavuza göre. Kateter varsa çıkarıldıktan sonra; ara dönemde düşük doz DMAH kabul edilebilir (R1, 1C/2C)."
+   },
+   {
+    "id": "acen",
+    "cls": "vka",
+    "label": "Asenokumarol",
+    "h": [
+     72,
+     72
+    ],
+    "txt": "INR yerel normal aralıkta olmalı (R1, 1C). Son alım 3 gün (R1, 2C).",
+    "after": "Warfarin ile aynı: sonraki doz postoperatif kılavuza göre; kateter varsa çıkarıldıktan sonra."
+   },
+   {
+    "id": "phen",
+    "cls": "vka",
+    "label": "Fenprokumon",
+    "h": [
+     168,
+     168
+    ],
+    "txt": "INR yerel normal aralıkta olmalı (R1, 1C). Son alım 7 gün (R1, 2C).",
+    "after": "Warfarin ile aynı: sonraki doz postoperatif kılavuza göre; kateter varsa çıkarıldıktan sonra."
+   },
+   {
+    "g": "Heparinler"
+   },
+   {
+    "id": "ufh_lo",
+    "cls": "xa",
+    "label": "Standart heparin SC düşük doz (≤200 IU/kg/gün)",
+    "h": [
+     4,
+     4
+    ],
+    "txt": "Son doz en az 4 saat önce (R10, 1C).",
+    "after": "Girişim sonrası doz zamanı çıkarılan özette yok; kaynak tabloya bakın."
+   },
+   {
+    "id": "ufh_iv",
+    "cls": "xa",
+    "label": "Standart heparin IV yüksek doz",
+    "h": [
+     6,
+     6
+    ],
+    "txt": "En az 6 saat önce. aPTT, anti-Xa veya ACT yerel normal aralıkta olmalı (R10, 2C). Vasküler cerrahide 1 saat, yarar/risk analiziyle kabul edilebilir.",
+    "after": "Girişim sonrası doz zamanı çıkarılan özette yok; kaynak tabloya bakın."
+   },
+   {
+    "id": "ufh_sc",
+    "cls": "xa",
+    "label": "Standart heparin SC yüksek doz",
+    "h": [
+     12,
+     12
+    ],
+    "txt": "En az 12 saat önce. aPTT, anti-Xa veya ACT yerel normal aralıkta olmalı (R10, 2C).",
+    "after": "Girişim sonrası doz zamanı çıkarılan özette yok; kaynak tabloya bakın."
+   },
+   {
+    "id": "lmwh_lo",
+    "cls": "xa",
+    "label": "DMAH düşük doz (enoksaparin ≤40 mg/gün veya anti-Xa ≤50 IU/kg/gün)",
+    "h": [
+     12,
+     12
+    ],
+    "hRenal": [
+     24,
+     24
+    ],
+    "txt": "Son doz en az 12 saat önce (R7, 1C).",
+    "renal": "KrKl <30 ml/dk ise dozu yarıya indirin veya aralığı 24 saate çıkarın (R7, 1C).",
+    "after": "Girişim sonrası doz zamanı çıkarılan özette yok; kaynak tabloya bakın."
+   },
+   {
+    "id": "lmwh_hi",
+    "cls": "xa",
+    "label": "DMAH yüksek doz (>50 IU anti-Xa/kg/gün)",
+    "h": [
+     24,
+     24
+    ],
+    "hRenal": [
+     48,
+     48
+    ],
+    "txt": "Son doz en az 24 saat önce (R7, 1C). Anti-Xa hedefi ≤0,1 IU/ml (R25, 2C).",
+    "renal": "KrKl <30 ml/dk ise dozu yarıya indirin veya aralığı 48 saate çıkarın (R7, 1C).",
+    "after": "Girişim sonrası doz zamanı çıkarılan özette yok; kaynak tabloya bakın."
+   },
+   {
+    "id": "fon_lo",
+    "cls": "xa",
+    "label": "Fondaparinuks düşük doz (2,5 mg/gün)",
+    "h": [
+     36,
+     36
+    ],
+    "hRenal": [
+     72,
+     72
+    ],
+    "renalLt50": true,
+    "txt": "Son doz en az 36 saat önce (R13, 1C).",
+    "renal": "KrKl <50 ml/dk ise en az 72 saat veya dozu 1,5 mg/güne indirin (R13, 1C).",
+    "after": "Girişim sonrası doz zamanı çıkarılan özette yok; kaynak tabloya bakın."
+   },
+   {
+    "id": "fon_hi",
+    "cls": "xa",
+    "label": "Fondaparinuks yüksek doz (>2,5 mg/gün)",
+    "h": [
+     96,
+     96
+    ],
+    "txt": "Nöroaksiyel girişim önerilmez (R13, 1C). Kaçınılamıyorsa kalibre anti-Xa normalse (≤0,1 IU/ml) ilerlenebilir; 4 gün aralık önerilir (1C/2C).",
+    "after": "Girişim sonrası doz zamanı çıkarılan özette yok; kaynak tabloya bakın."
+   },
+   {
+    "g": "Doğrudan oral antikoagülanlar (DOAK)"
+   },
+   {
+    "id": "riv_lo",
+    "cls": "xa",
+    "label": "Rivaroksaban düşük doz",
+    "h": [
+     24,
+     24
+    ],
+    "hRenal": [
+     30,
+     30
+    ],
+    "txt": "Son alım en az 24 saat önce (R4, 1C).",
+    "renal": "KrKl <30 ml/dk ise en az 30 saat (R4, 1C).",
+    "after": "Sonraki doz postoperatif kılavuza göre; kateter varsa çıkarıldıktan sonra (R4, 1C)."
+   },
+   {
+    "id": "edo_lo",
+    "cls": "xa",
+    "label": "Edoksaban düşük doz",
+    "h": [
+     24,
+     24
+    ],
+    "hRenal": [
+     30,
+     30
+    ],
+    "txt": "Son alım en az 24 saat önce (R4, 1C).",
+    "renal": "KrKl <30 ml/dk ise en az 30 saat (R4, 1C).",
+    "after": "Sonraki doz postoperatif kılavuza göre; kateter varsa çıkarıldıktan sonra (R4, 1C)."
+   },
+   {
+    "id": "api_lo",
+    "cls": "xa",
+    "label": "Apiksaban düşük doz",
+    "h": [
+     36,
+     36
+    ],
+    "txt": "Son alım en az 36 saat önce (R4, 1C).",
+    "after": "Sonraki doz postoperatif kılavuza göre; kateter varsa çıkarıldıktan sonra (R4, 1C)."
+   },
+   {
+    "id": "dab_lo",
+    "cls": "xa",
+    "label": "Dabigatran düşük doz",
+    "h": [
+     48,
+     48
+    ],
+    "txt": "Son alım en az 48 saat önce (R4, 1C).",
+    "after": "Sonraki doz postoperatif kılavuza göre; kateter varsa çıkarıldıktan sonra (R4, 1C)."
+   },
+   {
+    "id": "doac_hi",
+    "cls": "xa",
+    "label": "DOAK yüksek doz (herhangi biri)",
+    "h": [
+     72,
+     72
+    ],
+    "txt": "Son alım en az 72 saat önce (R4, 1C). Yüksek doz dabigatranda KrKl <50, yüksek doz doğrudan Xa inhibitöründe KrKl <30 ml/dk ise hedef laboratuvar değerine ulaşılmışsa ilerlenebilir (1C/2C).",
+    "after": "Sonraki doz postoperatif kılavuza göre; kateter varsa çıkarıldıktan sonra (R4, 1C)."
+   },
+   {
+    "g": "Trombolitikler"
+   },
+   {
+    "id": "lysis",
+    "cls": "th",
+    "label": "Trombolitik / fibrinolitik tedavi",
+    "h": [
+     48,
+     48
+    ],
+    "txt": "ESAIC/ESRA özetinden sayısal değer okunamadı. Gösterilen 48 saat ASRA 5. baskıdan (uyarlama metni), dipnot 9.",
+    "after": "Girişim sonrası zamanlama için ASRA satırına bakın."
+   }
+  ],
+  "SUP": {
+   "vka": "INR'dan bağımsız ilerlenebilir (R3, 2C).",
+   "xa": "Herhangi bir dozda ilerlenebilir; sonraki doz rutin zamanında (R6/R9/R12/R15, 2C).",
+   "th": "ESAIC/ESRA özetinde değer okunamadı; ASRA satırına bakın.",
+   "ap": "Dikkatli yarar/risk analizinden sonra ilerlenebilir; sonraki doz rutin zamanında (R18, 2C)."
+  },
+  "MONITOR": [
+   "Girişim sonrası eğitimli personelle en az 24 saat düzenli değerlendirme; yüksek riskli hastada daha uzun (R40). Girişim sonrası antikoagülan veya antiplatelet alan hastada izlem 2–3 doz sonrasına uzatılabilir. Endike ise cerrahi dekompresyon 6 saat içinde yapılmalıdır.",
+   "Kanamalı ponksiyonda (R39) sonraki ilaç dozu aralığı uzayabilir; kaynak metinde düşük doz heparin için 1–2 saat, tam heparinizasyon için 6–12 saat kaçınma belirtilir.",
+   "Kısa etkili ilaçlarda (R21) 4–5 yarı ömür beklenir (ör. arjatroban 4 saat, prostasiklin 1 saat). Kateter çıkarmadan önce tirofiban 8 saat, kangrelor 3 saat durdurulur.",
+   "Antitrombotikleri NSAİİ ve trisiklik antidepresanlarla birlikte perioperatif kullanmaktan kaçınılması önerilir."
+  ],
+  "EV_RULE": "Kanıt gücü kuralı: Güçlü = randomize çalışma, sistematik derleme veya ASRA'nın \"yüksek kesinlik\" dediği; Orta = prospektif kohort veya 1.000 üzeri hastalık seri; Zayıf = olgu sunumu, küçük seri, uzman görüşü veya ASRA'nın \"düşük kesinlik\" dediği. Bu üç düzey benim eşlemem; ASRA'nın kendi etiketleri ayrıca yazılıdır.",
+  "A5TH": "Kalıntı DOAK düzeyi 30 ng/ml altında veya anti-Xa 0,1 IU/ml ve altında ise süre dolmadan da kabul edilebilir (koşullu · düşük kesinlik; ASRA bunun ölçümü zorunlu kılmadığını belirtiyor).",
+  "A5": {
+   "asa_lo": {
+    "t": "Zorunlu bekleme süresi yok.",
+    "g": "Güçlü öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "asa_hi": {
+    "t": "Zorunlu bekleme süresi yok.",
+    "g": "Güçlü öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "tica": {
+    "t": "En az 5 gün. Kateter çıkarıldıktan sonra yükleme dozu verilecekse 6 saat beklenir.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "clop": {
+    "t": "5–7 gün. Yükleme dozu verilmediyse kateter 1–2 gün tutulabilir; yükleme dozu kateter çıkarıldıktan 6 saat sonra.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "pras": {
+    "t": "7–10 gün. Kateter bırakılmamalı.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "war": {
+    "t": "Girişimden 5 gün önce kesilir. Kateter INR 1,5 altındayken çıkarılır; INR 3 üzerindeyse kateter varken doz tutulur veya azaltılır. Kateter çıkarıldıktan sonra nörolojik izlem en az 48 saat.",
+    "g": "5 gün: güçlü öneri · orta kesinlik; INR eşiği: koşullu öneri · düşük kesinlik",
+    "e": "Orta"
+   },
+   "ufh_iv": {
+    "t": "IV infüzyon en az 4–6 saat önce kesilir; iğne yerleştirildikten sonra heparin en az 1 saat geciktirilir.",
+    "g": "Güçlü öneri · yüksek kesinlik",
+    "e": "Güçlü"
+   },
+   "ufh_lo": {
+    "t": "SC düşük doz: son dozdan en az 4–6 saat sonra. Postoperatif düşük doz heparinde kateter, dozdan 4–6 saat sonra çıkarılır.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "ufh_sc": {
+    "t": "En az 12 saat (günde 2 kez 7.500–10.000 U veya günde en çok 20.000 U); en az 24 saat (doz başına 10.000 U üstü veya günde 20.000 U üstü).",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "lmwh_lo": {
+    "t": "En az 12 saat. İlk postoperatif doz iğne/kateter yerleştirmeden en az 12 saat sonra (günde 2 doz ise kateter çıkarıldıktan 4 saat sonra; günde tek doz ise kateter son dozdan 12 saat sonra çıkarılır).",
+    "g": "Güçlü öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "lmwh_hi": {
+    "t": "En az 24 saat. İlk doz iğne/kateter yerleştirmeden en az 24 saat sonra; yüksek kanama riskli olmayan cerrahide yeniden başlama 24 saat sonra.",
+    "g": "Güçlü öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "fon_lo": {
+    "t": "36 saat (genç) – 42 saat (yaşlı); orta böbrek yetmezliğinde en az 58 saat; ağır böbrek yetmezliğinde nöroaksiyel veya derin blok yapılmaz. Kateter, ilk postoperatif dozdan en az 6 saat önce çıkarılır.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "fon_hi": {
+    "t": "5–10 mg/gün için en az 70 saat (genç) veya 105 saat (yaşlı).",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf"
+   },
+   "lysis": {
+    "t": "İğne yerleştirmeden önce en az 48 saat; sıkıştırılamayan damar ponksiyonundan sonra 10 gün kaçınılır; nörolojik izlem (ör. 2 saatte bir) son dozdan sonra en az 48 saat.",
+    "g": "Güçlü öneri · yüksek kesinlik (izlem için düşük kesinlik)",
+    "e": "Güçlü"
+   },
+   "riv_lo": {
+    "t": "En az 24 saat (KrKl 30 ml/dk altında ise 30 saat). İğne/kateter, ilk postoperatif dozdan en az 6 saat önce çıkarılır.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf",
+    "th": 1,
+    "x": [
+     {
+      "t": "Gist, Regional Anesthesia Updates 2026 (CU Anschutz sunumu): DOAK ve düzey eşikleri",
+      "u": "https://medschool.cuanschutz.edu/docs/librariesprovider54/conferences-courses/regional-anesthesia-updates---gist.pdf?sfvrsn=8eaba5b4_0"
+     }
+    ]
+   },
+   "api_lo": {
+    "t": "En az 36 saat. İğne/kateter, ilk postoperatif dozdan en az 6 saat önce çıkarılır.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf",
+    "th": 1
+   },
+   "dab_lo": {
+    "t": "En az 48 saat. İğne/kateter, ilk postoperatif dozdan en az 6 saat önce çıkarılır.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf",
+    "th": 1,
+    "x": [
+     {
+      "t": "Gist, Regional Anesthesia Updates 2026 (CU Anschutz sunumu): DOAK ve düzey eşikleri",
+      "u": "https://medschool.cuanschutz.edu/docs/librariesprovider54/conferences-courses/regional-anesthesia-updates---gist.pdf?sfvrsn=8eaba5b4_0"
+     }
+    ]
+   },
+   "edo_lo": {
+    "t": "Düşük doz edoksaban için ayrı değer okunamadı; yüksek dozda 72 saat.",
+    "g": "Kesinlik okunamadı",
+    "e": "?",
+    "th": 1
+   },
+   "doac_hi": {
+    "t": "Apiksaban, edoksaban, rivaroksaban: en az 72 saat. Dabigatran: KrKl 50 ml/dk ve üzerinde 72 saat, 30–49 ml/dk ise 120 saat. İğne/kateter, ilk postoperatif dozdan en az 24 saat önce çıkarılır.",
+    "g": "Koşullu öneri · düşük kesinlik",
+    "e": "Zayıf",
+    "th": 1,
+    "x": [
+     {
+      "t": "Gist, Regional Anesthesia Updates 2026 (CU Anschutz sunumu): DOAK ve düzey eşikleri",
+      "u": "https://medschool.cuanschutz.edu/docs/librariesprovider54/conferences-courses/regional-anesthesia-updates---gist.pdf?sfvrsn=8eaba5b4_0"
+     },
+     {
+      "t": "NYSORA: DOAK yönetimi (ASRA 2025 güncellemesi özeti)",
+      "u": "https://nysora.com/education-news/managing-doacs-for-neuraxial-and-nerve-block-procedures/"
+     },
+     {
+      "t": "PMC13481510: antitrombotik kılavuz uyumu çalışması (ASRA 2025 düzey eşikleri)",
+      "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13481510/"
+     }
+    ]
+   }
+  },
+  "CASES": [
+   [
+    "Heparin verilmesi ile lomber ponksiyon arasında 60 dakikadan kısa süre, hematom risk faktörlerinden biri olarak sayılıyor.",
+    "Zayıf",
+    "uzman görüşü"
+   ],
+   [
+    "IV heparinizasyonla ilişkili spinal hematomların yaklaşık yarısı kateter çıkarılırken fark edildi (Vandermeulen serisi).",
+    "Zayıf",
+    "olgu serisi"
+   ],
+   [
+    "SC heparinde nöroaksiyel hematom için yalnızca 5 olgu sunumu var; 12.000'i aşkın hastayı kapsayan 10 yayımlanmış seride komplikasyon bildirilmemiş.",
+    "Orta",
+    "çok sayıda hastalı seriler ve olgu sunumları"
+   ],
+   [
+    "Kanlı veya travmatik ponksiyon, spinal hematomların yaklaşık yarısıyla ilişkilendirilmiş; cerrahiyi bu nedenle zorunlu iptal etmeyi destekleyen klinik veri yok.",
+    "Zayıf",
+    "olgu sunumları"
+   ],
+   [
+    "Nöroaksiyel hematom oranı tahmini: epidural yaklaşık 1/1.528, spinal yaklaşık 1/3.610 (Ho ve ark.).",
+    "Zayıf",
+    "olgu sayımına dayalı tahmin"
+   ],
+   [
+    "Yüksek doz enoksaparinde son dozdan 24 saat sonra hastaların yaklaşık %60'ında anti-Xa düzeyi yüksek kalmış (19 hastalık kalite iyileştirme çalışması).",
+    "Zayıf",
+    "küçük gözlemsel çalışma"
+   ],
+   [
+    "103 hastalık prospektif çalışmada anti-Xa düzeyi 31,5. saatte 0,2 IU/ml altına inmiş (2023).",
+    "Orta",
+    "prospektif kohort"
+   ]
+  ],
+  "RENAL": [
+   {
+    "e": "Orta",
+    "a": "Lim ve ark., Ann Intern Med 2006;144:673-684",
+    "k": "Gözlemsel çalışmaların meta-analizi (18 çalışma; kanama için 12 çalışma, 4.971 hasta). KrKl 30 ml/dk ve altında standart tedavi dozu enoksaparinde anti-Xa daha yüksek ve majör kanama daha sık (%8,3 ve %2,4; OR 3,88). Ampirik olarak azaltılmış dozda artış saptanmadı (%0,9 ve %1,9; OR 0,58, güven aralığı geniş). Profilaktik doz için veri yetersiz. Yazarlar verilerin gözlemsel olduğunu ve karıştırıcı etki dışlanamayacağını belirtiyor.",
+    "d": "10.7326/0003-4819-144-9-200605020-00011"
+   },
+   {
+    "e": "Zayıf",
+    "a": "DeCarolis ve ark., Arch Intern Med 2012;172:1713-1718",
+    "k": "Retrospektif, 164 hasta, tedavi dozu enoksaparin. Orta böbrek yetmezliğinde (KrKl 30–50) majör kanama %22,0, normal böbrek fonksiyonunda %5,7 (düzeltilmemiş OR 4,7). Risk düzeltmesinden sonra OR 3,9 (güven aralığı 0,97–15,6, p=0,055), yani anlamlılık sınırında. Orta evrede doz ayarı önerilmiyor; yazarlar daha fazla çalışma istiyor.",
+    "d": "10.1001/2013.jamainternmed.369"
+   },
+   {
+    "e": "Zayıf",
+    "a": "Nutescu ve ark., Ann Pharmacother 2009;43:1064-1083",
+    "k": "Derleme ve uzman görüşü. Çoğu hastada standart doz izlemsiz kullanılabilir. KrKl 30 ml/dk altında (Cockcroft-Gault ile) bazı DMAH'lerin dozu ayarlanmalı veya standart heparin kullanılmalı; DMAH'ler arasında birikim farkı var. Anti-Xa izlemi ağır böbrek yetmezliğinde ve orta yetmezlikte 10 günden uzun kullanımda düşünülmeli (kromojenik yöntem, ilgili DMAH ile kalibre).",
+    "d": "10.1345/aph.1L194"
+   },
+   {
+    "e": "Zayıf",
+    "a": "Clark, Thromb Res 2008;123 Suppl 1:S58-61",
+    "k": "Derleme. Enoksaparin birikimi için kanıt var, tinzaparin için yok. Enoksaparinde ampirik veya anti-Xa ile yönlendirilmiş doz ayarının yaygın uygulamayı destekleyecek verisi yetersiz. KrKl 30 ml/dk altında VTE tedavisinde standart heparin makul bir seçenek.",
+    "d": "10.1016/j.thromres.2008.08.005"
+   },
+   {
+    "e": "Zayıf",
+    "a": "Lim, Intern Emerg Med 2008;3:319-323",
+    "k": "Derleme. Birikim ve kanama riski en çok KrKl 30 ml/dk altında tedavi dozlarında. Profilaktik dozun kanama riskini artırdığı görülmüyor ama büyük çalışmada değerlendirilmemiş. Moleküler ağırlığı yüksek DMAH'ler daha az birikebilir.",
+    "d": "10.1007/s11739-008-0164-9"
+   },
+   {
+    "e": "Zayıf",
+    "a": "Saltiel, J Pharm Pract 2010;23:205-209",
+    "k": "Derleme. DMAH'lerin klirensi ağır KBH'de azalıyor, yarı ömür uzuyor, anti-Xa yükseliyor. ACCP 2008 uzlaşı metni ağır KBH'de DMAH dozlaması için 5 yaklaşım öneriyor; makale enoksaparin, dalteparin ve tinzaparini ayrı ayrı ele alıyor.",
+    "d": "10.1177/0897190010362175"
+   },
+   {
+    "e": "Zayıf",
+    "a": "Leung ve MacRae, J Nephrol 2019;32:719-731 (nefroloji)",
+    "k": "Nefroloji derlemesi. Standart heparin ve böbrek dozuna ayarlanmış DMAH, son dönem olmayan KBH'de akut koroner sendromda güvenle kullanılabilir. KBH ve diyalizde tromboprofilaksi için ikisi benzer. Evre 4–5 ve diyalizde DOAK dikkatle kullanılmalı.",
+    "d": "10.1007/s40620-019-00592-4"
+   },
+   {
+    "e": "Zayıf",
+    "a": "Janus ve ark., J Mal Vasc 2016;41:389-395 (nefroloji servisi)",
+    "k": "Derleme. KBH'li VTE hastalarında antikoagülan farmakokinetiği değişiyor; aşırı doz ve kanama riski nedeniyle böbrek fonksiyonu taranmalı ve gerekirse doz değiştirilmeli.",
+    "d": "10.1016/j.jmv.2016.09.001"
+   },
+   {
+    "e": "Zayıf",
+    "a": "Parul ve ark., Healthcare (Basel) 2025;13(12):1373",
+    "k": "Eleştirel derleme. KBH evre 4–5'te klirens azaldığı için DMAH dozu ayarlanmalı; evre 4–5 ve diyalizde standart heparin tercih ediliyor. Yazarlar KBH ve diyaliz için kapsamlı kılavuz eksikliğine ve randomize çalışma ihtiyacına dikkat çekiyor.",
+    "d": "10.3390/healthcare13121373"
+   },
+   {
+    "e": "Dolaylı",
+    "a": "Awdishu ve ark., Am J Health Syst Pharm 2025;82:660-671 (KDIGO 2024 özeti)",
+    "k": "KDIGO 2024 KBH kılavuzunun eczacı özeti: ilaç dozlamasında doğrulanmış GFR denklemleri kullanılmalı, bazı hastalarda sistatin C eklenmeli. DMAH için ayrı öneri içermiyor; KrKl (Cockcroft-Gault) ile eGFR farkının dozlamaya yansıyabileceğini hatırlatır.",
+    "d": "10.1093/ajhp/zxaf044"
+   }
+  ],
+  "RENAL_NOTE": "Yalnızca PubMed özetleri okundu, tam metinler okunmadı. Okunan kaynakların hiçbiri nöroaksiyel girişim zamanlamasını doğrudan incelemiyor; anti-Xa kinetiği, kanama ve doz ayarı verisi veriyorlar. ESAIC/ESRA'nın böbrek satırı (KrKl 30 ml/dk altında doz yarıya veya aralık 24/48 saat) bu kaynakların KrKl 30 eşiğiyle uyumlu, ama aralık uzatmayı doğrudan doğrulayan bir çalışma bulunamadı."
+ }
+}

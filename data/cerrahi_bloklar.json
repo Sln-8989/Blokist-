@@ -1,0 +1,1399 @@
+{
+ "_meta": {
+  "dosya": "cerrahi_bloklar",
+  "aciklama": "Cerrahiye göre blok önerileri (PROSPECT ve diğer çalışmalar)",
+  "surum": "1.0.0",
+  "tarih": "2026-11-19",
+  "hazirlayan": "",
+  "kontrol_eden": "",
+  "kontrol_tarihi": "",
+  "durum": "taslak",
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+ },
+ "data": {
+  "PROC": {
+   "thor": {
+    "name": "Açık torakotomi",
+    "reg": "thorax",
+    "ap": "open",
+    "src": "thor",
+    "items": [
+     {
+      "s": "na",
+      "tech": "periph",
+      "n": "İnterskalen, supraklaviküler ve infraklaviküler brakiyal pleksus blokları",
+      "w": "Torakotomi analjezisi için bu taramada (PubMed başlık/özet) karşılaştırmalı kanıt bulunamadı."
+     },
+     {
+      "s": "rec",
+      "tech": "neuraxial",
+      "n": "Torasik epidural analjezi (lokal anestezik + lipofilik opioid)",
+      "w": "Birinci basamak. Kateterli paravertebral blokla karşılaştırıldığında biri üstün bulunmamış; seçim hekim ve hastaya bırakılmıştır.",
+      "anim": [
+       "epidural"
+      ],
+      "opi": 1
+     },
+     {
+      "s": "rec",
+      "tech": "periph",
+      "n": "Kateterli paravertebral blok",
+      "w": "Birinci basamak. Torasik epiduralle birlikte aynı düzeyde önerilir.",
+      "anim": [
+       "pvb"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Erector spinae plan, romboid interkostal veya interkostal sinir bloğu",
+      "w": "Torasik epidural ve paravertebral blok yapılamıyorsa. Üçü yaklaşık eşdeğer kabul edilmiştir; seçim hekim ve hasta tercihine göre.",
+      "anim": [
+       "esp"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "other",
+      "n": "Akupunktur veya kriyoanaljezi",
+      "w": "Hiçbir rejyonel analjezi yapılamıyorsa; kanıt düzeyi düşük."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "Serratus anterior plan bloğu",
+      "w": "Tutarsız kanıt."
+     }
+    ]
+   },
+   "vats": {
+    "name": "Video-yardımlı torakoskopik cerrahi (VATS)",
+    "reg": "thorax",
+    "ap": "closed",
+    "src": "vats",
+    "srcx": [
+     "gk_vats_rib",
+     "gk_vats_sps",
+     "sps_tech",
+     "sps_vats",
+     "th_sgb"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Stellat ganglion bloğu (visseral ağrı, yaşlı hastalar)",
+      "ev": "Güçlü · randomize çalışma (tek, 77 hasta)",
+      "er": 0,
+      "w": "Modifiye interkostal bloğa eklenince intraoperatif remifentanil azaldı (300 vs 710 μg); 48 saat sufentanil tüketimi benzer, 24. saat hareket ağrısı farkı küçük (4 vs 4, P=0,01)."
+     },
+     {
+      "s": "na",
+      "tech": "periph",
+      "n": "İnterskalen, supraklaviküler ve infraklaviküler brakiyal pleksus blokları",
+      "w": "VATS analjezisi için bu taramada karşılaştırmalı kanıt bulunamadı."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Romboid interkostal blok (RIB)",
+      "ev": "Güçlü · randomize çalışma (tek)",
+      "er": 0,
+      "w": "Paravertebral bloğa analjezik etkinlikte benzer; alternatif olarak düşünülebilir."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "SPSIP bloğu (paravertebral blokla karşılaştırma)",
+      "ev": "Güçlü · randomize çalışma (tek)",
+      "er": 0,
+      "w": "Opioid tüketimi, ağrı skoru ve yan etki açısından paravertebral bloğa benzer; uygulaması daha basit olabilir."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "SPSIP (serratus posterior superior interkostal plan) bloğu",
+      "ev": "Zayıf · teknik rapor ve editöre mektup (hasta sayısı küçük)",
+      "er": 3,
+      "w": "Torasik paraspinal blok olarak tanımlandı; kadavrada C7–T7 boya yayılımı, hastalarda C3–T10 dermatom bloğu bildirildi. Torakoskopik cerrahi için yalnız mektup düzeyinde dayanak var."
+     },
+     {
+      "s": "rec",
+      "tech": "periph",
+      "n": "Paravertebral blok (tek doz veya kateter)",
+      "w": "Etkinlik nedeniyle önerilir (derece A, her iki biçim).",
+      "anim": [
+       "pvb"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Erector spinae plan bloğu",
+      "ev": "Derece A (tek doz) / B (kateter)",
+      "er": 0,
+      "w": "Alternatif olarak düşünülmeli.",
+      "anim": [
+       "esp"
+      ]
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Serratus anterior plan bloğu",
+      "ev": "Derece A (tek doz) / D (kateter)",
+      "er": 0,
+      "w": "İkinci seçenek."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Torasik epidural blok",
+      "w": "Daha az invaziv, daha az yan etkili tekniklerin kötü olmadığı gösterilmiş."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "İnterkostal sinir bloğu",
+      "w": "Prosedüre özgü kanıt yok."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Yara infiltrasyonu",
+      "w": "Prosedüre özgü kanıt sınırlı."
+     }
+    ]
+   },
+   "shoulder": {
+    "name": "Omuz artroskopisi ve artroplastisi (ortopedi; üst ekstremite)",
+    "reg": "limb",
+    "ap": "open",
+    "src": "ul_isb_adj",
+    "srcx": [
+     "ul_isb_lb",
+     "ul_isb_adj",
+     "ul_iai",
+     "ul_pai",
+     "ul_psn",
+     "ul_ssn_an",
+     "gk_p36567542",
+     "gk_p36514616",
+     "gk_p36847326"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "İnterskalen brakiyal pleksus bloğu (tek doz)",
+      "ev": "Güçlü · meta-analizler (15 + 7 RCT)",
+      "er": 0,
+      "w": "Artroskopik omuzda intraartiküler infiltrasyona göre 2, 4 ve 24. saatte ağrı skorları daha iyi, opioid tüketimi benzer; periartiküler infiltrasyonla analjezik tüketim, ağrı ve yan etkiler benzer. Frenik sinir felci ve ses kısıklığı riski nedeniyle diyafram koruyucu seçenekler araştırılıyor."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "İnterskalen blokta adjuvan: deksametazon ve/veya deksmedetomidin",
+      "ev": "Güçlü · ağ meta-analizi (25 çalışma, 2.194 hasta)",
+      "er": 0,
+      "w": "Tümü analjezi süresini uzattı; IV deksametazon + deksmedetomidin en uzun (ortalama fark 22,1 saat), perinöral deksametazon tek başına 9,9 saat."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "İnterskalen blokta bupivakain + lipozomal bupivakain",
+      "ev": "Güçlü · meta-analiz (7 RCT)",
+      "er": 0,
+      "w": "Postoperatif 2. günde ağrı ve 3. günde opioid tüketimi daha düşük; 1. günde ses kısıklığı artmış, solunum komplikasyonları benzer."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Suprascapular + aksiller sinir bloğu (diyafram koruyucu seçenek)",
+      "ev": "Güçlü · meta-analiz (9 RCT, 543 hasta)",
+      "er": 0,
+      "w": "Suprascapular bloğa tek başına göre 6-48. saatlerde daha iyi ağrı kontrolü; interskalene göre ağrı ve memnuniyet benzer, dispne daha az (RR 0,25)."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Anterior suprascapular sinir bloğu (Gürkan ve ark. çalışmaları)",
+      "ev": "Güçlü · randomize çalışma (tek merkez) ve doz bulma çalışması",
+      "er": 0,
+      "w": "İnterskalene göre 24. saat ağrı daha düşük ve diyafram hareketi daha iyi korundu; 0,5% bupivakain 6 mL veya altında diyafram felci görülmedi."
+     },
+     {
+      "s": "opt",
+      "tech": "infil",
+      "n": "İntraartiküler veya periartiküler infiltrasyon analjezisi",
+      "ev": "Güçlü · meta-analizler",
+      "er": 0,
+      "w": "Sistemik analjeziye göre 24 saat morfin tüketimini azalttı (intraartiküler -30,9 mg, periartiküler -38,0 mg) ve bulantıyı azalttı; interskalene göre opioid tüketimi benzer."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Posterior suprascapular sinir bloğu (landmark, tek başına)",
+      "ev": "Güçlü · meta-analiz (10 çalışma, 700 hasta)",
+      "er": 0,
+      "w": "Kontrole göre istatistiksel ama klinik olarak önemsiz fark (24 saat morfin 11,4 mg); bulantı ve memnuniyet lehine. Tek başına klinik olarak yeterli analjezi sağlamıyor."
+     },
+     {
+      "s": "na",
+      "tech": "periph",
+      "n": "Supraklaviküler ve infraklaviküler blok",
+      "w": "Omuz cerrahisi analjezisi için bu taramada karşılaştırmalı kanıt bulunamadı."
+     }
+    ]
+   },
+   "hand_forearm": {
+    "name": "Önkol, el bileği ve el cerrahisi; dirsek (ortopedi; üst ekstremite)",
+    "reg": "limb",
+    "ap": "open",
+    "src": "ul_axil",
+    "srcx": [
+     "ul_axil",
+     "gk_p23364778",
+     "gk_p23549315",
+     "gk_p37493484",
+     "gk_p28111732",
+     "gk_p25551815"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Supraklaviküler brakiyal pleksus bloğu (USG)",
+      "ev": "Güçlü · meta-analiz (28 RCT) ve randomize çalışma",
+      "er": 0,
+      "w": "Aksiller blokla yeterli cerrahi anestezi oranı benzer (RR 0,94). Gürkan ve ark. randomize çalışmasında infraklaviküler yaklaşımla benzer blok özellikleri; supraklaviküler grupta geçici Horner sendromu (%16,3) ve parestezi."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "İnfraklaviküler brakiyal pleksus bloğu (USG; korakoid veya lateral sagittal)",
+      "ev": "Güçlü · meta-analiz (28 RCT) ve randomize çalışmalar",
+      "er": 0,
+      "w": "Aksiller bloğa göre yeterli cerrahi anestezi oranı biraz daha yüksek (RR 0,92) ve uygulama süresi daha kısa. Korakoid ve lateral sagittal yaklaşımlar benzer etkili; lateral sagittalde 4 vasküler ponksiyon bildirildi."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Aksiller brakiyal pleksus bloğu (USG)",
+      "ev": "Güçlü · meta-analiz (28 RCT)",
+      "er": 0,
+      "w": "Blok kaynaklı yan etki endişesi olan hastalarda supraklaviküler ve infraklaviküler bloğa tercih edilebilir; onset süresi benzer. Çalışmalar arası heterojenite yüksek, seçim hasta ve operatöre göre bireyselleştirilmeli."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Diyafram felci riskinde infraklaviküler yaklaşım",
+      "ev": "Zayıf · olgu bildirimi",
+      "er": 3,
+      "w": "Pnömonektomili hastada dirsek cerrahisi için diyafram felcine yol açan bloklardan kaçınıldı, infraklaviküler blok seçildi."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "İnfraklaviküler blokla uyanık el cerrahisi (çocuklar dahil) ve iki ekstremitede eş zamanlı blok",
+      "ev": "Zayıf · olgu serisi (5) ve olgu bildirimi",
+      "er": 3,
+      "w": "Çocuklarda 5 olguda derin sedasyon gerekmeden cerrahi anestezi sağlandı; iki ayrı ekstremitede düşük doz lokal anestezikle blok uygulanabildi."
+     }
+    ]
+   },
+   "breast_major": {
+    "name": "Majör onkolojik meme cerrahisi (güncelleme 2026)",
+    "reg": "breast",
+    "ap": "open",
+    "src": "breast26",
+    "srcx": [
+     "br_isb_rct",
+     "br_multi_rct",
+     "br_c1",
+     "br_c2",
+     "br_c3",
+     "br_c4",
+     "br_c5",
+     "sps_breast",
+     "gk_p31280100",
+     "gk_p29980005",
+     "gk_p31736025",
+     "gk_p32536425",
+     "gk_breast"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "SPSIP (serratus posterior superior interkostal plan) bloğu",
+      "ev": "Zayıf · olgu serisi (3 olgu)",
+      "er": 3,
+      "w": "Meme cerrahisinde yeni endikasyon olarak 3 olguda bildirildi. Karşılaştırmalı veri yok."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "ESP bloğu (Gürkan ve ark. randomize çalışmaları: tek ve iki seviyeli enjeksiyon)",
+      "ev": "Güçlü · randomize çalışmalar (3, tek merkez)",
+      "er": 0,
+      "w": "Meme cerrahisinde kontrole göre 24 saat morfin tüketimi azaldı (iki seviyeli enjeksiyonda %75); ESP ile PVB ağrı ve opioid tüketiminde benzer, PVB ilk saatlerde ağrıda üstün. NRS farkı çoğunda yok.",
+      "anim": [
+       "esp"
+      ]
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Paravertebral blok ile seroma azaltımı (mastektomi + aksiller diseksiyon)",
+      "ev": "Güçlü · randomize çalışma (tek)",
+      "er": 0,
+      "w": "24 saat morfin 5,6 vs 16,6 mg; seroma miktarı azaldı. Ağrı skorları benzer."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Birden fazla torasik duvar bloğu ile uyanık meme cerrahisi",
+      "ev": "Zayıf · olgu bildirimi",
+      "er": 3,
+      "w": "Cilt insizyonu hariç cerrahi anestezi sağladı; tek blok yetmedi."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "İnterskalen brakiyal pleksus bloğu (genel anestezi eşliğinde, modifiye radikal mastektomi)",
+      "ev": "Güçlü · randomize çalışma (tek, 60 hasta)",
+      "er": 0,
+      "w": "Kontrole göre 24 saat morfin tüketimi daha düşük (5 vs 22 mg), ağrı skorları ve bulantı daha düşük. Horner sendromu 2 hastada."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Çoklu blok: interkostal + interskalen brakiyal pleksus + supraklaviküler sinir (genel anesteziye alternatif)",
+      "ev": "Güçlü · randomize çalışma (tek, 80 hasta)",
+      "er": 0,
+      "w": "Modifiye radikal mastektomide genel anesteziye non-inferior anestezi ve analjezi; yan etki ve analjezik tüketimi daha az."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Paravertebral/epidural + interskalen veya supraklaviküler brakiyal pleksus kombinasyonları (birincil anestezi, uyanık mastektomi)",
+      "ev": "Zayıf · olgu serileri ve olgu bildirimleri",
+      "er": 3,
+      "w": "Yüksek riskli hastalarda sedasyonla cerrahi anestezi sağlandı; aksilla ve pektoral bölge için brakiyal pleksus bloğu eklendi. Mastektomi sonrası kontraktür rekonstrüksiyonunda supraklaviküler blok PECS I'e alternatif olarak bildirildi."
+     },
+     {
+      "s": "rec",
+      "tech": "periph",
+      "n": "Tek doz torasik paravertebral blok",
+      "ev": "Yüksek kanıt · Güçlü öneri",
+      "er": 0,
+      "w": "Güncellemede en yüksek kanıt düzeyli teknik. Aşağıdaki tekniklerle eşdeğer kabul edilmiştir.",
+      "anim": [
+       "pvb"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Tek doz interpektoral + pektoserratus plan bloğu (PECS)",
+      "ev": "Orta kanıt · Güçlü öneri",
+      "er": 1,
+      "w": "Eşdeğer kabul edilen tekniklerden biri."
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Tek doz yüzeyel serratus anterior plan bloğu",
+      "ev": "Orta kanıt · Güçlü öneri",
+      "er": 1,
+      "w": "Eşdeğer kabul edilen tekniklerden biri."
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Tek doz derin serratus anterior plan bloğu",
+      "ev": "Orta kanıt · Güçlü öneri",
+      "er": 1,
+      "w": "Eşdeğer kabul edilen tekniklerden biri."
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Tek doz erector spinae plan bloğu",
+      "ev": "Orta kanıt · Zayıf öneri",
+      "er": 2,
+      "w": "Eşdeğer kabul edilen tekniklerden biri; öneri gücü diğerlerinden düşük.",
+      "anim": [
+       "esp"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Tek doz lokal infiltrasyon analjezisi",
+      "ev": "Orta kanıt · Zayıf öneri",
+      "er": 2,
+      "w": "Rejyonel tekniklere eklenebilir (en iyi uygulama ifadesi)."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Tek doz intertransvers proses bloğu",
+      "w": "Tutarsız kanıt."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "Tek doz pektoserratus bloğu tek başına, romboid interkostal blok, parasternal interkostal kombinasyonları",
+      "w": "Yetersiz kanıt."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Stellat ganglion bloğu",
+      "w": "Kanıt yok."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "Sürekli bloklar (interpektoral, interpektoral + pektoserratus, yüzeyel serratus)",
+      "w": "Yetersiz veya tutarsız kanıt."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Sürekli yara kateteri; dren yoluyla bupivakain",
+      "w": "Kanıt yok veya tutarsız."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Perineural adjuvanlar (deksametazon, deksmedetomidin, ketamin, magnezyum, morfin, fentanil, klonidin, neostigmin, tramadol, ketorolak)",
+      "w": "Yetersiz veya tutarsız kanıt; bir kısmında yan etki kaygısı."
+     }
+    ]
+   },
+   "breast_minor": {
+    "name": "Minör meme cerrahisi (lumpektomi, parsiyel mastektomi; PROSPECT 2019)",
+    "reg": "breast",
+    "ap": "open",
+    "src": "breast",
+    "srcx": [
+     "gk_p31280100",
+     "gk_p29980005",
+     "gk_p31736025"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "ESP veya torasik paravertebral blok (rejyonel seçenek)",
+      "ev": "Güçlü · randomize çalışmalar (meme cerrahisi karma, tek merkez)",
+      "er": 0,
+      "w": "PROSPECT 2019 önerisi değildir; Gürkan ve ark. çalışmalarında opioid tüketimi azaldı.",
+      "anim": [
+       "esp"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Lokal anestezik yara infiltrasyonu (derece A)",
+      "w": "Minör ve orta derecede invaziv girişimlerde düşünülmelidir."
+     }
+    ]
+   },
+   "chole": {
+    "name": "Laparoskopik kolesistektomi",
+    "reg": "upper",
+    "ap": "closed",
+    "src": "chole",
+    "srcx": [
+     "gk_chole",
+     "mt_ma",
+     "mt_li",
+     "mt_eoib",
+     "rifpb_rct"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Rektus kılıf bloğu (ESP ile non-inferior)",
+      "ev": "Orta · karşılaştırmalı çalışma (randomizasyon belirtilmemiş)",
+      "er": 1,
+      "w": "24 saat opioid tüketiminde ESP bloğuna eşdeğer; VAS, kurtarma analjezisi, omuz ağrısı ve bulantı benzer."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "M-TAPA (modifiye torakoabdominal sinir bloğu, perikondriyal yaklaşım)",
+      "ev": "Güçlü · meta-analiz (6 çalışma, 350 hasta) ve randomize çalışmalar",
+      "er": 0,
+      "w": "Opioid tüketimi, 12 ve 24. saat ağrı skoru ve bulantı-kusma azaldı (meta-analiz). Randomize çalışmalarda lokal infiltrasyona üstün; EOI bloğuyla karşılaştırmada ilk 2 saatte daha düşük ağrı, 24. saatte benzer. Çalışmaların çoğu bloğu geliştiren grubundan; kapsam derlemesi TAP bloğuna belirgin üstünlük göstermedi."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Rektointerkostal fasiyal plan bloğu (RIFPB; T6–T9)",
+      "ev": "Güçlü · randomize çalışma (tek)",
+      "er": 0,
+      "w": "Kontrole göre kurtarma analjezisi gereksinimi %17,9 ve %55,3, ilk 12 saatte ağrı skorları düşük, bulantı-kusma ve kaşıntı daha az."
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Port yeri yara infiltrasyonu veya intraperitoneal lokal anestezik",
+      "w": "Uzun etkili lokal anestezik, mümkünse kesiden önce. İntraperitoneal için düşük konsantrasyon, yüksek hacim önerilir; ikisini birlikte vermek toksisite nedeniyle önerilmez."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Erector spinae plan bloğu",
+      "w": "İkinci basamak; sistemik toksisite riski ve uzmanlık gereksinimi nedeniyle. Tekrar cerrahi, kronik opioid kullanımı, kronik ağrı veya yüksek ağrı yanıtlılarında yararlı olabilir.",
+      "anim": [
+       "esp"
+      ]
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "TAP bloğu",
+      "w": "ESP ile aynı biçimde ikinci basamak.",
+      "anim": [
+       "tap"
+      ]
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "Rektus kılıfı bloğu",
+      "w": "Yetersiz kanıt."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Paravertebral blok",
+      "w": "Yan etki riski."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Spinal veya epidural anestezi",
+      "w": "Yan etki riski."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Cerrahi öncesi intraperitoneal lokal anestezik; düşük konsantrasyonlu karışımlar",
+      "w": "Yetersiz kanıt."
+     }
+    ]
+   },
+   "hernia": {
+    "name": "İnguinal herni onarımı (açık)",
+    "reg": "groin",
+    "ap": "open",
+    "src": "hernia",
+    "srcx": [
+     "tf_h1",
+     "tf_h2"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Transversalis fasya plan bloğu (TFPB)",
+      "ev": "Güçlü · randomize çalışma (ESP ve QL ile karşılaştırma)",
+      "er": 0,
+      "w": "ESP bloğuna göre 24 saatte daha az tramadol; QL bloğuyla ağrı benzer, bir çalışmada QL daha uzun etkili. Bu özetteki PROSPECT önerisi değildir."
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Lokal infiltrasyon ve/veya rejyonel analjezi (derece A)",
+      "w": "İlioinguinal/iliohipogastrik blok veya TAP bloğu; ameliyat öncesi veya sırasında.",
+      "anim": [
+       "tap"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "periph",
+      "n": "Alan bloğu (ilioinguinal/iliohipogastrik), yara infiltrasyonlu veya infiltrasyonsuz (derece A)",
+      "w": "Tek anestezi olarak veya genel anesteziye ek olarak."
+     },
+     {
+      "s": "opt",
+      "tech": "infil",
+      "n": "Tek anestezi olarak lokal anestezi",
+      "w": "Cerrah deneyimliyse ve hasta seçimi uygunsa. Metaanalizde ameliyathane süresi daha kısa ve idrar retansiyonu nöroaksiyele göre daha az; hasta memnuniyeti benzer. Bu ifade için derece verilmemiş."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Epidural analjezi",
+      "w": "Etkili ama nispeten invaziv ve komplikasyon potansiyeli var."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Paravertebral blok",
+      "w": "Etkili ama nispeten invaziv ve komplikasyon potansiyeli var."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Psoas bloğu",
+      "w": "Prosedüre özgü kanıt yok."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Uzatılmış salınımlı bupivakain, NSAİİ, klonidin, ketamin veya opioidle infiltrasyon; topikal uzatılmış salınımlı lokal anestezik",
+      "w": "Prosedüre özgü kanıt sınırlı."
+     },
+     {
+      "s": "na",
+      "tech": "neuraxial",
+      "n": "Spinal anestezi",
+      "w": "Özette ayrı öneri yok; yalnızca metaanalizde karşılaştırıcı."
+     }
+    ]
+   },
+   "lhyst": {
+    "name": "Laparoskopik histerektomi",
+    "reg": "pelvis",
+    "ap": "closed",
+    "src": "lhyst",
+    "srcx": [
+     "gk_gyn"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Rektus kılıf bloğu (robotik jinekolojik cerrahi)",
+      "ev": "Zayıf · retrospektif çalışma",
+      "er": 3,
+      "w": "Opioid tüketiminde azalma bildirildi; yazarlar randomize çalışma önerdi."
+     },
+     {
+      "s": "opt",
+      "tech": "neuraxial",
+      "n": "Epidural analjezi",
+      "w": "Ağrıyı azaltır (kanıt düzeyi 1) ama yedek müdahale olarak düşünülmelidir (derece D).",
+      "anim": [
+       "epidural"
+      ]
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "TAP blokları",
+      "w": "Prosedüre özgü kanıt tutarsız (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Port yeri yara infiltrasyonu",
+      "w": "Prosedüre özgü kanıt yok (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "İntraperitoneal lokal anestezik",
+      "w": "Önerilmez (derece A)."
+     }
+    ]
+   },
+   "colo_open": {
+    "name": "Açık kolorektal cerrahi (PROSPECT özeti yok; sistematik derleme)",
+    "reg": "lower",
+    "ap": "open",
+    "src": "colo_open_ma",
+    "src2": "colo",
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "TAP bloğu",
+      "ev": "Güçlü · sistematik derleme (karma açık + laparoskopik)",
+      "er": 0,
+      "w": "İlk 24 saatte opioid ihtiyacını ve istirahat ağrısını azaltıyor; yalnızca açık cerrahiye özgü ayrı analiz yok, kanıt dolaylı. Toplam hastane opioid tüketimi ve yatış süresinde fark yok."
+     },
+     {
+      "s": "na",
+      "tech": "neuraxial",
+      "n": "Torasik epidural",
+      "w": "Bu turda açık kolorektal için kaynaklı değer bulunamadı; değerlendirilmedi."
+     }
+    ]
+   },
+   "hyst_open": {
+    "name": "Abdominal histerektomi, açık (PROSPECT özeti yok; sistematik derleme)",
+    "reg": "pelvis",
+    "ap": "open",
+    "src": "hyst_nma",
+    "src2": "shp",
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Erector spinae plan bloğu",
+      "ev": "Güçlü · ağ meta-analizi (36 RCT)",
+      "er": 0,
+      "w": "Morfin tüketimi, bulantı-kusma ve ilk analjezik isteme süresinde üstün; heterojenite ve dolaylı karşılaştırma var.",
+      "anim": [
+       "esp"
+      ]
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Quadratus lumborum bloğu",
+      "ev": "Güçlü · ağ meta-analizi (36 RCT)",
+      "er": 0,
+      "w": "Plaseboya göre ilk analjezik isteme süresi ve istirahat ağrısı açısından üstün."
+     },
+     {
+      "s": "opt",
+      "tech": "other",
+      "n": "Süperior hipogastrik pleksus bloğu (intraoperatif)",
+      "ev": "Güçlü · meta-analiz (küçük: 210 hasta)",
+      "er": 0,
+      "w": "Ağrı skoru, opioid tüketimi ve mobilizasyon süresini azaltıyor; majör yan etki bildirilmemiş. Örneklem küçük."
+     },
+     {
+      "s": "na",
+      "tech": "plane",
+      "n": "TAP bloğu ve yara infiltrasyonu",
+      "w": "Çoğu çalışma bu iki tekniği inceledi; doğrudan karşılaştırma az. Ağ meta-analizi diğer tekniklerin daha üstün olabileceğini söylüyor."
+     }
+    ]
+   },
+   "upper_open": {
+    "name": "Açık üst batın ve karaciğer rezeksiyonu (PROSPECT özeti yok; çoğu veri laparoskopik/donör)",
+    "reg": "upper",
+    "ap": "open",
+    "src": "liv_tap",
+    "src2": "liv_eoi",
+    "srcx": [
+     "gk_riup",
+     "gk_donor",
+     "liv_tx",
+     "rsb_tap",
+     "mtapa_gyn",
+     "mtapa_rev",
+     "mt_lt",
+     "mt_lt2",
+     "tx_rev"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Bilateral rektointerkostal plan bloğu (orta hat üst batın laparotomisi)",
+      "ev": "Zayıf · olgu gözlemi",
+      "er": 3,
+      "w": "Orta hat üst batın laparotomisinde vaka temelli gözlem; karaciğer rezeksiyonuna özgü veri yok."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "M-TAPA (karaciğer nakli alıcıları)",
+      "ev": "Zayıf · olgu bildirimleri (pediatrik nakil 2 olgu; yetişkin eş zamanlı karaciğer nakli + CABG 1 olgu)",
+      "er": 3,
+      "w": "Bilateral M-TAPA ve pektointerkostal blok kurtarma analjezisi olarak kullanıldı. Nakilde rejyonel teknikler için anlatımsal derleme var (kanıt düzeyi yönünden zayıf). Rezeksiyon için veri yok."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Subkostal TAP bloğu",
+      "ev": "Güçlü · randomize çalışma (donör hepatektomi) / Zayıf · before-and-after (nakil)",
+      "er": 0,
+      "w": "Donör hepatektomide ağrı skorunu ve opioid tüketimini azalttı (ilk 24 saat). Karaciğer naklinde 48 saatte opioid tüketimi 74 mg yerine 50 mg, ağrı skoru farksız. Veri laparoskopik donör ve nakil hastalarından; açık rezeksiyona dolaylı."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "External oblique intercostal (EOI) bloğu",
+      "ev": "Güçlü · randomize çalışma (tek, canlı donör)",
+      "er": 0,
+      "w": "Subkostal TAP ile 24 saat morfin tüketimi ve ağrı skorları benzer; blok komplikasyonu yok. Tek çalışmada fark bulunmadı; eşdeğerlik kanıtlanmış değil."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Rektus kılıf + TAP bloğu (tek ponksiyon)",
+      "ev": "Güçlü · randomize çalışma (58 hasta, laparoskopik üst batın)",
+      "er": 0,
+      "w": "Kesi alanını kapsadı; istirahat ve öksürük ağrısı TAP ve kontrol gruplarından düşük. Karaciğere özgü rektus kılıf verisi bulunamadı; yalnız bu laparoskopik üst batın çalışması var."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "M-TAPA (modified thoracoabdominal nerves block, perikondriyal)",
+      "ev": "Zayıf · küçük gözlemsel seri (10 hasta) ve kapsam derlemesi",
+      "er": 3,
+      "w": "Açık jinekolojik cerrahide Th8–11 dermatomlarında analjezi (10 hasta, kadavra dye yayılımı). Kapsam derlemesi: çoğunluk laparoskopik kolesistektomi, TAP bloğuna belirgin üstünlük gösterilmemiş. Karaciğer rezeksiyonu için veri yok."
+     },
+     {
+      "s": "na",
+      "tech": "neuraxial",
+      "n": "Torasik epidural ve paravertebral",
+      "w": "Bu turda açık üst batın/karaciğer için kaynaklı değer bulunamadı; değerlendirilmedi."
+     }
+    ]
+   },
+   "prost_open": {
+    "name": "Radikal prostatektomi (açık)",
+    "reg": "pelvis",
+    "ap": "open",
+    "src": "prost",
+    "items": [
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Ameliyat sonunda yara infiltrasyonu (derece B)",
+      "w": "Uzun etkili lokal anestezik, kısa etkililere tercih edilir (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Epidural analjezi",
+      "w": "Prosedüre özgü kanıt düzeyi 1 yarar gösterse de olumsuz risk/yarar dengesi (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "İntratekal opioid anestezisi ve analjezisi",
+      "w": "Prosedüre özgü kanıt düzeyi 1 yarar gösterse de olumsuz risk/yarar dengesi (derece B).",
+      "opi": 1
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "TAP blokları",
+      "w": "Prosedüre özgü kanıt yok, aktarılabilir kanıt sınırlı (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Sürekli lokal anestezik yara infüzyonu",
+      "w": "Analjezik etkinlik yok (derece B)."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Magnezyum sülfat ile yara infiltrasyonu",
+      "w": "Prosedüre özgü kanıt sınırlı (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Paravertebral analjezi",
+      "w": "Prosedüre özgü kanıt sınırlı (derece D)."
+     }
+    ]
+   },
+   "prost_vats": {
+    "name": "Radikal prostatektomi (video-yardımlı)",
+    "reg": "pelvis",
+    "ap": "closed",
+    "src": "prost",
+    "srcx": [
+     "gk_prost"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Rektus kılıf bloğu (robot yardımlı prostatektomi)",
+      "ev": "Güçlü · randomize çalışma (tek)",
+      "er": 0,
+      "w": "Postoperatif opioid tüketimini ve üretral kateter ağrısını azalttı. PROSPECT özeti bu yöntemi ayrıca değerlendirmemiş olabilir; kılavuz önerisi değildir."
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Ameliyat sonunda port yeri infiltrasyonu (derece B)",
+      "w": "Uzun etkili lokal anestezik, kısa etkililere tercih edilir (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Epidural analjezi",
+      "w": "Olumsuz risk/yarar dengesi (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "İntratekal opioid anestezisi ve analjezisi",
+      "w": "Olumsuz risk/yarar dengesi (derece B).",
+      "opi": 1
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "TAP blokları",
+      "w": "Prosedüre özgü kanıt yok (derece D)."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Sürekli lokal anestezik yara infüzyonu",
+      "w": "Analjezik etkinlik yok (derece B)."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Paravertebral analjezi",
+      "w": "Prosedüre özgü kanıt sınırlı (derece D)."
+     }
+    ]
+   },
+   "cs": {
+    "name": "Sezaryen",
+    "reg": "pelvis",
+    "ap": "open",
+    "src": "cs",
+    "srcx": [
+     "tf_ma1",
+     "tf_ma2",
+     "tf_ma3"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Transversalis fasya plan bloğu (TFPB)",
+      "ev": "Güçlü · meta-analizler (3) ve çok sayıda randomize çalışma; sonuçlar karışık",
+      "er": 0,
+      "w": "Opioid tüketimi ve kurtarma analjezisi azalıyor, ağrı skorunda etki tutarsız. Yara infiltrasyonuna karşı bir çalışmada fark yok, posterior TAP ve anterior QL ile karşılaştırmalarda sonuçlar değişken. Ayrıntılı liste için TFPB panelinde."
+     },
+     {
+      "s": "rec",
+      "tech": "neuraxial",
+      "n": "Preoperatif intratekal uzun etkili opioid (morfin 50–100 µg veya diamorfin 300 µg)",
+      "w": "Özet tablosunda diamorfin için \"en fazla 300 µg\" yazılıdır.",
+      "anim": [
+       "spinal"
+      ],
+      "opi": 1
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Fasiyal plan veya sinir bloğu: kuadratus lumborum, TAP, erector spinae, ilioinguinal/iliohipogastrik, transversalis fasya planı",
+      "w": "Bloklar eşit etkili kabul edilmiştir; seçimi tedavi eden anestezist yapar.",
+      "anim": [
+       "tap",
+       "esp"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Yara infiltrasyonu (tek doz) veya sürekli yara infüzyonu",
+      "w": "Nöroaksiyel uzun etkili opioid kullanılmıyorsa düşünülmelidir."
+     },
+     {
+      "s": "opt",
+      "tech": "neuraxial",
+      "n": "Epidural morfin veya diamorfin 2–3 mg",
+      "w": "Epidural birincil anestezi tekniğiyse alternatif olarak kullanılabilir.",
+      "anim": [
+       "epidural"
+      ],
+      "opi": 1
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "İntratekal deksmedetomidin",
+      "w": "Tutarsız kanıt ve advers etki kaygısı."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "İntratekal nalokson; epidural esketamin (postoperatif)",
+      "w": "Kanıt yok."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Torasik epidural, hasta kontrollü epidural analjezi, programlı aralıklı epidural bolus",
+      "w": "Kanıt yok."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Blokta deksmedetomidin veya deksametazon adjuvanı",
+      "w": "Kanıt sınırlı."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Liposomal bupivakain; intraperitoneal lokal anestezik",
+      "w": "Tutarsız veya yetersiz kanıt."
+     }
+    ]
+   },
+   "tka": {
+    "name": "Total diz artroplastisi",
+    "reg": "limb",
+    "ap": "open",
+    "src": "tka",
+    "src2": "aahks",
+    "srcx": [
+     "f24",
+     "f25",
+     "f26",
+     "f28"
+    ],
+    "items": [
+     {
+      "s": "rec",
+      "tech": "periph",
+      "n": "Aduktör kanal bloğu (tek doz, preoperatif)",
+      "ev": "AAHKS 2022: güçlü öneri (29 RKÇ; ağrı ve opioidi azaltır) · PROSPECT: derece verilmemiş",
+      "er": 0,
+      "w": "Femoral bloğa benzer analjezi sağlar; kuadriseps fonksiyonunu daha iyi korur.",
+      "anim": [
+       "acb"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Periartiküler lokal infiltrasyon analjezisi (intraoperatif)",
+      "ev": "AAHKS 2022: orta öneri (tek doz aduktör kanalla fark yok; ikisinin birleşimi ağrıyı azaltabilir) · PROSPECT: derece verilmemiş",
+      "er": 1,
+      "w": "Aduktör kanal bloğuyla birlikte tercih edilen yaklaşım."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Sürekli aduktör kanal bloğu",
+      "ev": "AAHKS 2022: orta öneri",
+      "er": 1,
+      "w": "Ağrıyı ve opioid tüketimini advers olay artışı olmadan azaltabilir (AAHKS 1F). PROSPECT özetinde ayrı öneri yok."
+     },
+     {
+      "s": "opt",
+      "tech": "neuraxial",
+      "n": "İntratekal morfin 100 µg",
+      "w": "Yalnızca yatırılan hastada ve cerrahi spinal anestezi altında yapılıyorsa; aduktör blok ve infiltrasyon mümkün değilse. Ayaktan TKA için uygun değil. Kaşıntı, bulantı, idrar retansiyonu görülebilir.",
+      "anim": [
+       "spinal"
+      ],
+      "opi": 1
+     },
+     {
+      "s": "na",
+      "tech": "plane",
+      "n": "Fasiya iliaka bloğu (TKA/THA meta-analizleri)",
+      "ev": "Güçlü · meta-analiz",
+      "er": 0,
+      "w": "Meta-analizlerde femoral sinir bloğuna eşdeğer analjezi (3 meta-analiz) ve eklem artroplastisinde 12-24. saatte ağrı ile morfin azalması; kanıt kalitesi sınırlı. PROSPECT ve AAHKS özetlerinde TKA için ayrı öneri yok; femoral blok fonksiyonel iyileşme nedeniyle önerilmediğinden dikkatli yorumlanmalı."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Femoral sinir bloğu",
+      "w": "Fonksiyonel iyileşmeye olumsuz etki."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Siyatik sinir bloğu",
+      "w": "Fonksiyonel iyileşmeye olumsuz etki."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Epidural analjezi",
+      "w": "Hızlı iyileşmeyi engelleyen olası yan etkiler."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Sürekli infiltrasyon / sürekli intraartiküler infüzyon",
+      "w": "Tutarsız yarar ve enfeksiyon kaygısı."
+     },
+     {
+      "s": "na",
+      "tech": "neuraxial",
+      "n": "Spinal ile genel anestezi karşılaştırması",
+      "w": "Özette doğrudan öneri yok."
+     },
+     {
+      "s": "na",
+      "tech": "periph",
+      "n": "IPACK bloğu",
+      "ev": "AAHKS 2022: sınırlı öneri (tek RKÇ)",
+      "er": 2,
+      "w": "PROSPECT özetinde yok. AAHKS: ağrıyı azaltabilir ama opioid tüketimini azaltmaz."
+     }
+    ]
+   },
+   "tha": {
+    "name": "Total kalça artroplastisi (güncelleme 2026)",
+    "reg": "limb",
+    "ap": "open",
+    "src": "tha",
+    "srcx": [
+     "pg_t1",
+     "pg_t2",
+     "pg_t3",
+     "pg_t4",
+     "f13",
+     "f14",
+     "f15",
+     "f16",
+     "f19",
+     "f20",
+     "f22"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "PENG bloğu",
+      "ev": "Güçlü · randomize çalışmalar (sonuçlar karışık)",
+      "er": 0,
+      "w": "Cerrahi infiltrasyona karşı pilot çalışmada ve iliohipogastrik blok eklenen çalışmada tutarlı yarar yok; cerrah uygulamalı PENG + infiltrasyon çalışmasında yarar var. 10 mL ve 20 mL non-inferior, yüksek hacim üstün değil. PROSPECT önerisi değildir; ayrıntı PENG panelinde."
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Tek doz suprainguinal fasya iliaka bloğu",
+      "ev": "Yüksek kanıt · Güçlü öneri",
+      "er": 0,
+      "w": "Multimodal analjezinin etkili bileşeni olarak önerilir.",
+      "anim": [
+       "fib"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Preoperatif tek doz PENG bloğu",
+      "ev": "Yüksek kanıt · Güçlü öneri",
+      "er": 0,
+      "w": "Motor-koruyucu alternatif; benzer etkinlik."
+     },
+     {
+      "s": "opt",
+      "tech": "neuraxial",
+      "n": "Düşük doz intratekal morfin (0,1 mg veya altı)",
+      "ev": "Yüksek kanıt · Güçlü öneri",
+      "er": 0,
+      "w": "Ameliyat için spinal anestezi uygulanmışsa düşünülebilir; özet tablosunda yatan hasta koşulu da belirtilmiş.",
+      "anim": [
+       "spinal"
+      ],
+      "opi": 1
+     },
+     {
+      "s": "opt",
+      "tech": "infil",
+      "n": "Tek doz lokal infiltrasyon analjezisi (LIA)",
+      "ev": "Yüksek kanıt · Güçlü öneri",
+      "er": 0,
+      "w": "Rejyonel bloklar yapılamıyorsa veya kontrendike ise. Özet metni bunu \"düşünülebilir\", tablosu \"güçlü\" diye yazıyor."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "Kuadratus lumborum bloğu (anterior, posterior/lateral ve sürekli)",
+      "w": "Anteriorda prosedüre özgü kanıt var ama yan etki; diğerlerinde prosedüre özgü kanıt yok."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Lumbar pleksus bloğu",
+      "w": "Prosedüre özgü kanıt var ama yan etki."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Fasiya iliaka bloğu (meta-analiz kanıtı, PROSPECT dışı)",
+      "ev": "Güçlü · meta-analiz (sonuçlar karışık)",
+      "er": 0,
+      "w": "Plaseboya karşı 12 ve 24. saatte ağrı ve opioid tüketimi azaldı (7 RCT); bir meta-analizde toplam analjezik tüketimi 48 saate kadar azaldı ama ağrı/bulantı azalmadı ve kas güçsüzlüğü bildirildi. QLB, ESP, PENG ve lomber pleksus ile karşılaştırmalar için panele bakın. Suprainguinal tek doz FIB PROSPECT 2021'de ayrıca önerilen bloktur."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "İnfrainguinal fasya iliaka, postoperatif PENG, iliopsoas, sirkumpsoas, obturator, lateral femoral kutanöz blok",
+      "w": "Prosedüre özgü kanıt yok veya sınırlı."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Paravertebral blok",
+      "w": "Prosedüre özgü kanıt yok."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "Lomber erector spinae plan bloğu",
+      "w": "Tutarsız prosedüre özgü kanıt."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "LIA adjuvanları, LIA + blok kombinasyonu, sürekli LIA",
+      "w": "Tutarsız veya yetersiz kanıt; sürekli LIA için olası yan etki."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "İntratekal deksmedetomidin, intratekal oksitosin",
+      "w": "Sınırlı veya yok."
+     }
+    ]
+   },
+   "colo_lap": {
+    "name": "Laparoskopik kolorektal cerrahi",
+    "reg": "lower",
+    "ap": "closed",
+    "src": "colo",
+    "items": [
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Port yeri yara infiltrasyonu",
+      "w": "Tutarsız kanıta rağmen basitlik ve düşük maliyet nedeniyle önerilir."
+     },
+     {
+      "s": "na",
+      "tech": "neuraxial",
+      "n": "İntratekal morfin",
+      "w": "Oylamada görüş birliği sağlanamadı; öneri yapılmadı.",
+      "opi": 1
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "İntraperitoneal lokal anestezik",
+      "w": "Tutarsız kanıt; temel analjezi veya IV lidokain verilemiyorsa kullanılabilir."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Epidural analjezi",
+      "w": "Kapsamlı risk-yarar değerlendirmesi gerekir."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "Gövde blokları (TAP, ESP, kuadratus lumborum, rektus kılıfı ayrı ayrı adlandırılmamış)",
+      "w": "Prosedüre özgü kanıt tutarsız."
+     }
+    ]
+   },
+   "hip": {
+    "name": "Kalça kırığı cerrahisi",
+    "reg": "limb",
+    "ap": "open",
+    "src": "hip",
+    "srcx": [
+     "pg_ma1",
+     "pg_ma2",
+     "pg_ma3",
+     "f1",
+     "f2",
+     "f3",
+     "f6",
+     "f7",
+     "f8",
+     "f9",
+     "f12"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "PENG bloğu (pericapsular nerve group; gerekirse LFCN ile)",
+      "ev": "Güçlü · meta-analizler (3) ve randomize çalışmalar",
+      "er": 0,
+      "w": "Fasiya iliaka bloğuna göre erken analjezi ve motor korunma daha iyi (meta-analizler); femoral sinir bloğuna karşı erken ağrı lehine ama blok süresi kısa. Heterojenite yüksek, çalışma sayısı az. PROSPECT özetindeki öneri değildir; ayrıntı PENG panelinde."
+     },
+     {
+      "s": "rec",
+      "tech": "neuraxial",
+      "n": "Spinal anestezi veya genel anestezi",
+      "w": "Seçim ağrı dışındaki faktörlere dayanır. Spinal, erken postoperatif dönemde daha üstün ağrı kontrolü sağlayabilir.",
+      "anim": [
+       "spinal"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "periph",
+      "n": "Tek doz femoral blok (3-in-1 dahil) veya tek doz fasya iliaka bloğu, preoperatif",
+      "w": "Suprainguinal fasya iliaka bloğu infrainguinale tercih edilir. Femoral ile fasya iliaka arasındaki seçim yerel deneyime ve kurum tercihine bağlıdır.",
+      "anim": [
+       "fib"
+      ]
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Sürekli kateter",
+      "w": "Özel durumlar dışında kateter kullanılmamalı."
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Fasiya iliaka bloğu: meta-analiz kanıtı (preoperatif, acil servis, hastane öncesi)",
+      "ev": "Güçlü · meta-analizler (çoğunda kanıt kalitesi düşük)",
+      "er": 0,
+      "w": "Preoperatif FIB harekette opioide göre üstün analjezi, 4 saate kadar ağrı ve opioid azalması, spinal için daha kısa süre, yaşlıda deliryum azalması (kognitif bozukluğu olmayanlarda) ve hastane öncesinde ağrı azalması gösterdi. Mortalite ve hastanede kalış için kanıt yetersiz. PENG ilk saatte FIB'den üstün olabilir."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "PENG bloğu (preoperatif)",
+      "w": "Prosedüre özgü kanıt sınırlı."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Lokal infiltrasyon analjezisi (intraoperatif)",
+      "w": "Tutarsız kanıt."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Blokta deksmedetomidin veya klonidin adjuvanı",
+      "w": "Prosedüre özgü kanıt sınırlı veya yok."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Epidural anestezi ve analjezi",
+      "w": "Prosedüre özgü kanıt sınırlı."
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "Epidural adjuvan ilaçlar",
+      "w": "Prosedüre özgü kanıt yok ve riskler artmış."
+     },
+     {
+      "s": "na",
+      "tech": "neuraxial",
+      "n": "İntratekal morfin",
+      "w": "Bu hasta grubunda değerlendirilmemiş.",
+      "opi": 1
+     }
+    ]
+   }
+  }
+ }
+}

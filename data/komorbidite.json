@@ -1,0 +1,170 @@
+{
+ "_meta": {
+  "dosya": "komorbidite",
+  "aciklama": "Hasta faktörü (komorbidite) uyarıları",
+  "surum": "1.0.0",
+  "tarih": "2026-11-19",
+  "hazirlayan": "",
+  "kontrol_eden": "",
+  "kontrol_tarihi": "",
+  "durum": "taslak",
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+ },
+ "data": {
+  "COM": {
+   "osa": {
+    "n": "Uyku apnesi",
+    "scope": "all",
+    "src": {
+     "t": "ASA uygulama kılavuzu: obstrüktif uyku apneli hastada perioperatif yönetim (Anesthesiology 2014;120:268–286)",
+     "u": "https://guidelinecentral.com/guideline/8780"
+    },
+    "t": "Periferik girişimlerde majör iletim anestezisi (spinal/epidural) düşünülmelidir. Yüzeyel girişimlerde lokal anestezi veya periferik sinir bloğu, ± orta düzey sedasyon düşünülmelidir. Hava yolu mekanik olarak etkilenebilecekse, güvenli hava yolu olmadan derin sedasyon yerine güvenli hava yoluyla genel anestezi tercih edilir. Sistemik opioidi azaltmak veya önlemek için rejyonel analjezi düşünülmelidir; nöroaksiyel opioid eklenecekse rostral yayılımla solunum depresyonu riskine karşı yarar tartılmalıdır. Orta düzey sedasyonda mümkünse kapnografi ile solunum izlenir. Ayaktan uygunluk ameliyat öncesi belirlenmelidir. Kanıt dereceleri kaynak özetinde verilmemiştir."
+   },
+   "copd": {
+    "n": "KOAH / akciğer hastalığı",
+    "scope": "all",
+    "src": {
+     "t": "NYSORA: Rejyonel anestezi ve sistemik hastalık (ikincil kaynak; son değişiklik Mart 2026)",
+     "u": "https://nysora.com/regional-anesthesia/topics/sub-specialties/comorbidities/regional-anesthesia-systemic-disease/"
+    },
+    "t": "İkincil kaynak (kılavuz değil). Nöroaksiyel teknikler genel anesteziye göre daha az postoperatif pulmoner komplikasyonla ilişkilendirilmiştir; torasik epidural vital kapasiteyi ve FEV1'i hafifçe azaltır. İnterskalen blok sık hemidiyafragmatik paraliziye yol açar (FVC ve FEV1'de yaklaşık %27 düşüş); hacim azaltmak etkiyi azaltır ama ortadan kaldırmaz. Aksiller blok diyaframı korur, infraklaviküler genelde korur, supraklaviküler paralizi riski daha yüksektir. Ciddi akciğer hastalığında sürekli kateterler, özellikle hasta kateterle eve gidecekse, dikkatle kullanılmalıdır. Torakotomi ve kosta kırığında paravertebral ve interkostal blok tercih edilmiştir."
+   },
+   "as": {
+    "n": "Aort stenozu",
+    "scope": "nx",
+    "src": {
+     "t": "NYSORA: Aort stenozu (ikincil kaynak; son değişiklik Haziran 2026)",
+     "u": "https://nysora.com/anesthesia/aortic-stenosis/"
+    },
+    "t": "İkincil kaynak (kılavuz değil). 2024 sistematik derlemede (61 çalışma, 3.200'den fazla hasta) en sık komplikasyon vazopresör gerektiren hipotansiyon olmuş, intraoperatif kardiyovasküler kollaps bildirilmemiştir; yazarlar aort stenozunun nöroaksiyel anestezi için mutlak kontrendikasyon sayılmaması gerektiğini, ağır veya semptomatik hastada dikkatli hasta seçimi ve invaziv izlem gerektiğini belirtir. 2025'te 35 hastalık retrospektif seride düşük doz izobarik spinal kullanılmıştır. Yönetim ilkeleri: preload, afterload, kontraktilite, kalp hızı ve ritmi, kan basıncı."
+   },
+   "card": {
+    "n": "Diğer kardiyak hastalık",
+    "scope": "all",
+    "src": null,
+    "t": "Kalp yetmezliği, koroner arter hastalığı ve pacemaker için doğrulanmış blok kuralı eklenmedi. Nöroaksiyel sempatektomi ortalama arter basıncını düşürür (NYSORA, ikincil kaynak). Antikoagülan veya antiplatelet kullanılıyorsa yukarıdaki aralıklar geçerlidir."
+   },
+   "sten": {
+    "n": "Spinal stenoz",
+    "scope": "nx",
+    "src": {
+     "t": "ASRA ikinci uygulama danışma raporu: nörolojik komplikasyonlar (Neal ve ark., Reg Anesth Pain Med 2015;40:401–430)",
+     "u": "https://doi.org/10.1097/AAP.0000000000000286"
+    },
+    "t": "Orta–ağır spinal stenoz nöroaksiyel komplikasyonlarla ilişkilidir. Nötr olmayan cerrahi pozisyonda veya spinal kord perfüzyon basıncı tehlikedeyse özellikle dikkat edin."
+   },
+   "neuro": {
+    "n": "Nörolojik hastalık",
+    "scope": "all",
+    "src": {
+     "t": "ASRA ikinci uygulama danışma raporu: nörolojik komplikasyonlar (Neal ve ark., Reg Anesth Pain Med 2015;40:401–430)",
+     "u": "https://doi.org/10.1097/AAP.0000000000000286"
+    },
+    "t": "Önceden var olan nörolojik hastalıkta kanıt azdır; panel esas olarak uzman görüşüne dayanmıştır. Rejyonel anestezi kullanımı hasta bazında yarar/risk analizi gerektirir."
+   },
+   "sed": {
+    "n": "Sedasyon/anestezi altında blok",
+    "scope": "all",
+    "src": {
+     "t": "ASRA ikinci uygulama danışma raporu: nörolojik komplikasyonlar (Neal ve ark., Reg Anesth Pain Med 2015;40:401–430)",
+     "u": "https://doi.org/10.1097/AAP.0000000000000286"
+    },
+    "t": "Erişkinde rejyonel anestezi, anestezi altındaki veya derin sedasyondaki hastada rutin olarak yapılmamalıdır. Pediatrik kayıt verileri çocuklarda bu uygulamanın tarihsel erişkin beklentisinin üzerinde yaralanma oranı oluşturmadığını düşündürmektedir."
+   },
+   "hypo": {
+    "n": "Düşük tansiyon riski",
+    "scope": "nx",
+    "src": {
+     "t": "ASRA ikinci uygulama danışma raporu: nörolojik komplikasyonlar (Neal ve ark., Reg Anesth Pain Med 2015;40:401–430)",
+     "u": "https://doi.org/10.1097/AAP.0000000000000286"
+    },
+    "t": "Spinal kord kan akımı otoregülasyonunun alt sınırı geleneksel 50 mmHg yerine 60–65 mmHg olabilir; bazı hastalar uzun süreli \"düşük normal\" basıncı tolere edemez. Ortalama arter basıncı başlangıcın %25–30 altına düşmemeli ve bu düşüş sürmemelidir."
+   },
+   "anem": {
+    "n": "Azalmış O₂ taşıma kapasitesi",
+    "scope": "nx",
+    "src": {
+     "t": "ASRA ikinci uygulama danışma raporu: nörolojik komplikasyonlar (Neal ve ark., Reg Anesth Pain Med 2015;40:401–430)",
+     "u": "https://doi.org/10.1097/AAP.0000000000000286"
+    },
+    "t": "Oksijen taşıma kapasitesini azaltan durumlar, nöroaksiyel blokta kan basıncı yönetimi sırasında riski artırabilir."
+   }
+  },
+  "FOOT": [
+   [
+    [
+     "asa_hi"
+    ],
+    "Yüksek doz aspirin: ESAIC/ESRA 200 mg/gün için 3–7 gün (veya normal trombosit fonksiyonu) der; ASRA 5. baskı uyarlama metni aspirin/NSAİİ için \"zorunlu bekleme süresi yok\" diyor, doz ayrımı okunamadı."
+   ],
+   [
+    [
+     "tica",
+     "clop",
+     "pras"
+    ],
+    "P2Y12 inhibitörleri: tikagrelor (5 gün) ve klopidogrel (5–7 gün) süreleri aynı. Prasugrel: ESAIC 7 gün, ASRA 7–10 gün; ASRA prasugrelde kateter bırakılmamasını söyler. Girişim sonrası: ESAIC tikagrelor ve prasugrel için en az 24 saat, klopidogrel 75 mg için gecikmeden, 300 mg için en az 2 gün der; ASRA yükleme dozu verilecekse kateter çıkarıldıktan 6 saat sonra der ve yükleme dozu verilmeyen klopidogrelde kateterin 1–2 gün tutulabileceğini belirtir."
+   ],
+   [
+    [
+     "war",
+     "acen",
+     "phen"
+    ],
+    "K vitamini antagonistleri: ESAIC INR'ın yerel normal aralıkta olmasını (hedef INR'dan bağımsız) ve warfarin için 5 gün bekleme ister; ASRA 5 gün ister ve kateter çıkarma için INR 1,5 altı eşiğini, INR 3 üzerinde kateter varken dozun tutulmasını veya azaltılmasını ekler. Asenokumarol ve fenprokumon için ASRA metninde değer okunamadı."
+   ],
+   [
+    [
+     "ufh_iv",
+     "ufh_lo",
+     "ufh_sc"
+    ],
+    "Standart heparin: IV için ESAIC en az 6 saat (aPTT/anti-Xa/ACT normal), ASRA 4–6 saat; iğne yerleştirmeden sonra heparini ASRA en az 1 saat geciktirir, ESAIC vasküler cerrahide 1 saati yarar/risk analiziyle kabul eder. SC düşük doz: ESAIC 4 saat, ASRA 4–6 saat. SC yüksek doz: ESAIC 12 saat; ASRA 12 saat (günde 2 kez 7.500–10.000 U veya günde en çok 20.000 U) ve 24 saat (doz başına 10.000 U üstü veya günde 20.000 U üstü)."
+   ],
+   [
+    [
+     "lmwh_lo",
+     "lmwh_hi"
+    ],
+    "DMAH: süreler aynı (düşük doz 12, yüksek doz 24 saat). ESAIC KrKl 30 ml/dk altında dozun yarıya indirilmesini veya aralığın 24/48 saate çıkarılmasını ve yüksek dozda anti-Xa ≤0,1 IU/ml hedefini ekler; ASRA uyarlama metninde bu böbrek ayarı ve DMAH için düzey hedefi okunamadı. İlk postoperatif doz zamanı ASRA metninde var (12/24 saat), ESAIC özetinde okunamadı. Böbrek fonksiyonu için nefroloji ve farmakoloji kaynakları DMAH panelinde."
+   ],
+   [
+    [
+     "fon_lo"
+    ],
+    "Fondaparinuks düşük doz (2,5 mg/gün): ESAIC 36 saat (KrKl 50 ml/dk altında 72 saat veya 1,5 mg); ASRA 36 (genç) – 42 saat (yaşlı), orta böbrek yetmezliğinde en az 58 saat, ağır böbrek yetmezliğinde nöroaksiyel veya derin blok yapılmamasını söyler."
+   ],
+   [
+    [
+     "fon_hi"
+    ],
+    "Fondaparinuks yüksek doz: ESAIC nöroaksiyeli önermez (kaçınılamıyorsa kalibre anti-Xa ≤0,1 IU/ml ve 4 gün); ASRA 5–10 mg/gün için en az 70 saat (genç) veya 105 saat (yaşlı) verir."
+   ],
+   [
+    [
+     "riv_lo",
+     "api_lo",
+     "dab_lo",
+     "edo_lo",
+     "doac_hi"
+    ],
+    "DOAK: düşük doz süreleri (rivaroksaban/edoksaban 24, KrKl <30 ise 30 saat; apiksaban 36; dabigatran 48) ve yüksek doz 72 saat iki kılavuzda aynı. Dabigatran yüksek dozda ESAIC KrKl <50'de hedef laboratuvar değerine ulaşılmışsa ilerlenebileceğini söyler; ASRA KrKl 30–49'da 120 saat der. Kateter çıkarma: ESAIC sonraki dozu kateter çıkarıldıktan sonraya bırakır; ASRA çıkarmayı ilk postoperatif dozdan en az 6 saat (düşük doz) veya 24 saat (yüksek doz) önce ister. Kalıntı düzey eşiği (30 ng/ml; anti-Xa 0,1 IU/ml) ASRA'dan geliyor. Uyarlama metninin Ek II tablosunda dabigatran 34–52 saat (düşük doz) ve 72–110 saat (yüksek doz, KrKl'ye bağlı) yazıyor; metin gövdesiyle çeliştiği için gövde değerleri kullanıldı."
+   ],
+   [
+    [
+     "lysis"
+    ],
+    "Trombolitik: ESAIC/ESRA özetinde sayısal değer okunamadı; ASRA en az 48 saat, sıkıştırılamayan damar ponksiyonundan sonra 10 gün ve en az 48 saat nörolojik izlem der."
+   ],
+   [
+    [],
+    "Genel: ESAIC derin pleksus ve derin periferik blokları nöroaksiyel aralığa göre yönetir (1C); ASRA da nöroaksiyel ve derin pleksus bloklarını birlikte ele alıyor, blok bazlı liste okunamadı. İzlem: ESAIC girişimden sonra en az 24 saat; ASRA warfarinde kateter çıkarıldıktan sonra en az 48 saat. Terminoloji iki kılavuzda da \"düşük/yüksek doz\"."
+   ],
+   [
+    [],
+    "ASRA satırlarındaki öneri ve kesinlik etiketleri uyarlama metninden alındı; uyarlayıcı kurul etiketleri değiştirmiş olabilir. Sayıların yalnızca DOAK yüksek doz (72 saat), dabigatran 120 saat ve kalıntı düzey eşiği ikinci bir kaynakla uyuşuyor."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,1965 @@
+{
+ "_meta": {
+  "dosya": "kanit_panelleri",
+  "aciklama": "Blok bazlı kanıt panelleri",
+  "surum": "1.0.0",
+  "tarih": "2026-11-19",
+  "hazirlayan": "",
+  "kontrol_eden": "",
+  "kontrol_tarihi": "",
+  "durum": "taslak",
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+ },
+ "data": {
+  "DER": {
+   "acen": {
+    "n": "≈ 4 gün (3–5)",
+    "l": "Orta öneri",
+    "m": "ESAIC 3 gün ile ASRA warfarin 5 gün ortalaması; INR yerel normal aralıkta olmalı.",
+    "s": "ESAIC/ESRA 2022; ASRA 5 (Mısır uyarlaması)"
+   },
+   "phen": {
+    "n": "≈ 6 gün (5–7)",
+    "l": "Orta öneri",
+    "m": "ESAIC 7 gün ile ASRA warfarin 5 gün ortalaması; INR izlemi zorunlu.",
+    "s": "ESAIC/ESRA 2022; ASRA 5 (Mısır uyarlaması)"
+   },
+   "edo_lo": {
+    "n": "≈ 30 saat (24–36)",
+    "l": "Orta öneri",
+    "m": "ESAIC 24 saat; ASRA rivaroksaban 24 ve apiksaban 36 saat.",
+    "s": "ESAIC/ESRA 2022; ASRA 5 (Mısır uyarlaması); Gist 2026"
+   },
+   "lysis": {
+    "n": "48 saat",
+    "l": "Orta öneri",
+    "m": "Tek kaynak (ASRA uyarlaması); ikinci kaynakla doğrulanmadı.",
+    "s": "ASRA 5 (Mısır uyarlaması)"
+   },
+   "lmwh_lo": {
+    "n": "Böbrekte 12 → 24 saat",
+    "l": "Orta öneri",
+    "m": "ESAIC uzatması KrKl 30 eşiğiyle uyumlu; Lim 2006 eşiği destekler, uzatmayı doğrudan doğrulamaz.",
+    "s": "ESAIC/ESRA 2022 (R7); Lim ve ark., Ann Intern Med 2006"
+   },
+   "lmwh_hi": {
+    "n": "Böbrekte 24 → 48 saat",
+    "l": "Orta öneri",
+    "m": "ESAIC uzatması KrKl 30 eşiğiyle uyumlu; Lim 2006 eşiği destekler, uzatmayı doğrudan doğrulamaz.",
+    "s": "ESAIC/ESRA 2022 (R7); Lim ve ark., Ann Intern Med 2006"
+   }
+  },
+  "NEWB": [
+   [
+    "M-TAPA",
+    "Anterior ve lateral kutanöz dallar, Th7–11 (perikondriyal)",
+    [
+     [
+      "Laparoskopik kolesistektomi",
+      "Güçlü · meta-analiz + RCT",
+      "mt_ma"
+     ],
+     [
+      "Laparoskopik kolesistektomi (EOI ile)",
+      "Güçlü · RCT",
+      "mt_eoib"
+     ],
+     [
+      "Laparoskopik inguinal herni (TAPP)",
+      "Güçlü · RCT",
+      "mt_tapp"
+     ],
+     [
+      "Açık jinekolojik cerrahi",
+      "Zayıf · pilot (10 hasta)",
+      "mtapa_gyn"
+     ],
+     [
+      "Dermatom yayılımı (EOI ile karşılaştırma)",
+      "Orta · gözlemsel",
+      "mt_derm"
+     ],
+     [
+      "Pediatrik karaciğer nakli",
+      "Zayıf · olgu bildirimi (2)",
+      "mt_lt"
+     ],
+     [
+      "Karaciğer nakli + CABG (yetişkin)",
+      "Zayıf · olgu bildirimi (1)",
+      "mt_lt2"
+     ],
+     [
+      "Doz ve dermatom (5 hasta)",
+      "Zayıf · olgu serisi",
+      "mt_series"
+     ]
+    ]
+   ],
+   [
+    "Rektointerkostal fasiyal plan bloğu (RIFPB; T6–T9)",
+    "Rektus abdominis ile 6.–7. kosta kıkırdağı arası",
+    [
+     [
+      "Laparoskopik kolesistektomi",
+      "Güçlü · RCT (tek)",
+      "rifpb_rct"
+     ],
+     [
+      "Kalp cerrahisi (pektointerkostal ile, Medipol kombinasyonu)",
+      "Zayıf · olgu serisi (15)",
+      "medipol"
+     ]
+    ]
+   ],
+   [
+    "SPSIP (serratus posterior superior interkostal plan)",
+    "Periparavertebral torasik blok, C3–T10 dermatom bildirildi",
+    [
+     [
+      "Teknik tanım ve kadavra",
+      "Zayıf · teknik rapor",
+      "sps_tech"
+     ],
+     [
+      "Meme cerrahisi",
+      "Zayıf · olgu serisi (3)",
+      "sps_breast"
+     ],
+     [
+      "Minimal invaziv kalp cerrahisi",
+      "Zayıf · olgu serisi (3)",
+      "sps_card"
+     ],
+     [
+      "Torakoskopik ve omuz cerrahisi",
+      "Zayıf · editöre mektup",
+      "sps_vats"
+     ],
+     [
+      "Skolyoz cerrahisi (quadroiliac ile)",
+      "Zayıf · olgu bildirimi",
+      "sps_scol"
+     ],
+     [
+      "Tek başına cerrahi anestezi (romboid interkostal ile)",
+      "Zayıf · olgu bildirimi",
+      "sps_riss"
+     ]
+    ]
+   ]
+  ],
+  "GRK": [
+   [
+    "Laparoskopik kolesistektomi",
+    "ESP bloğu ve rektus kılıf bloğu karşılaştırması: 24 saat opioid tüketiminde rektus kılıfı ESP'ye eşdeğer (non-inferior); VAS, kurtarma analjezisi ve bulantı benzer",
+    "Orta · karşılaştırmalı çalışma (randomizasyon kayıtta belirtilmemiş)",
+    "gk_chole"
+   ],
+   [
+    "VATS",
+    "Romboid interkostal blok (RIB) paravertebral bloğa analjezik etkinlikte benzer, alternatif olabilir",
+    "Güçlü · randomize çalışma",
+    "gk_vats_rib"
+   ],
+   [
+    "VATS",
+    "SPSIP bloğu ve paravertebral blok: opioid tüketimi, ağrı skoru ve yan etkiler benzer",
+    "Güçlü · randomize çalışma",
+    "gk_vats_sps"
+   ],
+   [
+    "Robotik radikal prostatektomi",
+    "Rektus kılıf bloğu postoperatif opioid tüketimini ve üretral kateter ağrısını azalttı",
+    "Güçlü · randomize çalışma",
+    "gk_prost"
+   ],
+   [
+    "Robotik jinekolojik cerrahi",
+    "Rektus kılıf bloğu opioid tüketimini azaltmış görünüyor; randomize çalışma önerildi",
+    "Zayıf · retrospektif çalışma",
+    "gk_gyn"
+   ],
+   [
+    "Açık üst batın (orta hat laparotomi)",
+    "Bilateral rektointerkostal plan bloğu, vaka temelli gözlem",
+    "Zayıf · olgu gözlemi",
+    "gk_riup"
+   ],
+   [
+    "Gastrik bypass (bariatrik)",
+    "Rektointerkostal fasiyal plan bloğu, minimal opioidle etkili analjezi; obezde anterior yaklaşım avantajı",
+    "Zayıf · olgu bildirimi",
+    "gk_bypass"
+   ],
+   [
+    "Umbilikal herni (eTEP)",
+    "Rektointerkostal plan bloğu, yeni endikasyon",
+    "Zayıf · yayın türü kayıtta belirtilmemiş",
+    "gk_tep"
+   ],
+   [
+    "Pediatrik nefrektomi (Wilms)",
+    "Kateter destekli rektointerkostal plan bloğu, subkostal insizyon",
+    "Zayıf · olgu bildirimi",
+    "gk_wilms"
+   ],
+   [
+    "Laparoskopik donör nefrektomi (el yardımlı)",
+    "ESP bloğu tek başına opioid tüketimini azaltmakta yeterli bulunmadı; farklı blok kombinasyonları gerekli",
+    "Güçlü · randomize çalışma",
+    "gk_nefr"
+   ],
+   [
+    "Laparoskopik donör hepatektomi",
+    "Anestezi yönetimi, Türkiye'den ilk bildirim (blok çalışması değil)",
+    "Zayıf · deneyim bildirimi",
+    "gk_donor"
+   ],
+   [
+    "Karaciğer ve böbrek nakli",
+    "Alıcı ve donörde rejyonel teknikler, anlatımsal derleme",
+    "Zayıf · anlatımsal derleme",
+    "tx_rev"
+   ],
+   [
+    "Koroner arter bypass (CABG)",
+    "Bilateral ESP bloğu arteriyel greftlerde spazmı azaltabilir; off-pump CABG için umut verici",
+    "Zayıf · tür kayıtta belirtilmemiş (küçük çalışma)",
+    "gk_cabg"
+   ],
+   [
+    "Meme (uyanık cerrahi)",
+    "Birden fazla torasik duvar bloğu cerrahi anestezi sağladı (cilt insizyonu hariç); tek blok yetmedi",
+    "Zayıf · olgu bildirimi",
+    "gk_breast"
+   ],
+   [
+    "Göğüs travması (flail chest)",
+    "Parasternal interkostal blok kateteri ile 11 gün analjezi ve solunum iyileşmesi",
+    "Zayıf · olgu bildirimi",
+    "gk_flail"
+   ],
+   [
+    "Omuz cerrahisi",
+    "Hemiplejik omuz ağrısında tekrarlayan suprascapular sinir bloğu: ağrı ve eklem hareketi düzeldi, spastisite ve motor fonksiyon değişmedi",
+    "Güçlü · randomize çalışma",
+    "gk_hsp"
+   ],
+   [
+    "Omuz artroplastisi",
+    "Anterior yaklaşımla suprascapular + aksiller sinir bloğu",
+    "Zayıf · olgu bildirimi",
+    "gk_sa"
+   ],
+   [
+    "Skapulotorasik artrodez (FSHD)",
+    "ESP bloğu: 10 hastanın 5'inde kurtarma analjezisi gerekti, komplikasyon yok",
+    "Zayıf · olgu serisi (10)",
+    "gk_fshd"
+   ],
+   [
+    "Skapulotorasik artrodez (kurtarma)",
+    "Seçici dorsal skapular ve uzun torasik sinir blokları",
+    "Zayıf · olgu bildirimi",
+    "gk_dsn"
+   ],
+   [
+    "Sprengel deformitesi",
+    "ESP bloğu, Modifiye Green prosedürü",
+    "Zayıf · olgu bildirimi",
+    "gk_spr"
+   ],
+   [
+    "Koksiks ve pediatrik üroloji",
+    "Sakral ESP bloğu: koksiks çıkarımı (olgu) ve hipospadias (Denys-Drash, olgu)",
+    "Zayıf · olgu bildirimleri",
+    "gk_sesp"
+   ],
+   [
+    "Pediatrik kalça displazisi",
+    "Two-in-one blok, lumbar pleksusa alternatif yaklaşım (1 yaş)",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_2in1"
+   ],
+   [
+    "Kalça kırığı (FSHD)",
+    "Kombine lumbar-sakral pleksus bloğu, solunum riski nedeniyle",
+    "Zayıf · olgu bildirimi",
+    "gk_hip"
+   ],
+   [
+    "Baş-boyun yüzeysel cerrahi",
+    "Skalp sinir blokları (alın bazal hücreli karsinom) ve büyük auriküler sinir bloğu (kulak): cerrahi anestezi",
+    "Zayıf · olgu bildirimleri",
+    "gk_scalp"
+   ],
+   [
+    "Derlemeler ve güncel yazılar",
+    "Torasik duvar fasiyal plan blokları: meme, torasik ve kalp cerrahisi",
+    "Zayıf · anlatımsal derleme",
+    "gk_rev1"
+   ],
+   [
+    "Derlemeler ve güncel yazılar",
+    "Fasiyal plan blokları ana anestezi yöntemi olarak: hangi insizyonda hangi kombinasyon",
+    "Zayıf · anlatımsal derleme",
+    "gk_rev2"
+   ],
+   [
+    "Derlemeler ve güncel yazılar",
+    "Omuz cerrahisi için rejyonel anestezi teknikleri",
+    "Zayıf · anlatımsal derleme",
+    "gk_rev3"
+   ],
+   [
+    "Derlemeler ve güncel yazılar",
+    "Artroskopik omuzda diyafram koruyucu rejyonel anestezi: interskalenden hedef yönelimli analjeziye",
+    "Zayıf · anlatımsal derleme",
+    "gk_rev4"
+   ],
+   [
+    "Derlemeler ve güncel yazılar",
+    "İnfraspinatus-teres minor interfasiyal blok erken deneyim; interskalen blokta anatomik varyasyon; romboid blokta kaburga ucu tekniği",
+    "Zayıf · yorum / teknik yazılar",
+    "gk_tek"
+   ],
+   [
+    "Derlemeler ve güncel yazılar",
+    "\"A Block for Everyone\": rejyonel anestezinin geleceği",
+    "Zayıf · başyazı/görüş",
+    "gk_ed"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Meme cerrahisinde ESP ve torasik paravertebral blok kontrole göre morfin tüketimini azalttı; ilk saatlerde PVB ağrıda üstün",
+    "Güçlü · randomize çalışma",
+    "gk_p31280100"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Meme kanseri cerrahisinde USG kılavuzlu ESP bloğu postoperatif opioid tüketimini anlamlı azalttı; NRS farkı yok",
+    "Güçlü · randomize çalışma",
+    "gk_p29980005"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "İki seviyeli (bi-level) ESP bloğu meme cerrahisinde 24 saat morfin tüketimini %75 azalttı; NRS farkı yok",
+    "Güçlü · randomize çalışma",
+    "gk_p31736025"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Mastektomide torasik paravertebral blok seroma miktarını azalttı ve 24 saat morfin tüketimini düşürdü (5,6 vs 16,6 mg)",
+    "Güçlü · randomize çalışma",
+    "gk_p32536425"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Paravertebral blok altında ANI izlemi intraoperatif fentanil tüketimini azalttı (629 vs 965 mcg)",
+    "Güçlü · randomize çalışma",
+    "gk_p28631050"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Torasik cerrahide USG kılavuzlu paravertebral blok (tek enjeksiyon, çoklu enjeksiyon, kateter): 24 saat analjezi benzer, deneyim serisi",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p26356102"
+   ],
+   [
+    "Kalp cerrahisi",
+    "Atan kalpte CABG'de çift enjeksiyonlu (kostotransvers ligaman üstü) ESP tekniği etkili analjezi sağladı",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p33927930"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Lomber disk cerrahisinde ESP bloğu 24 saat opioid tüketimini %57 azalttı (11,3 vs 27 mg); NRS benzer",
+    "Güçlü · randomize çalışma",
+    "gk_p33751203"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "T9 ESP bloğunda cilt duyu bloğu değişken, başarısızlık oranı düşük; torakoabdominal cerrahide etkinlik için randomize çalışma gerekli",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p35703518"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Lomber ESP bloğu derlemesi: kolay ve güvenilir görünüyor, etkinlik ve farmakokinetik doğrulanmalı",
+    "Zayıf · anlatımsal derleme",
+    "gk_p33061562"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Bilateral ESP bloğu derlemesi: olgu ve çalışmalar özetlendi, bilateral uygulamada farmakokinetik çalışma gerekli",
+    "Zayıf · anlatımsal derleme",
+    "gk_p31695476"
+   ],
+   [
+    "ESP / paravertebral (meme)",
+    "Torasik duvar blokları derlemesi (pektoral, serratus, ESP, romboid): yüzeyel plan blokları cerrahi anestezi değil analjezi sağlar",
+    "Zayıf · anlatımsal derleme",
+    "gk_p34671963"
+   ],
+   [
+    "Pediatrik bloklar",
+    "2,5 aylık bebekte torakotomide tek enjeksiyon T4 ESP + parasetamol yeterli analjezi sağladı",
+    "Zayıf · olgu bildirimi",
+    "gk_p31326113"
+   ],
+   [
+    "Pediatrik bloklar",
+    "Pediatrik ESP: 141 hastada 13 endikasyon, güvenli ve opioidsiz analjezi sağladı (seri)",
+    "Zayıf · olgu serisi (141)",
+    "gk_p31602352"
+   ],
+   [
+    "Pediatrik bloklar",
+    "Pediatrik alt batın cerrahisinde ESP ve QL bloğu benzer analjezi sağladı",
+    "Güçlü · randomize çalışma",
+    "gk_p30851499"
+   ],
+   [
+    "Pediatrik bloklar",
+    "Inguinal herni/orşiopeksi: kuadratus lumborum bloğu TAP bloğundan daha uzun ve etkili analjezi",
+    "Güçlü · randomize çalışma",
+    "gk_p28759502"
+   ],
+   [
+    "Pediatrik bloklar",
+    "Kolesistektomi ve sağ nefrektomide tek QL bloğu: 24 saatte VAS 0, morfin 13 mg",
+    "Zayıf · olgu bildirimi",
+    "gk_p31736019"
+   ],
+   [
+    "Pediatrik bloklar",
+    "3 yaş (14 kg) inguinal herni onarımında tek taraflı QL bloğu ile analjezi",
+    "Zayıf · olgu bildirimi",
+    "gk_p31736020"
+   ],
+   [
+    "Pediatrik bloklar",
+    "Pediatrik kalça cerrahisinde USG kılavuzlu lumbar pleksus (shamrock): analjezi 8-12 saat sürdü, tek operatör serisi",
+    "Zayıf · olgu serisi",
+    "gk_p27033707"
+   ],
+   [
+    "Pediatrik bloklar",
+    "Denys-Drash sendromunda hipospadias için sakral ESP: yalnız parasetamol yeterli oldu",
+    "Zayıf · olgu bildirimi",
+    "gk_p40454702"
+   ],
+   [
+    "Pediatrik bloklar",
+    "Pediatrik kalça cerrahisinde suprainguinal fasiya iliaka bloğu (özet yok)",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p30992405"
+   ],
+   [
+    "Fasiya iliaka ve alt ekstremite",
+    "Distal femur tümör cerrahisinde suprainguinal fasiya iliaka bloğu, editöre mektup",
+    "Zayıf · editöre mektup",
+    "gk_p37052159"
+   ],
+   [
+    "Fasiya iliaka ve alt ekstremite",
+    "Hamamy sendromlu hastada femur kırığı için lumbar pleksus bloğu (özet yok)",
+    "Zayıf · olgu bildirimi",
+    "gk_p36301290"
+   ],
+   [
+    "Fasiya iliaka ve alt ekstremite",
+    "Artroskopik diz cerrahisinde USG kılavuzlu psoas kompartman bloğu + genel anestezi: 24 saat ağrısız",
+    "Zayıf · olgu bildirimi",
+    "gk_p24481582"
+   ],
+   [
+    "Komplikasyon bildirimleri",
+    "Popliteal blok sonrası uyluk hematomu, 92 yaş ASA III hasta",
+    "Zayıf · olgu bildirimi",
+    "gk_p30995327"
+   ],
+   [
+    "Fasiya iliaka ve alt ekstremite",
+    "Transüretral cerrahide USG kılavuzlu obturator blok: komplikasyonsuz, obturator refleksini önler; spinal ile güvenli kombinasyon",
+    "Zayıf · olgu serisi",
+    "gk_p27225611"
+   ],
+   [
+    "Fasiya iliaka ve alt ekstremite",
+    "Total kalça artroplastisinde IV ibuprofen morfin tüketimini azalttı (16 vs 24 mg), blok çalışması değil",
+    "Güçlü · randomize çalışma",
+    "gk_p31276108"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Omuz ağrısında anterior suprascapular sinir bloğu etkili analjezi (özet yok)",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p36847326"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Anterior suprascapular blokta 0,5% bupivakain: ≤6 mL diyafram felcine yol açmadı (minimum etkili hacim çalışması)",
+    "Zayıf · doz bulma çalışması",
+    "gk_p36514616"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Anterior suprascapular blok interskalene göre 24 saat ağrıda daha düşük, diyafram hareketi daha iyi korundu",
+    "Güçlü · randomize çalışma",
+    "gk_p36567542"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Oturur pozisyonda omuz cerrahisinde interskalen blok serebral rSO2 değerlerini geçici artırdı",
+    "Zayıf · gözlemsel çalışma",
+    "gk_p34476141"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Pnömonektomili hastada dirsek cerrahisi: diyafram felci riski nedeniyle infraklaviküler blok",
+    "Zayıf · olgu bildirimi",
+    "gk_p37493484"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "COVID sonrası hastada kübital tünel cerrahisi infraklaviküler blokla yapıldı",
+    "Zayıf · olgu bildirimi",
+    "gk_p36511498"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "İnfraklaviküler + siyatik blok ile iki ekstremitede eş zamanlı cerrahi, düşük doz lokal anestezik",
+    "Zayıf · olgu bildirimi",
+    "gk_p25551815"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Uyanık el cerrahisi: çocuklarda USG kılavuzlu infraklaviküler blok, 5 olgu, derin sedasyon gerekmedi",
+    "Zayıf · olgu serisi (5)",
+    "gk_p28111732"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Koracoid ve lateral sagittal infraklaviküler yaklaşım benzer etkili; LSIB grubunda 4 vasküler ponksiyon",
+    "Güçlü · randomize çalışma",
+    "gk_p23549315"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Supraklaviküler ve infraklaviküler yaklaşım benzer blok özellikleri; supraklaviküler grupta geçici Horner (%16,3) ve parestezi görüldü, infraklaviküler yan etki bakımından tercih edilebilir",
+    "Güçlü · randomize çalışma",
+    "gk_p23364778"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Perfüzyon indeksi infraklaviküler blok başarısını 10. dakikadan itibaren gösterdi",
+    "Zayıf · gözlemsel çalışma",
+    "gk_p23397432"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "Siyatik blok başarısının elastografi ile değerlendirilmesi (özet yok)",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p34874137"
+   ],
+   [
+    "Baş-boyun ve genitoüriner",
+    "Tiroidektomide bilateral yüzeyel servikal pleksus bloğu opioid tüketimini azalttı; 7 hastada ses kısıklığı",
+    "Güçlü · randomize çalışma",
+    "gk_p25344881"
+   ],
+   [
+    "Baş-boyun ve genitoüriner",
+    "Kulak cerrahisinde yüzeyel servikal pleksus bloğu, 59 yaş olgu",
+    "Zayıf · olgu bildirimi",
+    "gk_p32297963"
+   ],
+   [
+    "Baş-boyun ve genitoüriner",
+    "USG kılavuzlu dorsal penil blok, nörostimülatörlü pudendal bloğa göre daha uzun analjezi ve düşük opioid",
+    "Güçlü · randomize çalışma",
+    "gk_p31433895"
+   ],
+   [
+    "Baş-boyun ve genitoüriner",
+    "Erişkin penil cerrahide USG kılavuzlu penil blok (editöre mektup, özet yok)",
+    "Zayıf · editöre mektup",
+    "gk_p26822137"
+   ],
+   [
+    "Baş-boyun ve genitoüriner",
+    "Hemofili A'lı erişkinde sirkumsizyon penil blokla yapıldı, 24 saat analjezi",
+    "Zayıf · olgu bildirimi",
+    "gk_p32789823"
+   ],
+   [
+    "Baş-boyun ve genitoüriner",
+    "Hipospadiasta penil blok: 24 saate yakın analjezi",
+    "Zayıf · olgu bildirimi",
+    "gk_p29738062"
+   ],
+   [
+    "Komplikasyon bildirimleri",
+    "Kombine spinal-epidural sonrası monopleji, MRI normal; radikülopati/nörotoksisite tartışıldı",
+    "Zayıf · olgu bildirimi",
+    "gk_p24264554"
+   ],
+   [
+    "Komplikasyon bildirimleri",
+    "Nöroaksiyal blok sonrası kranial sinir felçleri: en sık 6. ve 3. sinir, BOS basıncı varyasyonu",
+    "Zayıf · derleme",
+    "gk_p39431676"
+   ],
+   [
+    "Epidural ve nöroaksiyal",
+    "Ortopedik cerrahide iki epidural boşluk tanıma yöntemi karşılaştırması (özet yok)",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p41733562"
+   ],
+   [
+    "Epidural ve nöroaksiyal",
+    "İntratekal fentanil pruriti: profilaktik ondansetron insidansı azalttı (%39 vs %68)",
+    "Güçlü · randomize çalışma",
+    "gk_p12456454"
+   ],
+   [
+    "Epidural ve nöroaksiyal",
+    "Preoperatif epidural morfin desfluran gereksinimini azaltmadı",
+    "Güçlü · randomize çalışma",
+    "gk_p16952814"
+   ],
+   [
+    "Derleme ve güncel",
+    "Fasiyal plan blokları ve yeni yaklaşımlar (özet yok)",
+    "Zayıf · anlatımsal derleme",
+    "gk_p28439439"
+   ],
+   [
+    "Derleme ve güncel",
+    "UGRA için USG'de tanımlanacak yapılar: uzlaşı önerisi (güçlü öneri 60 yapı, blok görüntüsünde 44)",
+    "Zayıf · uzlaşı yazısı",
+    "gk_p36283714"
+   ],
+   [
+    "Derleme ve güncel",
+    "Karaciğer ve böbrek naklinde rejyonel teknikler, fasiyal plan blokları uygun görünüyor",
+    "Zayıf · anlatımsal derleme",
+    "gk_p42664388"
+   ],
+   [
+    "Derleme ve güncel",
+    "USG görüntüsünde yapay renklendirme (mavi) görüntü kalitesini artırdı; gain, derinlik, odak ayarı daha önemli",
+    "Zayıf · gözlemsel çalışma",
+    "gk_p36625187"
+   ],
+   [
+    "Derleme ve güncel",
+    "Romboid bloğa kaburga ucu tekniği (RTT), yeni yaklaşım (özet yok)",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p38239125"
+   ],
+   [
+    "Derleme ve güncel",
+    "İnterskalen bloğun anatomik varyasyonu (özet yok)",
+    "Zayıf · tür kayıtta belirtilmemiş",
+    "gk_p39869533"
+   ],
+   [
+    "Derleme ve güncel",
+    "Türkiye'de rejyonel anestezi uygulamaları: sinir stimülasyonu en yaygın, USG artıyor, eğitimden memnuniyet düşük",
+    "Zayıf · anket",
+    "gk_p25205412"
+   ],
+   [
+    "Derleme ve güncel",
+    "Rejyonel anestezide sosyal medya kullanımı (özet yok)",
+    "Zayıf · anket",
+    "gk_p37587728"
+   ],
+   [
+    "Derleme ve güncel",
+    "Anestezi izlem trendleri anketi: ileri izlemde değişkenlik",
+    "Zayıf · anket",
+    "gk_p41116734"
+   ],
+   [
+    "Blok dışı",
+    "Quality of Recovery-15 Türkçe sürümü geçerli ve güvenilir",
+    "Zayıf · ölçek geçerlik çalışması",
+    "gk_p36511494"
+   ],
+   [
+    "Blok dışı",
+    "Pediatrik peroral endoskopik miyotomide ventilasyon değişiklikleri, ETCO2 artışı",
+    "Zayıf · gözlemsel çalışma",
+    "gk_p38994752"
+   ],
+   [
+    "Blok dışı",
+    "Pletismografik dalga formu: Simple Systolic Ratio, %83 doğruluk",
+    "Zayıf · gözlemsel çalışma",
+    "gk_p38414151"
+   ],
+   [
+    "Blok dışı",
+    "RARP'de 8 vs 12 mmHg pnömoperitoneum: operatif parametreler benzer, anestezi müdahalesi 8 mmHg'de az",
+    "Güçlü · randomize çalışma",
+    "gk_p38863292"
+   ],
+   [
+    "Blok dışı",
+    "Radiyal arter kanülasyonu: uzun eksen/in-plane ilk denemede daha başarılı ve komplikasyon az",
+    "Güçlü · randomize çalışma",
+    "gk_p23417581"
+   ],
+   [
+    "Blok dışı",
+    "Pediatride halotan QT dispersiyonunu sevofluran'dan fazla artırdı (entübasyon sonrası)",
+    "Güçlü · randomize çalışma",
+    "gk_p12641684"
+   ],
+   [
+    "Blok dışı",
+    "Üçüncü molar çekiminde hasta kontrollü sedasyon: midazolam ve midazolam+remifentanil güvenli",
+    "Orta · karşılaştırmalı randomize çalışma",
+    "gk_p16930785"
+   ],
+   [
+    "Blok dışı",
+    "Nazolakrimal kanal sondalamasında intranazal midazolam sedasyonu etkili ve güvenli",
+    "Orta · karşılaştırmalı çalışma",
+    "gk_p16598973"
+   ],
+   [
+    "Blok dışı",
+    "Kocaeli Üniversitesi ameliyathanelerinde postoperatif hipotermi sık; sıcaklık izlemi ve ısıtma rutin olmalı",
+    "Zayıf · gözlemsel çalışma",
+    "gk_p27366393"
+   ],
+   [
+    "Blok dışı",
+    "Doğuştan methemoglobinemi: lokal anestezi sonrası belirti, preoperatif değerlendirme önemi",
+    "Zayıf · olgu bildirimi",
+    "gk_p27366424"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "In Response (2024)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p39145586"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Response to comments on our letter (2020)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p32179624"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Rhomboid intercostal block for scapulothoracic arthrodesis (2021)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p33486316"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Anterior suprascapular block may not avoid diaphragmatic paralysis (2021)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p32665453"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Targeted modification of erector spinae plane block (2020)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p31729011"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Recommendations for effective documentation in regional anesthesia: an expert panel Delphi consensus project (2022)",
+    "Zayıf · uzlaşı bildirisi (başlık düzeyi)",
+    "gk_p35193970"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Incidentally Identified Posterior Intercostal Artery on the Interfascial Plane Between Transverse Process: Possible Mechanism for LAST During ESP Block? (2023)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p35384003"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Time for reappraisal: in the light of scientific data (2021)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p32522864"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Rhomboid block contributes to relieving postoperative thoracotomy pain (2021)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p33011667"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Erector spinae plane block RIP block or not? (2021)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p33199377"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Lumbar erector spinae plane block: a miracle or self-persuasion? (2021)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p33568503"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Bilateral rhomboid block may provide complete pain relief following bilateral breast surgery (2021)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p33011669"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Superior costotransverse ligament is the main actor in permeability between the layers? Target-specific modification of erector spinae plane block (2020)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p31857373"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Erector spinae plane block for peroral endoscopic myotomy analgesia in pediatric patients (2020)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p31672784"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Response to Dr. Hamilton regarding the concerns about anatomical nomenclature of erector spinae plane block (2020)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p32120193"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Letter to the Editor regarding Burns et al: \"Use of tranexamic acid reduces opioid consumption after arthroscopic rotator cuff repair\" (2026)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p41380956"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Erector Spinae Plane Block for videothoracoscopic left pleurectomy decortication and hyperthermic intrathoracic chemotherapy (2021)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p33549953"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Should erector spinae plane block applications be standardized or should we revise nomenclature? (2020)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p31501248"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Ultrasound-Guided Bilateral Erector Spinae Plane Block versus Tumescent Anesthesia for Postoperative Analgesia in Patients Undergoing Reduction Mammoplasty: A Randomized Controlled Study (2019)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p31263935"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Interfascial plane blocks as shortcut alternatives for regional anesthesia and pain management for SARS-CoV-2 days: Not deeper, not longer. Be safe for everyone (2020)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p32593034"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Erector spinae plane block: New block with great expectations (2019)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p30787685"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Erector spinae plane block: Safety in altered anatomy (2019)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p31333359"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Anesthesia for Seckel syndrome (2006)",
+    "Zayıf · olgu mektubu (başlık düzeyi)",
+    "gk_p16490111"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Ultrasound-guided erector spinae plane block provides effective perioperative analgesia and anaesthesia for thoracic mass excision: A report of two cases (2019)",
+    "Zayıf · olgu mektubu (başlık düzeyi)",
+    "gk_p29452332"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Aksu approach for lumbar erector spinae plane block for pediatric surgeries (2019)",
+    "Zayıf · olgu mektubu (başlık düzeyi)",
+    "gk_p30408620"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Bilateral erector spinae plane block with single injection (2019)",
+    "Zayıf · olgu mektubu (başlık düzeyi)",
+    "gk_p30689136"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Sacral Erector Spinae Plane Block with longitudinal midline approach: Could it be the new era for pediatric postoperative analgesia? (2020)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p31203111"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Combined quadratus lumborum block and lumbar plexus block for a pediatric patient undergoing Ilizarov procedure (2018)",
+    "Zayıf · olgu mektubu (başlık düzeyi)",
+    "gk_p29883967"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Iliac crest bone graft donor site analgesia: a new indication for erector spinae plane block (2019)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p30560411"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Ultrasound guided erector spinae block for postoperative analgesia in pediatric nephrectomy surgeries (2018)",
+    "Zayıf · olgu mektubu (başlık düzeyi)",
+    "gk_p29274546"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Erector spinae plane block: A new indication with a new approach and a recommendation to reduce the risk of pneumothorax (2019)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p30496919"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Ultrasound-guided bilateral erector spinae plane block could provide effective postoperative analgesia in laparoscopic cholecystectomy in paediatric patients (2019)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p29630940"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Reply to Drs Nee and McDonnell (2018)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p29927855"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Ultrasound guided quadratus lumborum block for postoperative analgesia in pediatric ambulatory inguinal hernia repair (2018)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p29414626"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Opioid sparing effect of Erector Spinae Plane block for pediatric bilateral inguinal hernia surgeries (2018)",
+    "Zayıf · mektup/yorum/başyazı (başlık düzeyi)",
+    "gk_p29980003"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Genel anestezi altında epidural kateter yerleştirme (yorum mektubu, özet yok)",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p14570694"
+   ],
+   [
+    "Blok dışı",
+    "1200 g bebekte LMA kılavuzlu fiberoptik entübasyon, zor hava yolu",
+    "Zayıf · olgu bildirimi",
+    "gk_p16324044"
+   ],
+   [
+    "Blok dışı",
+    "Adrenolökodistrofili çocukta anestezi yönetimi (özet yok)",
+    "Zayıf · olgu bildirimi",
+    "gk_p16430428"
+   ],
+   [
+    "Pediatrik bloklar",
+    "2 aylık bebekte USG kılavuzlu bilateral TAP bloğu (intestinal atrezi), olgu mektubu",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p19921391"
+   ],
+   [
+    "Blok dışı",
+    "Ağız tabanı kitlesinde LMA CTrach ile başarısız entübasyon, olgu mektubu",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p20400016"
+   ],
+   [
+    "Fasiya iliaka ve alt ekstremite",
+    "Insizyonel herni onarımında bilateral TAP bloğu, olgu mektubu",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p21935821"
+   ],
+   [
+    "Fasiya iliaka ve alt ekstremite",
+    "Yüksek riskli ASA III hastada USG kılavuzlu femoral + bilateral popliteal blok, düşük doz lokal anestezik ile cerrahi anestezi",
+    "Zayıf · olgu bildirimi",
+    "gk_p22865494"
+   ],
+   [
+    "Fasiya iliaka ve alt ekstremite",
+    "Siyatik blokta \"coin sign\" görüntüsü ile blok başarısı tahmini (mektup, özet yok)",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p22865523"
+   ],
+   [
+    "Komplikasyon bildirimleri",
+    "USG kılavuzlu paravertebral blok sırasında plevra ponksiyonu ve intratorasik kateter yerleşimi, olgu mektubu",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p23313290"
+   ],
+   [
+    "Omuz ve üst ekstremite",
+    "USG kılavuzlu interskalen blok sırasında saptanan brakiyal pleksus varyasyonu, olgu mektubu (özet yok)",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p23364784"
+   ],
+   [
+    "Blok dışı",
+    "Tek akciğer ventilasyonu: EZ-Blocker, Cohen Flex-Tip blokere göre daha kısa yerleştirme (146 vs 241 sn) ve daha az malpozisyon (40 hasta)",
+    "Güçlü · randomize çalışma",
+    "gk_p23958073"
+   ],
+   [
+    "Blok dışı",
+    "Bilateral torasik sempatektomide EZ-Blocker ile ardışık akciğer izolasyonu, olgu mektubu",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p23965190"
+   ],
+   [
+    "Blok dışı",
+    "Simüle zor hava yolunda çocuk: LMA-Supreme, I-gel'e göre daha yüksek sızıntı basıncı (20,9 vs 18,9 cmH2O) ve kısa yerleştirme; fark klinik olarak önemsiz olabilir",
+    "Güçlü · randomize çalışma",
+    "gk_p24632572"
+   ],
+   [
+    "Blok dışı",
+    "CTrach ve DCI video laringoskop: DCI-VL ile glottik görüntü ve entübasyon süresi daha kısa (60 hasta)",
+    "Güçlü · randomize çalışma",
+    "gk_p25207012"
+   ],
+   [
+    "Blok dışı",
+    "Yarık damak cerrahisinde bebekte videolaringoskopi başarısızlığı sonrası zor hava yolu yönetimi",
+    "Zayıf · olgu bildirimi",
+    "gk_p27366421"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "Meme kanseri cerrahisinde ESP bloğu: Ueshima ve ark. yorumuna yanıt (Aksu, Gürkan)",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p30551009"
+   ],
+   [
+    "Mektuplar, yorumlar ve olgu mektupları",
+    "\"Aksu yaklaşımı\" hakkında De Cassai yorumuna yanıt",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p30772820"
+   ],
+   [
+    "Blok dışı",
+    "Miyelomeningosel onarımı geçiren bebeklerde Pleth Variability Index, olgu mektubu",
+    "Zayıf · mektup/olgu mektubu",
+    "gk_p31112868"
+   ],
+   [
+    "Baş-boyun ve genitoüriner",
+    "Dış kulak cerrahisinde USG kılavuzlu büyük aurikülar sinir bloğu: komorbid hastada cerrahi anestezi",
+    "Zayıf · olgu bildirimi",
+    "gk_p38239119"
+   ],
+   [
+    "Blok dışı",
+    "Hermansky-Pudlak sendromlu 15 yaş skolyoz cerrahisinde majör kanama: DDAVP, traneksamik asit ve kan ürünleriyle yönetim",
+    "Zayıf · olgu bildirimi",
+    "gk_p42319076"
+   ]
+  ],
+  "TFB": [
+   [
+    "Obstetri: sezaryen",
+    "Meta-analiz (RCT): TFPB istirahat ve hareketle ağrı skorunu plaseboya göre azalttı (istirahat MD −1,00)",
+    "Güçlü · meta-analiz",
+    "tf_ma1"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "Meta-analiz + ardışık analiz: opioid tüketimi ve kurtarma analjezisi azaldı; ağrı skoru etkisi kesin değil",
+    "Güçlü · meta-analiz",
+    "tf_ma2"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "Meta-analiz: opioid tasarrufu, kurtarma analjezisine kadar süre uzaması, bulantı-kusma azalması; ağrı skorunda fark yok",
+    "Güçlü · meta-analiz",
+    "tf_ma3"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "TFPB ve TAP bloğu karşılaştırması (sistematik derleme): TFPB lehine daha düşük ağrı, opioid ve kurtarma analjezisi; heterojenite yüksek, örneklem küçük",
+    "Güçlü · sistematik derleme (sınırlı)",
+    "tf_sr"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "Ağ meta-analizi: QLB III en güvenli ve etkili; opioid kullanmayanlarda TFPB seçilebilir",
+    "Güçlü · ağ meta-analizi",
+    "tf_nma"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "Spinal anestezi altında bilateral TFPB: 24 saatte tramadol 175 yerine 101 mg (RCT, 70 hasta); ağrı ilk 3 saat düşük",
+    "Güçlü · randomize çalışma",
+    "tf_r1"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "Spinal anestezi + TFPB: 24 saat morfin 38,5 yerine 19,5 mg; bulantı ve kabızlık azaldı (RCT, 60 hasta)",
+    "Güçlü · randomize çalışma",
+    "tf_r2"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "İntratekal morfinle birlikte TFPB: 48 saat boyunca ağrı istirahatte 0,9, harekette 1,2 puan düşük",
+    "Güçlü · randomize çalışma",
+    "tf_r3"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "TFPB ve yara infiltrasyonu: akut ve kronik sezaryen ağrısı; kronik postcezaryen ağrı %30 yerine %10",
+    "Güçlü · randomize çalışma (küçük)",
+    "tf_r4"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "TFPB ve TAP bloğu: TFPB daha iyi iyileşme kalitesi ve daha az opioid",
+    "Güçlü · randomize çalışma",
+    "tf_r5"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "İntratekal morfin ile TAP + TFP kombinasyonu karşılaştırması: ObsQoR-10T benzer",
+    "Güçlü · randomize çalışma",
+    "tf_r6"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "İntratekal hidromorfon + bilateral TFPB, rutin PCIA olmadan: ağrı ve kurtarma analjezisi daha düşük",
+    "Güçlü · randomize çalışma",
+    "tf_r7"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "TFPB ve anterior QL bloğu: 9–24. saatte QL daha az morfin; ağrı benzer (fark klinik olarak anlamlı değil)",
+    "Güçlü · randomize çalışma",
+    "tf_r8"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "TFPB ve yara infiltrasyonu (standart multimodal analjezi): opioid tüketimi ve ağrı skorunda fark yok",
+    "Güçlü · randomize çalışma (olumsuz sonuç)",
+    "tf_r9"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "TFP ve posterior TAP bloğu karşılaştırması: ikisi de kurtarma analjezisi gereksinimini kontrole göre azaltmadı; posterior TAP süreyi 2 saat uzattı",
+    "Güçlü · randomize çalışma (olumsuz sonuç)",
+    "tf_r10"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "Tekrarlayan sezaryende TFP ve TAP: TFP daha iyi analjezi ve daha az analjezik",
+    "Orta · prospektif gözlemsel",
+    "tf_o1"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "TFPB ve intratekal morfin: non-inferiorite ile uyumlu, ancak gözlemsel tasarım nedeniyle kanıtlanmış değil",
+    "Orta · prospektif gözlemsel kohort",
+    "tf_o2"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "İntratekal morfin ve rejyonel teknikler: lateral TAP dışında benzer iyileşme kalitesi",
+    "Orta · gözlemsel",
+    "tf_o3"
+   ],
+   [
+    "Obstetri: sezaryen",
+    "İlk bildirim: sezaryen için TFPB, bilinen bloğa yeni endikasyon",
+    "Zayıf · olgu bildirimi (mektup)",
+    "tf_c1"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "İnguinal herniotomide TFP bloğu: erken ağrı ve ek analjezik daha az, aile memnuniyeti yüksek",
+    "Güçlü · randomize çalışma",
+    "tf_p1"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "Preemptif TFP bloğu, 12–60 aylık çocuk inguinal herniorafi: parasetamol tüketimi ve FLACC düşük",
+    "Güçlü · randomize çalışma",
+    "tf_p2"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "TFP ve lateral QL bloğu, inguinal herniotomi: ikisi benzer; TFP teknik olarak daha kolay",
+    "Güçlü · randomize çalışma",
+    "tf_p3"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "Cerrah rehberli TFPB ve port yeri infiltrasyonu, laparoskopik apendektomi: analjezik gereksinimi azaldı",
+    "Güçlü · randomize çalışma",
+    "tf_p4"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "Konjenital kalça çıkığı açık redüksiyonu: TFPB ve QLB III kontrolden iyi; TFPB ilk analjezik talebini uzattı",
+    "Güçlü · randomize çalışma",
+    "tf_p5"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "TFP ve TAP bloğu, pediatrik alt abdominal cerrahi: 24 saat ağrı ve analjezik gereksinimi benzer, opioidsiz analjezi",
+    "Orta · karşılaştırmalı gözlemsel çalışma",
+    "tf_p6"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "Pediatrik ureteroneosistostomi: TFP bloğu etkinliği (özet kayıtta yok)",
+    "Zayıf · tür/özet kayıtta belirtilmemiş",
+    "tf_p7"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "Alt abdominal cerrahide ilk pediatrik bildirim (inguinal herni, sistostomi)",
+    "Zayıf · olgu bildirimi (mektup)",
+    "tf_p8"
+   ],
+   [
+    "Pediatrik cerrahi",
+    "Pediatrik böbrek nakli alıcısında rektointerkostal + TFP blokları",
+    "Zayıf · olgu bildirimi (özet yok)",
+    "tf_p9"
+   ],
+   [
+    "İnguinal herni (erişkin)",
+    "TFPB ve ESP bloğu, açık inguinal herni onarımı: 24 saatte tramadol 88 yerine 131 mg (TFPB lehine)",
+    "Güçlü · randomize çalışma",
+    "tf_h1"
+   ],
+   [
+    "İnguinal herni (erişkin)",
+    "TFP ve transmusküler QL bloğu: ağrı skorları benzer; TFP daha kısa ve kolay uygulandı",
+    "Güçlü · randomize çalışma",
+    "tf_h2"
+   ],
+   [
+    "İnguinal herni (erişkin)",
+    "TFP ve QL bloğu: ikisi analjezik; QL daha uzun duyusal blok ve daha az tüketim",
+    "Orta · karşılaştırmalı çalışma (tasarım kayıtta belirtilmemiş)",
+    "tf_h3"
+   ],
+   [
+    "İnguinal herni (erişkin)",
+    "TFP + TAP kombinasyonu ile yüksek riskli kardiyak hastada açık inguinal herni onarımı (cerrahi anestezi)",
+    "Zayıf · olgu bildirimi",
+    "tf_h4"
+   ],
+   [
+    "Diğer cerrahiler",
+    "Varikoselektomi: TFPB cerrahi alan infiltrasyonuna göre daha etkili",
+    "Güçlü · randomize çalışma",
+    "tf_x1"
+   ],
+   [
+    "Diğer cerrahiler",
+    "Laparotomide TFP bloğu ropivakain konsantrasyonları: %0,5 daha iyi analjezi, %0,6 daha fazla yan etki (90 hasta)",
+    "Güçlü · randomize çalışma",
+    "tf_x2"
+   ],
+   [
+    "Diğer cerrahiler",
+    "Jinekolojik cerrahide TFPB ve intravenöz lidokain infüzyonu: iyileşme kalitesi benzer, lidokain flatusu hızlandırdı",
+    "Orta · klinik çalışma (randomizasyon kayıtta belirtilmemiş)",
+    "tf_x3"
+   ],
+   [
+    "Diğer cerrahiler",
+    "İliak krest kemik greft alımı, zor hava yolu olan politravma hastası",
+    "Zayıf · olgu bildirimi",
+    "tf_x4"
+   ],
+   [
+    "Diğer cerrahiler",
+    "Hemipelvektomide TFP bloğu için lipozomal bupivakain sonrası ertesi gün epidural bupivakain: LAST belirtisi yok",
+    "Zayıf · olgu bildirimi",
+    "tf_x5"
+   ],
+   [
+    "Diğer cerrahiler",
+    "İliak greft eksizyonunda TFPB deneyimi (olgu serisi); PubMed'da yalnız erratum kaydı bulundu, orijinal özeti okunamadı",
+    "Zayıf · olgu serisi (erratum kaydı)",
+    "tf_x6"
+   ],
+   [
+    "Diğer cerrahiler",
+    "Enjektat yayılımı: ön anatomik inceleme (mektup)",
+    "Zayıf · anatomik ön çalışma",
+    "tf_x7"
+   ]
+  ],
+  "PGB": [
+   [
+    "Kalça kırığı",
+    "Meta-analiz (RCT): PENG, bloksuz yönteme ve fasiya iliaka bloğuna göre daha iyi analjezi; heterojenite yüksek",
+    "Güçlü · meta-analiz",
+    "pg_ma1"
+   ],
+   [
+    "Kalça kırığı",
+    "PENG + LFCN bloğu, fasiya iliaka bloğuna karşı: erken analjezi üstün, alt ekstremite motor fonksiyonu daha iyi korunuyor; çalışma sayısı az",
+    "Güçlü · meta-analiz",
+    "pg_ma2"
+   ],
+   [
+    "Kalça kırığı",
+    "PENG ve fasiya iliaka bloğu: 24 saat opioid tüketimi ve 12. saatte istirahat ağrısı lehine fark",
+    "Güçlü · meta-analiz",
+    "pg_ma3"
+   ],
+   [
+    "Kalça kırığı",
+    "PENG ve femoral sinir bloğu (acil, yeni kırık): görüntüleme hızı ve erken ağrı lehine, blok süresi kısa, 24 saatte daha fazla kurtarma analjezisi",
+    "Güçlü · randomize çalışma",
+    "pg_r1"
+   ],
+   [
+    "Kalça kırığı",
+    "PENG ve intravenöz morfin (acil servis, yaşlı): ağrı azaldı; kurtarma gereksinimi %5,9 yerine 0",
+    "Güçlü · randomize çalışma",
+    "pg_r2"
+   ],
+   [
+    "Kalça kırığı",
+    "PENG ve fasiya iliaka bloğu (acil servis): ilk saatte PENG daha iyi analjezi",
+    "Güçlü · randomize çalışma",
+    "pg_r3"
+   ],
+   [
+    "Kalça kırığı",
+    "İlk tanım: 5 ardışık hastada teknik ve uygulama",
+    "Zayıf · olgu serisi (5)",
+    "pg_c1"
+   ],
+   [
+    "Kalça kırığı",
+    "Femur boynu kırığında ameliyat öncesi rehabilitasyonda PENG bloğu: yatak-tekerlekli sandalye transferi iyileşti",
+    "Zayıf · olgu serisi",
+    "pg_c2"
+   ],
+   [
+    "Kalça kırığı",
+    "Ağır komorbiditede ameliyatsız palyatif tedavi: PENG kriyonöroliz",
+    "Zayıf · olgu bildirimi",
+    "pg_c3"
+   ],
+   [
+    "Kalça kırığı",
+    "Patolojik kırık (multipl miyelom): PENG sonrası rejyonel anestezi",
+    "Zayıf · olgu bildirimi",
+    "pg_c4"
+   ],
+   [
+    "Kalça kırığı",
+    "Protez kalça çıkığının acilde redüksiyonu için PENG",
+    "Zayıf · olgu bildirimi",
+    "pg_c5"
+   ],
+   [
+    "Kalça kırığı",
+    "Son 5 yılda öğrendiklerimiz: etki mekanizması, yayılım, kuadriseps zayıflığı",
+    "Zayıf · anlatımsal derleme",
+    "pg_v1"
+   ],
+   [
+    "Kalça kırığı",
+    "PENG bloğunun ötesi: yeterli güçte randomize çalışma eksikliği, kuadriseps zayıflığı bildirildi",
+    "Zayıf · anlatımsal derleme",
+    "pg_v2"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "PENG ve suprainguinal fasiya iliaka bloğu karşılaştırması (ilk randomize çalışmalardan)",
+    "Güçlü · randomize çalışma",
+    "pg_t1"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "PENG ve cerrahi eklem infiltrasyonu (direkt anterior THA, pilot): PACU morfin tüketimi azalmadı",
+    "Güçlü · randomize pilot (olumsuz sonuç)",
+    "pg_t2"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "PENG + iliohipogastrik blok: tutarlı analjezik yarar yok, duyusal defisit daha sık",
+    "Güçlü · randomize çalışma (olumsuz sonuç)",
+    "pg_t3"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "Cerrah uygulamalı PENG + lokal infiltrasyon (bilateral THA): ağrı ve erken mobilizasyon oral/IV yönteme göre daha iyi",
+    "Güçlü · randomize çalışma",
+    "pg_t4"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "PENG ve inflamatuvar göstergeler: ilişkisel bulgu, mekanistik kanıt değil",
+    "Güçlü · randomize çalışma (ikincil sonlanım)",
+    "pg_t5"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "Hacim: 10 mL ve 20 mL PENG non-inferior, opioid ve motor zayıflık artmadı",
+    "Güçlü · randomize çalışma",
+    "pg_t6"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "Yüksek hacimli PENG, konvansiyonel hacme üstün değil, kuadriseps zayıflığı artmadı",
+    "Güçlü · randomize çalışma",
+    "pg_t7"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "Spinal anestezi altında %0,5 bupivakain 20 mL PENG etkili analjezi, düşük morfin tüketimi ve kısa yatış",
+    "Güçlü · randomize çalışma",
+    "pg_t8"
+   ],
+   [
+    "Total kalça artroplastisi",
+    "İki ropivakain konsantrasyonu karşılaştırması, PENG, THA",
+    "Güçlü · randomize çalışma (sonuç özetten seçilmedi)",
+    "pg_t9"
+   ],
+   [
+    "Pediatrik kalça ve pelvis",
+    "PENG + LFCN bloğu, pediatrik femur boynu cerrahisi (2 olgu)",
+    "Zayıf · olgu bildirimi",
+    "pg_p1"
+   ],
+   [
+    "Pediatrik kalça ve pelvis",
+    "PENG + LFCN, pediatrik kalça cerrahisi (3 olgu)",
+    "Zayıf · olgu serisi",
+    "pg_p2"
+   ],
+   [
+    "Pediatrik kalça ve pelvis",
+    "PENG + ilioinguinal-iliohipogastrik blok, pediatrik pelvik osteotomi",
+    "Zayıf · olgu bildirimi",
+    "pg_p3"
+   ],
+   [
+    "Pediatrik kalça ve pelvis",
+    "Pediatrik kalça ve pelvik cerrahide PENG: anatomi ve kullanım bildirimleri",
+    "Zayıf · anlatımsal derleme",
+    "pg_p4"
+   ],
+   [
+    "Diğer endikasyonlar",
+    "Refrakter metastatik kalça ağrısı: PENG fenol nörolizi, motor koruyucu seçenek",
+    "Zayıf · olgu serisi",
+    "pg_o1"
+   ],
+   [
+    "Diğer endikasyonlar",
+    "Bilateral PENG ve epidural karşılaştırması (solunum komorbiditesi)",
+    "Zayıf · olgu bildirimi",
+    "pg_o2"
+   ],
+   [
+    "Diğer endikasyonlar",
+    "Sürekli PENG, onkolojik hastada bilateral femoral avasküler nekroz",
+    "Zayıf · olgu bildirimi",
+    "pg_o3"
+   ],
+   [
+    "Diğer endikasyonlar",
+    "PENG ve suprainguinal fasiya iliaka kateteri, distal femur kırığı sonrası eklem hareket kısıtlılığı rehabilitasyonu",
+    "Zayıf · olgu bildirimi",
+    "pg_o4"
+   ],
+   [
+    "Diğer endikasyonlar",
+    "PENG ve interskalen blok, omuz artroskopisi: etkili ve güvenli bulundu; alışılmadık endikasyon, mekanizma ve genellenebilirlik doğrulanmalı",
+    "Güçlü · randomize çalışma (alışılmadık)",
+    "pg_o5"
+   ]
+  ],
+  "CRD": [
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "ESP, kalp cerrahisi sonrası ağrı için incelenmiş; birden çok meta-analiz var (sonuç yönü bu taramada özetten doğrulanmadı)",
+    "Güçlü · meta-analiz",
+    "c_esp1"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "Meta-analiz: sternotomide ESP klinik sonuçları",
+    "Güçlü · meta-analiz",
+    "c_esp2"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "Meta-analiz: yetişkin sternotomide USG eşliğinde ESP",
+    "Güçlü · meta-analiz",
+    "c_esp3"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "Meta-analiz: kalp cerrahisi sonrası ağrıda ESP",
+    "Güçlü · meta-analiz",
+    "c_esp4"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "Meta-analiz: kalp cerrahisinde ESP",
+    "Güçlü · meta-analiz",
+    "c_esp5"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "RCT: CABG'de ESP, lokal anestezik hacminin rolü",
+    "Güçlü · RCT",
+    "c_esp6"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "RCT: koroner cerrahide ESP",
+    "Güçlü · RCT",
+    "c_esp7"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "RCT: robot yardımlı CABG sonrası ESP",
+    "Güçlü · RCT",
+    "c_esp8"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "Çalışma: kalp cerrahisi sonrası SPIP ile ESP karşılaştırması (sonuç doğrulanmadı)",
+    "Orta · tür doğrulanmadı",
+    "c_esp12"
+   ],
+   [
+    "Kalp cerrahisi: ESP (sternotomi)",
+    "Olgu: LVAD implantında ESP ile perioperatif analjezi",
+    "Zayıf · olgu",
+    "c_esp11"
+   ],
+   [
+    "Pediatrik kalp cerrahisi: ESP",
+    "RCT: çocuklarda bilateral ESP, kalp cerrahisi",
+    "Güçlü · RCT",
+    "c_esp9"
+   ],
+   [
+    "Pediatrik kalp cerrahisi: ESP",
+    "RCT: çocuklarda sternotomi ile kalp cerrahisinde ESP",
+    "Güçlü · RCT",
+    "c_esp10"
+   ],
+   [
+    "Kalp cerrahisi: TTP (transversus thoracic muscle plane)",
+    "Meta-analiz: kalp cerrahisinde TTP (sonuç yönü özetten doğrulanmadı)",
+    "Güçlü · meta-analiz",
+    "c_ttp1"
+   ],
+   [
+    "Kalp cerrahisi: TTP (transversus thoracic muscle plane)",
+    "RCT: açık kalp cerrahisi sonrası bilateral TTP",
+    "Güçlü · RCT",
+    "c_ttp3"
+   ],
+   [
+    "Kalp cerrahisi: TTP (transversus thoracic muscle plane)",
+    "Olgu serisi: medyan sternotomiye hemodinamik yanıtın bastırılması",
+    "Zayıf · olgu serisi",
+    "c_ttp5"
+   ],
+   [
+    "Kalp cerrahisi: TTP (transversus thoracic muscle plane)",
+    "Doz çalışması: bilateral TTP için %0,25 ropivakain medyan etkili hacmi",
+    "Zayıf-Orta · doz çalışması",
+    "c_ttp7"
+   ],
+   [
+    "Kalp cerrahisi: TTP (transversus thoracic muscle plane)",
+    "Olgu: skolyozlu hastada sürekli bilateral TTP",
+    "Zayıf · olgu",
+    "c_ttp6"
+   ],
+   [
+    "Kalp cerrahisi: TTP (transversus thoracic muscle plane)",
+    "Güvenlik: TTP sırasında dilate sağ ventrikül ponksiyonu (komplikasyon olgusu)",
+    "Zayıf · olgu",
+    "c_ttp8"
+   ],
+   [
+    "Pediatrik kalp cerrahisi: TTP",
+    "Meta-analiz: pediatrik kalp cerrahisinde TTP",
+    "Güçlü · meta-analiz",
+    "c_ttp2"
+   ],
+   [
+    "Pediatrik kalp cerrahisi: TTP",
+    "RCT: pediatrik açık kalp cerrahisinde bilateral TTP",
+    "Güçlü · RCT",
+    "c_ttp4"
+   ],
+   [
+    "Parasternal bloklar (TTP alternatifi)",
+    "RCT: süperfisyal ve derin parasternal bloklar, sternotomi sonrası iyileşme",
+    "Güçlü · RCT",
+    "c_spip1"
+   ],
+   [
+    "Parasternal bloklar (TTP alternatifi)",
+    "Meta-analiz: kalp cerrahisinde SPIP",
+    "Güçlü · meta-analiz",
+    "c_spip2"
+   ],
+   [
+    "Parasternal bloklar (TTP alternatifi)",
+    "Olumsuz sonuç: SPIP + liposomal bupivakain opioid kullanımını anlamlı azaltmadı",
+    "Güçlü · RCT (olumsuz)",
+    "c_spip3"
+   ],
+   [
+    "Parasternal bloklar (TTP alternatifi)",
+    "PROSPECT: medyan sternotomi sonrası ağrı yönetimi önerileri",
+    "Güçlü · sistematik derleme",
+    "c_prosp"
+   ],
+   [
+    "Kateter laboratuvarı / TAVI: PENG",
+    "RCT (n=60, PENG vs lokal infiltrasyon, konşiyent sedasyon): ek fentanil ihtiyacı daha az (70 vs 90 µg), postoperatif 1. saat NRS 0 vs 3, meperidin ihtiyacı azaldı",
+    "Güçlü · RCT (tek merkez grubu)",
+    "c_peng1"
+   ],
+   [
+    "Kateter laboratuvarı / TAVI: PENG",
+    "Olgu: TAVI'de PENG bloğu ile anestezi yönetimi (2 hasta)",
+    "Zayıf · olgu",
+    "c_peng2"
+   ],
+   [
+    "Kateter laboratuvarı / TAVI: diğer bloklar",
+    "RCT: TAVI konşiyent sedasyonunda fasiya iliaka bloğu remifentanil ihtiyacını azalttı",
+    "Güçlü · RCT",
+    "c_fib"
+   ],
+   [
+    "Kateter laboratuvarı / TAVI: diğer bloklar",
+    "RCT: transapikal TAVI sonrası serratus plan bloğu ve erken iyileşme kalitesi (sonuç yönü doğrulanmadı)",
+    "Güçlü · RCT",
+    "c_sap1"
+   ],
+   [
+    "Kateter laboratuvarı / TAVI: diğer bloklar",
+    "Mektup: transapikal TAVI için serratus anterior plan bloğu",
+    "Zayıf",
+    "c_sap2"
+   ]
+  ],
+  "CRDNOTE": "Kalp cerrahisi ve kateter laboratuvarı. PubMed taraması: ESP, TTP (transversus thoracic muscle plane) ve parasternal bloklar; kalp cerrahisi sonrası, sternotomi. Geri çekilmiş (retracted) yayınlar alınmadı. Kateter laboratuvarında (TAVI, ablasyon, ECMO kanülasyonu) PENG için yalnızca 1 RCT ve 1 olgu bildirimi bulundu; ablasyon, diagnostik kateter ve ECMO için PENG serisi bulunamadı. \"mTTP\" (modifiye TTP) olarak adlandırılan ayrı bir yayın bulunamadı. Sonuç yönü yalnızca özeti okunan RCT için yazıldı, diğerleri başlık düzeyinde. Kılavuz önerisi değildir.",
+  "FIBD": [
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Meta-analiz: kalça kırığında preoperatif FIB (ağrı). Sonuç: harekette opioide göre üstün analjezi, daha az preoperatif analjezik, spinal anestezi süresi kısalması, yan etki az; deliryum ve mortalite için kanıt yetersiz.",
+    "Güçlü · meta-analiz",
+    "f1"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Meta-analiz: tek enjeksiyon FIB, perioperatif yönetim. Sonuç: akut perioperatif ağrıda etkili; yarar harekette daha belirgin.",
+    "Güçlü · meta-analiz",
+    "f2"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Meta-analiz ve ardışık analiz: acil serviste FIB. Sonuç: 4 saate kadar ağrıda azalma (istirahat ve hareket), opioid ve bulantı-kusmada azalma; kanıt kalitesi düşük.",
+    "Güçlü · meta-analiz",
+    "f3"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Meta-analiz: kalça kırığı sonrası ağrıda FICB",
+    "Güçlü · meta-analiz",
+    "f4"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Meta-analiz: FIB ve mortalite (RCT'ler)",
+    "Güçlü · meta-analiz",
+    "f5"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Meta-analiz: FIB ve postoperatif deliryum (yaşlı). Sonuç: kognitif bozukluğu olmayan yaşlılarda deliryum insidansı ve deliryum ile ağrı skorları azaldı.",
+    "Güçlü · meta-analiz",
+    "f6"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Meta-analiz: hastane öncesi ortamda proksimal femur kırığında FICB. Sonuç: hastane öncesinde ağrı skorunda belirgin azalma, düşük yan etki riski.",
+    "Güçlü · meta-analiz",
+    "f7"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Sistematik derleme: geriatrik kalça kırığında FICB ile IV analjezi. Sonuç: IV analjeziye göre üstün ve süregelen ağrı azalması, daha az opioid ilişkili komplikasyon.",
+    "Güçlü · sistematik derleme",
+    "f8"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Ağ meta-analizi: kalça kırığında preoperatif periferik sinir blokları. Sonuç: bloksuz yönteme göre 2. saatte ağrı azaldı; PENG, FIB ve femoral bloktan üstün olabilir (güven çoğunlukla düşük).",
+    "Güçlü · ağ meta-analizi",
+    "f9"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Meta-analiz (RCT): postoperatif kalça kırığı ağrısında FICB",
+    "Güçlü · meta-analiz",
+    "f10"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "Sistematik derleme: kalça kırığında PENG, FICB ve femoral sinir bloğu. Sonuç: PENG umut verici; sonuç ölçütleri heterojen, acil servis çalışması tek.",
+    "Güçlü · sistematik derleme",
+    "f11"
+   ],
+   [
+    "Kalça kırığı: preoperatif, acil ve hastane öncesi",
+    "RCT: kalça kırığında akut ağrıda PENG ve FIB karşılaştırması. Sonuç: PENG ilk saatte infrainguinal FIB'den üstün analjezi sağladı.",
+    "Güçlü · RCT",
+    "f12"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Meta-analiz: THA sonrası ağrı ve opioid tüketiminde FICB. Sonuç (7 RCT, plasebo): 12. ve 24. saatte ağrı skoru ve opioid tüketimi azaldı; hastanede kalış farkı yok.",
+    "Güçlü · meta-analiz",
+    "f13"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Meta-analiz: THA ağrı kontrolünde FICB. Sonuç: ağrı şiddeti ve morfin tüketiminde azalma; optimal teknik ve hacim için daha fazla RCT gerek.",
+    "Güçlü · meta-analiz",
+    "f14"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Meta-analiz: THA, USG eşliğinde FICB. Sonuç: USG eşliğinde FICB, THA'de QLB'ye göre daha yararlı olabilir; sınırlamalarla yorumlanmalı.",
+    "Güçlü · meta-analiz",
+    "f15"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Meta-analiz (RCT): THA sonrası ağrıda FICB. Sonuç (karışık): 48 saate kadar toplam analjezik tüketimi azaldı; ağrı ve bulantı-kusmada azalma yok; postoperatif kas güçsüzlüğü bildirildi.",
+    "Güçlü · meta-analiz",
+    "f16"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Ağ meta-analizi: primer THA için rejyonel anestezi yöntemleri",
+    "Güçlü · ağ meta-analizi",
+    "f17"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "PROSPECT: THA sonrası ağrı yönetimi önerileri",
+    "Güçlü · sistematik derleme",
+    "f18"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Meta-analiz: FIB ile QL bloğu karşılaştırması. Sonuç: FIB, QLB'ye göre 2. ve 24. saatte daha düşük ağrı skoru.",
+    "Güçlü · meta-analiz",
+    "f19"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Meta-analiz: ESP ile FIB karşılaştırması. Sonuç: ESP, analjezide taviz vermeden FIB'ye göre motor fonksiyonu daha iyi korudu.",
+    "Güçlü · meta-analiz",
+    "f20"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Meta-analiz: PENG ile FICB, kalça cerrahisi",
+    "Güçlü · meta-analiz",
+    "f21"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "RCT: THA'de PENG ve suprainguinal FIB",
+    "Güçlü · RCT",
+    "f22"
+   ],
+   [
+    "Total kalça artroplastisi (THA)",
+    "Meta-analiz: lomber pleksus bloğu ile FIB karşılaştırması, kalça cerrahisi. Sonuç: lomber pleksus bloğu opioid dozunu azalttı ve hemodinamiyi daha stabil tuttu; FIB daha verimli bulundu ve hastanede kalışı kısalttı.",
+    "Güçlü · meta-analiz",
+    "f23"
+   ],
+   [
+    "Total diz artroplastisi (TKA) ve diz cerrahisi",
+    "Meta-analiz: femoral sinir bloğu ile FIB, diz ve kalça artroplastisi. Sonuç: femoral sinir bloğu ile FIB arasında 12-48. saat VAS ve opioid tüketiminde fark yok.",
+    "Güçlü · meta-analiz",
+    "f24"
+   ],
+   [
+    "Total diz artroplastisi (TKA) ve diz cerrahisi",
+    "Meta-analiz: femoral sinir bloğu ile FIB, diz ve kalça artroplastisi (2021). Sonuç: femoral sinir bloğuna eşdeğer analjezi ve morfin tasarrufu.",
+    "Güçlü · meta-analiz",
+    "f25"
+   ],
+   [
+    "Total diz artroplastisi (TKA) ve diz cerrahisi",
+    "Meta-analiz: eklem artroplastisi sonrası FIB etkinliği ve güvenliği. Sonuç: 12. ve 24. saatte VAS ve morfin tüketiminde azalma, daha az yan etki; kanıt kalitesi sınırlı.",
+    "Güçlü · meta-analiz",
+    "f26"
+   ],
+   [
+    "Total diz artroplastisi (TKA) ve diz cerrahisi",
+    "Prospektif çalışma: diz artroplastisinde suprainguinal FIB (tasarım ayrıntısı doğrulanmadı)",
+    "Orta · prospektif",
+    "f27"
+   ],
+   [
+    "Total diz artroplastisi (TKA) ve diz cerrahisi",
+    "RCT: artroskopik diz cerrahisinde yüksek FICB ve deksmedetomidin. Sonuç: deksmedetomidin (1 µg/kg) ile birlikte yüksek FICB ağrı skoru, opioid tüketimi ve yan etkileri azalttı.",
+    "Güçlü · RCT",
+    "f28"
+   ],
+   [
+    "Total diz artroplastisi (TKA) ve diz cerrahisi",
+    "Olgu: bilateral TKA sonrası bilateral FIB kateteri",
+    "Zayıf · olgu",
+    "f29"
+   ],
+   [
+    "Kalça artroskopisi",
+    "Sistematik derleme (RCT'ler): kalça artroskopisi sonrası FIB. Sonuç (olumsuz): kalça artroskopisinde FIB diğer analjeziklere üstün görünmüyor; rutin kullanım önerilmedi.",
+    "Güçlü · sistematik derleme",
+    "f30"
+   ],
+   [
+    "Kalça artroskopisi",
+    "RCT: USG eşliğinde FIB ile kalça artroskopisi sonrası ağrı azalması",
+    "Güçlü · RCT",
+    "f31"
+   ],
+   [
+    "Asetabulum ve pelvis cerrahisi",
+    "RCT: asetabulum kırığı (Stoppa) cerrahisinde QL bloğu ile FICB. Sonuç: lateral QLB ve FICB asetabulum cerrahisinde etkili analjezi yolları.",
+    "Güçlü · RCT",
+    "f32"
+   ],
+   [
+    "Asetabulum ve pelvis cerrahisi",
+    "RCT: asetabulum cerrahisinde nöroaksiyel anestezi için pozisyonlamada suprainguinal FIB. Sonuç: suprainguinal FICB sistemik fentanile göre daha iyi analjezi ve nöroaksiyel blok için daha rahat pozisyon sağladı.",
+    "Güçlü · RCT",
+    "f33"
+   ],
+   [
+    "Uyluk, amputasyon ve damar cerrahisi",
+    "Yanık donör saha ağrısında USG eşliğinde fasiya iliaka plan bloğu",
+    "Güçlü · RCT",
+    "f34"
+   ],
+   [
+    "Uyluk, amputasyon ve damar cerrahisi",
+    "Onkolojik uyluk cerrahisinde suprainguinal FIB ile lomber ESP karşılaştırması (tasarım doğrulanmadı)",
+    "Orta · tür doğrulanmadı",
+    "f35"
+   ],
+   [
+    "Uyluk, amputasyon ve damar cerrahisi",
+    "Kronik ekstremite tehdit eden iskemide FIB + siyatik blok ile erken kardiyovasküler olaylarda azalma (tasarım doğrulanmadı)",
+    "Orta · tür doğrulanmadı",
+    "f36"
+   ],
+   [
+    "Uyluk, amputasyon ve damar cerrahisi",
+    "Olgu: ECMO'daki hastada diz üstü amputasyon için periferik bloklar",
+    "Zayıf · olgu",
+    "f37"
+   ],
+   [
+    "Pediatrik",
+    "RCT: gelişimsel kalça displazisi cerrahisinde FICB ile erken analjezi (Çince yayın)",
+    "Güçlü · RCT",
+    "f38"
+   ],
+   [
+    "Pediatrik",
+    "RCT: çocuklarda FICB ile uyanma ajitasyonunun azalması",
+    "Güçlü · RCT",
+    "f39"
+   ],
+   [
+    "Pediatrik",
+    "Pediatrik: psoas kompartman bloğu ile suprainguinal FICB karşılaştırması (tasarım doğrulanmadı)",
+    "Orta · tür doğrulanmadı",
+    "f40"
+   ],
+   [
+    "Pediatrik",
+    "Olgu: hastane öncesi pediatrik USG eşliğinde FIB",
+    "Zayıf · olgu",
+    "f41"
+   ],
+   [
+    "Pediatrik",
+    "Olgu: 6 yaşında femur kırığında hastane öncesi FICB",
+    "Zayıf · olgu",
+    "f42"
+   ],
+   [
+    "Pediatrik",
+    "Olgu: artrogripozlu bebekte kas biyopsisi için FIB",
+    "Zayıf · olgu",
+    "f43"
+   ],
+   [
+    "PENG ile karşılaştırmalar, güvenlik ve sınırlar",
+    "Meta-analiz: PENG'in erken postoperatif dönemde sınırlı analjezi sağlayıp sağlamadığı",
+    "Güçlü · meta-analiz",
+    "f44"
+   ],
+   [
+    "PENG ile karşılaştırmalar, güvenlik ve sınırlar",
+    "Meta-analiz: PENG + LFCN bloğu ile FICB karşılaştırması. Sonuç: PENG + LFCN erken analjezide FICB'ye üstün olabilir ve motor fonksiyonu daha iyi korur; çalışma az, heterojenite yüksek.",
+    "Güçlü · meta-analiz",
+    "f45"
+   ],
+   [
+    "PENG ile karşılaştırmalar, güvenlik ve sınırlar",
+    "RCT: kalça cerrahisinde suprainguinal FIB sonrası obturator sinir tutulumu (klinik değerlendirme)",
+    "Güçlü · RCT",
+    "f46"
+   ],
+   [
+    "PENG ile karşılaştırmalar, güvenlik ve sınırlar",
+    "Kateter laboratuvarı/TAVI: konşiyent sedasyonda FIB (bkz. kalp cerrahisi paneli)",
+    "Güçlü · RCT",
+    "c_fib"
+   ]
+  ],
+  "FIBNOTE": "Fasiya iliaka bloğu (FIB / FICB), cerrahi kapsamı. PubMed taraması: meta-analiz/sistematik derleme (65 kaydın ilk 25'i) ve cerrahiye özgü RCT, olgu (93 kaydın ilk 40'ı). Meta-analizlerin çoğunda sonuç cümlesi özetin sonuç bölümünden alındı (\"Sonuç:\" ile başlayanlar); diğerleri başlık ve yayın türü düzeyinde. Tasarımı doğrulanmayanlar işaretli. Kılavuz önerisi değildir."
+ }
+}

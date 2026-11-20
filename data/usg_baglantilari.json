@@ -1,0 +1,275 @@
+{
+ "_meta": {
+  "dosya": "usg_baglantilari",
+  "aciklama": "Gerçek USG görüntüsü bağlantıları (makale şekilleri)",
+  "surum": "1.0.0",
+  "tarih": "2026-11-19",
+  "hazirlayan": "",
+  "kontrol_eden": "",
+  "kontrol_tarihi": "",
+  "durum": "taslak",
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+ },
+ "data": {
+  "USGIMG": [
+   [
+    "ESP (erector spinae plan)",
+    [
+     [
+      "ESP ve rektus kılıf karşılaştırması (laparoskopik kolesistektomi)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11894234/"
+     ],
+     [
+      "ESP bloğunun CABG'de arteriyel greftlere etkisi",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10357865/"
+     ]
+    ]
+   ],
+   [
+    "TAP / subkostal TAP",
+    [
+     [
+      "Rektus kılıf + TAP, tek ponksiyon (üst batın)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854179/"
+     ],
+     [
+      "Posterior TAP ve TFP karşılaştırması",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11033914/"
+     ]
+    ]
+   ],
+   [
+    "Rektus kılıf bloğu",
+    [
+     [
+      "Robot yardımlı prostatektomi, RCT",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11049694/"
+     ],
+     [
+      "Robotik jinekolojik cerrahi",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11521072/"
+     ]
+    ]
+   ],
+   [
+    "Kuadratus lumborum (QL)",
+    [
+     [
+      "QL blokları: fasiyal yollar ve kapsam (derleme)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12900237/"
+     ]
+    ]
+   ],
+   [
+    "Transversalis fasya plan bloğu (TFPB)",
+    [
+     [
+      "TFPB, pediatrik ureteroneosistostomi",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8980289/"
+     ],
+     [
+      "TFP ve transmusküler QL, inguinal herni",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8019963/"
+     ],
+     [
+      "Preemptif TFPB, pediatrik herniorafi",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8342840/"
+     ],
+     [
+      "Enjektat yayılımı, ön anatomik inceleme",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12998043/"
+     ],
+     [
+      "TFP + TAP, açık herni onarımı (olgu)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13038726/"
+     ]
+    ]
+   ],
+   [
+    "PENG",
+    [
+     [
+      "PENG ve fasiya iliaka bloğu (acil, kalça kırığı)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12614414/"
+     ],
+     [
+      "Pediatrik kalça ve pelvik cerrahide PENG (eğitsel derleme)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11559181/"
+     ],
+     [
+      "PENG bloğunun ötesi (derleme)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9361223/"
+     ],
+     [
+      "Femur boynu kırığı, preoperatif rehabilitasyon (olgu serisi)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11467497/"
+     ]
+    ]
+   ],
+   [
+    "M-TAPA",
+    [
+     [
+      "M-TAPA, 5 hasta, dermatom ve hacimler",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10440489/"
+     ],
+     [
+      "M-TAPA kapsam derlemesi",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11681740/"
+     ],
+     [
+      "M-TAPA (perikondriyal yaklaşım), açık jinekolojik cerrahi, gözlemsel pilot",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9010447/"
+     ]
+    ]
+   ],
+   [
+    "Rektointerkostal fasiyal plan bloğu (RIFPB)",
+    [
+     [
+      "RIFPB, laparoskopik kolesistektomi RCT",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13369221/"
+     ],
+     [
+      "Rektointerkostal + TFP, pediatrik böbrek nakli",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13529071/"
+     ]
+    ]
+   ],
+   [
+    "SPSIP",
+    [
+     [
+      "SPSIP, teknik rapor",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9985818/"
+     ],
+     [
+      "SPSIP, minimal invaziv kalp cerrahisi (3 olgu)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10834728/"
+     ]
+    ]
+   ],
+   [
+    "Romboid interkostal blok (RIB) / paravertebral",
+    [
+     [
+      "RIB ve paravertebral blok, VATS",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11475136/"
+     ]
+    ]
+   ],
+   [
+    "EOI (external oblique intercostal)",
+    [
+     [
+      "M-TAPA ve EOI karşılaştırması",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12072493/"
+     ]
+    ]
+   ],
+   [
+    "Suprascapular sinir bloğu",
+    [
+     [
+      "Torasik cerrahi sonrası omuz ağrısında anterior yaklaşım",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10081138/"
+     ],
+     [
+      "Hemiplejik omuz ağrısı, tekrarlı SSB, RCT",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12908827/"
+     ]
+    ]
+   ],
+   [
+    "Lumbosakral pleksus bloğu",
+    [
+     [
+      "Kombine lumbar-sakral pleksus bloğu, kalça kırığı (FSHD)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10901043/"
+     ]
+    ]
+   ],
+   [
+    "Torasik duvar fasiyal plan blokları (genel)",
+    [
+     [
+      "Meme, torasik ve kalp cerrahisi için derleme",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822337/"
+     ],
+     [
+      "Fasiyal plan blokları ana anestezi yöntemi olarak",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12007856/"
+     ]
+    ]
+   ]
+  ],
+  "USGGOOG": {
+   "Brakiyal pleksus: interskalen, supraklaviküler, infraklaviküler, aksiller": "interscalene supraclavicular infraclavicular axillary block ultrasound needle in-plane",
+   "Suprascapular sinir bloğu": "suprascapular nerve block ultrasound needle"
+  },
+  "USGFIG": {
+   "esp": [
+    [
+     "ESP, T4: iğne ilerletme ve ESM altında yayılım (Perioper Med 2022, Şekil 1)",
+     "https://perioperativemedicinejournal.biomedcentral.com/articles/10.1186/s13741-022-00278-9/figures/1"
+    ],
+    [
+     "ESP, T12–L1: transvers çıkıntılar ve ESM (BMC Anesthesiol 2023, Şekil 1)",
+     "https://bmcanesthesiol.biomedcentral.com/articles/10.1186/s12871-023-02271-1/figures/1"
+    ],
+    [
+     "ESP, T2–T3: iğne ve ESM kaldırılması (JA Clin Rep 2023, Şekil 1)",
+     "https://jaclinicalreports.springeropen.com/articles/10.1186/s40981-023-00641-9/figures/1"
+    ]
+   ],
+   "tap": [
+    [
+     "TAP: dış oblik, iç oblik, transversus ve iğne ucu (J Pain Res 2013, Şekil 1)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC3704406/figure/f1-jpr-6-493"
+    ]
+   ],
+   "fib": [
+    [
+     "Fasya iliaka: POCUS yaklaşımı, kalça kırığı (Radiol Case Rep 2023)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC9925860"
+    ],
+    [
+     "Fasya iliaka kompartman bloğu, sonoanatomi (Radiopaedia)",
+     "https://radiopaedia.org/articles/fascia-iliaca-compartment-block-ultrasound"
+    ]
+   ],
+   "acb": [
+    [
+     "Aduktör kanal: sonoanatomi, arter çevresinde yayılım, kateter (Ain-Shams J Anesthesiol 2020, Şekil 2)",
+     "https://asja.springeropen.com/articles/10.1186/s42077-020-00101-x/figures/2"
+    ]
+   ],
+   "pvb": [
+    [
+     "Torasik paravertebral: transvers ve parasagital taramalar, SCTL (Korean J Anesthesiol 2022, Şekil 3)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC9346276/figure/f3-kja-22138"
+    ],
+    [
+     "TPVB öncesi ve sonrası, plevranın itilmesi (Insights Imaging 2021, Şekil 1)",
+     "https://insightsimaging.springeropen.com/articles/10.1186/s13244-021-01151-x/figures/1"
+    ]
+   ],
+   "spinal": [
+    [
+     "Lomber spinal sagital görünümler, parasagital oblik pencere (Korean J Anesthesiol 2020, derleme)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC7724125"
+    ]
+   ],
+   "epidural": [
+    [
+     "Nöroaksiyel USG: parasagital oblik ve transvers görünümler (Curr Anesthesiol Rep 2021)",
+     "https://link.springer.com/article/10.1007/s40140-021-00456-3"
+    ],
+    [
+     "Lomber spinal sagital görünümler (Korean J Anesthesiol 2020, derleme)",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC7724125"
+    ]
+   ]
+  }
+ }
+}

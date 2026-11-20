@@ -1,0 +1,127 @@
+{
+ "_meta": {
+  "dosya": "dogrulama",
+  "aciklama": "Doğrulama kaydı",
+  "surum": "1.0.0",
+  "tarih": "2026-11-19",
+  "hazirlayan": "",
+  "kontrol_eden": "",
+  "kontrol_tarihi": "",
+  "durum": "taslak",
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+ },
+ "data": {
+  "VER": [
+   [
+    "ok",
+    "ESAIC/ESRA künyesi",
+    "Kietaibl S, Ferrandis R, Godier A ve ark. Eur J Anaesthesiol 2022;39(2):100–132, doi 10.1097/EJA.0000000000001600. İki farklı kopya (SFAI ve ESRA barındırması) aynı kılavuz olarak teyit edildi."
+   ],
+   [
+    "ok",
+    "DOAK aralıkları",
+    "R4 metni birebir alıntıyla okundu: düşük dozda rivaroksaban ve edoksaban en az 24 saat, apiksaban 36 saat, dabigatran 48 saat; KrKl <30 ml/dk ise rivaroksaban/edoksaban en az 30 saat; yüksek dozda en az 72 saat. Tablo 3 ile uyumlu. Not: ESRA barındırmasındaki tablo karışık çıkarıldı; bir parçada dabigatran için 24 saat görüldü, bağlamı yorumlanamadığı için kullanılmadı."
+   ],
+   [
+    "part",
+    "DMAH, heparin, fondaparinuks, antiplatelet",
+    "İlk okuma R numaralı metinden, ikinci okuma Tablo 3'ten yapıldı ve değerler uyumlu: DMAH 12/24 saat (KrKl <30 ise 24/48), standart heparin SC düşük 4 saat, yüksek 6 (IV) ve 12 (SC) saat, fondaparinuks düşük doz 36 saat (KrKl <50 ise 72), P2Y12 5/5/7 gün. Aspirin >200 mg için metin 3–7 gün, tablo ise alternatif olarak objektif normal trombosit fonksiyonu veriyor; ikisi de gösteriliyor. Tabloda bazı hücreler okunamadı."
+   ],
+   [
+    "part",
+    "Warfarin ve K vitamini antagonistleri",
+    "INR'ın normal aralıkta olması ve 5 gün (warfarin), 3 gün (asenokumarol), 7 gün (fenprokumon) metinden okundu. Tablo çıkarımı ek bekleme süresi vermedi."
+   ],
+   [
+    "no",
+    "Trombolitikler, NSAİİ, silostazol, dipiridamol",
+    "ESAIC özetlerinde sayısal aralık çıkarılamadı; rehberde yer almıyor."
+   ],
+   [
+    "ok",
+    "İzlem ve ek notlar (R21, R36, R39, R40)",
+    "Kılavuzun ikinci yarısından birebir okundu ve \"İzlem ve ek notlar\" bölümüne eklendi."
+   ],
+   [
+    "ok",
+    "ASRA 5. baskı künyesi",
+    "Kopp SL, Vandermeulen E, McBane RD, Perlas A, Leffert L, Horlocker T. Reg Anesth Pain Med 2025; rapm-2024-105766 (ESRA bülteni). Düşük/yüksek doz terminolojisine geçiş, bireyselleştirilmiş DOAK aralıkları, ilaca özgü testler, nöroaksiyel ve derin pleksus ayrımı ve P2Y12 vurgusu bülten tarafından doğrulandı."
+   ],
+   [
+    "part",
+    "ASRA 5. baskı sayısal aralıkları ve dereceleri",
+    "DÜZELTME: sayıların okunduğu sayfa ASRA'nın kendisi değil, Mısır Anestezi Kurulu'nun ASRA 5. baskıdan uyarladığı \"Edition 2026\" metni (başlığında Kopp ve ark. 2025 uyarlanan kaynak olarak geçiyor). Birincil metin (PMID 39880411) açılamadı; özet sayfası da özet vermedi. İkinci kaynaklarla uyuşanlar: DOAK yüksek doz 72 saat, dabigatran KrKl 30–49 için 120 saat, kalıntı düzey eşiği 30 ng/ml ve anti-Xa 0,1 IU/ml (Gist sunumu, NYSORA özeti, PMC13481510). Diğer tüm sayılar (DMAH, heparin, antiplatelet, warfarin, fondaparinuks, trombolitik) yalnızca uyarlama metnine dayanıyor ve etiketleri uyarlayıcı değiştirmiş olabilir. ESRA bülteni ve haber siteleri sayı vermiyor. Düşük doz edoksaban ile asenokumarol/fenprokumon için değer okunamadı. Orijinal tablolarla karşılaştırın."
+   ],
+   [
+    "part",
+    "DMAH ve böbrek: nefroloji ve farmakoloji kaynakları",
+    "PubMed'da 9 kaynak bulundu ve özetleri okundu (tam metin okunmadı). Yalnızca biri (Lim 2006) gözlemsel çalışmaların meta-analizi, hiçbiri randomize değil; çoğu derleme. KrKl 30 ml/dk eşiği kaynaklarla uyumlu. Profilaktik dozda böbrek ayarının kanıtı zayıf veya yok; orta böbrek yetmezliğinde (30–50) tedavi dozunda kanama sinyali var ama düzeltmeden sonra anlamlılık sınırında. Nöroaksiyel zamanlamayı doğrudan inceleyen çalışma bulunamadı."
+   ],
+   [
+    "x",
+    "Kanıt gücü etiketleri (Güçlü/Orta/Zayıf)",
+    "Kanıt gücü kuralı: Güçlü = randomize çalışma, sistematik derleme veya ASRA'nın \"yüksek kesinlik\" dediği; Orta = prospektif kohort veya 1.000 üzeri hastalık seri; Zayıf = olgu sunumu, küçük seri, uzman görüşü veya ASRA'nın \"düşük kesinlik\" dediği. Bu üç düzey benim eşlemem; ASRA'nın kendi etiketleri ayrıca yazılıdır."
+   ],
+   [
+    "x",
+    "ASRA 5. baskı ile ESAIC/ESRA farkları",
+    "Örnekler: fondaparinuks düşük doz ESAIC 36 saat, ASRA 36–42 saat; yüksek doz ESAIC nöroaksiyeli önermiyor, ASRA 70–105 saat veriyor; iğne/kateter çıkarma süresi ASRA'da DOAK için 6 saat (düşük doz) veya 24 saat (yüksek doz). Tüm farklar sayfa sonundaki dipnotlarda; hangisinin esas alınacağı hekim kararıdır."
+   ],
+   [
+    "x",
+    "ASRA 4. baskı (2018)",
+    "Horlocker ve ark. RAPM 2018;43(3):263–309 künyesi bir haber metninden alındı. Aynı metin apiksaban için \"26–30 saat\" diyor; birincil kaynakla karşılaştırılamadığı ve ikincil olduğu için kullanılmadı. Aynı sayıdaki girişimsel kılavuz (Narouze ve ark., s. 225–262) 2018 tarihli; ASRA'nın Coags uygulama sayfası dayanak olarak girişimsel kılavuzun 2. baskısını (2022) gösteriyor."
+   ],
+   [
+    "ok",
+    "PROSPECT özetleri",
+    "TKA, kalça kırığı, sezaryen, torakotomi, VATS, meme (2019; minör cerrahi için kullanılıyor), laparoskopik kolesistektomi, açık inguinal herni, laparoskopik histerektomi ve radikal prostatektomi özetleri birebir okundu. Histerektomi ve prostatektomi özetlerinde yıl yazmıyor; torakotomi özetinin \"önerilmeyen\" listesi görsel olarak sunulduğu için okunamadı."
+   ],
+   [
+    "x",
+    "Açık kolon, açık histerektomi, karaciğer",
+    "PROSPECT özeti bulunamadı veya okunmadı; eklenmedi."
+   ],
+   [
+    "ok",
+    "2026 güncellemeleri: kalça artroplastisi ve majör meme",
+    "İkisinin özet PDF'leri okundu (Carella ve ark. ve Desai ve ark., Anaesthesia 2026). Özetler GRADE harfi vermiyor; \"yüksek/orta kanıt\" ve \"güçlü/zayıf öneri\" ifadeleri olduğu gibi alındı. Meme güncellemesi majör cerrahi için 2019 özetinin yerini aldı. Kalça özetinde LIA için metin \"düşünülebilir\", tablo \"güçlü\" diyor; ikisi de gösterildi. Yayıncı sayfaları açılamadı, künyeler arama sonuçlarından."
+   ],
+   [
+    "ok",
+    "Laparoskopik kolorektal (PROSPECT 2024) ve AAHKS TKA kılavuzu (2022)",
+    "Özetler okundu. Kolorektal özet derece vermiyor ve gövde bloklarını ayrı adlandırmıyor. AAHKS kılavuzunda güçlü/orta/sınırlı öneri düzeyleri var; sayfadaki 2025 tarihi yükleme tarihi, yayın 2022."
+   ],
+   [
+    "part",
+    "Kanıt düzeyi sıralaması",
+    "Her kaynak kendi ölçeğini kullanıyor; sayfa bunları yaklaşık olarak eşliyor (A veya yüksek-güçlü en üstte). Derece vermeyen özetlerde (torakotomi, sezaryen, kalça kırığı, kolesistektomi, kolorektal, TKA PROSPECT) sıralama kaynak sırasıdır ve sayfada belirtilir. Bu eşleme hekim incelemesi gerektirir."
+   ],
+   [
+    "ok",
+    "Uyku apnesi (ASA 2014)",
+    "Anesthesiology 2014;120:268–286 kılavuz özeti okundu. Özet kanıt derecesi vermiyor."
+   ],
+   [
+    "part",
+    "KOAH ve aort stenozu",
+    "Yalnızca NYSORA sayfaları (ikincil kaynak) okundu. Aort stenozu için atıf yapılan 2024 sistematik derleme sayfası açılamadığından doğrudan doğrulanmadı; sayılar NYSORA'nın aktardığı biçimde."
+   ],
+   [
+    "no",
+    "Diğer kardiyak hastalık",
+    "Kalp yetmezliği, koroner arter hastalığı ve pacemaker için kaynak bulunamadı; kural eklenmedi."
+   ],
+   [
+    "x",
+    "Animasyonlar",
+    "Özgün şematik çizimlerdir; ölçekli değildir ve hekim incelemesinden geçmemiştir. Teknik öğretiminde atlas veya ultrason görüntüsü yerine kullanılmamalıdır."
+   ],
+   [
+    "x",
+    "Genel sınırlama",
+    "Özetler bir okuma aracından geçirildi; klinik karardan önce orijinal kılavuz tabloları insan gözüyle karşılaştırılmalıdır."
+   ]
+  ]
+ }
+}
