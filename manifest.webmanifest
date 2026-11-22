@@ -1,0 +1,15 @@
+{
+  "name": "Rejyonel Blok Rehberi",
+  "short_name": "Blok Rehberi",
+  "description": "Cerrahi, antitrombotik ilaç ve hasta faktörlerine göre rejyonel blok seçenekleri (yalnızca hekim kullanımı).",
+  "lang": "tr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F2F6F6",
+  "theme_color": "#0B6E7F",
+  "icons": [
+    {"src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

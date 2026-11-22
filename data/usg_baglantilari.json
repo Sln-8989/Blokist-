@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "usg_baglantilari",
   "aciklama": "Gerçek USG görüntüsü bağlantıları (makale şekilleri)",
-  "surum": "1.0.0",
-  "tarih": "2026-11-19",
-  "hazirlayan": "",
-  "kontrol_eden": "",
-  "kontrol_tarihi": "",
-  "durum": "taslak",
-  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+  "surum": "1.1.0",
+  "tarih": "2026-11-21",
+  "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
+  "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
+  "kontrol_tarihi": "2026-11-21",
+  "durum": "onaylandı",
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı. 1.1.0: diz altı (popliteal, safen) ve IPACK USG görselleri eklendi."
  },
  "data": {
   "USGIMG": [
@@ -199,6 +199,32 @@
      [
       "Fasiyal plan blokları ana anestezi yöntemi olarak",
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC12007856/"
+     ]
+    ]
+   ],
+   [
+    "Popliteal siyatik ve safen sinir blokları (diz altı cerrahi)",
+    [
+     [
+      "Popliteal siyatik blok, USG eşliğinde simülasyon eğitimi (Adv Simul 2025)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12607028/"
+     ],
+     [
+      "Adduktör kanal distalinde USG eşliğinde safen sinir bloğu, olgu ve derleme (Indian J Orthop 2019)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6394177/"
+     ]
+    ]
+   ],
+   [
+    "IPACK bloğu",
+    [
+     [
+      "TKA'da periartiküler enjeksiyon, IPACK ve periferik bloklar, derleme (Perioper Med 2023)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10652613/"
+     ],
+     [
+      "IPACK + multimodal analjezi, sistematik derleme ve meta-analiz (Arch Orthop Trauma Surg 2023)",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10449984/"
      ]
     ]
    ]

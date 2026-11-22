@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "kaynaklar",
   "aciklama": "Kaynak künyeleri ve bağlantıları",
-  "surum": "1.0.0",
-  "tarih": "2026-11-19",
-  "hazirlayan": "",
-  "kontrol_eden": "",
-  "kontrol_tarihi": "",
-  "durum": "taslak",
-  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+  "surum": "1.3.0",
+  "tarih": "2026-11-21",
+  "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
+  "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
+  "kontrol_tarihi": "2026-11-21",
+  "durum": "onaylandı",
+  "not": "1.2.0: 371 DOI/PMID kaynağı PubMed ile eşleştirildi; ilk yazar etiketleri düzeltildi/eklendi (Gürkan sırası belirtildi), Air Med J dergi adı, Kaya 2013 yılı düzeltildi; PROSPECT künyeleri tamamlandı; PROSPECT omuz artroplastisi 2026 ve prostatektomi 2021 güncellemesi eklendi. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı."
  },
  "data": {
   "ESAIC": {
@@ -33,47 +33,47 @@
   },
   "PRO": {
    "mt_ma": {
-    "t": "Meta-analiz, Minerva Anestesiol 2025 (Tulgar ve ark.): laparoskopik kolesistektomide M-TAPA, 6 çalışma, 350 hasta",
+    "t": "Meta-analiz, Minerva Anestesiol 2025 (De Cassai ve ark.): laparoskopik kolesistektomide M-TAPA, 6 çalışma (4 RCT), 350 hasta",
     "u": "https://doi.org/10.23736/S0375-9393.24.18490-8"
    },
    "mt_li": {
-    "t": "Randomize çalışma, J Anesth 2023 (Çiftçi, Tulgar ve ark.): M-TAPA ve lokal infiltrasyon, laparoskopik kolesistektomi",
+    "t": "Randomize çalışma, J Anesth 2023 (Güngör, Çiftçi ve ark.): M-TAPA ve lokal infiltrasyon, laparoskopik kolesistektomi, 60 hasta",
     "u": "https://doi.org/10.1007/s00540-022-03158-0"
    },
    "mt_eoib": {
-    "t": "Randomize çalışma, J Clin Med 2025 (Çiftçi, Tulgar ve ark.): M-TAPA ve EOI bloğu, laparoskopik kolesistektomi",
+    "t": "Randomize çalışma, J Clin Med 2025 (Çiftçi, Alver ve ark.): M-TAPA ve EOI bloğu, laparoskopik kolesistektomi, 60 hasta",
     "u": "https://doi.org/10.3390/jcm14093050"
    },
    "mt_tapp": {
-    "t": "Randomize çalışma, Braz J Anesthesiol 2023 (Çiftçi, Tulgar ve ark.): laparoskopik inguinal herni (TAPP) sonrası M-TAPA",
+    "t": "Randomize çalışma, Braz J Anesthesiol 2023 (Alver, Çiftçi ve ark.): laparoskopik inguinal herni (TAPP) sonrası M-TAPA, 60 hasta",
     "u": "https://doi.org/10.1016/j.bjane.2023.05.001"
    },
    "mt_series": {
-    "t": "Olgu serisi, Turk J Anaesthesiol Reanim 2023 (Çiftçi, Tulgar): M-TAPA, 5 hasta, dermatom değerlendirmesi",
+    "t": "Olgu serisi, Turk J Anaesthesiol Reanim 2023 (Çiftçi ve ark.): M-TAPA, 5 hasta, dermatom değerlendirmesi",
     "u": "https://doi.org/10.4274/TJAR.2022.221042"
    },
    "mt_derm": {
-    "t": "Gözlemsel çalışma, Minerva Anestesiol 2024 (Tulgar ve ark.): EOI ve M-TAPA duyusal blok yayılımı",
+    "t": "Gözlemsel çalışma, Minerva Anestesiol 2024 (Genç, Tulgar ve ark.): EOI ve M-TAPA duyusal blok yayılımı, 24 hasta",
     "u": "https://doi.org/10.23736/S0375-9393.24.18213-2"
    },
    "mt_lt": {
-    "t": "Olgu bildirimi, Minerva Anestesiol 2026 (Çiftçi, Tulgar ve ark.): pediatrik karaciğer nakli, bilateral M-TAPA, 2 olgu",
+    "t": "Olgu bildirimi, Minerva Anestesiol 2026 (Alver, Çiftçi ve ark.): pediatrik karaciğer nakli, bilateral M-TAPA, 2 olgu",
     "u": "https://doi.org/10.23736/S0375-9393.26.20037-8"
    },
    "mt_lt2": {
-    "t": "Olgu bildirimi, Turk J Anaesthesiol Reanim 2026 (Çiftçi): eş zamanlı karaciğer nakli + CABG sonrası M-TAPA + pektointerkostal blok",
+    "t": "Olgu bildirimi, Turk J Anaesthesiol Reanim 2026 (Akın ve ark.): eş zamanlı karaciğer nakli + CABG sonrası yoğun bakımda M-TAPA + pektointerkostal blok",
     "u": "https://doi.org/10.4274/TJAR.2025.252133"
    },
    "tx_rev": {
-    "t": "Anlatımsal derleme, Turk J Anaesthesiol Reanim 2026 (Tulgar, Çiftçi ve ark.): karaciğer ve böbrek naklinde rejyonel teknikler",
+    "t": "Anlatımsal derleme, Turk J Anaesthesiol Reanim 2026 (De Cassai ve ark.): karaciğer ve böbrek naklinde rejyonel teknikler",
     "u": "https://doi.org/10.4274/TJAR.2026.262509"
    },
    "rifpb_rct": {
-    "t": "Randomize çalışma, Surg Endosc 2026 (Çiftçi ve ark.): rektointerkostal fasiyal plan bloğu, laparoskopik kolesistektomi",
+    "t": "Randomize çalışma, Surg Endosc 2026 (Danışan ve ark.): rektointerkostal fasiyal plan bloğu, laparoskopik kolesistektomi, 77 hasta",
     "u": "https://doi.org/10.1007/s00464-026-12787-5"
    },
    "medipol": {
-    "t": "Olgu serisi, A A Pract 2024 (Çiftçi, Tulgar ve ark.): Medipol kombinasyonu (rektointerkostal + pektointerkostal), kalp cerrahisi, 15 olgu",
+    "t": "Olgu serisi, A A Pract 2024 (Çiftçi, Ömür ve ark.): Medipol kombinasyonu (rektointerkostal + pektointerkostal), kalp cerrahisi, 15 olgu",
     "u": "https://doi.org/10.1213/XAA.0000000000001794"
    },
    "sps_tech": {
@@ -81,47 +81,47 @@
     "u": "https://doi.org/10.7759/cureus.34582"
    },
    "sps_breast": {
-    "t": "Olgu serisi, Minerva Anestesiol 2023 (Çiftçi, Tulgar ve ark.): SPSIP bloğu, meme cerrahisi, 3 olgu",
+    "t": "Olgu serisi, Minerva Anestesiol 2023 (Çiftçi, Alver ve ark.): SPSIP bloğu, meme cerrahisi, 3 olgu",
     "u": "https://doi.org/10.23736/S0375-9393.23.17432-3"
    },
    "sps_card": {
-    "t": "Olgu serisi, Korean J Anesthesiol 2024 (Çiftçi, Tulgar ve ark.): SPSIP bloğu, minimal invaziv kalp cerrahisi, 3 olgu",
+    "t": "Olgu serisi, Korean J Anesthesiol 2024 (Bilal, Çiftçi ve ark.): SPSIP bloğu, minimal invaziv kalp cerrahisi, 3 olgu",
     "u": "https://doi.org/10.4097/kja.23542"
    },
    "sps_vats": {
-    "t": "Editöre mektup, Minerva Anestesiol 2024 (Çiftçi, Tulgar ve ark.): SPSIP, torakoskopik ve omuz cerrahisi",
+    "t": "Editöre mektup, Minerva Anestesiol 2024 (Çiftçi, Alver ve ark.): SPSIP, torakoskopik ve omuz cerrahisi",
     "u": "https://doi.org/10.23736/S0375-9393.23.17827-8"
    },
    "sps_scol": {
-    "t": "Olgu bildirimi, Minerva Anestesiol 2025 (Çiftçi, Tulgar ve ark.): SPSIP + quadroiliac plan bloğu, skolyoz cerrahisi",
+    "t": "Olgu bildirimi, Minerva Anestesiol 2025 (Bilal, Çiftçi ve ark.): SPSIP + quadroiliac plan bloğu, skolyoz cerrahisi",
     "u": "https://doi.org/10.23736/S0375-9393.24.18759-7"
    },
    "sps_riss": {
-    "t": "Olgu bildirimi, Minerva Anestesiol 2025 (Çiftçi, Tulgar ve ark.): SPSIP + romboid interkostal blok, tek başına cerrahi anestezi (başlığın cerrahi kısmı kaynakta kesik; skapula bölgesi olabilir, doğrulanmalı)",
+    "t": "Olgu bildirimi, Minerva Anestesiol 2025 (Bilal, Çiftçi ve ark.): SPSIP + romboid interkostal blok, skapula cerrahisinde tek başına anestezi",
     "u": "https://doi.org/10.23736/S0375-9393.25.18863-9"
    },
    "liv_tap": {
-    "t": "Randomize çalışma, Reg Anesth Pain Med 2025: laparoskopik canlı donör hepatektomide TAP bloğu + intratekal morfin (80 hasta)",
+    "t": "Randomize çalışma, Reg Anesth Pain Med 2025 (Kang ve ark.): laparoskopik canlı donör hepatektomide TAP bloğu + intratekal morfin (80 hasta)",
     "u": "https://doi.org/10.1136/rapm-2025-106943"
    },
    "liv_eoi": {
-    "t": "Randomize çalışma, J Clin Anesth 2025: canlı karaciğer donörlerinde EOI ve subkostal TAP bloğu karşılaştırması",
+    "t": "Randomize çalışma, J Clin Anesth 2025 (Sahin ve ark.): canlı karaciğer donörlerinde EOI ve subkostal TAP bloğu karşılaştırması",
     "u": "https://doi.org/10.1016/j.jclinane.2025.111971"
    },
    "liv_tx": {
-    "t": "Before-and-after çalışma, Reg Anesth Pain Med 2023: karaciğer naklinde subkostal TAP bloğu (210 hasta)",
+    "t": "Before-and-after çalışma, Reg Anesth Pain Med 2023 (Assefi ve ark.): karaciğer naklinde subkostal TAP bloğu (210 hasta)",
     "u": "https://doi.org/10.1136/rapm-2022-103705"
    },
    "rsb_tap": {
-    "t": "Randomize çalışma, BMC Anesthesiol 2024: laparoskopik üst batın cerrahide tek ponksiyonla rektus kılıf + TAP bloğu (58 hasta)",
+    "t": "Randomize çalışma, BMC Anesthesiol 2024 (Yu ve ark.): laparoskopik üst batın cerrahide tek ponksiyonla rektus kılıf + TAP bloğu (58 hasta)",
     "u": "https://doi.org/10.1186/s12871-024-02444-6"
    },
    "mtapa_gyn": {
-    "t": "Gözlemsel pilot, BMC Anesthesiol 2022: açık jinekolojik cerrahide M-TAPA (10 hasta) ve kadavra çalışması",
+    "t": "Gözlemsel pilot, BMC Anesthesiol 2022 (Tanaka ve ark.): açık jinekolojik cerrahide M-TAPA (10 hasta) ve kadavra çalışması",
     "u": "https://doi.org/10.1186/s12871-022-01652-2"
    },
    "mtapa_rev": {
-    "t": "Kapsam derlemesi, BMC Anesthesiol 2024: M-TAPA",
+    "t": "Kapsam derlemesi, BMC Anesthesiol 2024 (Tanaka ve ark.): M-TAPA",
     "u": "https://doi.org/10.1186/s12871-024-02878-y"
    },
    "nosrc": {
@@ -149,11 +149,11 @@
     "u": "https://esraeurope.org/wp-content/uploads/2024/03/Summary-recommendations_Hip-fracture-surgery_2023_EN.pdf"
    },
    "cs": {
-    "t": "PROSPECT: sezaryen özeti (2026 güncellemesi)",
+    "t": "PROSPECT: elektif sezaryen, güncelleme (Crowe ve ark., Anaesthesia 2026;81:819–839, doi 10.1111/anae.70141)",
     "u": "https://esraeurope.org/wp-content/uploads/2026/03/Summary-recommendations_Caesarean-section_EN.pdf"
    },
    "thor": {
-    "t": "PROSPECT: açık torakotomi 2025 (Lemoine ve ark., Anaesthesia 2026, doi 10.1111/anae.70123)",
+    "t": "PROSPECT: açık torakotomi 2025 (Lemoine ve ark., Anaesthesia 2026;81:541–555, doi 10.1111/anae.70123)",
     "u": "https://esraeurope.org/?p=45328"
    },
    "vats": {
@@ -161,11 +161,11 @@
     "u": "https://esraeurope.org/wp-content/uploads/2021/11/Summary-recommendations_VATS_2021_EN_FINAL.pdf"
    },
    "breast": {
-    "t": "PROSPECT: meme cerrahisi özeti (2019)",
+    "t": "PROSPECT: onkolojik meme cerrahisi (Jacobs ve ark., Anaesthesia 2020;75:664–673; 2026 güncellemesiyle yenilendi)",
     "u": "https://esraeurope.org/wp-content/uploads/2020/04/Summary-recommendations_Breast-surgery_2019_English.pdf"
    },
    "chole": {
-    "t": "PROSPECT: laparoskopik kolesistektomi özeti (2024 güncellemesi)",
+    "t": "PROSPECT: laparoskopik kolesistektomi, güncelleme (Bourgeois ve ark., Eur J Anaesthesiol 2024;41:841–855, doi 10.1097/EJA.0000000000002047)",
     "u": "https://esraeurope.org/wp-content/uploads/2024/08/Summary-recommendations_Lap-cholecystectomy-EN.pdf"
    },
    "hernia": {
@@ -173,15 +173,15 @@
     "u": "https://esraeurope.org/wp-content/uploads/2020/08/Summary-recommendations_Hernia-repair_2019_ENG.pdf"
    },
    "lhyst": {
-    "t": "PROSPECT: laparoskopik histerektomi özeti (yıl özette yazmıyor)",
+    "t": "PROSPECT: laparoskopik histerektomi (Lirk ve ark., Reg Anesth Pain Med 2019;44:425–436, doi 10.1136/rapm-2018-100024)",
     "u": "https://esraeurope.org/wp-content/uploads/2019/04/Summary-recommendations_Laparoscopic-hysterectomy-EN.pdf"
    },
    "prost": {
-    "t": "PROSPECT: radikal prostatektomi özeti (açık ve video-yardımlı; yıl özette yazmıyor)",
+    "t": "PROSPECT: radikal prostatektomi, önceki özet (açık ve video-yardımlı; 2021 güncellemesiyle kısmen değişti)",
     "u": "https://esraeurope.org/wp-content/uploads/2019/03/Summary-recommendations-Radical-Prostatectomy_ENG.pdf"
    },
    "breast26": {
-    "t": "PROSPECT: majör onkolojik meme cerrahisi, güncelleme (Desai ve ark., Anaesthesia 2026, epub 12 Ağu 2026)",
+    "t": "PROSPECT: majör onkolojik meme cerrahisi, güncelleme (Desai ve ark., Anaesthesia 2026;81:1710–1730, doi 10.1111/anae.70313)",
     "u": "https://esraeurope.org/wp-content/uploads/2026/08/Summary-recommendations_Oncological-breast-surgery-update_EN_FINAL.pdf"
    },
    "tha": {
@@ -195,6 +195,90 @@
    "aahks": {
     "t": "AAHKS/ASRA/AAOS klinik uygulama kılavuzu: primer TKA rejyonel sinir blokları (Fillingham ve ark., J Arthroplasty 2022;37:1691-1696)",
     "u": "https://www.aahks.org/wp-content/uploads/2025/10/Regional-Nerve-Blocks-in-Primary-Total-Knee-Arthroplasty-AAHKS-Clinical-Practice-Guideline-003.pdf"
+   },
+   "ank_ananke": {
+    "t": "Randomize çalışma, Br J Anaesth 2021 (AnAnkle; Sort ve ark.): akut ayak bileği kırığında popliteal siyatik + safen blok anestezisi ve spinal anestezi, 150 hasta",
+    "u": "https://doi.org/10.1016/j.bja.2020.12.037"
+   },
+   "ank_saph": {
+    "t": "Randomize çalışma, Reg Anesth Pain Med 2018 (Bjørn ve ark.): majör ayak bileği cerrahisinde popliteal siyatiğe safen blok eklenmesi, 18 hasta",
+    "u": "https://doi.org/10.1097/AAP.0000000000000764"
+   },
+   "ank_cont_ma": {
+    "t": "Meta-analiz, BMC Musculoskelet Disord 2019 (Ma ve ark.): ayak ve ayak bileği cerrahisinde sürekli ve tek doz popliteal siyatik blok, 5 RCT",
+    "u": "https://doi.org/10.1186/s12891-019-2822-7"
+   },
+   "ank_cont_rct": {
+    "t": "Randomize çalışma, J Orthop Trauma 2015 (Ding ve ark.): ayak bileği kırığında sürekli ve tek doz popliteal siyatik blok, 50 hasta",
+    "u": "https://doi.org/10.1097/BOT.0000000000000374"
+   },
+   "ank_adj": {
+    "t": "Randomize çalışma, Anesthesiology 2024 (Maagaard ve ark.): popliteal + safen blokta IV deksametazon ± deksmedetomidin, 120 hasta",
+    "u": "https://doi.org/10.1097/ALN.0000000000004977"
+   },
+   "ank_sa_cohort": {
+    "t": "Retrospektif kohort, Acta Anaesthesiol Scand 2021 (Lehto ve ark.): ayak bileği kırığında spinal ve genel anestezi, 586 hasta",
+    "u": "https://doi.org/10.1111/aas.13845"
+   },
+   "ank_sa_nsqip": {
+    "t": "Retrospektif (NSQIP), J Foot Ankle Surg 2021 (Vora ve ark.): ayak bileği ORIF'te spinal ve genel anestezi, eşleştirilmiş 4.205 hasta",
+    "u": "https://doi.org/10.1053/j.jfas.2020.08.035"
+   },
+   "ank_comb_sr": {
+    "t": "Sistematik derleme, J Foot Ankle Surg 2021 (Gianakos ve ark.): ayak ve ayak bileği cerrahisinde kombine alt ekstremite blokları, 28 çalışma",
+    "u": "https://doi.org/10.1053/j.jfas.2020.08.026"
+   },
+   "tib_acs_gl": {
+    "t": "Kılavuz, Anaesthesia 2021 (Association of Anaesthetists; Nathanson ve ark.): alt bacak travmasında rejyonel analjezi ve akut kompartman sendromu riski",
+    "u": "https://doi.org/10.1111/anae.15504"
+   },
+   "tib_sa_rct": {
+    "t": "Randomize çalışma, Acta Anaesthesiol Scand 2025 (Lehto ve ark.): tibia cisim kırığında spinal ve genel anestezi, kompartman basıncı, 50 hasta",
+    "u": "https://doi.org/10.1111/aas.70111"
+   },
+   "tib_pnb_retro": {
+    "t": "Retrospektif çalışma, Injury 2024 (Ganta ve ark.): düşük enerjili tibia cisim kırığında intramedüller çivilemede periferik blok ve genel anestezi, 76 hasta",
+    "u": "https://doi.org/10.1016/j.injury.2024.111636"
+   },
+   "ipack_ma": {
+    "t": "Meta-analiz, J Orthop 2026 (Vazquez ve ark.): TKA'da IPACK bloğu, 19 RCT, 1.702 hasta",
+    "u": "https://doi.org/10.1016/j.jor.2025.10.026"
+   },
+   "ipack_nma": {
+    "t": "Ağ meta-analizi, Arch Orthop Trauma Surg 2024 (Wang ve ark.): TKA'da periferik bloklar, 30 çalışma",
+    "u": "https://doi.org/10.1007/s00402-024-05507-y"
+   },
+   "sps_dogan": {
+    "t": "Randomize çalışma, Braz J Anesthesiol 2025 (Doğan ve ark.): VATS'ta SPSIP ve torasik paravertebral blok, 70 hasta",
+    "u": "https://doi.org/10.1016/j.bjane.2025.844647"
+   },
+   "sps_avci": {
+    "t": "Randomize çalışma, Indian J Anaesth 2023 (Avcı ve ark.): VATS'ta SPSIP ve yalnız IV PCA, 24 hasta",
+    "u": "https://doi.org/10.4103/ija.ija_589_23"
+   },
+   "sps_koksal": {
+    "t": "Randomize çalışma, BMC Anesthesiol 2025 (Köksal ve ark.): onkoplastik meme cerrahisinde SPSIP ve standart analjezi, 60 hasta",
+    "u": "https://doi.org/10.1186/s12871-025-03092-0"
+   },
+   "sps_arik": {
+    "t": "Randomize çalışma, BMC Anesthesiol 2025 (Arık ve ark.): meme cerrahisinde SPSIP ve ESP bloğu, 50 hasta",
+    "u": "https://doi.org/10.1186/s12871-025-03531-y"
+   },
+   "tsa26": {
+    "t": "PROSPECT, Anaesthesia 2026 (Mrazek ve ark.): total omuz artroplastisi sonrası ağrı yönetimi, 30 RCT + 7 sistematik derleme; tek doz interskalen blok önerilir, LIA alternatif",
+    "u": "https://doi.org/10.1111/anae.70427"
+   },
+   "prost21": {
+    "t": "PROSPECT: radikal prostatektomi, güncelleme (Lemoine ve ark., Anaesth Crit Care Pain Med 2021;40:100922, doi 10.1016/j.accpm.2021.100922): TAP bloğu laparoskopik/robotik prostatektomide ilk tercih rejyonel teknik; açık cerrahide IV lidokain ve yara infiltrasyonu",
+    "u": "https://doi.org/10.1016/j.accpm.2021.100922"
+   },
+   "colo_open_pro": {
+    "t": "PROSPECT, Eur J Anaesthesiol 2024 (Uten ve ark.): açık kolorektal cerrahi güncellemesi; torasik epidural ilk tercih, uygulanamıyorsa IV lidokain, bilateral TAP veya preperitoneal infüzyon",
+    "u": "https://doi.org/10.1097/EJA.0000000000001978"
+   },
+   "liv_pro": {
+    "t": "PROSPECT, Reg Anesth Pain Med 2021 (Dieu ve ark.): açık karaciğer rezeksiyonu; torasik epidural veya bilateral oblik subkostal TAP, 31 RCT + 3 sistematik derleme",
+    "u": "https://doi.org/10.1136/rapm-2020-101933"
    }
   },
   "ASRA5SRC": {
@@ -223,51 +307,51 @@
   },
   "GRKSRC": {
    "gk_chole": [
-    "Karşılaştırmalı çalışma, Ulus Travma Acil Cerrahi Derg 2025 (Gürkan ve ark.): ESP ve rektus kılıf bloğu, laparoskopik kolesistektomi",
+    "Karşılaştırmalı çalışma, Ulus Travma Acil Cerrahi Derg 2025 (Manıcı ve ark.; son yazar Gürkan): ESP ve rektus kılıf bloğu, laparoskopik kolesistektomi",
     "https://doi.org/10.14744/tjtes.2024.77756"
    ],
    "gk_vats_rib": [
-    "Randomize çalışma, Diagnostics 2024 (Gürkan ve ark.): romboid interkostal blok ve paravertebral blok, VATS",
+    "Randomize çalışma, Diagnostics 2024 (Manici ve ark.; Gürkan ortak yazar): romboid interkostal blok ve paravertebral blok, VATS",
     "https://doi.org/10.3390/diagnostics14192129"
    ],
    "gk_vats_sps": [
-    "Randomize çalışma, J Cardiothorac Vasc Anesth 2026 (Gürkan ve ark.): paravertebral blok ve SPSIP, VATS",
+    "Randomize çalışma, J Cardiothorac Vasc Anesth 2026 (Manici ve ark.; son yazar Gürkan): paravertebral blok ve SPSIP, VATS, 60 hasta",
     "https://doi.org/10.1053/j.jvca.2026.06.023"
    ],
    "gk_prost": [
-    "Randomize çalışma, Medicine 2024 (Gürkan ve ark.): rektus kılıf bloğu, robot yardımlı prostatektomi",
+    "Randomize çalışma, Medicine 2024 (Coşarcan ve ark.; Gürkan ortak yazar): rektus kılıf bloğu, robot yardımlı prostatektomi",
     "https://doi.org/10.1097/MD.0000000000037975"
    ],
    "gk_gyn": [
-    "Retrospektif çalışma, Medicine 2024 (Gürkan ve ark.): rektus kılıf bloğu, robotik jinekolojik cerrahi",
+    "Retrospektif çalışma, Medicine 2024 (Manici ve ark.; son yazar Gürkan): rektus kılıf bloğu, robotik jinekolojik cerrahi",
     "https://doi.org/10.1097/MD.0000000000040176"
    ],
    "gk_riup": [
-    "Olgu gözlemi, Minerva Anestesiol 2025 (Gürkan ve ark.): bilateral rektointerkostal plan bloğu, orta hat üst batın laparotomisi",
+    "Olgu gözlemi, Minerva Anestesiol 2026 (Mendes ve ark.; son yazar Gürkan): bilateral rektointerkostal plan bloğu, orta hat üst batın laparotomisi",
     "https://doi.org/10.23736/S0375-9393.25.19622-3"
    ],
    "gk_bypass": [
-    "Olgu bildirimi, A A Pract 2025 (Gürkan ve ark.): rektointerkostal blok, gastrik bypass",
+    "Olgu bildirimi, A A Pract 2025 (Mendes ve ark.; son yazar Gürkan): rektointerkostal blok, gastrik bypass",
     "https://doi.org/10.1213/XAA.0000000000002100"
    ],
    "gk_tep": [
-    "Minerva Anestesiol 2026 (Gürkan ve ark.): rektointerkostal plan bloğu, preperitoneal eTEP umbilikal herni onarımı",
+    "Minerva Anestesiol 2026 (Mendes ve ark.; son yazar Gürkan): rektointerkostal plan bloğu, preperitoneal eTEP umbilikal herni onarımı",
     "https://doi.org/10.23736/S0375-9393.25.19781-2"
    ],
    "gk_wilms": [
-    "Olgu bildirimi, Minerva Anestesiol 2026 (Gürkan ve ark.): kateterli rektointerkostal blok, pediatrik sağ nefrektomi",
+    "Olgu bildirimi, Minerva Anestesiol 2026 (Gökkaya ve ark.; son yazar Gürkan): kateterli rektointerkostal blok, pediatrik sağ nefrektomi",
     "https://doi.org/10.23736/S0375-9393.26.19969-6"
    ],
    "gk_nefr": [
-    "Randomize çalışma, Minerva Anestesiol 2024 (Gürkan ve ark.): ESP bloğu, el yardımlı laparoskopik donör nefrektomi",
+    "Randomize çalışma, Minerva Anestesiol 2024 (Özkalayci ve ark.; son yazar Gürkan): ESP bloğu, el yardımlı laparoskopik donör nefrektomi",
     "https://doi.org/10.23736/S0375-9393.23.17706-6"
    ],
    "gk_donor": [
-    "Transplant Proc 2023 (Gürkan ve ark.): laparoskopik donör hepatektomide anestezi yönetimi",
+    "Transplant Proc 2023 (Akbulut ve ark.; son yazar Gürkan): laparoskopik donör hepatektomide anestezi yönetimi",
     "https://doi.org/10.1016/j.transproceed.2023.01.033"
    ],
    "gk_cabg": [
-    "Turk Gogus Kalp Damar Cerrahisi Derg 2023 (Gürkan ve ark.): ESP bloğunun CABG'de arteriyel greftlere etkisi",
+    "Turk Gogus Kalp Damar Cerrahisi Derg 2023 (Darçın ve ark.; son yazar Gürkan): ESP bloğunun CABG'de arteriyel greftlere etkisi",
     "https://doi.org/10.5606/tgkdc.dergisi.2023.24089"
    ],
    "gk_breast": [
@@ -275,15 +359,15 @@
     "https://doi.org/10.4274/TJAR.2023.231472"
    ],
    "gk_flail": [
-    "Olgu bildirimi, A A Pract 2026 (Gürkan ve ark.): parasternal interkostal blok kateteri, flail chest",
+    "Olgu bildirimi, A A Pract 2026 (Gorgulu ve ark.; son yazar Gürkan): parasternal interkostal blok kateteri, flail chest",
     "https://doi.org/10.1213/XAA.0000000000002132"
    ],
    "gk_hsp": [
-    "Randomize çalışma, Medicine 2026 (Gürkan ve ark.): tekrarlayan suprascapular sinir bloğu, hemiplejik omuz ağrısı",
+    "Randomize çalışma, Medicine 2026 (Dogan ve ark.; son yazar Gürkan): tekrarlayan suprascapular sinir bloğu, hemiplejik omuz ağrısı",
     "https://doi.org/10.1097/MD.0000000000047547"
    ],
    "gk_sa": [
-    "Olgu bildirimi, Agri 2023 (Gürkan ve ark.): suprascapular ve aksiller blok, omuz artroplastisi",
+    "Olgu bildirimi, Agri 2023 (Yörükoğlu ve ark.; Gürkan ortak yazar): suprascapular ve aksiller blok, omuz artroplastisi",
     "https://doi.org/10.14744/agri.2021.77527"
    ],
    "gk_fshd": [
@@ -299,39 +383,39 @@
     "https://doi.org/10.14744/agri.2022.55631"
    ],
    "gk_sesp": [
-    "Olgu bildirimi, Agri 2026 (Gürkan ve ark.): sakral ESP bloğu, koksiks çıkarımı",
+    "Olgu bildirimi, Agri 2026 (Manici ve ark.; son yazar Gürkan): sakral ESP bloğu, koksiks çıkarımı",
     "https://doi.org/10.5606/agri.2026.47"
    ],
    "gk_2in1": [
-    "Minerva Anestesiol 2025 (Gürkan ve ark.): two-in-one blok, konjenital kalça displazisi",
+    "Minerva Anestesiol 2025 (Mendes ve ark.; son yazar Gürkan): two-in-one blok, konjenital kalça displazisi",
     "https://doi.org/10.23736/S0375-9393.25.19381-4"
    ],
    "gk_hip": [
-    "Olgu bildirimi, Turk J Anaesthesiol Reanim 2024 (Gürkan ve ark.): lumbar-sakral pleksus bloğu, kalça kırığı",
+    "Olgu bildirimi, Turk J Anaesthesiol Reanim 2024 (Manici ve ark.; son yazar Gürkan): lumbar-sakral pleksus bloğu, kalça kırığı",
     "https://doi.org/10.4274/TJAR.2024.231471"
    ],
    "gk_scalp": [
-    "Olgu bildirimi, A A Pract 2025 (Gürkan ve ark.): skalp sinir blokları ile alın eksizyonu",
+    "Olgu bildirimi, A A Pract 2025 (Mendes ve ark.; son yazar Gürkan): skalp sinir blokları ile alın eksizyonu",
     "https://doi.org/10.1213/XAA.0000000000002039"
    ],
    "gk_rev1": [
-    "Anlatımsal derleme, J Anesth Analg Crit Care 2025 (Gürkan ve ark.): torasik duvar fasiyal plan blokları",
+    "Anlatımsal derleme, J Anesth Analg Crit Care 2025 (Dost ve ark.; Gürkan ortak yazar): torasik duvar fasiyal plan blokları",
     "https://doi.org/10.1186/s44158-025-00328-w"
    ],
    "gk_rev2": [
-    "Anlatımsal derleme, Saudi J Anaesth 2025 (Gürkan ve ark.): fasiyal plan blokları ana anestezi yöntemi",
+    "Anlatımsal derleme, Saudi J Anaesth 2025 (Tulgar ve ark.; son yazar Gürkan): fasiyal plan blokları ana anestezi yöntemi",
     "https://doi.org/10.4103/sja.sja_844_24"
    ],
    "gk_rev3": [
-    "Anlatımsal derleme, Agri 2026 (Gürkan ve ark.): omuz cerrahisinde rejyonel anestezi",
+    "Anlatımsal derleme, Agri 2026 (Erdoğan ve ark.; son yazar Gürkan): omuz cerrahisinde rejyonel anestezi",
     "https://doi.org/10.5606/agri.2026.196"
    ],
    "gk_rev4": [
-    "Anlatımsal derleme, J Int Med Res 2026 (Tulgar, Gürkan ve ark.): diyafram koruyucu omuz anestezisi",
+    "Anlatımsal derleme, J Int Med Res 2026 (Ahiskalioglu ve ark.; son yazar Gürkan): diyafram koruyucu omuz anestezisi",
     "https://doi.org/10.1177/03000605261492573"
    ],
    "gk_tek": [
-    "Yorum, Minerva Anestesiol 2025 (Gürkan ve ark.): infraspinatus-teres minor interfasiyal blok",
+    "Yorum, Minerva Anestesiol 2025 (Mendes ve ark.; son yazar Gürkan): infraspinatus-teres minor interfasiyal blok",
     "https://doi.org/10.23736/S0375-9393.25.19331-0"
    ],
    "gk_ed": [
@@ -347,59 +431,59 @@
     "https://doi.org/10.1016/j.jclinane.2018.06.033"
    ],
    "gk_p31736025": [
-    "Agri 2019 (Gürkan ve ark.): Analgesic effect of the bi-level injection erector spinae plane block after breast surgery: A randomized contr",
+    "Agri 2019 (Aksu ve ark.; son yazar Gürkan): Analgesic effect of the bi-level injection erector spinae plane block after breast surgery: A randomized contr",
     "https://doi.org/10.14744/agri.2019.61687"
    ],
    "gk_p32536425": [
-    "Braz J Anesthesiol 2020 (Gürkan ve ark.): [The effect of thoracic paravertebral block on seroma reduction in breast surgery - a randomized controlled tr",
+    "Braz J Anesthesiol 2020 (Kuş ve ark.; son yazar Gürkan): [The effect of thoracic paravertebral block on seroma reduction in breast surgery - a randomized controlled tr",
     "https://doi.org/10.1016/j.bjan.2019.12.015"
    ],
    "gk_p28631050": [
-    "J Clin Monit Comput 2018 (Gürkan ve ark.): Analgesia nociception index (ani) monitoring in patients with thoracic paravertebral block: a randomized contr",
+    "J Clin Monit Comput 2018 (Dundar ve ark.; Gürkan ortak yazar): Analgesia nociception index (ani) monitoring in patients with thoracic paravertebral block: a randomized contr",
     "https://doi.org/10.1007/s10877-017-0036-9"
    ],
    "gk_p26356102": [
-    "Agri 2015 (Gürkan ve ark.): [Our ultrasound-guided paravertebral block experiences in thoracic surgery]",
+    "Agri 2015 (Kuş ve ark.; Gürkan ortak yazar): [Our ultrasound-guided paravertebral block experiences in thoracic surgery]",
     "https://doi.org/10.5505/agri.2015.59885"
    ],
    "gk_p33927930": [
-    "Cureus 2021 (Gürkan ve ark.): Analgesic Effect of Dual Injection Technique for the Erector Spinae Plane Block in Beating Heart Coronary By-P",
+    "Cureus 2021 (Coşarcan ve ark.; Gürkan ortak yazar): Analgesic Effect of Dual Injection Technique for the Erector Spinae Plane Block in Beating Heart Coronary By-P",
     "https://doi.org/10.7759/cureus.14122"
    ],
    "gk_p33751203": [
-    "J Anesth 2021 (Gürkan ve ark.): Erector spinae block for postoperative pain management in lumbar disc hernia repair",
+    "J Anesth 2021 (Yörükoğlu ve ark.; son yazar Gürkan): Erector spinae block for postoperative pain management in lumbar disc hernia repair",
     "https://doi.org/10.1007/s00540-021-02920-0"
    ],
    "gk_p35703518": [
-    "Eurasian J Med 2022 (Gürkan ve ark.): Quadrant and Dermatomal Analysis of Sensorial Block in Ultrasound- Guided Erector Spinae Plane Block",
+    "Eurasian J Med 2022 (Selvi ve ark.; son yazar Gürkan): Quadrant and Dermatomal Analysis of Sensorial Block in Ultrasound- Guided Erector Spinae Plane Block",
     "https://doi.org/10.5152/eurasianjmed.2022.21151"
    ],
    "gk_p33061562": [
-    "Local Reg Anesth 2020 (Gürkan ve ark.): Anesthetic Techniques: Focus on Lumbar Erector Spinae Plane Block",
+    "Local Reg Anesth 2020 (Tulgar ve ark.; son yazar Gürkan): Anesthetic Techniques: Focus on Lumbar Erector Spinae Plane Block",
     "https://doi.org/10.2147/LRA.S233274"
    ],
    "gk_p31695476": [
-    "J Pain Res 2019 (Gürkan ve ark.): Efficacy of bilateral erector spinae plane block in the management of pain: current insights",
+    "J Pain Res 2019 (Tulgar ve ark.; son yazar Gürkan): Efficacy of bilateral erector spinae plane block in the management of pain: current insights",
     "https://doi.org/10.2147/JPR.S182128"
    ],
    "gk_p34671963": [
-    "Agri 2021 (Gürkan ve ark.): [Ultrasound guided thoracic wall blocks]",
+    "Agri 2021 (Coşarcan ve ark.; son yazar Gürkan): [Ultrasound guided thoracic wall blocks]",
     "https://doi.org/10.14744/agri.2021.43827"
    ],
    "gk_p31326113": [
-    "Braz J Anesthesiol 2019 (Gürkan ve ark.): [Do we still need central blocks while we have erector spinae plane block? Case of 2.5 month old infant]",
+    "Braz J Anesthesiol 2019 (Aksu, Gürkan): [Do we still need central blocks while we have erector spinae plane block? Case of 2.5 month old infant]",
     "https://doi.org/10.1016/j.bjan.2018.12.008"
    ],
    "gk_p31602352": [
-    "Cureus 2019 (Gürkan ve ark.): Defining the Indications and Levels of Erector Spinae Plane Block in Pediatric Patients: A Retrospective Study",
+    "Cureus 2019 (Aksu, Gurkan): Defining the Indications and Levels of Erector Spinae Plane Block in Pediatric Patients: A Retrospective Study",
     "https://doi.org/10.7759/cureus.5348"
    ],
    "gk_p30851499": [
-    "J Clin Anesth 2019 (Gürkan ve ark.): Erector Spinae Plane Block vs Quadratus Lumborum Block for pediatric lower abdominal surgery: A double blinded",
+    "J Clin Anesth 2019 (Aksu ve ark.; son yazar Gürkan): Erector Spinae Plane Block vs Quadratus Lumborum Block for pediatric lower abdominal surgery: A double blinded",
     "https://doi.org/10.1016/j.jclinane.2019.03.006"
    ],
    "gk_p28759502": [
-    "Reg Anesth Pain Med 2017 (Gürkan ve ark.): Quadratus Lumborum Block Versus Transversus Abdominis Plane Block in Children Undergoing Low Abdominal Surgery",
+    "Reg Anesth Pain Med 2017 (Öksüz ve ark.; Gürkan ortak yazar): Quadratus Lumborum Block Versus Transversus Abdominis Plane Block in Children Undergoing Low Abdominal Surgery",
     "https://doi.org/10.1097/AAP.0000000000000645"
    ],
    "gk_p31736019": [
@@ -407,7 +491,7 @@
     "https://doi.org/10.5505/agri.2017.24392"
    ],
    "gk_p31736020": [
-    "Agri 2019 (Gürkan ve ark.): Ultrasound-guided quadratus lumborum block for postoperative analgesia in a pediatric patient",
+    "Agri 2019 (Öksüz ve ark.; Gürkan ortak yazar): Ultrasound-guided quadratus lumborum block for postoperative analgesia in a pediatric patient",
     "https://doi.org/10.5505/agri.2017.05935"
    ],
    "gk_p27033707": [
@@ -415,11 +499,11 @@
     "https://doi.org/10.1007/s10877-016-9869-x"
    ],
    "gk_p40454702": [
-    "A A Pract 2025 (Gürkan ve ark.): Sacral Erector Spinae Plane Block for Hypospadias Surgery in a Patient With Denys-Drash Syndrome: A Case Repor",
+    "A A Pract 2025 (Mendes ve ark.; son yazar Gürkan): Sacral Erector Spinae Plane Block for Hypospadias Surgery in a Patient With Denys-Drash Syndrome: A Case Repor",
     "https://doi.org/10.1213/XAA.0000000000001989"
    ],
    "gk_p30992405": [
-    "Reg Anesth Pain Med 2019 (Gürkan ve ark.): Suprainguinal fascia iliaca block for pediatric hip surgeries",
+    "Reg Anesth Pain Med 2019 (Aksu, Gürkan): Suprainguinal fascia iliaca block for pediatric hip surgeries",
     "https://doi.org/10.1136/rapm-2019-100520"
    ],
    "gk_p37052159": [
@@ -431,15 +515,15 @@
     "https://doi.org/10.5152/TJAR.2022.21095"
    ],
    "gk_p24481582": [
-    "Agri 2014 (Gürkan ve ark.): Ultrasound-guided psoas compartment block and general anesthesia for arthroscopic knee surgery: a case report",
+    "Agri 2014 (Salvız ve ark.; Gürkan ortak yazar): Ultrasound-guided psoas compartment block and general anesthesia for arthroscopic knee surgery: a case report",
     "https://doi.org/10.5505/agri.2014.30633"
    ],
    "gk_p30995327": [
-    "Agri 2019 (Gürkan ve ark.): [Hematoma of thight as popliteal block complication]",
+    "Agri 2019 (Tor Kılıç, Gürkan): [Hematoma of thight as popliteal block complication]",
     "https://doi.org/10.5505/agri.2017.35693"
    ],
    "gk_p27225611": [
-    "Agri 2016 (Gürkan ve ark.): [Ultrasound-guided obturator block experience from past year at Kocaeli University Hospital]",
+    "Agri 2016 (Aksu ve ark.; Gürkan ortak yazar): [Ultrasound-guided obturator block experience from past year at Kocaeli University Hospital]",
     "https://doi.org/10.5505/agri.2015.02360"
    ],
    "gk_p31276108": [
@@ -447,23 +531,23 @@
     "https://doi.org/10.5152/TJAR.2018.48265"
    ],
    "gk_p36847326": [
-    "Turk J Anaesthesiol Reanim 2023 (Gürkan ve ark.): Anterior Approach to Suprascapular Nerve Block Provides Effective Analgesia for Shoulder Pain Following Thorac",
+    "Turk J Anaesthesiol Reanim 2023 (Manici ve ark.; son yazar Gürkan): Anterior Approach to Suprascapular Nerve Block Provides Effective Analgesia for Shoulder Pain Following Thorac",
     "https://doi.org/10.5152/TJAR.2023.21502"
    ],
    "gk_p36514616": [
-    "Cureus 2022 (Gürkan ve ark.): The Minimum Effective Analgesic Volume of 0.5% Bupivacaine for Ultrasound-Guided Anterior Suprascapular Nerve ",
+    "Cureus 2022 (Coşarcan ve ark.; Gürkan ortak yazar): The Minimum Effective Analgesic Volume of 0.5% Bupivacaine for Ultrasound-Guided Anterior Suprascapular Nerve ",
     "https://doi.org/10.7759/cureus.31350"
    ],
    "gk_p36567542": [
-    "Acta Orthop Traumatol Turc 2022 (Gürkan ve ark.): Comparison of anterior suprascapular nerve block versus interscalane nerve block in terms of diaphragm paralys",
+    "Acta Orthop Traumatol Turc 2022 (Doğan ve ark.; Gürkan ortak yazar): Comparison of anterior suprascapular nerve block versus interscalane nerve block in terms of diaphragm paralys",
     "https://doi.org/10.5152/j.aott.2022.22044"
    ],
    "gk_p34476141": [
-    "Cureus 2021 (Gürkan ve ark.): Could Interscalene Block Possibly be Protective Against Cerebral Ischemia During Shoulder Surgery in a Beach C",
+    "Cureus 2021 (Coşarcan ve ark.; Gürkan ortak yazar): Could Interscalene Block Possibly be Protective Against Cerebral Ischemia During Shoulder Surgery in a Beach C",
     "https://doi.org/10.7759/cureus.16773"
    ],
    "gk_p37493484": [
-    "Agri 2023 (Gürkan ve ark.): [Infraclavicular block for elbow surgery in a patient with pneumonectomy: Case report]",
+    "Agri 2023 (Karakaya ve ark.; son yazar Gürkan): [Infraclavicular block for elbow surgery in a patient with pneumonectomy: Case report]",
     "https://doi.org/10.14744/agri.2021.68726"
    ],
    "gk_p36511498": [
@@ -475,11 +559,11 @@
     "https://doi.org/10.5505/agri.2014.50490"
    ],
    "gk_p28111732": [
-    "Agri 2016 (Gürkan ve ark.): Awake hand surgery under ultrasound-guided infraclavicular block is possible for cooperative children",
+    "Agri 2016 (Yanal ve ark.; Gürkan ortak yazar): Awake hand surgery under ultrasound-guided infraclavicular block is possible for cooperative children",
     "https://doi.org/10.5505/agri.2015.09327"
    ],
    "gk_p23549315": [
-    "Acta Orthop Traumatol Turc 2013 (Gürkan ve ark.): Coracoid versus lateral sagittal infraclavicular block",
+    "Acta Orthop Traumatol Turc 2013 (Acar ve ark.; Gürkan ortak yazar): Coracoid versus lateral sagittal infraclavicular block",
     "https://doi.org/10.3944/aott.2013.2615"
    ],
    "gk_p23364778": [
@@ -487,11 +571,11 @@
     "https://doi.org/10.5505/agri.2012.38247"
    ],
    "gk_p23397432": [
-    "J Clin Monit Comput 2013 (Gürkan ve ark.): Usefulness of perfusion index to detect the effect of brachial plexus block",
+    "J Clin Monit Comput 2013 (Kus ve ark.; Gürkan ortak yazar): Usefulness of perfusion index to detect the effect of brachial plexus block",
     "https://doi.org/10.1007/s10877-013-9439-4"
    ],
    "gk_p34874137": [
-    "Minerva Anestesiol 2021 (Gürkan ve ark.): Assessment of sciatic nerve block success with elastography: new perspective for the nerve blocks",
+    "Minerva Anestesiol 2021 (Karakaya ve ark.; son yazar Gürkan): Assessment of sciatic nerve block success with elastography: new perspective for the nerve blocks",
     "https://doi.org/10.23736/S0375-9393.21.15819-5"
    ],
    "gk_p25344881": [
@@ -499,11 +583,11 @@
     "https://doi.org/10.1007/s10877-014-9635-x"
    ],
    "gk_p32297963": [
-    "Agri 2020 (Gürkan ve ark.): [Superficial cervical plexus block in ear surgery: A case report]",
+    "Agri 2020 (Türkyılmaz ve ark.; son yazar Gürkan): [Superficial cervical plexus block in ear surgery: A case report]",
     "https://doi.org/10.5505/agri.2018.45762"
    ],
    "gk_p31433895": [
-    "Paediatr Anaesth 2019 (Gürkan ve ark.): Ultrasound-guided dorsal penile nerve block vs neurostimulator-guided pudendal nerve block in children undergo",
+    "Paediatr Anaesth 2019 (Aksu ve ark.; son yazar Gürkan): Ultrasound-guided dorsal penile nerve block vs neurostimulator-guided pudendal nerve block in children undergo",
     "https://doi.org/10.1111/pan.13727"
    ],
    "gk_p26822137": [
@@ -511,23 +595,23 @@
     "https://doi.org/10.1007/s12630-016-0596-z"
    ],
    "gk_p32789823": [
-    "Agri 2020 (Gürkan ve ark.): [Surgical anesthesia using ultrasound-guided penile nerve block for adult hemophilia patient]",
+    "Agri 2020 (Cesur ve ark.; Gürkan ortak yazar): [Surgical anesthesia using ultrasound-guided penile nerve block for adult hemophilia patient]",
     "https://doi.org/10.5505/agri.2018.27676"
    ],
    "gk_p29738062": [
-    "Agri 2018 (Gürkan ve ark.): [Ultrasound-guided penile nerve block for pediatric hypospadias surgery]",
+    "Agri 2018 (Türkyılmaz ve ark.; Gürkan ortak yazar): [Ultrasound-guided penile nerve block for pediatric hypospadias surgery]",
     "https://doi.org/10.5505/agri.2016.70446"
    ],
    "gk_p24264554": [
-    "Agri 2013 (Gürkan ve ark.): Monoplegia after combined spinal epidural anesthesia",
+    "Agri 2013 (Balaban ve ark.; Gürkan ortak yazar): Monoplegia after combined spinal epidural anesthesia",
     "https://doi.org/10.5505/agri.2013.48568"
    ],
    "gk_p39431676": [
-    "Agri 2024 (Gürkan ve ark.): Cranial nerve palsies following neuraxial blocks",
+    "Agri 2024 (Manici ve ark.; son yazar Gürkan): Cranial nerve palsies following neuraxial blocks",
     "https://doi.org/10.14744/agri.2024.69345"
    ],
    "gk_p41733562": [
-    "Minerva Anestesiol 2026 (Gürkan ve ark.): Comparison of two epidural space identification methods in orthopedic surgery: spring-loaded syringe versus lo",
+    "Minerva Anestesiol 2026 (Erdoğan ve ark.; son yazar Gürkan): Comparison of two epidural space identification methods in orthopedic surgery: spring-loaded syringe versus lo",
     "https://doi.org/10.23736/S0375-9393.26.19916-7"
    ],
    "gk_p12456454": [
@@ -543,19 +627,19 @@
     "https://doi.org/10.5152/TJAR.2017.040401"
    ],
    "gk_p36283714": [
-    "Reg Anesth Pain Med 2022 (Gürkan ve ark.): Recommendations for anatomical structures to identify on ultrasound for the performance of intermediate and ad",
+    "Reg Anesth Pain Med 2022 (Ashken ve ark.; Gürkan ortak yazar): Recommendations for anatomical structures to identify on ultrasound for the performance of intermediate and ad",
     "https://doi.org/10.1136/rapm-2022-103738"
    ],
    "gk_p42664388": [
-    "Turk J Anaesthesiol Reanim 2026 (Gürkan ve ark.): Regional Anaesthesia Techniques in Liver and Kidney Transplantation: A Narrative Review in Donors and Recipien",
+    "Turk J Anaesthesiol Reanim 2026 (De Cassai ve ark.; son yazar Gürkan): Regional Anaesthesia Techniques in Liver and Kidney Transplantation: A Narrative Review in Donors and Recipien",
     "https://doi.org/10.4274/TJAR.2026.262509"
    ],
    "gk_p36625187": [
-    "Agri 2023 (Gürkan ve ark.): Artificial-coloring in ultrasound-guided regional anesthesia",
+    "Agri 2023 (Araz ve ark.; Gürkan ortak yazar): Artificial-coloring in ultrasound-guided regional anesthesia",
     "https://doi.org/10.14744/agri.2021.25826"
    ],
    "gk_p38239125": [
-    "Agri 2024 (Gürkan ve ark.): Rib tip technique (RTT) to rhomboid block: A novel approach",
+    "Agri 2024 (Manici ve ark.; son yazar Gürkan): Rib tip technique (RTT) to rhomboid block: A novel approach",
     "https://doi.org/10.14744/agri.2023.39112"
    ],
    "gk_p39869533": [
@@ -567,31 +651,31 @@
     "https://doi.org/10.5505/agri.2014.26056"
    ],
    "gk_p37587728": [
-    "Turk J Anaesthesiol Reanim 2023 (Gürkan ve ark.): Social Media Use Amongst Regional Anaesthesia and Pain Practitioners and Residents: Standardization and Ethica",
+    "Turk J Anaesthesiol Reanim 2023 (Tulgar ve ark.; son yazar Gürkan): Social Media Use Amongst Regional Anaesthesia and Pain Practitioners and Residents: Standardization and Ethica",
     "https://doi.org/10.4274/TJAR.2023.231211"
    ],
    "gk_p41116734": [
-    "Turk J Anaesthesiol Reanim 2026 (Gürkan ve ark.): Current Trends in Anaesthesia Monitoring: A Survey Study",
+    "Turk J Anaesthesiol Reanim 2026 (Söğüt ve ark.; son yazar Gürkan): Current Trends in Anaesthesia Monitoring: A Survey Study",
     "https://doi.org/10.4274/TJAR.2025.251987"
    ],
    "gk_p36511494": [
-    "Turk J Anaesthesiol Reanim 2022 (Gürkan ve ark.): Translation and Validation of the Turkish Version of the Quality of Postoperative Recovery Score QoR-15: A Mul",
+    "Turk J Anaesthesiol Reanim 2022 (Selvi ve ark.; son yazar Gürkan): Translation and Validation of the Turkish Version of the Quality of Postoperative Recovery Score QoR-15: A Mul",
     "https://doi.org/10.5152/TJAR.2022.21417"
    ],
    "gk_p38994752": [
-    "Turk J Anaesthesiol Reanim 2024 (Gürkan ve ark.): The Ventilatory Changes of Pediatric Peroral Endoscopic Myotomy Patients",
+    "Turk J Anaesthesiol Reanim 2024 (Manici ve ark.; Gürkan ortak yazar): The Ventilatory Changes of Pediatric Peroral Endoscopic Myotomy Patients",
     "https://doi.org/10.4274/TJAR.2024.241609"
    ],
    "gk_p38414151": [
-    "Turk J Anaesthesiol Reanim 2024 (Gürkan ve ark.): Visual Evaluation of Plethysmographic Waveforms: Introducing the Simple Systolic Ratio as an Indicator of Flui",
+    "Turk J Anaesthesiol Reanim 2024 (Söğüt ve ark.; son yazar Gürkan): Visual Evaluation of Plethysmographic Waveforms: Introducing the Simple Systolic Ratio as an Indicator of Flui",
     "https://doi.org/10.4274/TJAR.2024.231452"
    ],
    "gk_p38863292": [
-    "Ulus Travma Acil Cerrahi Derg 2024 (Gürkan ve ark.): Anesthesiological and surgical perspectives on using 8 mmHg versus 12 mmHg pneumoperitoneum pressures during r",
+    "Ulus Travma Acil Cerrahi Derg 2024 (Manici ve ark.; Gürkan ortak yazar): Anesthesiological and surgical perspectives on using 8 mmHg versus 12 mmHg pneumoperitoneum pressures during r",
     "https://doi.org/10.14744/tjtes.2024.78617"
    ],
    "gk_p23417581": [
-    "J Clin Monit Comput 2013 (Gürkan ve ark.): Ultrasound-guided radial arterial cannulation: long axis/in-plane versus short axis/out-of-plane approaches?",
+    "J Clin Monit Comput 2013 (Berk ve ark.; Gürkan ortak yazar): Ultrasound-guided radial arterial cannulation: long axis/in-plane versus short axis/out-of-plane approaches?",
     "https://doi.org/10.1007/s10877-013-9437-6"
    ],
    "gk_p12641684": [
@@ -599,19 +683,19 @@
     "https://doi.org/10.1046/j.1460-9592.2003.01041.x"
    ],
    "gk_p16930785": [
-    "Br J Oral Maxillofac Surg 2007 (Gürkan ve ark.): A comparison of midazolam and midazolam with remifentanil for patient-controlled sedation during operations on",
+    "Br J Oral Maxillofac Surg 2007 (Garip ve ark.; Gürkan ortak yazar): A comparison of midazolam and midazolam with remifentanil for patient-controlled sedation during operations on",
     "https://doi.org/10.1016/j.bjoms.2006.06.002"
    ],
    "gk_p16598973": [
-    "J Pediatr Ophthalmol Strabismus 2006 (Gürkan ve ark.): Probing for nasolacrimal duct obstruction using intranasal midazolam sedation as an alternative to general ane",
+    "J Pediatr Ophthalmol Strabismus 2006 (Karabas ve ark.; Gürkan ortak yazar): Probing for nasolacrimal duct obstruction using intranasal midazolam sedation as an alternative to general ane",
     "https://doi.org/10.3928/0191-3913-20060301-05"
    ],
    "gk_p27366393": [
-    "Turk J Anaesthesiol Reanim 2014 (Gürkan ve ark.): Survey on Postoperative Hypothermia Incidence In Operating Theatres of Kocaeli University",
+    "Turk J Anaesthesiol Reanim 2014 (Aksu ve ark.; Gürkan ortak yazar): Survey on Postoperative Hypothermia Incidence In Operating Theatres of Kocaeli University",
     "https://doi.org/10.5152/TJAR.2014.15010"
    ],
    "gk_p27366424": [
-    "Turk J Anaesthesiol Reanim 2014 (Gürkan ve ark.): The Role of Preoperative Evaluation for Congenital Methemoglobinemia",
+    "Turk J Anaesthesiol Reanim 2014 (Kuş ve ark.; Gürkan ortak yazar): The Role of Preoperative Evaluation for Congenital Methemoglobinemia",
     "https://doi.org/10.5152/TJAR.2014.82335"
    ],
    "gk_p39145586": [
@@ -619,7 +703,7 @@
     "https://doi.org/10.1213/XAA.0000000000001836"
    ],
    "gk_p32179624": [
-    "Reg Anesth Pain Med 2020 (Gürkan ve ark.): Response to comments on our letter",
+    "Reg Anesth Pain Med 2020 (Coşarcan ve ark.; Gürkan ortak yazar): Response to comments on our letter",
     "https://doi.org/10.1136/rapm-2020-101352"
    ],
    "gk_p33486316": [
@@ -627,27 +711,27 @@
     "https://doi.org/10.1016/j.jclinane.2021.110168"
    ],
    "gk_p32665453": [
-    "Reg Anesth Pain Med 2021 (Gürkan ve ark.): Anterior suprascapular block may not avoid diaphragmatic paralysis",
+    "Reg Anesth Pain Med 2021 (Coşarcan ve ark.; Gürkan ortak yazar): Anterior suprascapular block may not avoid diaphragmatic paralysis",
     "https://doi.org/10.1136/rapm-2020-101714"
    ],
    "gk_p31729011": [
-    "Acta Anaesthesiol Scand 2020 (Gürkan ve ark.): Targeted modification of erector spinae plane block",
+    "Acta Anaesthesiol Scand 2020 (Coşarcan ve ark.; Gürkan ortak yazar): Targeted modification of erector spinae plane block",
     "https://doi.org/10.1111/aas.13508"
    ],
    "gk_p35193970": [
-    "Reg Anesth Pain Med 2022 (Gürkan ve ark.): Recommendations for effective documentation in regional anesthesia: an expert panel Delphi consensus",
+    "Reg Anesth Pain Med 2022 (Ahmed ve ark.; Gürkan ortak yazar): Recommendations for effective documentation in regional anesthesia: an expert panel Delphi consensus",
     "https://doi.org/10.1136/rapm-2021-103136"
    ],
    "gk_p35384003": [
-    "J Ultrasound Med 2023 (Gürkan ve ark.): Incidentally Identified Posterior Intercostal Artery on the Interfascial Plane Between Transverse Pr",
+    "J Ultrasound Med 2023 (Tulgar ve ark.; son yazar Gürkan): Incidentally Identified Posterior Intercostal Artery on the Interfascial Plane Between Transverse Pr",
     "https://doi.org/10.1002/jum.15986"
    ],
    "gk_p32522864": [
-    "Reg Anesth Pain Med 2021 (Gürkan ve ark.): Time for reappraisal: in the light of scientific data",
+    "Reg Anesth Pain Med 2021 (Coşarcan ve ark.; Gürkan ortak yazar): Time for reappraisal: in the light of scientific data",
     "https://doi.org/10.1136/rapm-2020-101712"
    ],
    "gk_p33011667": [
-    "J Clin Anesth 2021 (Gürkan ve ark.): Rhomboid block contributes to relieving postoperative thoracotomy pain",
+    "J Clin Anesth 2021 (Manici ve ark.; son yazar Gürkan): Rhomboid block contributes to relieving postoperative thoracotomy pain",
     "https://doi.org/10.1016/j.jclinane.2020.110075"
    ],
    "gk_p33199377": [
@@ -655,7 +739,7 @@
     "https://doi.org/10.1136/rapm-2020-102195"
    ],
    "gk_p33568503": [
-    "Reg Anesth Pain Med 2021 (Gürkan ve ark.): Lumbar erector spinae plane block: a miracle or self-persuasion?",
+    "Reg Anesth Pain Med 2021 (Tulgar ve ark.; son yazar Gürkan): Lumbar erector spinae plane block: a miracle or self-persuasion?",
     "https://doi.org/10.1136/rapm-2020-102336"
    ],
    "gk_p33011669": [
@@ -663,43 +747,43 @@
     "https://doi.org/10.1016/j.jclinane.2020.110064"
    ],
    "gk_p31857373": [
-    "Reg Anesth Pain Med 2020 (Gürkan ve ark.): Superior costotransverse ligament is the main actor in permeability between the layers? Target-speci",
+    "Reg Anesth Pain Med 2020 (Coşarcan ve ark.; son yazar Gürkan): Superior costotransverse ligament is the main actor in permeability between the layers? Target-speci",
     "https://doi.org/10.1136/rapm-2019-101031"
    ],
    "gk_p31672784": [
-    "Reg Anesth Pain Med 2020 (Gürkan ve ark.): Erector spinae plane block for peroral endoscopic myotomy analgesia in pediatric patients",
+    "Reg Anesth Pain Med 2020 (Özkalaycı ve ark.; Gürkan ortak yazar): Erector spinae plane block for peroral endoscopic myotomy analgesia in pediatric patients",
     "https://doi.org/10.1136/rapm-2019-101005"
    ],
    "gk_p32120193": [
-    "J Clin Anesth 2020 (Gürkan ve ark.): Response to Dr. Hamilton regarding the concerns about anatomical nomenclature of erector spinae plan",
+    "J Clin Anesth 2020 (Kuş ve ark.; son yazar Gürkan): Response to Dr. Hamilton regarding the concerns about anatomical nomenclature of erector spinae plan",
     "https://doi.org/10.1016/j.jclinane.2020.109756"
    ],
    "gk_p41380956": [
-    "J Shoulder Elbow Surg 2026 (Gürkan ve ark.): Letter to the Editor regarding Burns et al: \"Use of tranexamic acid reduces opioid consumption after",
+    "J Shoulder Elbow Surg 2026 (Dogan ve ark.; son yazar Gürkan): Letter to the Editor regarding Burns et al: \"Use of tranexamic acid reduces opioid consumption after",
     "https://doi.org/10.1016/j.jse.2025.11.004"
    ],
    "gk_p33549953": [
-    "J Clin Anesth 2021 (Gürkan ve ark.): Erector Spinae Plane Block for videothoracoscopic left pleurectomy decortication and hyperthermic in",
+    "J Clin Anesth 2021 (Manici ve ark.; Gürkan ortak yazar): Erector Spinae Plane Block for videothoracoscopic left pleurectomy decortication and hyperthermic in",
     "https://doi.org/10.1016/j.jclinane.2021.110182"
    ],
    "gk_p31501248": [
-    "Reg Anesth Pain Med 2020 (Gürkan ve ark.): Should erector spinae plane block applications be standardized or should we revise nomenclature?",
+    "Reg Anesth Pain Med 2020 (Tulgar ve ark.; son yazar Gürkan): Should erector spinae plane block applications be standardized or should we revise nomenclature?",
     "https://doi.org/10.1136/rapm-2019-100910"
    ],
    "gk_p31263935": [
-    "Aesthetic Plast Surg 2019 (Gürkan ve ark.): Ultrasound-Guided Bilateral Erector Spinae Plane Block versus Tumescent Anesthesia for Postoperative",
+    "Aesthetic Plast Surg 2019 (Oğuz ve ark.; Gürkan ortak yazar): Ultrasound-Guided Bilateral Erector Spinae Plane Block versus Tumescent Anesthesia for Postoperative",
     "https://doi.org/10.1007/s00266-019-01437-y"
    ],
    "gk_p32593034": [
-    "J Clin Anesth 2020 (Gürkan ve ark.): Interfascial plane blocks as shortcut alternatives for regional anesthesia and pain management for S",
+    "J Clin Anesth 2020 (Tulgar ve ark.; son yazar Gürkan): Interfascial plane blocks as shortcut alternatives for regional anesthesia and pain management for S",
     "https://doi.org/10.1016/j.jclinane.2020.109948"
    ],
    "gk_p30787685": [
-    "Saudi J Anaesth 2019 (Gürkan ve ark.): Erector spinae plane block: New block with great expectations",
+    "Saudi J Anaesth 2019 (Aksu, Gürkan): Erector spinae plane block: New block with great expectations",
     "https://doi.org/10.4103/sja.SJA_564_18"
    ],
    "gk_p31333359": [
-    "Saudi J Anaesth 2019 (Gürkan ve ark.): Erector spinae plane block: Safety in altered anatomy",
+    "Saudi J Anaesth 2019 (Aksu, Gürkan): Erector spinae plane block: Safety in altered anatomy",
     "https://doi.org/10.4103/sja.SJA_247_19"
    ],
    "gk_p16490111": [
@@ -707,23 +791,23 @@
     "https://doi.org/10.1111/j.1460-9592.2005.01798.x"
    ],
    "gk_p29452332": [
-    "Anaesth Crit Care Pain Med 2019 (Gürkan ve ark.): Ultrasound-guided erector spinae plane block provides effective perioperative analgesia and anaesthe",
+    "Anaesth Crit Care Pain Med 2019 (Cesur ve ark.; son yazar Gürkan): Ultrasound-guided erector spinae plane block provides effective perioperative analgesia and anaesthe",
     "https://doi.org/10.1016/j.accpm.2018.01.002"
    ],
    "gk_p30408620": [
-    "J Clin Anesth 2019 (Gürkan ve ark.): Aksu approach for lumbar erector spinae plane block for pediatric surgeries",
+    "J Clin Anesth 2019 (Aksu, Gürkan): Aksu approach for lumbar erector spinae plane block for pediatric surgeries",
     "https://doi.org/10.1016/j.jclinane.2018.10.043"
    ],
    "gk_p30689136": [
-    "J Clin Monit Comput 2019 (Gürkan ve ark.): Bilateral erector spinae plane block with single injection",
+    "J Clin Monit Comput 2019 (Yörükoğlu ve ark.; son yazar Gürkan): Bilateral erector spinae plane block with single injection",
     "https://doi.org/10.1007/s10877-018-00247-y"
    ],
    "gk_p31203111": [
-    "J Clin Anesth 2020 (Gürkan ve ark.): Sacral Erector Spinae Plane Block with longitudinal midline approach: Could it be the new era for pe",
+    "J Clin Anesth 2020 (Aksu, Gürkan): Sacral Erector Spinae Plane Block with longitudinal midline approach: Could it be the new era for pe",
     "https://doi.org/10.1016/j.jclinane.2019.06.007"
    ],
    "gk_p29883967": [
-    "J Clin Anesth 2018 (Gürkan ve ark.): Combined quadratus lumborum block and lumbar plexus block for a pediatric patient undergoing Ilizaro",
+    "J Clin Anesth 2018 (Yörükoğlu, Gürkan): Combined quadratus lumborum block and lumbar plexus block for a pediatric patient undergoing Ilizaro",
     "https://doi.org/10.1016/j.jclinane.2018.06.002"
    ],
    "gk_p30560411": [
@@ -731,27 +815,27 @@
     "https://doi.org/10.1007/s12630-018-01276-6"
    ],
    "gk_p29274546": [
-    "J Clin Anesth 2018 (Gürkan ve ark.): Ultrasound guided erector spinae block for postoperative analgesia in pediatric nephrectomy surgerie",
+    "J Clin Anesth 2018 (Aksu, Gürkan): Ultrasound guided erector spinae block for postoperative analgesia in pediatric nephrectomy surgerie",
     "https://doi.org/10.1016/j.jclinane.2017.12.021"
    ],
    "gk_p30496919": [
-    "J Clin Anesth 2019 (Gürkan ve ark.): Erector spinae plane block: A new indication with a new approach and a recommendation to reduce the ",
+    "J Clin Anesth 2019 (Aksu, Gürkan): Erector spinae plane block: A new indication with a new approach and a recommendation to reduce the ",
     "https://doi.org/10.1016/j.jclinane.2018.11.007"
    ],
    "gk_p29630940": [
-    "Anaesth Crit Care Pain Med 2019 (Gürkan ve ark.): Ultrasound-guided bilateral erector spinae plane block could provide effective postoperative analges",
+    "Anaesth Crit Care Pain Med 2019 (Aksu, Gürkan): Ultrasound-guided bilateral erector spinae plane block could provide effective postoperative analges",
     "https://doi.org/10.1016/j.accpm.2018.03.008"
    ],
    "gk_p29927855": [
-    "Reg Anesth Pain Med 2018 (Gürkan ve ark.): Reply to Drs Nee and McDonnell",
+    "Reg Anesth Pain Med 2018 (Öksüz, Gürkan): Reply to Drs Nee and McDonnell",
     "https://doi.org/10.1097/AAP.0000000000000811"
    ],
    "gk_p29414626": [
-    "J Clin Anesth 2018 (Gürkan ve ark.): Ultrasound guided quadratus lumborum block for postoperative analgesia in pediatric ambulatory ingui",
+    "J Clin Anesth 2018 (Aksu, Gürkan): Ultrasound guided quadratus lumborum block for postoperative analgesia in pediatric ambulatory ingui",
     "https://doi.org/10.1016/j.jclinane.2018.02.002"
    ],
    "gk_p29980003": [
-    "J Clin Anesth 2018 (Gürkan ve ark.): Opioid sparing effect of Erector Spinae Plane block for pediatric bilateral inguinal hernia surgerie",
+    "J Clin Anesth 2018 (Aksu, Gürkan): Opioid sparing effect of Erector Spinae Plane block for pediatric bilateral inguinal hernia surgerie",
     "https://doi.org/10.1016/j.jclinane.2018.06.048"
    ],
    "gk_p14570694": [
@@ -759,19 +843,19 @@
     "https://doi.org/10.1213/01.ANE.0000077666.77618.82"
    ],
    "gk_p16324044": [
-    "Paediatr Anaesth 2005 (Gürkan ve ark.): Laryngeal mask airway-guided fiberoptic tracheal intubation in a 1200-gm infant with difficult airway",
+    "Paediatr Anaesth 2005 (Yilmaz ve ark.; Gürkan ortak yazar): Laryngeal mask airway-guided fiberoptic tracheal intubation in a 1200-gm infant with difficult airway",
     "https://doi.org/10.1111/j.1460-9592.2005.01724.x"
    ],
    "gk_p16430428": [
-    "Paediatr Anaesth 2006 (Gürkan ve ark.): Anesthesia management of a child with adrenoleukodystrophy",
+    "Paediatr Anaesth 2006 (Culha ve ark.; Gürkan ortak yazar): Anesthesia management of a child with adrenoleukodystrophy",
     "https://doi.org/10.1111/j.1460-9592.2005.01781.x"
    ],
    "gk_p19921391": [
-    "J Anesth 2009 (Gürkan ve ark.): Ultrasound-guided bilateral transversus abdominis plane block in a 2-month-old infant",
+    "J Anesth 2009 (Tekin ve ark.; Gürkan ortak yazar): Ultrasound-guided bilateral transversus abdominis plane block in a 2-month-old infant",
     "https://doi.org/10.1007/s00540-009-0802-z"
    ],
    "gk_p20400016": [
-    "J Clin Anesth 2010 (Gürkan ve ark.): Failed tracheal intubation with the LMA CTrach in a patient with an oral mass",
+    "J Clin Anesth 2010 (Seyidov ve ark.; Gürkan ortak yazar): Failed tracheal intubation with the LMA CTrach in a patient with an oral mass",
     "https://doi.org/10.1016/j.jclinane.2009.07.006"
    ],
    "gk_p21935821": [
@@ -779,7 +863,7 @@
     "https://doi.org/10.5505/agri.2011.04706"
    ],
    "gk_p22865494": [
-    "Agri 2012 (Gürkan ve ark.): [Ultrasound guided multiple peripheral nerve blocks in a high-risk patient]",
+    "Agri 2012 (Çiftçioğlu ve ark.; Gürkan ortak yazar): [Ultrasound guided multiple peripheral nerve blocks in a high-risk patient]",
     "https://doi.org/10.5505/agri.2012.18291"
    ],
    "gk_p22865523": [
@@ -787,51 +871,51 @@
     "https://doi.org/10.5505/agri.2012.96636"
    ],
    "gk_p23313290": [
-    "J Cardiothorac Vasc Anesth 2013 (Gürkan ve ark.): Pleural puncture and intrathoracic catheter placement during ultrasound guided paravertebral block",
+    "J Cardiothorac Vasc Anesth 2013 (Kus ve ark.; Gürkan ortak yazar): Pleural puncture and intrathoracic catheter placement during ultrasound guided paravertebral block",
     "https://doi.org/10.1053/j.jvca.2012.10.018"
    ],
    "gk_p23364784": [
-    "Agri 2012 (Gürkan ve ark.): [A brachial plexus variation identified during ultrasound-guided interscalene block]",
+    "Agri 2012 (Kılıçaslan ve ark.; Gürkan ortak yazar): [A brachial plexus variation identified during ultrasound-guided interscalene block]",
     "https://doi.org/10.5505/agri.2012.34966"
    ],
    "gk_p23958073": [
-    "J Cardiothorac Vasc Anesth 2014 (Gürkan ve ark.): A comparison of the EZ-Blocker with a Cohen Flex-Tip blocker for one-lung ventilation",
+    "J Cardiothorac Vasc Anesth 2014 (Kus ve ark.; Gürkan ortak yazar): A comparison of the EZ-Blocker with a Cohen Flex-Tip blocker for one-lung ventilation",
     "https://doi.org/10.1053/j.jvca.2013.02.006"
    ],
    "gk_p23965190": [
-    "J Clin Anesth 2013 (Gürkan ve ark.): Sequential lung isolation using a bronchial blocker (EZ-Blocker) for bilateral dorsal sympathectomy",
+    "J Clin Anesth 2013 (Kus ve ark.; Gürkan ortak yazar): Sequential lung isolation using a bronchial blocker (EZ-Blocker) for bilateral dorsal sympathectomy",
     "https://doi.org/10.1016/j.jclinane.2013.03.011"
    ],
    "gk_p24632572": [
-    "Eur J Anaesthesiol 2014 (Gürkan ve ark.): The LMA-Supreme versus the I-gel in simulated difficult airway in children: a randomised study",
+    "Eur J Anaesthesiol 2014 (Kus ve ark.; Gürkan ortak yazar): The LMA-Supreme versus the I-gel in simulated difficult airway in children: a randomised study",
     "https://doi.org/10.1097/EJA.0000000000000062"
    ],
    "gk_p25207012": [
-    "Balkan Med J 2012 (Gürkan ve ark.): Comparison of the Laryngeal Mask Airway (CTrach) and Direct Coupled Interface-Video Laryngoscope for endotrach",
+    "Balkan Med J 2012 (Hoşten ve ark.; Gürkan ortak yazar): Comparison of the Laryngeal Mask Airway (CTrach) and Direct Coupled Interface-Video Laryngoscope for endotrach",
     "https://doi.org/10.5152/balkanmedj.2012.025"
    ],
    "gk_p27366421": [
-    "Turk J Anaesthesiol Reanim 2014 (Gürkan ve ark.): Management of Difficult Airway in a Failed Intubation with Videolaryngoscopy in an Infant Patient",
+    "Turk J Anaesthesiol Reanim 2014 (Kuş ve ark.; Gürkan ortak yazar): Management of Difficult Airway in a Failed Intubation with Videolaryngoscopy in an Infant Patient",
     "https://doi.org/10.5152/TJAR.2014.65365"
    ],
    "gk_p30551009": [
-    "J Clin Anesth 2019 (Gürkan ve ark.): Response to Dr. Ueshima et al. about erector spinae plane block use in breast cancer surgery",
+    "J Clin Anesth 2019 (Aksu, Gürkan): Response to Dr. Ueshima et al. about erector spinae plane block use in breast cancer surgery",
     "https://doi.org/10.1016/j.jclinane.2018.11.005"
    ],
    "gk_p30772820": [
-    "Reg Anesth Pain Med 2019 (Gürkan ve ark.): Response to Dr De Cassai about \"Aksu Approach\"",
+    "Reg Anesth Pain Med 2019 (Aksu, Gürkan): Response to Dr De Cassai about \"Aksu Approach\"",
     "https://doi.org/10.1136/rapm-2019-100400"
    ],
    "gk_p31112868": [
-    "J Clin Anesth 2019 (Gürkan ve ark.): Pleth Variable Index in infants undergoing myelomeningocele repair",
+    "J Clin Anesth 2019 (İçli ve ark.; Gürkan ortak yazar): Pleth Variable Index in infants undergoing myelomeningocele repair",
     "https://doi.org/10.1016/j.jclinane.2019.05.018"
    ],
    "gk_p38239119": [
-    "Agri 2024 (Gürkan ve ark.): Ultrasound-guided greater auricular nerve block for surgical anesthesia of the external ear",
+    "Agri 2024 (Manici ve ark.; son yazar Gürkan): Ultrasound-guided greater auricular nerve block for surgical anesthesia of the external ear",
     "https://doi.org/10.14744/agri.2022.93798"
    ],
    "gk_p42319076": [
-    "Turk J Anaesthesiol Reanim 2026 (Gürkan ve ark.): Anaesthetic Management of Hermansky-Pudlak Syndrome with Major Hemorrhage: Based on a Case Report",
+    "Turk J Anaesthesiol Reanim 2026 (Akbulut ve ark.; son yazar Gürkan): Anaesthetic Management of Hermansky-Pudlak Syndrome with Major Hemorrhage: Based on a Case Report",
     "https://doi.org/10.4274/TJAR.2026.252131"
    ]
   },
@@ -865,7 +949,7 @@
     "https://doi.org/10.3390/jcm13113185"
    ],
    "br_isb_rct": [
-    "Randomize çalışma, J Anesth 2014 (Kaya ve ark.): interskalen blok, modifiye radikal mastektomi",
+    "Randomize çalışma, J Anesth 2013 (Kaya ve ark.): interskalen blok, modifiye radikal mastektomi",
     "https://doi.org/10.1007/s00540-013-1647-z"
    ],
    "br_multi_rct": [
@@ -899,23 +983,23 @@
   },
   "TFBSRC": {
    "tf_ma1": [
-    "Meta-analiz, Minerva Anestesiol 2025: sezaryen sonrası TFPB, RCT meta-analizi",
+    "Meta-analiz, Minerva Anestesiol 2025 (Tutar ve ark.): sezaryen sonrası TFPB, RCT meta-analizi",
     "https://doi.org/10.23736/S0375-9393.25.19105-0"
    ],
    "tf_ma2": [
-    "Meta-analiz ve trial sequential analysis, Minerva Anestesiol 2025: sezaryen sonrası TFPB",
+    "Meta-analiz ve trial sequential analysis, Minerva Anestesiol 2025 (Dost ve ark.): sezaryen sonrası TFPB",
     "https://doi.org/10.23736/S0375-9393.25.18771-3"
    ],
    "tf_ma3": [
-    "Sistematik derleme ve meta-analiz, Indian J Anaesth 2023: ultrason eşliğinde TFPB",
+    "Sistematik derleme ve meta-analiz, Indian J Anaesth 2023 (Nair ve ark.): ultrason eşliğinde TFPB",
     "https://doi.org/10.4103/ija.ija_43_23"
    ],
    "tf_sr": [
-    "Sistematik derleme, Anesth Pain Med 2026: TFPB ve TAP bloğu, sezaryen",
+    "Sistematik derleme, Anesth Pain Med 2026 (Bahr ve ark.): TFPB ve TAP bloğu, sezaryen",
     "https://doi.org/10.17085/apm.26626"
    ],
    "tf_nma": [
-    "Ağ meta-analizi, Int J Surg 2025: sezaryen sonrası analjezik yöntemler",
+    "Ağ meta-analizi, Int J Surg 2025 (Jing ve ark.): sezaryen sonrası analjezik yöntemler",
     "https://doi.org/10.1097/JS9.0000000000002352"
    ],
    "tf_r1": [
@@ -927,47 +1011,47 @@
     "https://doi.org/10.1097/EJA.0000000000001222"
    ],
    "tf_r3": [
-    "Randomize çalışma, Anaesthesia 2024: intratekal morfin altında sezaryen sonrası TFPB",
+    "Randomize çalışma, Anaesthesia 2024 (Baghirzada ve ark.): intratekal morfin altında sezaryen sonrası TFPB",
     "https://doi.org/10.1111/anae.16173"
    ],
    "tf_r4": [
-    "Randomize çalışma, Indian J Anaesth 2022: TFPB ve yara infiltrasyonu, sezaryen",
+    "Randomize çalışma, Indian J Anaesth 2022 (Chilkoti ve ark.): TFPB ve yara infiltrasyonu, sezaryen",
     "https://doi.org/10.4103/ija.ija_173_22"
    ],
    "tf_r5": [
-    "Randomize çalışma, Eur J Anaesthesiol 2024: TFPB ve TAP bloğu, sezaryen",
+    "Randomize çalışma, Eur J Anaesthesiol 2024 (Pinarbaşi ve ark.): TFPB ve TAP bloğu, sezaryen",
     "https://doi.org/10.1097/EJA.0000000000002041"
    ],
    "tf_r6": [
-    "Randomize çalışma, BMC Anesthesiol 2025 (Ahıskalıoğlu ve ark.): intratekal morfin ve TAP + TFP kombinasyonu",
+    "Randomize çalışma, BMC Anesthesiol 2025 (Cadirci ve ark.; son yazar Ahıskalıoğlu): intratekal morfin ve TAP + TFP kombinasyonu",
     "https://doi.org/10.1186/s12871-025-03559-0"
    ],
    "tf_r7": [
-    "Randomize çalışma, J Pain Res 2026: intratekal hidromorfon ve TFPB",
+    "Randomize çalışma, J Pain Res 2026 (Wang ve ark.): intratekal hidromorfon ve TFPB",
     "https://doi.org/10.2147/JPR.S651135"
    ],
    "tf_r8": [
-    "Randomize çalışma, BMC Anesthesiol 2023: TFPB ve anterior QL bloğu, sezaryen",
+    "Randomize çalışma, BMC Anesthesiol 2023 (Bilgin ve ark.): TFPB ve anterior QL bloğu, sezaryen",
     "https://doi.org/10.1186/s12871-023-02206-w"
    ],
    "tf_r9": [
-    "Randomize çalışma, Rev Assoc Med Bras 2026: TFPB ve yara infiltrasyonu, sezaryen",
+    "Randomize çalışma, Rev Assoc Med Bras 2026 (Teomete ve ark.): TFPB ve yara infiltrasyonu, sezaryen",
     "https://doi.org/10.1590/1806-9282.20260662"
    ],
    "tf_r10": [
-    "Çift kör çalışma, Indian J Anaesth 2023: TFP ve posterior TAP bloğu, sezaryen",
+    "Çift kör çalışma, Indian J Anaesth 2023 (Sripriya ve ark.): TFP ve posterior TAP bloğu, sezaryen",
     "https://doi.org/10.4103/ija.ija_931_22"
    ],
    "tf_o1": [
-    "Prospektif gözlemsel çalışma, Healthcare 2026: TFP ve TAP bloğu, tekrar sezaryen",
+    "Prospektif gözlemsel çalışma, Healthcare 2026 (Ötügen ve ark.): TFP ve TAP bloğu, tekrar sezaryen",
     "https://doi.org/10.3390/healthcare14172682"
    ],
    "tf_o2": [
-    "Prospektif gözlemsel kohort, J Clin Med 2026: TFPB ve intratekal morfin, sezaryen",
+    "Prospektif gözlemsel kohort, J Clin Med 2026 (Tamdogan, Yilmaz): TFPB ve intratekal morfin, sezaryen",
     "https://doi.org/10.3390/jcm15114157"
    ],
    "tf_o3": [
-    "Gözlemsel çalışma, J Coll Physicians Surg Pak 2024: intratekal morfin ve rejyonel teknikler, sezaryen",
+    "Gözlemsel çalışma, J Coll Physicians Surg Pak 2024 (Akdag ve ark.): intratekal morfin ve rejyonel teknikler, sezaryen",
     "https://doi.org/10.29271/jcpsp.2024.12.1411"
    ],
    "tf_c1": [
@@ -975,31 +1059,31 @@
     "https://doi.org/10.1016/j.jclinane.2018.04.006"
    ],
    "tf_p1": [
-    "Randomize çalışma, Cir Cir 2024: pediatrik inguinal herniotomide TFP bloğu",
+    "Randomize çalışma, Cir Cir 2024 (Ahiskalioglu ve ark.): pediatrik inguinal herniotomide TFP bloğu",
     "https://doi.org/10.24875/CIRU.24000008"
    ],
    "tf_p2": [
-    "Randomize çalışma, Korean J Anesthesiol 2021: preemptif TFP bloğu, pediatrik herniorafi",
+    "Randomize çalışma, Korean J Anesthesiol 2021 (Abdelbaser ve ark.): preemptif TFP bloğu, pediatrik herniorafi",
     "https://doi.org/10.4097/kja.20601"
    ],
    "tf_p3": [
-    "Randomize çalışma, BMC Anesthesiol 2023: TFP ve lateral QL bloğu, pediatrik herniotomi",
+    "Randomize çalışma, BMC Anesthesiol 2023 (Abdelbaser ve ark.): TFP ve lateral QL bloğu, pediatrik herniotomi",
     "https://doi.org/10.1186/s12871-023-02043-x"
    ],
    "tf_p4": [
-    "Randomize çalışma, Ir J Med Sci 2025: cerrah rehberli TFPB, pediatrik apendektomi",
+    "Randomize çalışma, Ir J Med Sci 2025 (Caglar ve ark.): cerrah rehberli TFPB, pediatrik apendektomi",
     "https://doi.org/10.1007/s11845-025-04088-y"
    ],
    "tf_p5": [
-    "Randomize çalışma, BMJ Open 2021: QLB III ve TFPB, pediatrik kalça displazisi",
+    "Randomize çalışma, BMJ Open 2021 (Huang ve ark.): QLB III ve TFPB, pediatrik kalça displazisi",
     "https://doi.org/10.1136/bmjopen-2020-038992"
    ],
    "tf_p6": [
-    "Karşılaştırmalı gözlemsel çalışma, BMC Anesthesiol 2025: TFP ve TAP bloğu, pediatrik alt abdominal cerrahi",
+    "Karşılaştırmalı gözlemsel çalışma, BMC Anesthesiol 2025 (İrban, Aksu): TFP ve TAP bloğu, pediatrik alt abdominal cerrahi",
     "https://doi.org/10.1186/s12871-025-03023-z"
    ],
    "tf_p7": [
-    "Korean J Anesthesiol 2022: pediatrik ureteroneosistostomide TFP bloğu",
+    "Korean J Anesthesiol 2022 (Peksöz ve ark.): pediatrik ureteroneosistostomide TFP bloğu",
     "https://doi.org/10.4097/kja.21425"
    ],
    "tf_p8": [
@@ -1007,77 +1091,77 @@
     "https://doi.org/10.1016/j.jclinane.2018.12.046"
    ],
    "tf_p9": [
-    "Olgu bildirimi, Turk J Anaesthesiol Reanim 2026: kombine rektointerkostal ve TFP blokları, pediatrik böbrek nakli",
+    "Olgu bildirimi, Turk J Anaesthesiol Reanim 2026 (Özen ve ark.): kombine rektointerkostal ve TFP blokları, pediatrik böbrek nakli",
     "https://doi.org/10.4274/TJAR.2026.262447"
    ],
    "tf_h1": [
-    "Randomize çalışma, Korean J Anesthesiol 2024: TFPB ve ESP bloğu, açık inguinal herni",
+    "Randomize çalışma, Korean J Anesthesiol 2024 (Çelik ve ark.): TFPB ve ESP bloğu, açık inguinal herni",
     "https://doi.org/10.4097/kja.23404"
    ],
    "tf_h2": [
-    "Randomize çalışma, Korean J Pain 2021: TFP ve transmusküler QL bloğu, inguinal herni",
+    "Randomize çalışma, Korean J Pain 2021 (Fouad ve ark.): TFP ve transmusküler QL bloğu, inguinal herni",
     "https://doi.org/10.3344/kjp.2021.34.2.201"
    ],
    "tf_h3": [
-    "Karşılaştırmalı çalışma, J Pharm Bioallied Sci 2025: TFP ve QL bloğu, inguinal herni",
+    "Karşılaştırmalı çalışma, J Pharm Bioallied Sci 2025 (Naveenkumar ve ark.): TFP ve QL bloğu, inguinal herni",
     "https://doi.org/10.4103/jpbs.jpbs_1882_24"
    ],
    "tf_h4": [
-    "Olgu bildirimi, Hernia 2026: kombine TFP ve TAP blokları altında açık inguinal herni onarımı",
+    "Olgu bildirimi, Hernia 2026 (Tamdogan): kombine TFP ve TAP blokları altında açık inguinal herni onarımı",
     "https://doi.org/10.1007/s10029-026-03628-4"
    ],
    "tf_x1": [
-    "Randomize çalışma, BMC Anesthesiol 2023: varikoselektomide TFPB",
+    "Randomize çalışma, BMC Anesthesiol 2023 (Celik ve ark.): varikoselektomide TFPB",
     "https://doi.org/10.1186/s12871-023-02009-z"
    ],
    "tf_x2": [
-    "Randomize çalışma, BMC Anesthesiol 2022: TFP bloğunda ropivakain konsantrasyonları, laparotomi",
+    "Randomize çalışma, BMC Anesthesiol 2022 (Tian ve ark.): TFP bloğunda ropivakain konsantrasyonları, laparotomi",
     "https://doi.org/10.1186/s12871-022-01595-8"
    ],
    "tf_x3": [
-    "Klinik çalışma, J Pain Res 2025: TFPB ve intravenöz lidokain, jinekolojik cerrahi",
+    "Klinik çalışma, J Pain Res 2025 (Zhang ve ark.): TFPB ve intravenöz lidokain, jinekolojik cerrahi",
     "https://doi.org/10.2147/JPR.S537190"
    ],
    "tf_x4": [
-    "Olgu bildirimi, Saudi J Anaesth 2020: TFP bloğu, iliak krest greft alımı",
+    "Olgu bildirimi, Saudi J Anaesth 2020 (Singh ve ark.): TFP bloğu, iliak krest greft alımı",
     "https://doi.org/10.4103/sja.SJA_403_19"
    ],
    "tf_x5": [
-    "Olgu bildirimi, Clin Case Rep 2022: lipozomal bupivakain ve sonraki epidural bupivakain, hemipelvektomi",
+    "Olgu bildirimi, Clin Case Rep 2022 (Harbell ve ark.): lipozomal bupivakain ve sonraki epidural bupivakain, hemipelvektomi",
     "https://doi.org/10.1002/ccr3.6417"
    ],
    "tf_x6": [
-    "Erratum, A A Pract 2026: iliak greft eksizyonunda TFPB olgu serisi",
+    "Erratum, A A Pract 2026 (Şimşek ve ark.): iliak greft eksizyonunda TFPB olgu serisi",
     "https://doi.org/10.1213/XAA.0000000000002151"
    ],
    "tf_x7": [
-    "Mektup, J Anesth Analg Crit Care 2026: TFPB sırasında enjektat yayılımı",
+    "Mektup, J Anesth Analg Crit Care 2026 (Ciftci ve ark.): TFPB sırasında enjektat yayılımı",
     "https://doi.org/10.1186/s44158-026-00375-x"
    ]
   },
   "PGBSRC": {
    "pg_ma1": [
-    "Meta-analiz, Arch Orthop Trauma Surg 2025: kalça cerrahilerinde PENG bloğu, işlevsel iyileşme ve ağrı",
+    "Meta-analiz, Arch Orthop Trauma Surg 2025 (Reysner ve ark.): kalça cerrahilerinde PENG bloğu, işlevsel iyileşme ve ağrı",
     "https://doi.org/10.1007/s00402-025-05825-9"
    ],
    "pg_ma2": [
-    "Sistematik derleme ve meta-analiz, Medicine 2026: PENG + LFCN ve fasiya iliaka bloğu, kalça cerrahisi",
+    "Sistematik derleme ve meta-analiz, Medicine 2026 (Wang ve ark.): PENG + LFCN ve fasiya iliaka bloğu, kalça cerrahisi",
     "https://doi.org/10.1097/MD.0000000000051547"
    ],
    "pg_ma3": [
-    "Meta-analiz, Braz J Anesthesiol 2023: PENG ve fasiya iliaka bloğu, kalça cerrahisi",
+    "Meta-analiz, Braz J Anesthesiol 2023 (Andrade ve ark.): PENG ve fasiya iliaka bloğu, kalça cerrahisi",
     "https://doi.org/10.1016/j.bjane.2023.07.007"
    ],
    "pg_r1": [
-    "Randomize çalışma, Clin J Pain 2026: PENG ve femoral sinir bloğu, kalça kırığı",
+    "Randomize çalışma, Clin J Pain 2026 (Liu ve ark.): PENG ve femoral sinir bloğu, kalça kırığı",
     "https://doi.org/10.1097/AJP.0000000000001406"
    ],
    "pg_r2": [
-    "Randomize çalışma, Emerg Med J 2026: PENG ve intravenöz morfin, kalça kırığı",
+    "Randomize çalışma, Emerg Med J 2026 (Sri-On ve ark.): PENG ve intravenöz morfin, kalça kırığı",
     "https://doi.org/10.1136/emermed-2025-215388"
    ],
    "pg_r3": [
-    "Randomize çalışma, Anaesthesia 2025: PENG ve fasiya iliaka bloğu, kalça kırığı",
+    "Randomize çalışma, Anaesthesia 2025 (Di Pietro ve ark.): PENG ve fasiya iliaka bloğu, kalça kırığı",
     "https://doi.org/10.1111/anae.16695"
    ],
    "pg_c1": [
@@ -1085,47 +1169,47 @@
     "https://doi.org/10.1097/AAP.0000000000000847"
    ],
    "pg_c2": [
-    "Olgu serisi, Korean J Anesthesiol 2024: femur boynu kırığında preoperatif rehabilitasyon",
+    "Olgu serisi, Korean J Anesthesiol 2024 (Jin ve ark.): femur boynu kırığında preoperatif rehabilitasyon",
     "https://doi.org/10.4097/kja.24232"
    ],
    "pg_c3": [
-    "Olgu bildirimi, Can J Anaesth 2025: PENG kriyonöroliz, kalça kırığı",
+    "Olgu bildirimi, Can J Anaesth 2025 (Endersby ve ark.): PENG kriyonöroliz, kalça kırığı",
     "https://doi.org/10.1007/s12630-024-02902-2"
    ],
    "pg_c4": [
-    "Olgu bildirimi, Clin Case Rep 2024: PENG, patolojik kırık fiksasyonu",
+    "Olgu bildirimi, Clin Case Rep 2024 (Suwal ve ark.): PENG, patolojik kırık fiksasyonu",
     "https://doi.org/10.1002/ccr3.9374"
    ],
    "pg_c5": [
-    "Olgu bildirimi, Clin Pract Cases Emerg Med 2025: PENG, protez kalça redüksiyonu",
+    "Olgu bildirimi, Clin Pract Cases Emerg Med 2025 (Thomas ve ark.): PENG, protez kalça redüksiyonu",
     "https://doi.org/10.5811/cpcem.21137"
    ],
    "pg_v1": [
-    "Derleme, Reg Anesth Pain Med 2025: PENG bloğu, son 5 yıl",
+    "Derleme, Reg Anesth Pain Med 2025 (Girón-Arango, Peng): PENG bloğu, son 5 yıl",
     "https://doi.org/10.1136/rapm-2024-105427"
    ],
    "pg_v2": [
-    "Anlatımsal derleme, Turk J Anaesthesiol Reanim 2022: PENG bloğunun ötesi",
+    "Anlatımsal derleme, Turk J Anaesthesiol Reanim 2022 (Teles ve ark.): PENG bloğunun ötesi",
     "https://doi.org/10.5152/TJAR.2021.21230"
    ],
    "pg_t1": [
-    "Randomize çalışma, Reg Anesth Pain Med 2021: PENG ve suprainguinal fasiya iliaka bloğu, THA",
+    "Randomize çalışma, Reg Anesth Pain Med 2021 (Aliste ve ark.): PENG ve suprainguinal fasiya iliaka bloğu, THA",
     "https://doi.org/10.1136/rapm-2021-102997"
    ],
    "pg_t2": [
-    "Randomize pilot çalışma, Anaesthesiol Intensive Ther 2026: PENG ve infiltrasyon, THA",
+    "Randomize pilot çalışma, Anaesthesiol Intensive Ther 2026 (Collange ve ark.): PENG ve infiltrasyon, THA",
     "https://doi.org/10.5114/ait/241655"
    ],
    "pg_t3": [
-    "Randomize çalışma, A A Pract 2026: PENG ve iliohipogastrik blok, THA",
+    "Randomize çalışma, A A Pract 2026 (Fellert ve ark.): PENG ve iliohipogastrik blok, THA",
     "https://doi.org/10.1213/XAA.0000000000002267"
    ],
    "pg_t4": [
-    "Randomize çalışma, Hip Int 2026: cerrah uygulamalı PENG ve infiltrasyon, bilateral THA",
+    "Randomize çalışma, Hip Int 2026 (Van Praet ve ark.): cerrah uygulamalı PENG ve infiltrasyon, bilateral THA",
     "https://doi.org/10.1177/11207000261441293"
    ],
    "pg_t5": [
-    "Randomize çalışma, BMC Anesthesiol 2026: PENG ve inflamatuvar indeksler, THA",
+    "Randomize çalışma, BMC Anesthesiol 2026 (Perek ve ark.): PENG ve inflamatuvar indeksler, THA",
     "https://doi.org/10.1186/s12871-026-04084-4"
    ],
    "pg_t6": [
@@ -1133,7 +1217,7 @@
     "https://doi.org/10.1186/s12871-026-03923-8"
    ],
    "pg_t7": [
-    "Randomize çalışma, PLoS One 2026: yüksek ve konvansiyonel hacimli PENG, THA",
+    "Randomize çalışma, PLoS One 2026 (Wang ve ark.): yüksek ve konvansiyonel hacimli PENG, THA",
     "https://doi.org/10.1371/journal.pone.0343615"
    ],
    "pg_t8": [
@@ -1141,347 +1225,347 @@
     "https://pubmed.ncbi.nlm.nih.gov/42263308/"
    ],
    "pg_t9": [
-    "Randomize çalışma, PLoS One 2026: PENG bloğunda iki ropivakain konsantrasyonu, THA",
+    "Randomize çalışma, PLoS One 2026 (Sun ve ark.): PENG bloğunda iki ropivakain konsantrasyonu, THA",
     "https://doi.org/10.1371/journal.pone.0348565"
    ],
    "pg_p1": [
-    "Olgu bildirimi, BMC Anesthesiol 2026: PENG ve LFCN bloğu, pediatrik femur boynu",
+    "Olgu bildirimi, BMC Anesthesiol 2026 (Kızılışık, Kızılışık): PENG ve LFCN bloğu, pediatrik femur boynu",
     "https://doi.org/10.1186/s12871-026-03899-5"
    ],
    "pg_p2": [
-    "Olgu serisi, Cureus 2025: pediatrik kalça cerrahisinde PENG",
+    "Olgu serisi, Cureus 2025 (Bunnell, Smith): pediatrik kalça cerrahisinde PENG",
     "https://doi.org/10.7759/cureus.78996"
    ],
    "pg_p3": [
-    "Olgu bildirimi, Cureus 2026: kombine PENG ve ilioinguinal-iliohipogastrik blok",
+    "Olgu bildirimi, Cureus 2026 (Muawad ve ark.): kombine PENG ve ilioinguinal-iliohipogastrik blok",
     "https://doi.org/10.7759/cureus.103768"
    ],
    "pg_p4": [
-    "Eğitsel derleme, J Pain Res 2024: pediatrik hastalarda PENG",
+    "Eğitsel derleme, J Pain Res 2024 (Elhamrawy ve ark.): pediatrik hastalarda PENG",
     "https://doi.org/10.2147/JPR.S481273"
    ],
    "pg_o1": [
-    "Olgu serisi, J Pain Symptom Manage 2026: PENG fenol nörolizi",
+    "Olgu serisi, J Pain Symptom Manage 2026 (Pérez-Moreno ve ark.): PENG fenol nörolizi",
     "https://doi.org/10.1016/j.jpainsymman.2025.12.012"
    ],
    "pg_o2": [
-    "Olgu bildirimi, BMJ Case Rep 2025: bilateral PENG ve epidural",
+    "Olgu bildirimi, BMJ Case Rep 2025 (Tan ve ark.): bilateral PENG ve epidural",
     "https://doi.org/10.1136/bcr-2025-265325"
    ],
    "pg_o3": [
-    "Olgu bildirimi, Rev Esp Anestesiol Reanim 2024: sürekli PENG",
+    "Olgu bildirimi, Rev Esp Anestesiol Reanim 2024 (Server ve ark.): sürekli PENG",
     "https://doi.org/10.1016/j.redare.2024.02.020"
    ],
    "pg_o4": [
-    "Olgu bildirimi, Cureus 2025: PENG kateteri, rehabilitasyon",
+    "Olgu bildirimi, Cureus 2025 (Taşkın ve ark.): PENG kateteri, rehabilitasyon",
     "https://doi.org/10.7759/cureus.76935"
    ],
    "pg_o5": [
-    "Randomize çalışma, BMC Anesthesiol 2026: PENG ve interskalen blok, omuz artroskopisi",
+    "Randomize çalışma, BMC Anesthesiol 2026 (Hassan ve ark.): PENG ve interskalen blok, omuz artroskopisi",
     "https://doi.org/10.1186/s12871-026-04038-w"
    ]
   },
   "CRDSRC": {
    "c_esp1": [
-    "Sistematik derleme ve meta-analiz, J Card Surg 2022: sternotomi için ESP",
+    "Sistematik derleme ve meta-analiz, J Card Surg 2022 (King ve ark.): sternotomi için ESP",
     "https://doi.org/10.1111/jocs.17005"
    ],
    "c_esp2": [
-    "Sistematik derleme ve meta-analiz, J Cardiothorac Vasc Anesth 2024: sternotomide ESP klinik sonuçları",
+    "Sistematik derleme ve meta-analiz, J Cardiothorac Vasc Anesth 2024 (Greene ve ark.): sternotomide ESP klinik sonuçları",
     "https://doi.org/10.1053/j.jvca.2023.12.014"
    ],
    "c_esp3": [
-    "Sistematik derleme ve meta-analiz, J Cardiothorac Vasc Anesth 2024: yetişkin sternotomide USG eşliğinde ESP",
+    "Sistematik derleme ve meta-analiz, J Cardiothorac Vasc Anesth 2024 (Wang ve ark.): yetişkin sternotomide USG eşliğinde ESP",
     "https://doi.org/10.1053/j.jvca.2024.05.019"
    ],
    "c_esp4": [
-    "Meta-analiz, Curr Probl Cardiol 2025: kalp cerrahisi sonrası ağrıda ESP",
+    "Meta-analiz, Curr Probl Cardiol 2025 (Sandeep ve ark.): kalp cerrahisi sonrası ağrıda ESP",
     "https://doi.org/10.1016/j.cpcardiol.2025.103098"
    ],
    "c_esp5": [
-    "Sistematik derleme ve meta-analiz, Ann Card Anaesth 2023: kalp cerrahisinde ESP",
+    "Sistematik derleme ve meta-analiz, Ann Card Anaesth 2023 (Nair ve ark.): kalp cerrahisinde ESP",
     "https://doi.org/10.4103/aca.aca_148_22"
    ],
    "c_esp6": [
-    "RCT, Gen Thorac Cardiovasc Surg 2024: CABG'de ESP, lokal anestezik hacmi",
+    "RCT, Gen Thorac Cardiovasc Surg 2024 (Demir ve ark.): CABG'de ESP, lokal anestezik hacmi",
     "https://doi.org/10.1007/s11748-023-01953-4"
    ],
    "c_esp7": [
-    "RCT, J Coll Physicians Surg Pak 2024: koroner cerrahide ESP",
+    "RCT, J Coll Physicians Surg Pak 2024 (Disikirik ve ark.): koroner cerrahide ESP",
     "https://doi.org/10.29271/jcpsp.2024.02.129"
    ],
    "c_esp8": [
-    "RCT, J Clin Anesth 2023: robot yardımlı CABG sonrası ESP",
+    "RCT, J Clin Anesth 2023 (Hoogma ve ark.): robot yardımlı CABG sonrası ESP",
     "https://doi.org/10.1016/j.jclinane.2023.111088"
    ],
    "c_esp9": [
-    "RCT, J Clin Anesth 2022: çocuklarda kalp cerrahisinde bilateral ESP",
+    "RCT, J Clin Anesth 2022 (Karacaer ve ark.): çocuklarda kalp cerrahisinde bilateral ESP",
     "https://doi.org/10.1016/j.jclinane.2022.110797"
    ],
    "c_esp10": [
-    "RCT, Anesth Pain Med 2022: çocuklarda sternotomi ile kalp cerrahisinde ESP",
+    "RCT, Anesth Pain Med 2022 (Ali Gado ve ark.): çocuklarda sternotomi ile kalp cerrahisinde ESP",
     "https://doi.org/10.5812/aapm-123723"
    ],
    "c_esp11": [
-    "Olgu, Rev Esp Anestesiol Reanim 2022: sol ventrikül destek cihazı (LVAD) implantında ESP",
+    "Olgu, Rev Esp Anestesiol Reanim 2022 (Alonso Tuñón ve ark.): sol ventrikül destek cihazı (LVAD) implantında ESP",
     "https://doi.org/10.1016/j.redare.2021.10.004"
    ],
    "c_esp12": [
-    "BMJ Open 2026: kalp cerrahisi sonrası SPIP ile ESP karşılaştırması",
+    "BMJ Open 2026 (Dost ve ark.): kalp cerrahisi sonrası SPIP ile ESP karşılaştırması",
     "https://doi.org/10.1136/bmjopen-2026-127382"
    ],
    "c_ttp1": [
-    "Meta-analiz, Int J Surg 2023: kalp cerrahisinde TTP",
+    "Meta-analiz, Int J Surg 2023 (Xue ve ark.): kalp cerrahisinde TTP",
     "https://doi.org/10.1097/JS9.0000000000000470"
    ],
    "c_ttp2": [
-    "Meta-analiz, J Cardiothorac Vasc Anesth 2024: pediatrik kalp cerrahisinde TTP",
+    "Meta-analiz, J Cardiothorac Vasc Anesth 2024 (Cui ve ark.): pediatrik kalp cerrahisinde TTP",
     "https://doi.org/10.1053/j.jvca.2024.02.016"
    ],
    "c_ttp3": [
-    "RCT, J Pain Res 2022: açık kalp cerrahisi sonrası bilateral TTP",
+    "RCT, J Pain Res 2022 (Hamed ve ark.): açık kalp cerrahisi sonrası bilateral TTP",
     "https://doi.org/10.2147/JPR.S355231"
    ],
    "c_ttp4": [
-    "RCT, J Cardiothorac Vasc Anesth 2020: pediatrik açık kalp cerrahisinde bilateral TTP",
+    "RCT, J Cardiothorac Vasc Anesth 2020 (Zhang ve ark.): pediatrik açık kalp cerrahisinde bilateral TTP",
     "https://doi.org/10.1053/j.jvca.2020.02.005"
    ],
    "c_ttp5": [
-    "Olgu serisi, Turk J Anaesthesiol Reanim 2022: medyan sternotomiye hemodinamik yanıt ve TTP",
+    "Olgu serisi, Turk J Anaesthesiol Reanim 2022 (Walian ve ark.): medyan sternotomiye hemodinamik yanıt ve TTP",
     "https://doi.org/10.5152/TJAR.2022.21196"
    ],
    "c_ttp6": [
-    "Olgu, Ann Card Anaesth 2024: skolyozlu hastada sürekli bilateral TTP",
+    "Olgu, Ann Card Anaesth 2024 (Singh ve ark.): skolyozlu hastada sürekli bilateral TTP",
     "https://doi.org/10.4103/aca.aca_47_23"
    ],
    "c_ttp7": [
-    "Doz çalışması, J Pain Res 2025: açık kalp cerrahisinde bilateral TTP için ropivakain medyan etkili hacmi",
+    "Doz çalışması, J Pain Res 2025 (Sun ve ark.): açık kalp cerrahisinde bilateral TTP için ropivakain medyan etkili hacmi",
     "https://doi.org/10.2147/JPR.S537002"
    ],
    "c_ttp8": [
-    "Komplikasyon olgusu, Ann Card Anaesth 2024: TTP sırasında dilate sağ ventrikül ponksiyonu",
+    "Komplikasyon olgusu, Ann Card Anaesth 2024 (Varsha ve ark.): TTP sırasında dilate sağ ventrikül ponksiyonu",
     "https://doi.org/10.4103/aca.aca_61_23"
    ],
    "c_spip1": [
-    "RCT, Br J Anaesth 2025: süperfisyal ve derin parasternal bloklar, sternotomi",
+    "RCT, Br J Anaesth 2025 (Demarquette ve ark.): süperfisyal ve derin parasternal bloklar, sternotomi",
     "https://doi.org/10.1016/j.bja.2025.05.043"
    ],
    "c_spip2": [
-    "Sistematik derleme ve meta-analiz, Can J Anaesth 2024: kalp cerrahisinde SPIP",
+    "Sistematik derleme ve meta-analiz, Can J Anaesth 2024 (Cameron ve ark.): kalp cerrahisinde SPIP",
     "https://doi.org/10.1007/s12630-024-02726-0"
    ],
    "c_spip3": [
-    "RCT, Reg Anesth Pain Med 2025: SPIP + liposomal bupivakain, opioid kullanımı anlamlı azalmadı (olumsuz sonuç)",
+    "RCT, Reg Anesth Pain Med 2025 (Simon ve ark.): SPIP + liposomal bupivakain, opioid kullanımı anlamlı azalmadı (olumsuz sonuç)",
     "https://doi.org/10.1136/rapm-2025-106952"
    ],
    "c_prosp": [
-    "PROSPECT, Eur J Anaesthesiol 2023: medyan sternotomi sonrası ağrı yönetimi",
+    "PROSPECT, Eur J Anaesthesiol 2023 (Maeßen ve ark.): medyan sternotomi sonrası ağrı yönetimi",
     "https://doi.org/10.1097/EJA.0000000000001881"
    ],
    "c_peng1": [
-    "RCT, Clin Res Cardiol 2025: TAVI'de PENG bloğu, fentanil kullanımı",
+    "RCT, Clin Res Cardiol 2025 (Gul ve ark.): TAVI'de PENG bloğu, fentanil kullanımı",
     "https://doi.org/10.1007/s00392-025-02815-0"
    ],
    "c_peng2": [
-    "Olgu (2 hasta), A A Pract 2023: TAVI'de PENG bloğu",
+    "Olgu (2 hasta), A A Pract 2023 (Gul ve ark.): TAVI'de PENG bloğu",
     "https://doi.org/10.1213/XAA.0000000000001743"
    ],
    "c_fib": [
-    "RCT, Circ J 2024: TAVI sırasında konşiyent sedasyonda fasiya iliaka bloğu, remifentanil ihtiyacı",
+    "RCT, Circ J 2024 (Kinoshita ve ark.): TAVI sırasında konşiyent sedasyonda fasiya iliaka bloğu, remifentanil ihtiyacı",
     "https://doi.org/10.1253/circj.CJ-22-0580"
    ],
    "c_sap1": [
-    "RCT, BMC Anesthesiol 2025: transapikal TAVI sonrası serratus plan bloğu",
+    "RCT, BMC Anesthesiol 2025 (Xiao ve ark.): transapikal TAVI sonrası serratus plan bloğu",
     "https://doi.org/10.1186/s12871-025-03528-7"
    ],
    "c_sap2": [
-    "Mektup, J Cardiothorac Surg 2023: transapikal TAVI için serratus anterior plan bloğu",
+    "Mektup, J Cardiothorac Surg 2023 (Peng ve ark.): transapikal TAVI için serratus anterior plan bloğu",
     "https://doi.org/10.1186/s13019-023-02125-4"
    ]
   },
   "FIBSRC": {
    "f1": [
-    "Sistematik derleme, Br J Anaesth 2018: ameliyat öncesi kalça kırığında FICB",
+    "Sistematik derleme, Br J Anaesth 2018 (Steenberg, Møller): ameliyat öncesi kalça kırığında FICB",
     "https://doi.org/10.1016/j.bja.2017.12.042"
    ],
    "f2": [
-    "Meta-analiz, Minerva Anestesiol 2019: kalça kırığında tek enjeksiyon FIB",
+    "Meta-analiz, Minerva Anestesiol 2019 (Fadhlillah ve ark.): kalça kırığında tek enjeksiyon FIB",
     "https://doi.org/10.23736/S0375-9393.19.13535-3"
    ],
    "f3": [
-    "Meta-analiz, Am J Emerg Med 2021: acil serviste kalça kırığında FIB (trial sequential analysis)",
+    "Meta-analiz, Am J Emerg Med 2021 (Makkar ve ark.): acil serviste kalça kırığında FIB (trial sequential analysis)",
     "https://doi.org/10.1016/j.ajem.2021.09.038"
    ],
    "f4": [
-    "Meta-analiz, Medicine 2019: kalça kırığı sonrası ağrıda FICB",
+    "Meta-analiz, Medicine 2019 (Hong, Ma): kalça kırığı sonrası ağrıda FICB",
     "https://doi.org/10.1097/MD.0000000000016157"
    ],
    "f5": [
-    "Meta-analiz, J Am Acad Orthop Surg 2022: kalça kırığında FICB ve mortalite",
+    "Meta-analiz, J Am Acad Orthop Surg 2022 (Baker ve ark.): kalça kırığında FICB ve mortalite",
     "https://doi.org/10.5435/JAAOS-D-21-00561"
    ],
    "f6": [
-    "Sistematik derleme ve meta-analiz, Int J Orthop Trauma Nurs 2024: kalça cerrahisinde FICB ve deliryum",
+    "Sistematik derleme ve meta-analiz, Int J Orthop Trauma Nurs 2024 (Duan ve ark.): kalça cerrahisinde FICB ve deliryum",
     "https://doi.org/10.1016/j.ijotn.2024.101122"
    ],
    "f7": [
-    "Meta-analiz, Prehosp Disaster Med 2023: hastane öncesi FICB",
+    "Meta-analiz, Prehosp Disaster Med 2023 (Slade ve ark.): hastane öncesi FICB",
     "https://doi.org/10.1017/S1049023X23000298"
    ],
    "f8": [
-    "Sistematik derleme, Front Med 2025: FICB ve IV analjezi, geriatrik kalça kırığı",
+    "Sistematik derleme, Front Med 2025 (Liu ve ark.): FICB ve IV analjezi, geriatrik kalça kırığı",
     "https://doi.org/10.3389/fmed.2025.1611618"
    ],
    "f9": [
-    "Ağ meta-analizi, Ann Emerg Med 2024: kalça kırığında periferik sinir blokları",
+    "Ağ meta-analizi, Ann Emerg Med 2024 (Hayashi ve ark.): kalça kırığında periferik sinir blokları",
     "https://doi.org/10.1016/j.annemergmed.2024.01.024"
    ],
    "f10": [
-    "Meta-analiz, BMC Anesthesiol 2026: kalça kırığı sonrası ağrıda FICB",
+    "Meta-analiz, BMC Anesthesiol 2026 (Wang ve ark.): kalça kırığı sonrası ağrıda FICB",
     "https://doi.org/10.1186/s12871-026-03892-y"
    ],
    "f11": [
-    "Sistematik derleme, Am J Emerg Med 2025: PENG, FICB, femoral sinir bloğu",
+    "Sistematik derleme, Am J Emerg Med 2025 (Dolstra ve ark.): PENG, FICB, femoral sinir bloğu",
     "https://doi.org/10.1016/j.ajem.2025.06.009"
    ],
    "f12": [
-    "RCT, Anaesthesia 2025: PENG ve FIB, kalça kırığı",
+    "RCT, Anaesthesia 2025 (Di Pietro ve ark.): PENG ve FIB, kalça kırığı",
     "https://doi.org/10.1111/anae.16695"
    ],
    "f13": [
-    "Meta-analiz, Int J Surg 2019: THA sonrası FICB",
+    "Meta-analiz, Int J Surg 2019 (Gao ve ark.): THA sonrası FICB",
     "https://doi.org/10.1016/j.ijsu.2019.03.014"
    ],
    "f14": [
-    "Meta-analiz, Int J Surg 2019: THA sonrası FICB etkinliği",
+    "Meta-analiz, Int J Surg 2019 (Cai ve ark.): THA sonrası FICB etkinliği",
     "https://doi.org/10.1016/j.ijsu.2018.12.012"
    ],
    "f15": [
-    "Sistematik derleme ve meta-analiz, Medicine 2023: THA'de USG eşliğinde FICB",
+    "Sistematik derleme ve meta-analiz, Medicine 2023 (Zhang ve ark.): THA'de USG eşliğinde FICB",
     "https://doi.org/10.1097/MD.0000000000036145"
    ],
    "f16": [
-    "Meta-analiz, BMC Anesthesiol 2024: THA sonrası FICB",
+    "Meta-analiz, BMC Anesthesiol 2024 (Eshag ve ark.): THA sonrası FICB",
     "https://doi.org/10.1186/s12871-024-02476-y"
    ],
    "f17": [
-    "Ağ meta-analizi, Br J Anaesth 2025: primer THA",
+    "Ağ meta-analizi, Br J Anaesth 2025 (Lee ve ark.): primer THA",
     "https://doi.org/10.1016/j.bja.2025.04.019"
    ],
    "f18": [
-    "PROSPECT, Anaesthesia 2021: THA",
+    "PROSPECT, Anaesthesia 2021 (Anger ve ark.): THA",
     "https://doi.org/10.1111/anae.15498"
    ],
    "f19": [
-    "Meta-analiz, Medicine 2024: FIB ve QL, kalça artroplastisi",
+    "Meta-analiz, Medicine 2024 (Guo ve ark.): FIB ve QL, kalça artroplastisi",
     "https://doi.org/10.1097/MD.0000000000038247"
    ],
    "f20": [
-    "Meta-analiz, Minerva Anestesiol 2026: ESP ve FIB, kalça artroplastisi",
+    "Meta-analiz, Minerva Anestesiol 2026 (DE Donato ve ark.): ESP ve FIB, kalça artroplastisi",
     "https://doi.org/10.23736/S0375-9393.25.19244-4"
    ],
    "f21": [
-    "Meta-analiz, Braz J Anesthesiol 2023: PENG ve FICB",
+    "Meta-analiz, Braz J Anesthesiol 2023 (Andrade ve ark.): PENG ve FICB",
     "https://doi.org/10.1016/j.bjane.2023.07.007"
    ],
    "f22": [
-    "RCT, Reg Anesth Pain Med 2021: PENG ve suprainguinal FIB, THA",
+    "RCT, Reg Anesth Pain Med 2021 (Aliste ve ark.): PENG ve suprainguinal FIB, THA",
     "https://doi.org/10.1136/rapm-2021-102997"
    ],
    "f23": [
-    "Meta-analiz, Medicine 2025: lomber pleksus ve FIB",
+    "Meta-analiz, Medicine 2025 (Wu ve ark.): lomber pleksus ve FIB",
     "https://doi.org/10.1097/MD.0000000000043744"
    ],
    "f24": [
-    "Meta-analiz, Medicine 2017: femoral sinir bloğu ve FIB",
+    "Meta-analiz, Medicine 2017 (Wang ve ark.): femoral sinir bloğu ve FIB",
     "https://doi.org/10.1097/MD.0000000000007382"
    ],
    "f25": [
-    "Meta-analiz, Medicine 2021: femoral sinir bloğu ve FIB",
+    "Meta-analiz, Medicine 2021 (Fan ve ark.): femoral sinir bloğu ve FIB",
     "https://doi.org/10.1097/MD.0000000000025450"
    ],
    "f26": [
-    "Meta-analiz, Medicine 2017: eklem artroplastisinde FIB",
+    "Meta-analiz, Medicine 2017 (Zhang ve ark.): eklem artroplastisinde FIB",
     "https://doi.org/10.1097/MD.0000000000006592"
    ],
    "f27": [
-    "Prospektif çalışma, J Clin Med 2023: diz artroplastisinde suprainguinal FIB",
+    "Prospektif çalışma, J Clin Med 2023 (Kefeli Çelik ve ark.): diz artroplastisinde suprainguinal FIB",
     "https://doi.org/10.3390/jcm12186076"
    ],
    "f28": [
-    "RCT, BMC Anesthesiol 2023: artroskopik diz cerrahisinde modifiye yüksek FICB",
+    "RCT, BMC Anesthesiol 2023 (Chen ve ark.): artroskopik diz cerrahisinde modifiye yüksek FICB",
     "https://doi.org/10.1186/s12871-023-02361-0"
    ],
    "f29": [
-    "Olgu, Reg Anesth Pain Med 1997: bilateral TKA sonrası FIB kateteri",
+    "Olgu, Reg Anesth Pain Med 1997 (Longo, Williams): bilateral TKA sonrası FIB kateteri",
     "https://doi.org/10.1016/s1098-7339(97)80014-4"
    ],
    "f30": [
-    "Sistematik derleme, Am J Sports Med 2021: kalça artroskopisi sonrası FIB",
+    "Sistematik derleme, Am J Sports Med 2021 (Smith ve ark.): kalça artroskopisi sonrası FIB",
     "https://doi.org/10.1177/0363546521996713"
    ],
    "f31": [
-    "RCT, Am J Sports Med 2020: kalça artroskopisi sonrası USG eşliğinde FIB",
+    "RCT, Am J Sports Med 2020 (Glomset ve ark.): kalça artroskopisi sonrası USG eşliğinde FIB",
     "https://doi.org/10.1177/0363546519898205"
    ],
    "f32": [
-    "RCT, Pain Res Manag 2024: asetabulum cerrahisinde QL ve FICB",
+    "RCT, Pain Res Manag 2024 (Mirkheshti ve ark.): asetabulum cerrahisinde QL ve FICB",
     "https://doi.org/10.1155/2024/3720344"
    ],
    "f33": [
-    "RCT, Anaesthesiol Intensive Ther 2024: asetabulum cerrahisinde suprainguinal FIB ile pozisyonlama",
+    "RCT, Anaesthesiol Intensive Ther 2024 (Ali ve ark.): asetabulum cerrahisinde suprainguinal FIB ile pozisyonlama",
     "https://doi.org/10.5114/ait.2024.138554"
    ],
    "f34": [
-    "RCT, J Burn Care Res 2021: yanıkta donör saha ağrısı",
+    "RCT, J Burn Care Res 2021 (Town ve ark.): yanıkta donör saha ağrısı",
     "https://doi.org/10.1093/jbcr/irab021"
    ],
    "f35": [
-    "Çalışma, Pain Rep 2025: onkolojik uyluk cerrahisinde suprainguinal FIB ve lomber ESP",
+    "Çalışma, Pain Rep 2025 (Abdelgalil ve ark.): onkolojik uyluk cerrahisinde suprainguinal FIB ve lomber ESP",
     "https://doi.org/10.1097/PR9.0000000000001334"
    ],
    "f36": [
-    "Çalışma, J Cardiothorac Vasc Anesth 2025: CLTI'de FICB ve siyatik blok",
+    "Çalışma, J Cardiothorac Vasc Anesth 2025 (Liu ve ark.): CLTI'de FICB ve siyatik blok",
     "https://doi.org/10.1053/j.jvca.2025.08.009"
    ],
    "f37": [
-    "Olgu, BMJ Case Rep 2024: ECMO'da diz üstü amputasyon",
+    "Olgu, BMJ Case Rep 2024 (Seidler ve ark.): ECMO'da diz üstü amputasyon",
     "https://doi.org/10.1136/bcr-2024-259987"
    ],
    "f38": [
-    "RCT, 2011: gelişimsel kalça displazisi cerrahisinde FICB",
+    "RCT, 2011 (Wang ve ark.): gelişimsel kalça displazisi cerrahisinde FICB",
     "https://pubmed.ncbi.nlm.nih.gov/22321931/"
    ],
    "f39": [
-    "RCT, J Clin Anesth 2011: çocuklarda FICB ve uyanma ajitasyonu",
+    "RCT, J Clin Anesth 2011 (Kim ve ark.): çocuklarda FICB ve uyanma ajitasyonu",
     "https://doi.org/10.1016/j.jclinane.2010.08.007"
    ],
    "f40": [
-    "Çalışma, Front Pediatr 2021: psoas kompartman ve suprainguinal FICB",
+    "Çalışma, Front Pediatr 2021 (Quan ve ark.): psoas kompartman ve suprainguinal FICB",
     "https://doi.org/10.3389/fped.2021.801409"
    ],
    "f41": [
-    "Olgu, Aust Med J 2023: hastane öncesi pediatrik FIB",
+    "Olgu, Air Med J 2023 (Reid ve ark.): hastane öncesi pediatrik FIB",
     "https://doi.org/10.1016/j.amj.2022.09.008"
    ],
    "f42": [
-    "Olgu, Eur J Anaesthesiol 2006: femur kırığı, 6 yaş",
+    "Olgu, Eur J Anaesthesiol 2006 (Minville ve ark.): femur kırığı, 6 yaş",
     "https://doi.org/10.1017/S0265021506271126"
    ],
    "f43": [
-    "Olgu, Anesth Analg 2005: artrogripozlu bebekte FIB",
+    "Olgu, Anesth Analg 2005 (Ion ve ark.): artrogripozlu bebekte FIB",
     "https://doi.org/10.1213/01.ANE.0000138036.83973.9A"
    ],
    "f44": [
-    "Meta-analiz, J Anesth 2023: PENG ve erken postoperatif analjezi",
+    "Meta-analiz, J Anesth 2023 (Farag ve ark.): PENG ve erken postoperatif analjezi",
     "https://doi.org/10.1007/s00540-022-03129-5"
    ],
    "f45": [
-    "Meta-analiz, Medicine 2026: PENG + LFCN ve FICB",
+    "Meta-analiz, Medicine 2026 (Wang ve ark.): PENG + LFCN ve FICB",
     "https://doi.org/10.1097/MD.0000000000051547"
    ],
    "f46": [
-    "RCT, J Clin Anesth 2026: suprainguinal FICB sonrası obturator sinir tutulumu",
+    "RCT, J Clin Anesth 2026 (Miao ve ark.): suprainguinal FICB sonrası obturator sinir tutulumu",
     "https://doi.org/10.1016/j.jclinane.2026.112193"
    ]
   }

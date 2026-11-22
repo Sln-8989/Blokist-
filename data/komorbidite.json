@@ -4,10 +4,10 @@
   "aciklama": "Hasta faktörü (komorbidite) uyarıları",
   "surum": "1.0.0",
   "tarih": "2026-11-19",
-  "hazirlayan": "",
-  "kontrol_eden": "",
-  "kontrol_tarihi": "",
-  "durum": "taslak",
+  "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
+  "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
+  "kontrol_tarihi": "2026-11-21",
+  "durum": "onaylandı",
   "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
  },
  "data": {

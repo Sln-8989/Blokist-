@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "cerrahi_bloklar",
   "aciklama": "Cerrahiye göre blok önerileri (PROSPECT ve diğer çalışmalar)",
-  "surum": "1.0.0",
-  "tarih": "2026-11-19",
-  "hazirlayan": "",
-  "kontrol_eden": "",
-  "kontrol_tarihi": "",
-  "durum": "taslak",
-  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+  "surum": "1.3.0",
+  "tarih": "2026-11-21",
+  "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
+  "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
+  "kontrol_tarihi": "2026-11-21",
+  "durum": "onaylandı",
+  "not": "1.2.0: Omuz: PROSPECT TSA 2026 notları; prostatektomi: PROSPECT 2021 (laparoskopik/robotik TAP ilk tercih, açıkta IV lidokain); kolesistektomi: PROSPECT 2024 RSB notu ve QL önerilmez. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı."
  },
  "data": {
   "PROC": {
@@ -76,7 +76,9 @@
      "gk_vats_sps",
      "sps_tech",
      "sps_vats",
-     "th_sgb"
+     "th_sgb",
+     "sps_dogan",
+     "sps_avci"
     ],
     "items": [
      {
@@ -105,17 +107,17 @@
       "s": "opt",
       "tech": "plane",
       "n": "SPSIP bloğu (paravertebral blokla karşılaştırma)",
-      "ev": "Güçlü · randomize çalışma (tek)",
+      "ev": "Güçlü · randomize çalışmalar (2; 60 ve 70 hasta)",
       "er": 0,
-      "w": "Opioid tüketimi, ağrı skoru ve yan etki açısından paravertebral bloğa benzer; uygulaması daha basit olabilir."
+      "w": "İki randomize çalışmada paravertebral blokla benzer: 60 hastada 24 saatlik opioid (oral morfin eşdeğeri SPSIP 66,8 mg, paravertebral 77,2 mg; fark anlamlı değil), ağrı ve yan etkiler benzer; 70 hastada ağrı skorları yalnız 1. saatte paravertebral grupta düşük, 24 saatlik tramadol (SPSIP 150 mg, paravertebral 220 mg; fark anlamlı değil) ve iyileşme kalitesi benzer. Yazarlara göre uygulaması daha basit olabilir."
      },
      {
       "s": "opt",
       "tech": "plane",
       "n": "SPSIP (serratus posterior superior interkostal plan) bloğu",
-      "ev": "Zayıf · teknik rapor ve editöre mektup (hasta sayısı küçük)",
-      "er": 3,
-      "w": "Torasik paraspinal blok olarak tanımlandı; kadavrada C7–T7 boya yayılımı, hastalarda C3–T10 dermatom bloğu bildirildi. Torakoskopik cerrahi için yalnız mektup düzeyinde dayanak var."
+      "ev": "Orta · randomize çalışma (küçük, 24 hasta), teknik rapor ve editöre mektup",
+      "er": 1,
+      "w": "Yalnız IV PCA ile karşılaştıran randomize çalışmada (24 hasta) 24 saat ağrı skoru daha düşük, tramadol SPSIP 58 mg, kontrol 144 mg. Teknik raporda kadavrada C7–T7 boya yayılımı, miyofasiyal ağrılı 5 hastada C3–T7/T10 dermatom bloğu bildirildi. Paravertebral blokla karşılaştırma ayrı maddede."
      },
      {
       "s": "rec",
@@ -167,12 +169,12 @@
    },
    "shoulder": {
     "name": "Omuz artroskopisi ve artroplastisi (ortopedi; üst ekstremite)",
-    "reg": "limb",
-    "ap": "open",
-    "src": "ul_isb_adj",
+    "reg": "ue",
+    "ap": "both",
+    "src": "tsa26",
     "srcx": [
-     "ul_isb_lb",
      "ul_isb_adj",
+     "ul_isb_lb",
      "ul_iai",
      "ul_pai",
      "ul_psn",
@@ -188,7 +190,7 @@
       "n": "İnterskalen brakiyal pleksus bloğu (tek doz)",
       "ev": "Güçlü · meta-analizler (15 + 7 RCT)",
       "er": 0,
-      "w": "Artroskopik omuzda intraartiküler infiltrasyona göre 2, 4 ve 24. saatte ağrı skorları daha iyi, opioid tüketimi benzer; periartiküler infiltrasyonla analjezik tüketim, ağrı ve yan etkiler benzer. Frenik sinir felci ve ses kısıklığı riski nedeniyle diyafram koruyucu seçenekler araştırılıyor."
+      "w": "Artroskopik omuzda intraartiküler infiltrasyona göre 2, 4 ve 24. saatte ağrı skorları daha iyi, opioid tüketimi benzer; periartiküler infiltrasyonla analjezik tüketim, ağrı ve yan etkiler benzer. Frenik sinir felci ve ses kısıklığı riski nedeniyle diyafram koruyucu seçenekler araştırılıyor. PROSPECT (total omuz artroplastisi, 2026): tek doz uzun etkili lokal anestezikle interskalen blok önerilir; kontrendikasyon veya deneyim yoksa lokal infiltrasyon analjezisi makul alternatif; sürekli kateter için kanıt çelişkili."
      },
      {
       "s": "opt",
@@ -204,7 +206,7 @@
       "n": "İnterskalen blokta bupivakain + lipozomal bupivakain",
       "ev": "Güçlü · meta-analiz (7 RCT)",
       "er": 0,
-      "w": "Postoperatif 2. günde ağrı ve 3. günde opioid tüketimi daha düşük; 1. günde ses kısıklığı artmış, solunum komplikasyonları benzer."
+      "w": "Postoperatif 2. günde ağrı ve 3. günde opioid tüketimi daha düşük; 1. günde ses kısıklığı artmış, solunum komplikasyonları benzer. PROSPECT (total omuz artroplastisi, 2026) interskalen blokta lipozomal bupivakaini önermiyor (kanıt çelişkili)."
      },
      {
       "s": "opt",
@@ -248,7 +250,7 @@
    },
    "hand_forearm": {
     "name": "Önkol, el bileği ve el cerrahisi; dirsek (ortopedi; üst ekstremite)",
-    "reg": "limb",
+    "reg": "ue",
     "ap": "open",
     "src": "ul_axil",
     "srcx": [
@@ -320,16 +322,18 @@
      "gk_p29980005",
      "gk_p31736025",
      "gk_p32536425",
-     "gk_breast"
+     "gk_breast",
+     "sps_koksal",
+     "sps_arik"
     ],
     "items": [
      {
       "s": "opt",
       "tech": "plane",
       "n": "SPSIP (serratus posterior superior interkostal plan) bloğu",
-      "ev": "Zayıf · olgu serisi (3 olgu)",
-      "er": 3,
-      "w": "Meme cerrahisinde yeni endikasyon olarak 3 olguda bildirildi. Karşılaştırmalı veri yok."
+      "ev": "Orta · randomize çalışmalar (2; 60 ve 50 hasta) ve olgu serileri",
+      "er": 1,
+      "w": "Standart analjeziye göre (60 hasta) ilk 12 ve 24 saatte tramadol, intraoperatif remifentanil ve bulantı-kusma daha az, iyileşme kalitesi daha iyi; ağrı skorları yalnız 0. saatte farklı. ESP bloğuyla karşılaştırmada (50 hasta) ağrı skorları benzer, 24 saatlik tramadol SPSIP grubunda daha düşük (SPSIP 82,4 mg, ESP 137,6 mg). PROSPECT önerisi değildir."
      },
      {
       "s": "opt",
@@ -529,9 +533,9 @@
       "s": "opt",
       "tech": "plane",
       "n": "M-TAPA (modifiye torakoabdominal sinir bloğu, perikondriyal yaklaşım)",
-      "ev": "Güçlü · meta-analiz (6 çalışma, 350 hasta) ve randomize çalışmalar",
+      "ev": "Güçlü · meta-analiz (6 çalışma: 4 RCT, 2 gözlemsel; 350 hasta) ve randomize çalışmalar",
       "er": 0,
-      "w": "Opioid tüketimi, 12 ve 24. saat ağrı skoru ve bulantı-kusma azaldı (meta-analiz). Randomize çalışmalarda lokal infiltrasyona üstün; EOI bloğuyla karşılaştırmada ilk 2 saatte daha düşük ağrı, 24. saatte benzer. Çalışmaların çoğu bloğu geliştiren grubundan; kapsam derlemesi TAP bloğuna belirgin üstünlük göstermedi."
+      "w": "Kontrole (sham, plasebo veya blok yok) göre 24 saat opioid tüketimi, 12 ve 24. saat ağrı skoru, bulantı-kusma ve kurtarma analjezisi gereksinimi azaldı (meta-analiz). Randomize çalışmalarda lokal infiltrasyona üstün; EOI bloğuyla karşılaştırmada ilk 2 saatte daha düşük ağrı, 24. saatte benzer. Randomize çalışmaların ve meta-analizin yazarları arasında bloğu tanımlayan araştırmacı da var; kapsam derlemesi TAP bloğuna belirgin üstünlük göstermedi."
      },
      {
       "s": "opt",
@@ -570,6 +574,12 @@
       "tech": "plane",
       "n": "Rektus kılıfı bloğu",
       "w": "Yetersiz kanıt."
+     },
+     {
+      "s": "no",
+      "tech": "plane",
+      "n": "Quadratus lumborum bloğu",
+      "w": "Yetersiz kanıt (PROSPECT 2024)."
      },
      {
       "s": "no",
@@ -709,26 +719,47 @@
     ]
    },
    "colo_open": {
-    "name": "Açık kolorektal cerrahi (PROSPECT özeti yok; sistematik derleme)",
+    "name": "Açık kolorektal cerrahi",
     "reg": "lower",
     "ap": "open",
-    "src": "colo_open_ma",
+    "src": "colo_open_pro",
     "src2": "colo",
     "items": [
      {
-      "s": "opt",
-      "tech": "plane",
-      "n": "TAP bloğu",
-      "ev": "Güçlü · sistematik derleme (karma açık + laparoskopik)",
-      "er": 0,
-      "w": "İlk 24 saatte opioid ihtiyacını ve istirahat ağrısını azaltıyor; yalnızca açık cerrahiye özgü ayrı analiz yok, kanıt dolaylı. Toplam hastane opioid tüketimi ve yatış süresinde fark yok."
+      "s": "rec",
+      "tech": "neuraxial",
+      "n": "Torasik epidural analjezi",
+      "w": "PROSPECT (açık kolorektal, 2024 güncellemesi): ilk tercih; ameliyat sırasında başlanıp ameliyat sonrası sürdürülür. Parasetamol ve kolon cerrahisinde COX-2 inhibitörü veya NSAİİ ile birlikte.",
+      "anim": [
+       "epidural"
+      ]
      },
      {
-      "s": "na",
-      "tech": "neuraxial",
-      "n": "Torasik epidural",
-      "w": "Bu turda açık kolorektal için kaynaklı değer bulunamadı; değerlendirilmedi."
+      "s": "rec",
+      "tech": "plane",
+      "n": "Bilateral TAP bloğu (epidural uygulanamıyorsa)",
+      "ev": "Güçlü · sistematik derleme (karma açık + laparoskopik)",
+      "er": 0,
+      "w": "PROSPECT 2024: epidural uygulanamıyorsa IV lidokain veya bilateral TAP bloğu önerilir. Sistematik derleme: İlk 24 saatte opioid ihtiyacını ve istirahat ağrısını azaltıyor; yalnızca açık cerrahiye özgü ayrı analiz yok, kanıt dolaylı. Toplam hastane opioid tüketimi ve yatış süresinde fark yok.",
+      "anim": [
+       "tap"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Ameliyat sonrası sürekli preperitoneal lokal anestezik infüzyonu (epidural uygulanamıyorsa)",
+      "w": "PROSPECT 2024 alternatiflerinden biri."
+     },
+     {
+      "s": "rec",
+      "tech": "other",
+      "n": "İntravenöz lidokain (epidural uygulanamıyorsa)",
+      "w": "PROSPECT 2024: lokal anestezikler aynı anda iki farklı yolla verilmemeli (örneğin IV lidokain + TAP); toksisite riski nedeniyle doz ve izlem dikkatli olmalı."
      }
+    ],
+    "srcx": [
+     "colo_open_ma"
     ]
    },
    "hyst_open": {
@@ -774,12 +805,13 @@
     ]
    },
    "upper_open": {
-    "name": "Açık üst batın ve karaciğer rezeksiyonu (PROSPECT özeti yok; çoğu veri laparoskopik/donör)",
+    "name": "Açık üst batın ve karaciğer rezeksiyonu (karaciğer rezeksiyonu için PROSPECT 2021; diğer veriler çoğunlukla laparoskopik/donör)",
     "reg": "upper",
     "ap": "open",
-    "src": "liv_tap",
-    "src2": "liv_eoi",
+    "src": "liv_pro",
+    "src2": "liv_tap",
     "srcx": [
+     "liv_eoi",
      "gk_riup",
      "gk_donor",
      "liv_tx",
@@ -791,6 +823,23 @@
      "tx_rev"
     ],
     "items": [
+     {
+      "s": "rec",
+      "tech": "neuraxial",
+      "n": "Torasik epidural analjezi (sürekli; açık karaciğer rezeksiyonu)",
+      "w": "PROSPECT (açık karaciğer rezeksiyonu, 2021): parasetamol ve NSAİİ ile birlikte torasik epidural veya bilateral oblik subkostal TAP bloğu önerilir; sistemik opioid kurtarma için.",
+      "anim": [
+       "epidural"
+      ]
+     },
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Bilateral oblik subkostal TAP bloğu",
+      "ev": "Güçlü · randomize çalışma (donör hepatektomi) / Zayıf · before-and-after (nakil)",
+      "er": 0,
+      "w": "PROSPECT (açık karaciğer rezeksiyonu, 2021): torasik epidurale alternatif olarak önerilir. Donör hepatektomide ağrı skorunu ve opioid tüketimini azalttı (ilk 24 saat). Karaciğer naklinde 48 saatte opioid tüketimi 74 mg yerine 50 mg, ağrı skoru farksız. Veri laparoskopik donör ve nakil hastalarından; açık rezeksiyona dolaylı."
+     },
      {
       "s": "opt",
       "tech": "plane",
@@ -805,15 +854,7 @@
       "n": "M-TAPA (karaciğer nakli alıcıları)",
       "ev": "Zayıf · olgu bildirimleri (pediatrik nakil 2 olgu; yetişkin eş zamanlı karaciğer nakli + CABG 1 olgu)",
       "er": 3,
-      "w": "Bilateral M-TAPA ve pektointerkostal blok kurtarma analjezisi olarak kullanıldı. Nakilde rejyonel teknikler için anlatımsal derleme var (kanıt düzeyi yönünden zayıf). Rezeksiyon için veri yok."
-     },
-     {
-      "s": "opt",
-      "tech": "plane",
-      "n": "Subkostal TAP bloğu",
-      "ev": "Güçlü · randomize çalışma (donör hepatektomi) / Zayıf · before-and-after (nakil)",
-      "er": 0,
-      "w": "Donör hepatektomide ağrı skorunu ve opioid tüketimini azalttı (ilk 24 saat). Karaciğer naklinde 48 saatte opioid tüketimi 74 mg yerine 50 mg, ağrı skoru farksız. Veri laparoskopik donör ve nakil hastalarından; açık rezeksiyona dolaylı."
+      "w": "Pediatrik 2 olguda bilateral M-TAPA ile postoperatif analjezi; yetişkin olguda yoğun bakımda M-TAPA + pektointerkostal blok kurtarma analjezisi olarak kullanıldı. Nakilde rejyonel teknikler için anlatımsal derleme var (kanıt düzeyi yönünden zayıf). Rezeksiyon için veri yok."
      },
      {
       "s": "opt",
@@ -840,10 +881,10 @@
       "w": "Açık jinekolojik cerrahide Th8–11 dermatomlarında analjezi (10 hasta, kadavra dye yayılımı). Kapsam derlemesi: çoğunluk laparoskopik kolesistektomi, TAP bloğuna belirgin üstünlük gösterilmemiş. Karaciğer rezeksiyonu için veri yok."
      },
      {
-      "s": "na",
-      "tech": "neuraxial",
-      "n": "Torasik epidural ve paravertebral",
-      "w": "Bu turda açık üst batın/karaciğer için kaynaklı değer bulunamadı; değerlendirilmedi."
+      "s": "no",
+      "tech": "other",
+      "n": "Paravertebral blok, quadratus lumborum bloğu, intratekal morfin, sürekli yara infüzyonu (karaciğer rezeksiyonu)",
+      "w": "PROSPECT 2021: prosedüre özgü kanıt sınırlı; önerilmez. IV lidokain, ketamin, deksametazon ve gabapentinoidler için kanıt bulunamadı."
      }
     ]
    },
@@ -851,8 +892,14 @@
     "name": "Radikal prostatektomi (açık)",
     "reg": "pelvis",
     "ap": "open",
-    "src": "prost",
+    "src": "prost21",
     "items": [
+     {
+      "s": "rec",
+      "tech": "other",
+      "n": "Sürekli intravenöz lidokain (açık cerrahi)",
+      "w": "PROSPECT 2021 güncellemesi: açık prostatektomide ağrı skorlarını azalttı; düşünülmeli."
+     },
      {
       "s": "rec",
       "tech": "infil",
@@ -876,7 +923,7 @@
       "s": "no",
       "tech": "plane",
       "n": "TAP blokları",
-      "w": "Prosedüre özgü kanıt yok, aktarılabilir kanıt sınırlı (derece D)."
+      "w": "Açık cerrahide kanıt çelişkili (PROSPECT 2021 güncellemesi)."
      },
      {
       "s": "no",
@@ -896,17 +943,30 @@
       "n": "Paravertebral analjezi",
       "w": "Prosedüre özgü kanıt sınırlı (derece D)."
      }
+    ],
+    "srcx": [
+     "prost"
     ]
    },
    "prost_vats": {
     "name": "Radikal prostatektomi (video-yardımlı)",
     "reg": "pelvis",
     "ap": "closed",
-    "src": "prost",
+    "src": "prost21",
     "srcx": [
+     "prost",
      "gk_prost"
     ],
     "items": [
+     {
+      "s": "rec",
+      "tech": "plane",
+      "n": "Bilateral TAP bloğu (ameliyat sonunda)",
+      "w": "PROSPECT 2021 güncellemesi: laparoskopik/robotik radikal prostatektomide ilk tercih rejyonel analjezi tekniği; robotik işlemlerde ağrı skorlarını azalttı.",
+      "anim": [
+       "tap"
+      ]
+     },
      {
       "s": "opt",
       "tech": "plane",
@@ -933,12 +993,6 @@
       "n": "İntratekal opioid anestezisi ve analjezisi",
       "w": "Olumsuz risk/yarar dengesi (derece B).",
       "opi": 1
-     },
-     {
-      "s": "no",
-      "tech": "plane",
-      "n": "TAP blokları",
-      "w": "Prosedüre özgü kanıt yok (derece D)."
      },
      {
       "s": "no",
@@ -1051,7 +1105,9 @@
      "f24",
      "f25",
      "f26",
-     "f28"
+     "f28",
+     "ipack_ma",
+     "ipack_nma"
     ],
     "items": [
      {
@@ -1130,12 +1186,12 @@
       "w": "Özette doğrudan öneri yok."
      },
      {
-      "s": "na",
+      "s": "opt",
       "tech": "periph",
-      "n": "IPACK bloğu",
-      "ev": "AAHKS 2022: sınırlı öneri (tek RKÇ)",
-      "er": 2,
-      "w": "PROSPECT özetinde yok. AAHKS: ağrıyı azaltabilir ama opioid tüketimini azaltmaz."
+      "n": "IPACK bloğu (aduktör kanal bloğuna ek)",
+      "ev": "Orta · meta-analiz (19 RCT) · AAHKS 2022: sınırlı öneri",
+      "er": 1,
+      "w": "PROSPECT özetinde yok. AAHKS: ağrıyı azaltabilir ama opioid tüketimini azaltmaz. Meta-analizde (19 RCT, 1.702 hasta) ağrı skoru ve opioid tüketiminde fark yok; eklem hareket açıklığı ve yürüme mesafesi daha iyi. Ağ meta-analizinde sürekli aduktör kanal + IPACK, yürüme mesafesi için en olası en iyi seçenek."
      }
     ]
    },
@@ -1391,6 +1447,104 @@
       "n": "İntratekal morfin",
       "w": "Bu hasta grubunda değerlendirilmemiş.",
       "opi": 1
+     }
+    ]
+   },
+   "ankle": {
+    "name": "Ayak bileği kırığı ve distal tibia/fibula cerrahisi (ORIF; PROSPECT özeti yok; randomize çalışmalar)",
+    "reg": "limb",
+    "ap": "open",
+    "src": "ank_ananke",
+    "srcx": [
+     "ank_saph",
+     "ank_cont_ma",
+     "ank_cont_rct",
+     "ank_adj",
+     "ank_sa_cohort",
+     "ank_sa_nsqip",
+     "ank_comb_sr",
+     "tib_acs_gl"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Popliteal siyatik + safen sinir bloğu (birincil anestezi veya analjezi)",
+      "ev": "Güçlü · randomize çalışma (150 hasta)",
+      "er": 0,
+      "w": "Spinal anesteziye göre ağrı ve opioid bileşik skoru daha iyi (PIOC −%26,5 ve +%54,3); hastaların %99'u (spinalde %90) aynı yöntemi yeniden seçerdi. Blok geçerken belirgin rebound ağrı görüldü: blok bitmeden düzenli analjezi planlanmalı."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Safen sinir bloğu (popliteal siyatiğe ek)",
+      "ev": "Güçlü · randomize çalışma (küçük, 18 hasta)",
+      "er": 0,
+      "w": "Plasebo grubunda 9 hastanın 8'inde, safen blok grubunda 1'inde belirgin ağrı; safen bölgesindeki ağrı cerrahiden sonraki 30 dakika içinde başladı."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Sürekli popliteal siyatik kateter",
+      "ev": "Güçlü · meta-analiz (5 RCT) ve randomize çalışma (50 hasta)",
+      "er": 0,
+      "w": "Tek doza göre 24. ve 48. saat ağrı skorları daha düşük; ayak bileği kırığında rebound ağrı ve ilk 72 saatte oral analjezik gereksinimi azaldı. Pompa ve kateter sorunları sık (sızıntı %13,9)."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Popliteal + safen blokta IV deksametazon (± deksmedetomidin)",
+      "ev": "Güçlü · randomize çalışma (120 hasta)",
+      "er": 0,
+      "w": "Analjezi süresi plaseboda 870 dk, deksametazonla 1.400 dk, deksametazon + deksmedetomidinle 1.572 dk; deksmedetomidin eklemenin ek yararı gösterilmedi."
+     },
+     {
+      "s": "opt",
+      "tech": "neuraxial",
+      "n": "Spinal anestezi",
+      "ev": "Zayıf · retrospektif kohortlar",
+      "er": 3,
+      "anim": [
+       "spinal"
+      ],
+      "w": "Genel anesteziye göre ilk 48 saatte opioid tüketimi daha düşük (−13,7 mg) ve bulantı-kusma daha az (586 hasta); büyük veri tabanında hastanede kalış 0,5 gün daha uzun bulundu (eşleştirilmiş 841 spinal ve 3.364 genel anestezi hastası). Randomize çalışmada ağrı profili periferik bloktan kötüydü."
+     }
+    ]
+   },
+   "tibia": {
+    "name": "Tibia cisim kırığı, intramedüller çivileme (PROSPECT özeti yok; kılavuz ve çalışmalar)",
+    "reg": "limb",
+    "ap": "open",
+    "src": "tib_acs_gl",
+    "srcx": [
+     "tib_sa_rct",
+     "tib_pnb_retro"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Periferik sinir bloğu, ör. popliteal siyatik ± safen (düşük konsantrasyon, adjuvansız)",
+      "ev": "Zayıf · uzlaşı kılavuzu (olgu bildirimlerine dayalı) ve retrospektif çalışma",
+      "er": 2,
+      "w": "Kılavuza göre düşük konsantrasyonlu ve adjuvansız tek doz veya sürekli periferik bloklar, izlem uygun ve etkin olduğunda kompartman sendromu tanısında gecikmeyle ilişkili bulunmadı. Retrospektif çalışmada (76 hasta) intraoperatif opioid daha az, atlanan kompartman sendromu yok. Kılavuz ve çalışma özetinde blok tipi belirtilmemiştir."
+     },
+     {
+      "s": "opt",
+      "tech": "neuraxial",
+      "n": "Spinal anestezi",
+      "ev": "Güçlü · randomize çalışma (küçük, 50 hasta)",
+      "er": 0,
+      "anim": [
+       "spinal"
+      ],
+      "w": "Genel anesteziye göre mutlak kompartman basınçları benzer; delta basınç (diyastolik basınç − kompartman basıncı) spinal grupta daha yüksek (ortalama 6,4 mmHg). Spinal grupta kompartman sendromu görülmedi, genel anestezi grubunda 3 hastaya fasiyotomi gerekti. Ağrı ve opioid tüketimi benzer."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Yoğun ve cerrahi süresini belirgin aşan uzun süreli bloklar (nöroaksiyel veya periferik)",
+      "w": "Kılavuz: kompartman sendromu belirtilerini gizleyebileceği için kaçınılmalı. Riskli hastaya yöntem anlatılıp sözlü onamı kaydedilmeli; eğitimli personelle belirli aralıklarla izlem ve nesnel skorlama çizelgesi önerilir."
      }
     ]
    }

@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "kanit_panelleri",
   "aciklama": "Blok bazlı kanıt panelleri",
-  "surum": "1.0.0",
-  "tarih": "2026-11-19",
-  "hazirlayan": "",
-  "kontrol_eden": "",
-  "kontrol_tarihi": "",
-  "durum": "taslak",
-  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+  "surum": "1.0.2",
+  "tarih": "2026-11-21",
+  "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
+  "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
+  "kontrol_tarihi": "2026-11-21",
+  "durum": "onaylandı",
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı. 1.0.1: M-TAPA dermatom ifadesi kapsam derlemesine göre düzeltildi. 1.0.2: SPSIP randomize çalışmaları eklendi."
  },
  "data": {
   "DER": {
@@ -52,7 +52,7 @@
   "NEWB": [
    [
     "M-TAPA",
-    "Anterior ve lateral kutanöz dallar, Th7–11 (perikondriyal)",
+    "Th7–11 anterior kutanöz dallar; lateral dallar (Th8–10) daha az tutarlı (perikondriyal)",
     [
      [
       "Laparoskopik kolesistektomi",
@@ -120,6 +120,26 @@
       "Teknik tanım ve kadavra",
       "Zayıf · teknik rapor",
       "sps_tech"
+     ],
+     [
+      "VATS (paravertebral blokla)",
+      "Güçlü · RCT (70 hasta)",
+      "sps_dogan"
+     ],
+     [
+      "VATS (blok yapılmayan kontrolle)",
+      "Orta · küçük RCT (24 hasta)",
+      "sps_avci"
+     ],
+     [
+      "Meme cerrahisi (standart analjeziyle)",
+      "Güçlü · RCT (60 hasta)",
+      "sps_koksal"
+     ],
+     [
+      "Meme cerrahisi (ESP ile)",
+      "Güçlü · RCT (50 hasta)",
+      "sps_arik"
      ],
      [
       "Meme cerrahisi",

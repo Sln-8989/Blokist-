@@ -2,16 +2,31 @@
  "_meta": {
   "dosya": "dogrulama",
   "aciklama": "Doğrulama kaydı",
-  "surum": "1.0.0",
-  "tarih": "2026-11-19",
-  "hazirlayan": "",
-  "kontrol_eden": "",
-  "kontrol_tarihi": "",
-  "durum": "taslak",
-  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+  "surum": "1.1.0",
+  "tarih": "2026-11-21",
+  "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
+  "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
+  "kontrol_tarihi": "2026-11-21",
+  "durum": "onaylandı",
+  "not": "21 Kasım 2026 PubMed eşleştirmesi ve PROSPECT güncellemeleri eklendi. İkinci kontrol: uygulamayı kullanan hekim kaynaktan doğrular."
  },
  "data": {
   "VER": [
+   [
+    "ok",
+    "Kaynak künyeleri (21 Kasım 2026)",
+    "PubMed ile 351 PubMed kaydı, 371 kaynak satırı eşleştirildi; ilk yazar etiketleri düzeltildi veya eklendi (Gürkan'ın yazar sırası belirtildi), bir dergi adı (Air Med J) ve bir yıl (Kaya 2013) düzeltildi. ESRA PROSPECT ve AAHKS bağlantıları açılarak doğrulandı."
+   ],
+   [
+    "ok",
+    "PROSPECT güncellemeleri (21 Kasım 2026)",
+    "Total omuz artroplastisi 2026 (Mrazek ve ark.), radikal prostatektomi 2021 (Lemoine ve ark.; laparoskopik/robotik için TAP ilk tercih), açık kolorektal 2024 (Uten ve ark.) ve açık karaciğer rezeksiyonu 2021 (Dieu ve ark.) önerileri PubMed özetlerinden işlendi; laparoskopik kolesistektomide rektus kılıf ve QL notları PROSPECT 2024'e göre eklendi."
+   ],
+   [
+    "x",
+    "Kontrol yöntemi",
+    "İçerik geliştirici anestezi hekimi tarafından hazırlanıp kontrol edildi. İkinci kontrol, uygulamayı kullanan hekimin her öneriyi bağlı kaynağından doğrulamasıdır."
+   ],
    [
     "ok",
     "ESAIC/ESRA künyesi",
