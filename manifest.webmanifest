@@ -1,6 +1,6 @@
 {
-  "name": "Rejyonel Blok Rehberi",
-  "short_name": "Blok Rehberi",
+  "name": "BlokNavi – Rejyonel Blok Rehberi",
+  "short_name": "BlokNavi",
   "description": "Cerrahi, antitrombotik ilaç ve hasta faktörlerine göre rejyonel blok seçenekleri (yalnızca hekim kullanımı).",
   "lang": "tr",
   "start_url": "./",

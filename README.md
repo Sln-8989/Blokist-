@@ -1,4 +1,4 @@
-# Blok Rehberi – Rejyonel Blok
+# BlokNavi – Rejyonel Blok Rehberi
 
 Anestezi hekimleri için kılavuz tabanlı rejyonel blok karar rehberi. Cerrahiye, hasta faktörlerine ve antitrombotik ilaca göre blok seçeneklerini kaynaklarıyla gösterir. İnternetsiz çalışır.
 
