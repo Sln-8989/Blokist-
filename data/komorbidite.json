@@ -8,7 +8,7 @@
   "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
   "kontrol_tarihi": "2026-11-28",
   "durum": "onaylandı",
-  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı. 1.1.0: lokal anestezik doz sınırları, LAST tedavisi, enjeksiyon basıncı ve kompartman sendromu notlarından oluşan güvenlik bölümü eklendi. Geliştirici hekim onayı (2026-11-28): bupivakain 2,5 mg/kg, ropivakain 3 mg/kg, lidokain 5–7 mg/kg en yüksek doz olarak eklendi."
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı. 1.1.0: lokal anestezik doz sınırları, LAST tedavisi, enjeksiyon basıncı ve kompartman sendromu notlarından oluşan güvenlik bölümü eklendi. Geliştirici hekim onayı (2026-11-28): bupivakain 2,5 mg/kg, ropivakain 3 mg/kg, lidokain 5–7 mg/kg en yüksek doz olarak eklendi. Dozlar ve güvenlik bilgileri ayrı sekmelere taşındı."
  },
  "data": {
   "COM": {
@@ -168,6 +168,33 @@
   ],
   "SAFE": [
    [
+    "Toplam mg hesabı",
+    "Bilateral ve çoklu bloklar, kateter infüzyonu ve cerrahın infiltrasyonu toplam doza eklenir. Küçük vücut ve sarkopeni riski artırır; güncel olgularda belirtiler daha geç başlıyor (USG, infiltrasyon ve infüzyonlar) ve olayların bir kısmı ameliyathane dışında görülüyor.",
+    "last_adv"
+   ],
+   [
+    "LAST tedavisi (ASRA 2020)",
+    "Yardım ve lipid kitini çağırın. %100 oksijen, hiperventilasyondan kaçının. Nöbette benzodiazepin; hemodinamisi bozuk hastada büyük doz propofolden kaçının. Kardiyak arrestte adrenalin <1 µg/kg; vazopressin, kalsiyum kanal blokeri, beta bloker ve lokal anestezikten kaçının. Yanıt yoksa kardiyopulmoner bypass merkezine haber verin.",
+    "last_chk"
+   ],
+   [
+    "Lipid emülsiyonu %20 (ASRA 2020)",
+    ">70 kg: 100 mL 2–3 dakikada bolus, ardından 200–250 mL 15–20 dakikada. ≤70 kg: 1,5 mL/kg (yağsız vücut ağırlığı) 2–3 dakikada bolus, ardından 0,25 mL/kg/dk. Dolaşım düzelmezse bolus 1–2 kez tekrar ve infüzyon iki katına; stabil olduktan sonra en az 10 dakika sürdürün. Üst sınır yaklaşık 12 mL/kg.",
+    "last_chk"
+   ],
+   [
+    "Enjeksiyon basıncı",
+    "Açılış enjeksiyon basıncı ≥15 psi, interskalen blokta iğne-sinir temasını tutarlı biçimde gösterdi (36 enjeksiyonun 35'i); bu eşikte enjeksiyonu başlatmayıp iğneyi yeniden konumlandırmak temas halinde enjeksiyonu önledi. Küçük gözlemsel çalışmadır.",
+    "oip"
+   ],
+   [
+    "Kompartman sendromu riski",
+    "Alt bacak travmasında kılavuz düşük konsantrasyonlu, adjuvansız bloğu uygun izlemle kabul eder; yoğun ve cerrahiyi belirgin aşan uzun bloklardan kaçınılmasını, riskin hastaya anlatılıp kaydedilmesini ve düzenli nesnel izlemi önerir. Kurum protokolünüz preoperatif bloğu dışlıyorsa ona uyun.",
+    "tib_acs_gl"
+   ]
+  ],
+  "DOSE": [
+   [
     "Doz sınırı tek sayı değildir",
     "Önerilen en yüksek doz enjeksiyon yerine, hastanın yaşına, organ işlevine ve gebeliğe göre değişir. Büyük dozda, kontrendikasyon yoksa adrenalin (2,5–5 µg/mL) eklenmesi önerilir. Böbrek, karaciğer ve kalp hastalığında tekrarlayan doz ve infüzyonda azaltın.",
     "la_maxdose"
@@ -206,31 +233,6 @@
     "Lidokain ürün bilgisi",
     "Adrenalinli lidokain sağlıklı erişkinde 7 mg/kg, genelde toplam 500 mg; adrenalinsiz infiltrasyon ve blok tablolarında toplam doz en çok 300 mg.",
     "lbl_lido"
-   ],
-   [
-    "Toplam mg hesabı",
-    "Bilateral ve çoklu bloklar, kateter infüzyonu ve cerrahın infiltrasyonu toplam doza eklenir. Küçük vücut ve sarkopeni riski artırır; güncel olgularda belirtiler daha geç başlıyor (USG, infiltrasyon ve infüzyonlar) ve olayların bir kısmı ameliyathane dışında görülüyor.",
-    "last_adv"
-   ],
-   [
-    "LAST tedavisi (ASRA 2020)",
-    "Yardım ve lipid kitini çağırın. %100 oksijen, hiperventilasyondan kaçının. Nöbette benzodiazepin; hemodinamisi bozuk hastada büyük doz propofolden kaçının. Kardiyak arrestte adrenalin <1 µg/kg; vazopressin, kalsiyum kanal blokeri, beta bloker ve lokal anestezikten kaçının. Yanıt yoksa kardiyopulmoner bypass merkezine haber verin.",
-    "last_chk"
-   ],
-   [
-    "Lipid emülsiyonu %20 (ASRA 2020)",
-    ">70 kg: 100 mL 2–3 dakikada bolus, ardından 200–250 mL 15–20 dakikada. ≤70 kg: 1,5 mL/kg (yağsız vücut ağırlığı) 2–3 dakikada bolus, ardından 0,25 mL/kg/dk. Dolaşım düzelmezse bolus 1–2 kez tekrar ve infüzyon iki katına; stabil olduktan sonra en az 10 dakika sürdürün. Üst sınır yaklaşık 12 mL/kg.",
-    "last_chk"
-   ],
-   [
-    "Enjeksiyon basıncı",
-    "Açılış enjeksiyon basıncı ≥15 psi, interskalen blokta iğne-sinir temasını tutarlı biçimde gösterdi (36 enjeksiyonun 35'i); bu eşikte enjeksiyonu başlatmayıp iğneyi yeniden konumlandırmak temas halinde enjeksiyonu önledi. Küçük gözlemsel çalışmadır.",
-    "oip"
-   ],
-   [
-    "Kompartman sendromu riski",
-    "Alt bacak travmasında kılavuz düşük konsantrasyonlu, adjuvansız bloğu uygun izlemle kabul eder; yoğun ve cerrahiyi belirgin aşan uzun bloklardan kaçınılmasını, riskin hastaya anlatılıp kaydedilmesini ve düzenli nesnel izlemi önerir. Kurum protokolünüz preoperatif bloğu dışlıyorsa ona uyun.",
-    "tib_acs_gl"
    ]
   ]
  }

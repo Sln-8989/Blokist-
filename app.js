@@ -594,7 +594,7 @@ function APP(D){
   });
 
   /* ---------- Sekmeler ---------- */
-  var TABS=['guide','ver'];
+  var TABS=['guide','dose','safe','ver'];
   function show(w){TABS.forEach(function(t){$('view-'+t).hidden=(t!==w);$('tab-'+t).setAttribute('aria-selected',String(t===w));$('tab-'+t).tabIndex=(t===w)?0:-1})}
   TABS.forEach(function(t,i){var b=$('tab-'+t);b.addEventListener('click',function(){show(t)});b.addEventListener('keydown',function(e){var k=e.key,n=null;if(k==='ArrowRight'||k==='ArrowDown')n=TABS[(i+1)%TABS.length];else if(k==='ArrowLeft'||k==='ArrowUp')n=TABS[(i+TABS.length-1)%TABS.length];else if(k==='Home')n=TABS[0];else if(k==='End')n=TABS[TABS.length-1];if(n){e.preventDefault();show(n);$('tab-'+n).focus()}})});
 
@@ -603,9 +603,10 @@ function APP(D){
   var VER=D.VER;
   $('verlist').innerHTML=VER.map(function(v){var s=VS[v[0]];return '<li class="v"><span class="chip '+s[0]+'">'+s[1]+'</span><div><b>'+esc(v[1])+'</b></div><div class="d">'+esc(v[2])+'</div></li>'}).join('');
 
-  var SAFE=D.SAFE||[];
-  function renderSafe(){var el=$('p-safe');if(!el)return;
-    el.innerHTML='<h2>Lokal anestezik güvenliği</h2><p class="src" style="margin:6px 0 10px">Doz sınırları ürün bilgisi ve derlemelerden alınmıştır; hastaya göre bireyselleştirin.</p><details><summary>Doz sınırları, LAST tedavisi ve enjeksiyon güvenliği ('+SAFE.length+' madde)</summary><ul class="notes" style="margin-top:10px">'+SAFE.map(function(r){return '<li><b>'+esc(r[0])+':</b> '+esc(r[1])+(PRO[r[2]]?'<br><span class="src">'+src(PRO[r[2]])+'</span>':'')+'</li>'}).join('')+'</ul></details>'}
+  function safeList(L){return '<ul class="notes" style="margin-top:10px">'+L.map(function(r){return '<li><b>'+esc(r[0])+':</b> '+esc(r[1])+(PRO[r[2]]?'<br><span class="src">'+src(PRO[r[2]])+'</span>':'')+'</li>'}).join('')+'</ul>'}
+  function renderSafe(){
+    $('p-dose').innerHTML='<div class="sec-h"><h2>Lokal anestezik en yüksek dozları</h2><span class="src">Erişkin, tek doz. Yaşlı, kırılgan, gebe ve organ yetmezliği olan hastada ve çoklu blokta daha düşük doz hedefleyin.</span></div>'+safeList(D.DOSE||[]);
+    $('p-safe').innerHTML='<div class="sec-h"><h2>Güvenlik</h2><span class="src">Toplam doz, LAST tedavisi, enjeksiyon basıncı ve kompartman sendromu.</span></div>'+safeList(D.SAFE||[])}
   showMeta(D.__meta);
   fillProc();renderAll();renderSafe();
 

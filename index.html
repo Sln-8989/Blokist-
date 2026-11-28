@@ -178,6 +178,8 @@ details summary{min-height:44px;display:flex;align-items:center}
     </div>
     <nav role="tablist" aria-label="Bölümler">
       <button role="tab" id="tab-guide" aria-selected="true" aria-controls="view-guide" tabindex="0">Karar rehberi</button>
+      <button role="tab" id="tab-dose" aria-selected="false" aria-controls="view-dose" tabindex="-1">Dozlar</button>
+      <button role="tab" id="tab-safe" aria-selected="false" aria-controls="view-safe" tabindex="-1">Güvenlik</button>
       <button role="tab" id="tab-ver" aria-selected="false" aria-controls="view-ver" tabindex="-1">Doğrulama kaydı</button>
     </nav>
   </header>
@@ -253,7 +255,6 @@ details summary{min-height:44px;display:flex;align-items:center}
       <div class="panel" id="p-block"></div>
       <div class="panel" id="p-acg"></div>
       <div class="panel" id="p-comorb"></div>
-      <div class="panel" id="p-safe"></div>
       <div class="panel">
         <h2>Dayanak kaynaklar</h2>
         <ul class="notes" id="srclist" style="margin-top:10px"></ul>
@@ -270,6 +271,12 @@ details summary{min-height:44px;display:flex;align-items:center}
     </div>
   </section>
 
+  <section id="view-dose" role="tabpanel" aria-labelledby="tab-dose" hidden>
+    <div class="panel" id="p-dose"></div>
+  </section>
+  <section id="view-safe" role="tabpanel" aria-labelledby="tab-safe" hidden>
+    <div class="panel" id="p-safe"></div>
+  </section>
   <section id="view-ver" role="tabpanel" aria-labelledby="tab-ver" hidden>
     <div class="panel">
       <div class="sec-h"><h2>Doğrulama kaydı</h2><span class="src">Son kontrol: 21 Kasım 2026 · PubMed eşleştirmesi ve kılavuz kontrolü; ilk kayıtlar 18 Kasım 2026</span></div>
