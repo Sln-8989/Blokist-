@@ -1,7 +1,7 @@
 /* Uygulama kabuğu önbellekte tutulur (internetsiz çalışır).
    İçerik (data/*.json) önce ağdan istenir, ağ yoksa önbellekten gelir; böylece içerik güncellemesi için bu dosyayı değiştirmek gerekmez.
    index.html, app.js veya ikonlar değişince KABUK_SURUMU'nu artırın. */
-var KABUK_SURUMU = 'rbr-kabuk-19';
+var KABUK_SURUMU = 'rbr-kabuk-20';
 var ICERIK = 'rbr-icerik';
 var DATA = ['kaynaklar','cerrahi_bloklar','antitrombotik','komorbidite','kanit_panelleri','usg_baglantilari','dogrulama'].map(function (f) { return 'data/' + f + '.json'; });
 var KABUK = ['./', 'index.html', 'app.js', 'manifest.webmanifest', 'icon.png', 'gizlilik.html'];

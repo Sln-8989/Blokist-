@@ -241,6 +241,51 @@ function APP(D){
       'Diz arkası, femur kondilleri düzeyi, enine şematik görünüm. İğne medialden girer; enjektat popliteal arter ile femur arasındaki boşlukta, diz kapsülünün arkasında yayılır.',[['bone','femur kondilleri'],['vessel','popliteal arter'],['vein','popliteal ven'],['nerve','tibial sinir'],['la','lokal anestezik']])}
   };
   for(var _k3 in ANIM3)ANIM[_k3]=ANIM3[_k3];
+  var ANIM4={
+    ccb:function(){return fig('Kostoklaviküler brakiyal pleksus bloğu',
+      SK(40)+B(40,84,'t-musc','Pektoralis majör')+E(300,96,92,13,'t-musc2')+B(162,188,'t-musc2','Serratus anterior / göğüs duvarı')+R(0,188,420,24,'t-lung')+
+      LA(210,129,32,22)+E(198,128,9,7,'t-nerve')+E(216,119,9,7,'t-nerve')+E(218,139,9,7,'t-nerve')+E(266,130,15,14,'t-vessel')+E(330,134,20,12,'t-vein')+
+      T(330,100,'Subklavius','middle')+T(188,112,'LK','end')+T(230,112,'PK')+T(232,152,'MK')+T(266,112,'AA','middle')+T(330,118,'AV','middle')+T(210,204,'Plevra','middle')+
+      T(8,215,'lateral')+T(412,215,'medial','end')+N(8,56,196,126),
+      'İnfraklaviküler fossa, klavikulaya paralel ve hafif sefalad eğik enine şematik görünüm. Lateral, posterior ve medial kordlar subklavius ile serratus anterior arasındaki kostoklaviküler aralıkta, aksiller arterin lateralinde bir arada bulunur. İğne lateralden in-plane girer; enjektat kord kümesinin ortasından üç kordu birlikte sarar.',[['musc','kaslar'],['nerve','kordlar'],['vessel','aksiller arter'],['vein','aksiller ven'],['lung','plevra'],['la','lokal anestezik']])},
+    cpb:function(){return fig('Klavipektoral fasyal plan bloğu',
+      SK(42)+R(0,42,420,170,'t-fat')+B(42,66,'t-musc','Platisma')+E(86,150,86,40,'t-musc2')+E(354,150,70,34,'t-musc')+E(210,148,58,34,'t-bone')+E(206,194,42,11,'t-musc2')+
+      '<path d="M140 120 Q210 96 280 120" class="fas" fill="none"/>'+LA(210,108,64,8)+
+      T(86,154,'Pektoralis majör','middle')+T(354,154,'Deltoid / trapez','middle')+T(210,152,'Klavikula','middle')+T(206,212,'Subklavius','middle')+T(300,96,'Klavipektoral fasya')+T(148,100,'LA','end')+
+      T(8,215,'kaudal')+T(412,215,'kranial','end')+N(8,56,172,106),
+      'Klavikulanın kısa ekseninde, kırık hattının medial ve lateralinde ayrı ayrı alınan şematik kesit. Klavipektoral fasya klavikulanın üst yüzeyini sarar; iğne kemiğe değene dek ilerler, enjektat fasya ile periost arasında kemiğin üst yüzeyine yayılır. Supraklaviküler sinirlerle innerve olan deri için ayrıca süperfisyal servikal veya supraklaviküler sinir bloğu gerekebilir.',[['musc','kaslar'],['bone','klavikula'],['la','lokal anestezik']])},
+    ftb:function(){return fig('Femoral üçgen bloğu',
+      SK(40)+R(0,40,420,172,'t-fat')+E(220,74,104,26,'t-musc')+E(82,142,86,50,'t-musc2')+E(354,142,64,50,'t-musc')+R(20,188,170,24,'t-bone',12)+
+      LA(198,116,40,12)+E(170,118,6,5,'t-nerve')+E(196,112,6,5,'t-nerve')+E(222,124,13,12,'t-vessel')+E(248,144,15,10,'t-vein')+
+      T(220,78,'Sartorius','middle')+T(82,146,'Vastus medialis','middle')+T(354,146,'Adduktor longus','middle')+T(104,204,'Femur','middle')+T(196,104,'SS','end')+T(162,132,'VMS','middle')+T(238,122,'FA')+T(266,148,'FV')+
+      T(8,215,'lateral')+T(412,215,'medial','end')+N(8,48,190,112),
+      'Uyluk ortası ile kasık arasında, femoral üçgenin apeksine yakın enine şematik görünüm: sartoriusun medial kenarı adduktor longusun medial kenarıyla kesişmeden hemen önce. Safen sinir ve vastus medialis siniri femoral arterin lateralinde, sartorius altındadır. İğne lateralden girer; enjektat arterin lateralinde, sartorius altında yayılır. Büyük hacim femoral sinire ulaşıp kuadriseps güçsüzlüğü yapabilir.',[['musc','kaslar'],['bone','femur'],['nerve','safen sinir ve vastus medialis siniri'],['vessel','femoral arter'],['vein','femoral ven'],['la','lokal anestezik']])},
+    gnb:function(){return fig('Genikülar sinir bloğu (superomedial hedef)',
+      SK(40)+B(40,96,'t-musc','Vastus medialis')+R(0,96,420,50,'t-fat')+'<path d="M0 156 Q150 152 240 138 Q320 124 420 122 L420 220 L0 220Z" class="t-bone"/>'+
+      LA(190,141,40,7)+E(176,142,5,4,'t-nerve')+E(200,140,6,5,'t-vessel')+
+      T(176,130,'SMGS','end')+T(208,132,'SMGA')+T(90,190,'Femur metafizi','middle')+T(330,176,'Medial epikondil','middle')+
+      T(8,215,'proksimal')+T(412,215,'distal','end')+N(40,40,186,140),
+      'Dizin medialinde koronal şematik görünüm. Superomedial genikülar sinir, femurun metafiz-diyafiz bileşkesinde vastus medialis ile kemik arasında, superomedial genikülar arterin yanında seyreder; iğne kemik temasına kadar ilerler. Diğer hedefler: superolateral (vastus lateralis ile femur arası), inferolateral (lateral kollateral bağın derini, fibula başının üstü) ve inferomedial (medial kollateral bağın altı, tibia metafizi). Sinirler genellikle görülmez; arter ve kemik işaretleri kullanılır.',[['musc','vastus medialis'],['bone','femur'],['nerve','genikülar sinir'],['vessel','genikülar arter'],['la','lokal anestezik']])},
+    fnb:function(){return fig('Femoral sinir bloğu',
+      SK(40)+R(0,40,420,172,'t-fat')+LN(0,54,420,54,'fas')+E(110,142,104,44,'t-musc2')+LN(10,98,236,98,'fas')+E(350,160,62,30,'t-musc')+R(30,190,200,22,'t-bone',10)+
+      LA(192,108,40,10)+E(190,108,17,7,'t-nerve')+E(256,90,14,13,'t-vessel')+E(300,96,18,12,'t-vein')+
+      T(110,146,'İliopsoas','middle')+T(350,164,'Pektineus','middle')+T(130,204,'Femur başı','middle')+T(60,50,'Fasya lata','middle')+T(40,94,'Fasya iliaka','middle')+T(190,126,'FS','middle')+T(256,72,'FA','middle')+T(300,80,'FV','middle')+
+      T(8,215,'lateral')+T(412,215,'medial','end')+N(8,64,172,108),
+      'İnguinal kıvrımda enine şematik görünüm. Femoral sinir fasya iliakanın altında, iliopsoasın üzerinde ve femoral arterin lateralindedir; arter ve ven fasya iliakanın üstünde kalır. İğne lateralden in-plane girer; enjektat fasya iliakanın altında siniri sarar. Kuadriseps güçsüzlüğü ve düşme riski vardır.',[['musc','kaslar'],['bone','femur başı'],['nerve','femoral sinir'],['vessel','femoral arter'],['vein','femoral ven'],['la','lokal anestezik']])},
+    ankle:function(){return fig('Ayak bileği bloğu: tibial sinir',
+      SK(36)+R(0,36,420,176,'t-fat')+LN(70,62,390,62,'fas')+E(30,132,72,72,'t-bone')+E(112,94,13,10,'t-lig')+E(148,90,11,9,'t-lig')+E(262,164,74,30,'t-musc2')+E(372,104,40,20,'t-lig')+
+      LA(232,100,36,14)+E(188,96,6,5,'t-vein')+E(206,92,8,8,'t-vessel')+E(224,96,6,5,'t-vein')+E(240,106,12,9,'t-nerve')+
+      T(40,140,'Medial malleol','middle')+T(112,80,'TP','middle')+T(148,76,'FDL','middle')+T(206,78,'PTA','middle')+T(254,112,'TS')+T(262,168,'FHL','middle')+T(372,108,'Aşil','middle')+T(300,58,'Fleksör retinakulum','middle')+
+      T(8,215,'anterior')+T(412,215,'posterior','end')+N(412,40,250,102),
+      'Medial malleol ile Aşil tendonu arasında enine şematik görünüm. Tibial sinir fleksör retinakulumun derininde, posterior tibial arter ve venlerin posteriorundadır; en büyük ve en geç etki eden sinir olduğu için önce bloke edilir. Diğer dört sinir: derin peroneal (ekstansör retinakulum düzeyinde anterior tibial arterin yanında), yüzeyel peroneal (lateral malleolün 5–10 cm proksimalinde, krural fasyadan çıkmadan), sural (lateral malleol ile Aşil arasında, küçük safen venin yanında), safen (medial malleolün proksimalinde, büyük safen venin yanında).',[['bone','medial malleol'],['lig','tendonlar'],['musc','FHL kası'],['nerve','tibial sinir'],['vessel','posterior tibial arter'],['vein','venler'],['la','lokal anestezik']])},
+    tlip:function(){return fig('Torakolomber interfasyal plan (TLIP) bloğu',
+      SK(36)+LN(0,46,420,46,'fas')+R(0,46,28,150,'t-bone',8)+E(86,122,58,56,'t-musc')+E(212,114,66,54,'t-musc2')+E(344,106,70,46,'t-musc')+'<path d="M0 196 Q120 190 200 180 Q320 172 420 180 L420 220 L0 220Z" class="t-bone"/>'+
+      LA(146,118,9,42)+E(146,166,5,4,'t-nerve')+
+      T(14,120,'SP','middle')+T(86,126,'Multifidus','middle')+T(212,118,'Longissimus','middle')+T(344,110,'İliokostalis','middle')+T(158,170,'DR')+T(300,42,'Torakolomber fasya','middle')+T(200,204,'Lamina / transvers çıkıntı','middle')+
+      T(30,215,'medial (orta hat)')+T(412,215,'lateral','end')+N(412,40,152,116),
+      'L3 düzeyinde, orta hattın 2–3 cm lateralinde enine şematik görünüm. Klasik yaklaşımda enjektat multifidus ile longissimus arasına, modifiye (lateral) yaklaşımda longissimus ile iliokostalis arasına verilir; hedef dorsal ramilerdir. İğne lateralden mediale ilerler; orta hat insizyonunda blok bilateral yapılır.',[['bone','spinöz çıkıntı ve lamina'],['musc','paraspinal kaslar'],['nerve','dorsal rami'],['la','lokal anestezik']])}
+  };
+  for(var _k4 in ANIM4)ANIM[_k4]=ANIM4[_k4];
 
   /* ---------- Seçiciler ---------- */
   var acgSel=$('acg');
@@ -519,6 +564,37 @@ function APP(D){
       l:sT(52,120,'AİİS','middle')+sT(286,136,'İPE','middle')+sT(150,96,'İliopsoas','middle')+sT(192,122,'Psoas tendonu','middle')+sT(264,56,'FA','middle')+sT(228,106,'FS','middle')+sT(200,176,'LA','middle')}
   });
   var USGRX=[['mtapa',/M-TAPA/],['rifpb',/ektointerkostal|RIFPB/i],['rsb',/ektus kılıf/i],['eoi',/\bEOI\b|xternal oblique intercostal/i],['spsip',/SPSIP/],['rib',/omboid interkostal|\(RIB\)/i],['pecs',/PECS|nterpektoral|pektoserratus|Torasik duvar/i],['sap',/erratus anterior/i],['ql1',/uadratus lumborum|\bQL\b/i],['ql2',/uadratus lumborum|\bQL\b/i],['ql3',/uadratus lumborum|\bQL\b/i],['tfpb',/ransversalis fasya|TFPB/i],['peng',/PENG/],['isb',/nterskalen/i],['scb',/upraklaviküler (brakiyal|blok)|interskalen, supraklaviküler/i],['icb',/nfraklavik/i],['axb',/ksiller brakiyal|infraklaviküler, aksiller/i],['ssn',/uprascapular/i],['esp',/\bESP\b(?! ile)|rector spinae/i],['tap',/\bTAP\b/],['pvb',/aravertebral(?! blokla)/i],['fib',/fas(i)?ya iliaka/i],['acb',/d+uktör kanal/i],['pop',/opliteal (siyatik|\+ safen)/i],['saphen',/afen (sinir|blok)|[±+] safen/i],['ipack',/IPACK/i],['ii',/lioinguinal|liohipogastrik/i],['sgb',/tellat/i],['shp',/hipogastrik pleksus/i]];
+  Object.assign(USGS,{
+    ccb:{t:'Kostoklaviküler blok',c:'Lineer prob, klavikulanın hemen altında ona paralel, hafif sefalad eğik; lateral solda. Üç kord subklavius ile serratus anterior arasında, aksiller arterin lateralinde küme halinde; iğne in-plane lateralden kümenin ortasına, LA üç kordu birlikte sarar.',
+      a:sB(6,24,46)+sB(24,220,56)+sB(24,64,82)+sStr(24,64,104)+'<ellipse cx="232" cy="74" rx="72" ry="11" fill="'+sg(78)+'"/>'+sB(140,164,76)+sStr(140,164,96)+sB(170,220,30),
+      b:sSk()+sL('M0 64H320',1.6,180)+sL('M0 168Q160 162 320 166',3,225)+sLA('M134 96Q160 80 182 98Q182 124 158 126Q134 120 134 96Z')+sNerve(150,98,7,5)+sNerve(166,92,7,5)+sNerve(166,112,7,5)+sVes(202,100,12,11,1)+sVn(252,104,15,9)+sN(6,40,154,100),
+      l:sT(6,44,'Pektoralis majör')+sT(250,62,'Subklavius','middle')+sT(140,90,'LK','end')+sT(178,86,'PK')+sT(152,128,'MK','end')+sT(202,124,'AA','middle')+sT(252,124,'AV','middle')+sT(6,152,'Serratus anterior')+sT(312,182,'Plevra','end')},
+    cpb:{t:'Klavipektoral fasyal plan bloğu',c:'Lineer prob, klavikulanın kısa ekseninde (kırığın medial ve lateralinde); kaudal solda. Klavikula parlak kavisli kemik çizgisi ve altında akustik gölge; iğne in-plane kaudalden kemiğe değene dek, LA fasya ile periost arasında kemiğin üst yüzeyine yayılır.',
+      a:sB(6,24,46)+sB(24,220,50)+sB(24,46,84)+sStr(24,46,104)+'<ellipse cx="62" cy="120" rx="66" ry="34" fill="'+sg(80)+'"/>'+'<ellipse cx="272" cy="118" rx="56" ry="30" fill="'+sg(74)+'"/>'+sBone('M110 112Q160 82 210 112','M110 112Q160 82 210 112L210 220L110 220Z'),
+      b:sSk()+sL('M104 104Q160 70 216 104',1.3,170)+sLA('M110 106Q160 74 210 106Q160 86 110 106Z')+sN(6,40,128,98),
+      l:sT(6,38,'Platisma')+sT(62,124,'Pektoralis majör','middle')+sT(272,122,'Deltoid / trapez','middle')+sT(160,150,'Klavikula','middle')+sT(160,72,'Klavipektoral fasya','middle')+sT(108,96,'LA','end')},
+    ftb:{t:'Femoral üçgen bloğu',c:'Lineer prob, uyluğun anteromedialinde enine; lateral solda. Sartoriusun medial kenarı adduktor longusun medial kenarıyla kesişmeden hemen proksimalde; safen sinir ve vastus medialis siniri femoral arterin lateralinde, sartorius altında. İğne in-plane lateralden, LA arterin lateraline.',
+      a:sB(6,28,46)+sB(28,220,54)+'<ellipse cx="168" cy="54" rx="80" ry="22" fill="'+sg(86)+'"/>'+'<ellipse cx="62" cy="122" rx="68" ry="44" fill="'+sg(78)+'"/>'+'<ellipse cx="272" cy="124" rx="50" ry="44" fill="'+sg(82)+'"/>'+sStr(36,70,100)+sBone('M14 178Q80 166 146 178','M14 178Q80 166 146 178L146 220L14 220Z'),
+      b:sSk()+sLA('M128 92Q152 82 164 94Q158 106 136 104Q126 100 128 92Z')+sNerve(132,96,5,4)+sNerve(150,92,5,4)+sVes(170,100,10,9,1)+sVn(190,116,12,8)+sN(6,36,144,92),
+      l:sT(168,48,'Sartorius','middle')+sT(62,124,'Vastus medialis','middle')+sT(272,126,'Adduktor longus','middle')+sT(80,198,'Femur','middle')+sT(146,84,'SS','end')+sT(130,114,'VMS','end')+sT(182,94,'FA')+sT(204,122,'FV')},
+    gnb:{t:'Genikülar sinir bloğu, superomedial',c:'Lineer prob, dizin medialinde koronal; proksimal solda. Femur metafiz-diyafiz bileşkesinde kemik kortikal çizgisi; superomedial genikülar arter kemiğe komşu (Doppler). İğne kemik temasına kadar; LA vastus medialis ile kemik arasında yayılır.',
+      a:sB(6,28,46)+sB(28,220,52)+sB(28,76,84)+sStr(28,76,104)+sBone('M0 120Q120 116 190 104Q250 92 320 90','M0 120Q120 116 190 104Q250 92 320 90L320 220L0 220Z'),
+      b:sSk()+sL('M0 76H320',1.4,170)+sLA('M110 110Q150 98 184 104Q150 114 110 110Z')+sVes(154,106,4,3,1)+sN(30,30,140,104),
+      l:sT(6,58,'Vastus medialis')+sT(140,100,'SMGA','end')+sT(60,150,'Femur metafizi','middle')+sT(250,128,'Medial epikondil','middle')+sT(186,96,'LA','start')},
+    fnb:{t:'Femoral sinir bloğu, inguinal kıvrım',c:'Lineer prob, inguinal kıvrımda enine; lateral solda. Femoral sinir fasya iliakanın altında, iliopsoasın üzerinde, femoral arterin lateralinde üçgen hiperekoik yapı. İğne in-plane lateralden fasya iliakayı geçer; LA siniri fasya altında sarar.',
+      a:sB(6,24,46)+sB(24,220,50)+'<ellipse cx="80" cy="128" rx="82" ry="40" fill="'+sg(82)+'"/>'+'<ellipse cx="270" cy="146" rx="50" ry="26" fill="'+sg(78)+'"/>'+sBone('M20 182Q90 166 170 182','M20 182Q90 166 170 182L170 220L20 220Z'),
+      b:sSk()+sL('M0 38H320',1.2,160)+sL('M6 84Q90 82 180 84',1.6,190)+sLA('M126 88Q148 80 170 88Q150 98 126 88Z')+'<path d="M132 88L148 82L164 90Z" fill="'+sg(190)+'"/>'+sVes(196,74,11,10,1)+sVn(230,80,14,9)+sN(6,46,130,88),
+      l:sT(80,132,'İliopsoas','middle')+sT(270,150,'Pektineus','middle')+sT(96,204,'Femur başı','middle')+sT(40,34,'Fasya lata','middle')+sT(40,80,'Fasya iliaka','middle')+sT(148,104,'FS','middle')+sT(196,62,'FA','middle')+sT(234,66,'FV','middle')},
+    ankle:{t:'Ayak bileği bloğu, tibial sinir',c:'Lineer prob, medial malleol ile Aşil arasında enine; anterior solda. Tibial sinir fleksör retinakulumun derininde, posterior tibial arter ve venlerin posteriorunda bal peteği görünümlü. İğne in-plane posteriordan (veya out-of-plane), LA siniri sarar; prob basıncı en az tutulur.',
+      a:sB(6,20,46)+sB(20,220,52)+sBone('M0 70Q40 60 70 90','M0 70Q40 60 70 90L70 220L0 220Z')+'<ellipse cx="202" cy="126" rx="56" ry="24" fill="'+sg(78)+'"/>'+'<ellipse cx="290" cy="80" rx="30" ry="14" fill="'+sg(120)+'"/>',
+      b:sSk()+sL('M56 44Q180 40 300 46',1.4,175)+'<ellipse cx="88" cy="70" rx="10" ry="8" fill="'+sg(150)+'"/>'+'<ellipse cx="114" cy="68" rx="8" ry="7" fill="'+sg(150)+'"/>'+sLA('M162 72Q182 58 204 72Q196 88 178 88Q160 84 162 72Z')+sVes(156,68,6,6)+sVn(144,72,4,3)+sVn(170,72,4,3)+sNerve(184,76,9,7)+sN(314,30,196,74),
+      l:sT(30,118,'Malleol','middle')+sT(88,92,'TP','middle')+sT(116,92,'FDL','middle')+sT(152,58,'PTA','middle')+sT(196,94,'TS','middle')+sT(202,130,'FHL','middle')+sT(290,104,'Aşil','middle')+sT(250,38,'Retinakulum','middle')},
+    tlip:{t:'TLIP bloğu, L3 transvers',c:'Lineer veya konveks prob, L3 düzeyinde orta hattın 2–3 cm lateralinde enine; medial solda. Medialden laterale multifidus, longissimus ve iliokostalis; aralarında hiperekoik fasya çizgileri. İğne in-plane lateralden; klasikte LA multifidus ile longissimus arasını ayırır, modifiyede longissimus ile iliokostalis arasına verilir.',
+      a:sB(6,20,46)+sB(20,220,50)+'<ellipse cx="66" cy="98" rx="46" ry="46" fill="'+sg(80)+'"/>'+'<ellipse cx="162" cy="94" rx="50" ry="44" fill="'+sg(86)+'"/>'+'<ellipse cx="262" cy="88" rx="54" ry="38" fill="'+sg(80)+'"/>'+sBone('M0 40L18 40L18 160L0 160','M0 40L18 40L18 220L0 220Z')+sBone('M18 160Q120 154 200 146Q260 140 320 146','M18 160Q120 154 200 146Q260 140 320 146L320 220L18 220Z'),
+      b:sSk()+sL('M0 32H320',1.6,185)+sL('M112 52Q114 100 112 146',1.2,170)+sL('M212 52Q214 92 214 132',1.2,170)+sLA('M106 60Q120 98 106 140Q100 98 106 60Z')+sN(314,26,112,96),
+      l:sT(12,190,'SP','middle')+sT(66,100,'Multifidus','middle')+sT(162,96,'Longissimus','middle')+sT(262,90,'İliokostalis','middle')+sT(160,28,'Torakolomber fasya','middle')+sT(160,180,'Lamina / TP','middle')+sT(100,150,'LA','end')}
+  });
+  USGRX.push(['ccb',/ostoklaviküler/i],['cpb',/lavipektoral/i],['ftb',/emoral üçgen/i],['gnb',/enikülar/i],['fnb',/emoral sinir bloğu|emoral \+ siyatik/i],['ankle',/^Ayak bileği bloğu/],['tlip',/TLIP/]);
   function usgKeys(n){return USGRX.filter(function(r){return r[1].test(n)}).map(function(r){return r[0]})}
   function usgRow(n,ph){var rk=Object.keys(USGMAP).filter(function(k){return USGMAP[k]===n});usgKeys(n).forEach(function(k){if(rk.indexOf(k)<0)rk.push(k)});return rk.length?'<div class="anim">'+rk.map(usgSim).join('')+'</div>':ph}
   Object.assign(USGS,{
