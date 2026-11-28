@@ -86,6 +86,21 @@ select:focus,input:focus,button:focus-visible,summary:focus-visible{outline:2px 
 @keyframes nd{0%{stroke-dashoffset:var(--len);opacity:1}35%,92%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
 @keyframes la{0%,38%{transform:scale(.05);opacity:0}45%{opacity:.75}68%,92%{transform:scale(1);opacity:.75}100%{transform:scale(1);opacity:0}}
 @media (prefers-reduced-motion:reduce){.nd{animation:none}.la{animation:none}}
+.fig svg.sch{background:#FFFDF8}
+.sch .t-skin{fill:#F6D9C6;stroke:#9a6b52;stroke-width:.6}.sch .t-fat{fill:#FFF6DC}.sch .t-peri{fill:#F7EEE9;stroke:#9a8a84;stroke-width:.6}.sch .t-lung{fill:#E3F0F7;stroke:#7ea3b8;stroke-width:.8}.sch .t-csf{fill:#DDEFF8;stroke:#6f9bb5;stroke-width:.8}
+.sch .t-musc{fill:url(#pmf);stroke:#7A2620;stroke-width:1}.sch .t-musc2{fill:url(#pmf2);stroke:#7A2620;stroke-width:1}
+.sch .t-bone{fill:#F2ECDD;stroke:#4a4436;stroke-width:1.2}.sch .t-lig{fill:#F3E6BD;stroke:#8a6d1f;stroke-width:.9}
+.sch .t-nerve{fill:url(#pnv);stroke:#2b2b2b;stroke-width:1.1}.sch .rootl{stroke:#8A8A8A}
+.sch .t-vessel{fill:#fff;stroke:#D0251B;stroke-width:2.4}.sch .t-vein{fill:#fff;stroke:#2B5BB5;stroke-width:2.4}
+.sch .la{fill:#2ECC40;opacity:.82;animation:none;transform:none}.sch .nd{animation:none;stroke:#111;stroke-dashoffset:0}
+.sch rect,.sch ellipse,.sch path,.sch circle{filter:url(#skt)}
+.sch .lb{fill:#1b1b1b;stroke:#FFFDF8}.sch .t-cart{fill:#DCE6EA;stroke:#6f8a96;stroke-width:1}.sch .czpl{stroke:#6f9bb5;stroke-width:2.4}.sch .fas{stroke:#333}
+.usgsv .und{animation:und 6s ease-in-out infinite}.usgsv .undt{animation:undt 6s linear infinite}.usgsv .ula{transform-box:fill-box;transform-origin:center;animation:ula 6s ease-in-out infinite}
+@keyframes und{0%{stroke-dashoffset:var(--len)}38%,100%{stroke-dashoffset:0}}
+@keyframes undt{0%,37%{opacity:0}38%,100%{opacity:1}}
+@keyframes ula{0%,40%{transform:scale(.06);opacity:0}46%{opacity:1}74%,100%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){.usgsv .und,.usgsv .undt,.usgsv .ula{animation:none}}
+
 details{border:1px dashed var(--line);border-radius:9px;padding:8px 12px}
 details summary{cursor:pointer;font-size:13px;color:var(--muted)}
 details .opt-list{margin-top:10px}
@@ -169,6 +184,7 @@ details summary{min-height:44px;display:flex;align-items:center}
 @media (max-width:700px){.subtitle{font-size:13px}}
 </style>
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><pattern id="pmf" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)"><rect width="7" height="7" fill="#E27D74"/><path d="M0 1.7H7M0 5.2H7" stroke="#B0433B" stroke-width=".8"/></pattern><pattern id="pmf2" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(24)"><rect width="7" height="7" fill="#D3645C"/><path d="M0 1.7H7M0 5.2H7" stroke="#9C3730" stroke-width=".8"/></pattern><pattern id="pnv" width="5" height="5" patternUnits="userSpaceOnUse"><rect width="5" height="5" fill="#EEEEEE"/><circle cx="2.5" cy="2.5" r="1.15" fill="#8C8C8C"/></pattern><filter id="skt" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".045" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="2.4" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
 <div class="wrap">
   <header>
     <div>

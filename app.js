@@ -80,8 +80,9 @@ function APP(D){
   function N(x1,y1,x2,y2){var L=Math.round(Math.hypot(x2-x1,y2-y1));return '<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" style="stroke:var(--fg);stroke-width:2.6;stroke-linecap:round;opacity:.4"/><line class="nd" x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke-dasharray="'+L+'" style="--len:'+L+'"/>'}
   function LA(cx,cy,rx,ry){return '<ellipse class="la" cx="'+cx+'" cy="'+cy+'" rx="'+rx+'" ry="'+ry+'"/>'}
   var SW={bone:'t-bone',peri:'t-peri',fat:'t-fat',musc:'t-musc2',lung:'t-lung',csf:'t-csf',lig:'t-lig',vessel:'t-vessel',vein:'t-vein',nerve:'t-nerve',la:'t-la'};
-  function leg(items){return '<div class="leg">'+items.map(function(i){return '<span><i style="background:var(--'+SW[i[0]]+')"></i>'+i[1]+'</span>'}).join('')+'<span><i style="background:var(--fg)"></i>iğne</span></div>'}
-  function fig(title,svgInner,caption,legend){return '<div class="fig"><p class="ft">'+title+'</p><svg viewBox="0 0 420 220" role="img" aria-label="'+title+' şematik çizimi">'+svgInner+'</svg>'+leg(legend)+'<p class="fc">'+caption+'</p></div>'}
+  var SWC={cart:'#DCE6EA',bone:'#F2ECDD',peri:'#F7EEE9',fat:'#FFF6DC',musc:'#D3645C',lung:'#E3F0F7',csf:'#DDEFF8',lig:'#F3E6BD',vessel:'#D0251B',vein:'#2B5BB5',nerve:'#BDBDBD',la:'#2ECC40'};
+  function leg(items){return '<div class="leg">'+items.map(function(i){return '<span><i style="background:'+(SWC[i[0]]||'var(--'+SW[i[0]]+')')+'"></i>'+i[1]+'</span>'}).join('')+'<span><i style="background:#111"></i>iğne</span></div>'}
+  function fig(title,svgInner,caption,legend){return '<div class="fig"><p class="ft">'+title+'</p><svg class="sch" viewBox="0 0 420 220" role="img" aria-label="'+title+' şematik çizimi">'+svgInner+'</svg>'+leg(legend)+'<p class="fc">'+caption+'</p></div>'}
   var ANIM={
     esp:function(){return fig('Erector spinae plan bloğu',
       B(18,26,'t-skin','Cilt')+B(26,52,'t-fat','Deri altı')+B(52,78,'t-musc','Trapezius')+B(78,118,'t-musc2','Erektör spina kası')+B(118,148,'t-peri','')+
@@ -441,8 +442,8 @@ function APP(D){
   function sP(d,v){return '<path d="'+d+'" fill="'+sg(v)+'"/>'}
   function sL(d,w,v){return '<path d="'+d+'" fill="none" stroke="'+sg(v)+'" stroke-width="'+w+'" stroke-linecap="round"/>'}
   function sT(x,y,s,a){return '<text x="'+x+'" y="'+y+'"'+(a?' text-anchor="'+a+'"':'')+' fill="#ffe680" font-size="9" font-weight="600" font-family="Inter,sans-serif" paint-order="stroke" stroke="#000" stroke-width="2.5" stroke-linejoin="round">'+s+'</text>'}
-  function sN(x1,y1,x2,y2){return '<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="#fafafa" stroke-width="2.2" stroke-linecap="round"/><circle cx="'+x2+'" cy="'+y2+'" r="2.4" fill="#fff"/>'}
-  function sLA(d){return '<path d="'+d+'" fill="#030303" stroke="'+sg(150)+'" stroke-width=".8"/>'}
+  function sN(x1,y1,x2,y2){var L=Math.round(Math.hypot(x2-x1,y2-y1));return '<line class="und" x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="#fafafa" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="'+L+'" style="--len:'+L+'"/><circle class="undt" cx="'+x2+'" cy="'+y2+'" r="2.4" fill="#fff"/>'}
+  function sLA(d){return '<path class="ula" d="'+d+'" fill="#030303" stroke="'+sg(150)+'" stroke-width=".8"/>'}
   function sSk(){return sL('M0 5H320',3,205)}
   function sStr(y1,y2,v){var s='';for(var y=y1+6;y<y2-2;y+=7)s+=sL('M0 '+y+'Q80 '+(y-2)+' 160 '+y+'T320 '+y,.7,v);return s}
   function sNerve(cx,cy,rx,ry){var s='<ellipse cx="'+cx+'" cy="'+cy+'" rx="'+rx+'" ry="'+ry+'" fill="'+sg(185)+'"/>';for(var i=-1;i<=1;i++)for(var j=-1;j<=1;j+=2)s+='<circle cx="'+(cx+i*rx*.45)+'" cy="'+(cy+j*ry*.35)+'" r="'+Math.min(rx,ry)*.22+'" fill="'+sg(45)+'"/>';return s}
@@ -482,8 +483,8 @@ function APP(D){
       a:NEURAX.a+NEURAX.lam,b:sN(128,2,166,122),
       l:sT(60,30,'Paraspinal kaslar','middle')+sT(122,92,'Lamina','middle')+sT(172,118,'Epidural aralık / LF','start')+sT(250,142,'İntratekal (BOS)','middle')+sT(250,168,'Anterior kompleks','middle')}
   };
-  function usgSim(k){var s=USGS[k];if(!s)return '';var cp=s.clip?' clip-path="url(#usgc-'+k+')"':'';
-    return '<div class="fig"><p class="ft">USG benzetimi · '+s.t+'</p><svg viewBox="0 0 320 220" role="img" aria-label="'+s.t+', şematik USG benzetimi"><defs>'+USGF+(s.clip?'<clipPath id="usgc-'+k+'"><path d="'+s.clip+'"/></clipPath>':'')+'</defs><rect width="320" height="220" fill="#000"/><g'+cp+'><g filter="url(#usgbl)">'+s.a+'</g><rect width="320" height="220" filter="url(#usgsp)" opacity=".5"/>'+s.b+'</g>'+USGTK+s.l+'</svg><p class="fc">'+s.c+' Şematik benzetimdir, gerçek hasta görüntüsü değildir.</p></div>'}
+  function usgSim(k){if(CZ[k])return czUs(CZ[k]);var s=USGS[k];if(!s)return '';var cp=s.clip?' clip-path="url(#usgc-'+k+')"':'';
+    return '<div class="fig"><p class="ft">USG benzetimi · '+s.t+'</p><svg class="usgsv" viewBox="0 0 320 220" role="img" aria-label="'+s.t+', USG benzetimi: iğne ilerleyişi ve lokal anestezik yayılımı"><defs>'+USGF+(s.clip?'<clipPath id="usgc-'+k+'"><path d="'+s.clip+'"/></clipPath>':'')+'</defs><rect width="320" height="220" fill="#000"/><g'+cp+'><g filter="url(#usgbl)">'+s.a+'</g><rect width="320" height="220" filter="url(#usgsp)" opacity=".5"/>'+s.b+'</g>'+USGTK+s.l+'</svg><p class="fc">'+s.c+' Şematik benzetimdir, gerçek hasta görüntüsü değildir.</p></div>'}
   function sR(cx,cy,r){return '<circle cx="'+cx+'" cy="'+cy+'" r="'+r+'" fill="#151515" stroke="'+sg(205)+'" stroke-width="1.6"/>'}
   function sVn(cx,cy,rx,ry){return '<ellipse cx="'+cx+'" cy="'+cy+'" rx="'+rx+'" ry="'+ry+'" fill="#060606" stroke="'+sg(140)+'" stroke-width=".8"/>'}
   function sRibs(xs,y,w){return xs.map(function(x){return sBone('M'+(x-w)+' '+(y+4)+'Q'+x+' '+(y-8)+' '+(x+w)+' '+(y+4),'M'+(x-w)+' '+(y+4)+'Q'+x+' '+(y-8)+' '+(x+w)+' '+(y+4)+'L'+(x+w)+' 220L'+(x-w)+' 220Z')}).join('')}
@@ -621,6 +622,268 @@ function APP(D){
   });
   var USGKEY={};
   Object.keys(USGMAP).forEach(function(k){if(!USGKEY[USGMAP[k]])USGKEY[USGMAP[k]]=k});
+  function CZDATA(){
+    var LAT=['lateral','medial'],MED=['medial','lateral'],KR=['kranial','kaudal'];
+    function fatTop(y){return ['band','f',8,y]}
+    return {
+    isb:{t:'İnterskalen blok',tu:'İnterskalen blok, C5–C7 transvers',o:MED,
+      el:[fatTop(28),['path','m','M0 28L190 28Q170 62 0 76Z'],['ell','m2',128,140,40,58],['ell','m',318,138,92,62],['line','fs','M0 78Q160 66 200 34'],['bone','M90 204Q200 186 320 204',90,320],['ell','v',70,98,24,12],['ell','a',42,132,16,15],['ell','n',206,104,9,8],['ell','n',210,132,10,9],['ell','n',214,160,10,9]],
+      la:'M184 90Q240 82 238 128Q242 178 192 178Q176 132 184 90Z',nd:[412,52,236,120],
+      lb:[[40,46,'SKM'],[128,144,'ASK','middle'],[318,142,'OSK','middle'],[194,108,'C5','end'],[196,136,'C6','end'],[198,164,'C7','end'],[70,86,'İJV','middle'],[42,158,'KA','middle'],[250,190,'C7 TP','middle'],[244,92,'LA']],
+      cap:'Boyun, krikoid kıkırdak düzeyinin altında enine kesit. Kökler (C5–C7) ön skalen (medialde) ile orta skalen (lateralde) arasında dizilir; karotis ve internal juguler ven medialde kalır. İğne lateralden orta skalenden geçer; enjektat kökler çevresinde, iki skalen arasında yayılır.',
+      c:'Lineer prob, boyunda transvers; medial solda. Kökler ön ve orta skalen arasında hipoekoik "trafik ışığı" dizisi. İğne in-plane lateralden; LA kökleri çevreler.'},
+    scb:{t:'Supraklaviküler blok',tu:'Supraklaviküler blok, koronal oblik',o:LAT,
+      el:[fatTop(26),['path','m','M0 26L120 26Q100 84 0 112Z'],['bone','M110 188Q220 164 330 186',110,330],['line','pl','M0 200Q60 196 110 192'],['line','pl','M330 190Q380 196 420 200'],['ell','a',292,146,22,20],
+        ['ell','n',168,120,8,7],['ell','n',186,112,8,7],['ell','n',202,124,8,7],['ell','n',176,138,8,7],['ell','n',196,142,8,7],['ell','n',214,148,8,7],['ell','n',158,140,7,6]],
+      la:'M146 118Q190 96 232 128Q240 172 196 170Q150 162 146 118Z',nd:[8,40,214,166],
+      lb:[[40,60,'Orta skalen','middle'],[186,100,'Pleksus','middle'],[292,120,'SA','middle'],[220,204,'1. kaburga','middle'],[400,182,'Plevra','end'],[142,158,'LA','end']],
+      cap:'Supraklaviküler fossada koronal oblik kesit. Pleksus "üzüm salkımı" halinde subklavyen arterin lateralinde, birinci kaburganın üzerindedir; plevra kaburganın iki yanında derindedir. Enjektat pleksus ile kaburga arasındaki köşeden ("köşe cebi") başlayarak salkımı sarar.',
+      c:'Lineer prob, supraklaviküler fossada koronal oblik; lateral solda. Pleksus subklavyen arterin lateralinde; birinci kaburga parlak çizgi ve akustik gölge, plevra kayan parlak çizgi. İğne in-plane lateralden köşe cebine.'},
+    icb:{t:'İnfraklaviküler blok',tu:'İnfraklaviküler blok, parasagital',o:KR,
+      el:[fatTop(28),['band','m',28,78],['band','m2',80,118],['band','m2',170,192],['line','pl','M0 198Q210 192 420 198'],['band','lu',199,220],['ell','a',212,140,16,15],['ell','v',272,152,14,11],['ell','n',190,120,8,6],['ell','n',214,170,8,6],['ell','n',238,156,7,5]],
+      la:'M184 140Q186 188 214 190Q246 188 246 154Q234 176 214 176Q194 174 190 140Z',nd:[8,32,208,172],
+      lb:[[8,54,'Pektoralis majör'],[8,100,'Pektoralis minör'],[212,144,'AA','middle'],[272,156,'AV','middle'],[180,114,'LK','end'],[214,188,'PK','middle'],[248,176,'MK'],[8,184,'Serratus anterior'],[300,212,'Plevra','middle']],
+      cap:'Korakoidin medialinde parasagital kesit, kranial solda. Kordlar aksiller arter çevresindedir: lateral kord kraniyalde, posterior kord arterin arkasında, medial kord arter ile ven arasında. İğne arterin arkasına (saat 6) ilerler; enjektat arteri U biçiminde sarar.',
+      c:'Lineer prob, korakoidin medialinde parasagital; kranial solda. İğne in-plane kranialden arterin arkasına; LA arteri U biçiminde sarar ve üç kordu kapsar.'},
+    ccb:{t:'Kostoklaviküler blok',tu:'Kostoklaviküler blok',o:LAT,
+      el:[fatTop(28),['band','m',28,80],['ell','m2',318,96,96,13],['band','m2',160,186],['line','pl','M0 188Q210 182 420 188'],['band','lu',189,220],['ell','a',268,130,15,14],['ell','v',334,134,20,12],['ell','n',196,128,9,7],['ell','n',214,119,9,7],['ell','n',216,139,9,7]],
+      la:'M176 128Q200 102 236 122Q240 150 208 154Q178 150 176 128Z',nd:[8,50,198,128],
+      lb:[[8,56,'Pektoralis majör'],[320,90,'Subklavius','middle'],[186,116,'LK','end'],[228,112,'PK'],[230,156,'MK'],[268,154,'AA','middle'],[334,154,'AV','middle'],[8,176,'Serratus anterior'],[300,208,'Plevra','middle']],
+      cap:'İnfraklaviküler fossada klavikulaya paralel kesit. Lateral, posterior ve medial kordlar subklavius ile serratus anterior arasındaki kostoklaviküler aralıkta, aksiller arterin lateralinde küme halindedir. İğne lateralden kümenin ortasına; enjektat üç kordu birlikte sarar.',
+      c:'Lineer prob, klavikulanın hemen altında ona paralel, hafif sefalad eğik; lateral solda. Kordlar aksiller arterin lateralinde küme halinde. İğne in-plane lateralden; LA kümenin ortasından yayılır.'},
+    axb:{t:'Aksiller blok',tu:'Aksiller blok, transvers',o:LAT,
+      el:[fatTop(24),['band','m',24,76],['ell','m2',70,128,74,32],['line','fs','M0 172Q210 180 420 168'],['band','m',176,220],['ell','a',212,122,14,13],['ell','v',262,104,11,8],['ell','v',264,144,10,7],['ell','n',182,106,9,7],['ell','n',262,84,8,6],['ell','n',214,154,8,6],['ell','n',78,128,8,6]],
+      la:'M160 118Q208 80 260 114Q262 160 212 164Q160 158 160 118Z',nd:[8,40,188,118],
+      lb:[[8,50,'Biseps'],[70,104,'Korakobrakiyal','middle'],[8,198,'Triseps / konjoint tendon'],[212,126,'AA','middle'],[172,100,'M','end'],[276,82,'U'],[214,174,'R','middle'],[78,148,'MK','middle'],[278,150,'AV']],
+      cap:'Aksillada enine kesit. Median, ulnar ve radiyal sinir aksiller arter çevresinde; muskulokutan sinir korakobrakiyal kas içindedir. Konjoint tendon radiyal sinirin derininde parlak bir çizgi oluşturur. Enjektat her sinirin çevresine ayrı ayrı verilir.',
+      c:'Lineer prob, aksillada transvers; lateral solda. İğne in-plane lateralden; LA arter çevresindeki sinirleri ve korakobrakiyal kastaki muskulokutan siniri ayrı ayrı sarar.'},
+    ssn:{t:'Suprascapular sinir bloğu (posterior)',tu:'Suprascapular sinir bloğu, posterior fossa',o:MED,
+      el:[fatTop(26),['band','m',26,62],['band','m2',62,160],['bone','M0 150Q210 224 420 140',0,420],['ell','a',224,180,7,6],['ell','n',206,182,5,4]],
+      la:'M150 184Q214 152 290 178Q214 196 150 184Z',nd:[412,34,226,176],
+      lb:[[8,46,'Trapez'],[8,110,'Supraspinatus'],[232,174,'SSA'],[198,176,'SSS','end'],[300,204,'Supraspinöz fossa','middle']],
+      cap:'Spina skapulanın üzerinde koronal kesit. Suprascapular sinir ve arter fossa tabanında, supraspinatusun altında seyreder; enjektat kas ile kemik arasına verilir.',
+      c:'Lineer prob, spina skapula üzerinde koronal; medial solda. İğne in-plane lateralden fossa tabanına; LA supraspinatus ile kemik arasında yayılır.'},
+    cpb:{t:'Klavipektoral fasyal plan bloğu',tu:'Klavipektoral fasyal plan bloğu',o:['kaudal','kranial'],
+      el:[fatTop(40),['band','m',40,62],['ell','m2',80,150,84,40],['ell','m',356,148,70,34],['rbone',210,132,58,40],['ell','m2',206,196,40,10],['line','fs','M140 116Q210 82 280 116']],
+      la:'M146 114Q210 80 274 114Q210 98 146 114Z',nd:[8,52,176,104],
+      lb:[[8,54,'Platisma'],[80,154,'Pektoralis majör','middle'],[356,152,'Deltoid / trapez','middle'],[210,150,'Klavikula','middle'],[206,214,'Subklavius','middle'],[300,98,'Klavipektoral fasya'],[150,104,'LA','end']],
+      cap:'Klavikulanın kısa ekseninde kesit; kırık hattının medial ve lateralinde ayrı ayrı yapılır. Klavipektoral fasya klavikulanın üst yüzeyini sarar; iğne kemiğe değene dek ilerler, enjektat fasya ile periost arasında yayılır. Deri için ayrıca supraklaviküler sinir bloğu gerekebilir.',
+      c:'Lineer prob, klavikulanın kısa ekseninde; kaudal solda. Klavikula parlak kavisli çizgi ve akustik gölge. İğne in-plane kaudalden kemiğe; LA fasya ile periost arasında kemiğin üst yüzeyine yayılır.'},
+    pecs:{t:'PECS bloğu (interpektoral + pektoserratus)',tu:'PECS I ve II',o:MED,
+      el:[fatTop(26),['band','m',26,70],['path','m2','M90 72L420 72L420 112L140 112Q100 100 90 72Z'],['band','m',118,150],['rbone',120,158,60,16],['rbone',330,156,60,16],['path','m2','M180 150L270 150L270 172L180 172Z'],['line','pl','M180 178Q225 174 270 176'],['ell','a',210,71,5,4]],
+      la:'M150 71Q216 60 286 71Q216 82 150 71Z M220 115Q300 104 380 115Q300 126 220 115Z',nd:[8,32,336,114],
+      lb:[[8,48,'Pektoralis majör'],[300,94,'Pektoralis minör','middle'],[8,136,'Serratus anterior'],[120,186,'3. kaburga','middle'],[330,184,'4. kaburga','middle'],[222,66,'TAA'],[390,124,'LA (PECS II)','end']],
+      cap:'Ön aksiller hatta 3–4. kaburga düzeyinde oblik kesit. PECS I: enjektat pektoralis majör ile minör arasına, torakoakromiyal arterin pektoral dalı yanında. PECS II: ikinci enjeksiyon pektoralis minör ile serratus anterior arasına.',
+      c:'Lineer prob, ön aksiller hatta oblik; medial solda. İğne in-plane medialden laterale; önce minör ile serratus arası (PECS II), çekilirken majör ile minör arası (PECS I).'},
+    sap:{t:'Serratus anterior plan bloğu',tu:'Serratus anterior plan bloğu',o:KR,
+      el:[fatTop(26),['band','m',26,70],['band','m2',70,104],['rbone',110,130,60,16],['rbone',310,128,60,16],['path','m','M170 122L250 122L250 146L170 146Z'],['line','pl','M170 152Q210 148 250 150'],['ell','a',212,70,5,4]],
+      la:'M100 70Q212 56 330 70Q212 84 100 70Z',nd:[8,34,268,70],
+      lb:[[8,48,'Latissimus dorsi'],[8,90,'Serratus anterior'],[110,160,'Kaburga','middle'],[310,158,'Kaburga','middle'],[224,66,'TDA'],[210,170,'Plevra','middle']],
+      cap:'Orta aksiller hatta 4–5. kaburga üzerinde kesit, kranial solda. Yüzeyel yaklaşımda enjektat latissimus dorsi ile serratus anterior arasına (torakodorsal arter yanında), derin yaklaşımda serratus ile kaburga arasına verilir.',
+      c:'Lineer prob, orta aksiller hatta; kranial solda. İğne in-plane; LA latissimus ile serratus arasında (yüzeyel) mercek biçiminde yayılır.'},
+    esp:{t:'Erector spinae plan bloğu',tu:'ESP bloğu, parasagital',o:KR,
+      el:[fatTop(26),['band','m',26,52],['band','m2',52,76],['band','m',76,128],['bone','M40 132L130 132L130 140',40,130],['bone','M170 132L260 132L260 140',170,260],['bone','M300 132L390 132L390 140',300,390]],
+      la:'M40 130Q215 112 390 130Q215 142 40 130Z',nd:[8,30,196,130],
+      lb:[[8,44,'Trapez'],[8,68,'Romboid majör'],[8,104,'Erector spinae'],[85,160,'TP','middle'],[215,160,'TP','middle'],[345,160,'TP','middle'],[300,124,'LA']],
+      cap:'Orta hattın yaklaşık 3 cm lateralinde parasagital kesit, kranial solda. T5 üzerinde trapez, romboid ve erector spinae üç katman görülür. İğne kranialden transvers çıkıntıya değer; enjektat kas ile çıkıntılar arasında kraniokaudal yayılır.',
+      c:'Lineer prob, parasagital; kranial solda. Transvers çıkıntılar kare parlak kenar ve gölge. İğne in-plane kranialden kaudale, ucu çıkıntıya; LA kasın altında çıkıntılar boyunca yayılır.'},
+    pvb:{t:'Torasik paravertebral blok',tu:'Torasik paravertebral blok, transvers',o:MED,
+      el:[fatTop(26),['band','m',26,92],['bone','M0 110L120 110Q140 112 150 120',0,150],['line','fs','M150 118Q260 132 420 128'],['line','pl','M150 176Q280 160 420 150']],
+      la:'M152 124Q200 128 230 140Q200 166 154 172Z',nd:[412,40,170,138],
+      lb:[[8,62,'Erector spinae'],[60,160,'TP','middle'],[330,124,'İç interkostal membran','middle'],[330,170,'Plevra','middle'],[188,150,'PVA']],
+      cap:'İnterkostal aralıkta enine kesit, medial solda. Paravertebral aralık transvers çıkıntının ucu, iç interkostal membran ve plevra arasındaki üçgendir. İğne lateralden membranı geçer; enjektat aralığı doldurup plevrayı aşağı iter.',
+      c:'Lineer prob, transvers interkostal; medial solda. İğne in-plane lateralden; LA paravertebral aralıkta plevrayı aşağı iterken görülür.'},
+    rib:{t:'Romboid interkostal blok',tu:'Romboid interkostal blok (RIB)',o:['medial (skapula)','lateral'],
+      el:[fatTop(26),['band','m',26,52],['band','m2',52,86],['rbone',130,104,60,16],['rbone',320,104,60,16],['path','m','M190 96L260 96L260 126L190 126Z'],['line','pl','M190 132Q225 128 260 130']],
+      la:'M100 88Q220 76 330 88Q220 100 100 88Z',nd:[412,30,232,88],
+      lb:[[8,44,'Trapez'],[8,74,'Romboid majör'],[130,132,'Kaburga','middle'],[320,132,'Kaburga','middle'],[225,114,'İK','middle'],[225,150,'Plevra','middle']],
+      cap:'Skapulanın medial kenarı ile omurga arasında oblik kesit. Enjektat romboid majör ile interkostal kaslar arasındaki planda yayılır.',
+      c:'Lineer prob, skapula medial kenarı ile omurga arasında oblik. İğne in-plane; LA romboid ile interkostal kaslar arasında yayılır.'},
+    spsip:{t:'SPSIP bloğu',tu:'SPSIP bloğu',o:KR,
+      el:[fatTop(26),['band','m',26,50],['band','m2',50,76],['band','m',76,98],['rbone',160,118,60,16],['rbone',350,118,60,16],['path','m2','M220 110L290 110L290 140L220 140Z'],['line','pl','M220 146Q255 142 290 144']],
+      la:'M120 104Q220 92 320 104Q220 114 120 104Z',nd:[412,40,250,104],
+      lb:[[8,42,'Trapez'],[8,66,'Romboid'],[8,90,'Serratus posterior superior'],[160,146,'2. kaburga','middle'],[350,146,'3. kaburga','middle'],[255,164,'Plevra','middle']],
+      cap:'Skapula medial kenarında 2.–3. kaburga düzeyinde kesit. İğne kaudalden kaburgaya temas eder; enjektat serratus posterior superior ile kaburga ve interkostal kaslar arasındaki planda yayılır.',
+      c:'Lineer prob, skapula medial kenarında oblik; kranial solda. İğne in-plane kaudalden kraniyale, kaburgaya temas; LA fasyal planda yayılır.'},
+    tap:{t:'TAP bloğu',tu:'TAP bloğu, orta aksiller hat',o:MED,
+      el:[fatTop(34),['band','m',34,62],['band','m2',62,104],['band','m',104,124],['line','fs','M0 126H420'],['band','p',127,220]],
+      la:'M140 104Q220 90 310 104Q220 116 140 104Z',nd:[8,40,196,102],
+      lb:[[8,52,'Dış oblik'],[8,88,'İç oblik'],[8,118,'Transversus abd.'],[8,170,'Periton / barsak'],[300,98,'LA']],
+      cap:'Orta aksiller hatta enine kesit. Enjektat iç oblik ile transversus abdominis arasındaki fasyal planda mercek biçiminde yayılır.',
+      c:'Lineer prob, transvers; medial solda. İğne in-plane medialden; LA iç oblik ile transversus abdominis arasında mercek biçiminde yayılır.'},
+    rsb:{t:'Rektus kılıf bloğu',tu:'Rektus kılıf bloğu, göbek düzeyi',o:['medial (linea alba)','lateral'],
+      el:[fatTop(32),['line','fs','M0 34H420'],['path','m','M40 36L420 36L420 128L40 128Q20 82 40 36Z'],['line','fs','M30 130H420'],['band','f',131,146],['band','p',146,220],['ell','a',290,124,6,5]],
+      la:'M150 129Q240 116 340 129Q240 140 150 129Z',nd:[412,40,262,126],
+      lb:[[230,84,'Rektus abdominis','middle'],[14,84,'Linea alba','start'],[300,118,'İEA'],[8,180,'Periton / barsak'],[150,142,'Arka kılıf','end']],
+      cap:'Göbek düzeyinde enine kesit, linea alba solda. Enjektat rektus kası ile arka rektus kılıfı arasına verilir; inferior epigastrik artere dikkat.',
+      c:'Lineer prob, göbek düzeyinde transvers; linea alba solda. İğne in-plane; LA rektus ile arka kılıf arasında yayılır.'},
+    mtapa:{t:'M-TAPA (perikondriyal)',tu:'M-TAPA',o:KR,
+      el:[fatTop(30),['band','m',30,62],['ell','k',150,100,74,32],['band','m2',138,160],['band','p',160,220]],
+      la:'M84 134Q160 120 240 134Q160 146 84 134Z',nd:[412,40,178,134],
+      lb:[[8,48,'Rektus / dış oblik'],[150,104,'Kostal kıkırdak','middle'],[8,152,'Transversus abd.'],[260,130,'LA']],
+      cap:'Kostal kenar üzerinde sagital oblik kesit. İğne kostokondral kıkırdağın alt yüzüne ilerler; enjektat kıkırdak ile transversus abdominis arasına verilir.',
+      c:'Lineer prob, kostal kenar üzerinde sagital oblik; kranial solda. Kıkırdak hipoekoik oval. İğne in-plane kıkırdağın alt yüzüne; LA kıkırdak ile transversus arasında yayılır.'},
+    eoi:{t:'External oblique intercostal (EOI) bloğu',tu:'EOI bloğu',o:KR,
+      el:[fatTop(28),['band','m',28,72],['rbone',120,96,60,16],['rbone',320,96,60,16],['path','m2','M180 88L260 88L260 120L180 120Z'],['line','pl','M180 126Q220 122 260 124']],
+      la:'M60 76Q215 64 390 76Q215 88 60 76Z',nd:[8,34,220,76],
+      lb:[[8,52,'Dış oblik'],[120,124,'6. kaburga','middle'],[320,124,'7. kaburga','middle'],[220,108,'İK','middle'],[220,144,'Plevra','middle']],
+      cap:'Ön aksiller hatta 6. kaburga üzerinde parasagital kesit. Enjektat dış oblik kas ile kaburga ve interkostal kaslar arasındaki planda yayılır.',
+      c:'Lineer prob, parasagital; kranial solda. İğne in-plane; LA dış oblik ile kaburga arasında yayılır.'},
+    rifpb:{t:'Rektointerkostal fasyal plan bloğu (RIFPB)',tu:'RIFPB',o:KR,
+      el:[fatTop(30),['band','m',30,90],['ell','k',120,118,66,24],['ell','k',310,118,66,24],['band','m2',150,170],['band','p',170,220]],
+      la:'M80 94Q215 82 360 94Q215 106 80 94Z',nd:[8,34,200,94],
+      lb:[[8,60,'Rektus abdominis'],[120,122,'6. kıkırdak','middle'],[310,122,'7. kıkırdak','middle'],[8,162,'Transversus abd.']],
+      cap:'6–7. kostal kıkırdaklar üzerinde parasagital kesit. Enjektat rektus abdominis ile 6.–7. kostal kıkırdaklar arasındaki planda yayılır.',
+      c:'Lineer prob, kostal kıkırdaklar üzerinde parasagital; kranial solda. İğne in-plane; LA rektus ile kıkırdaklar arasında yayılır.'}
+    };
+  }
+  function CZDATA2(){
+    var LAT=['lateral','medial'],MED=['medial','lateral'],KR=['kranial','kaudal'];
+    function fatTop(y){return ['band','f',8,y]}
+    function QL(){return [fatTop(22),['path','m','M0 22L150 22Q190 34 210 56L0 48Z'],['path','m2','M0 48L210 56Q190 66 0 76Z'],['path','m','M0 76Q190 66 214 62Q190 84 0 100Z'],['path','m','M200 22L420 22L420 52Q320 46 210 40Z'],['ell','m2',300,104,74,32],['ell','m',294,170,64,30],['path','m','M370 54L420 54L420 140Q392 126 370 54Z'],['ell','p',100,166,80,30],['line','fs','M0 102Q190 86 226 98Q236 132 244 164'],['bone','M352 150L420 150',352,420]]}
+    var QLL=[[8,40,'Dış oblik'],[8,64,'İç oblik'],[8,90,'Transversus abd.'],[412,40,'Latissimus dorsi','end'],[300,108,'QL','middle'],[294,174,'Psoas','middle'],[412,110,'ESK','end'],[386,168,'TP','middle'],[100,170,'Böbrek','middle']];
+    return {
+    ql1:{t:'QL1 (lateral kuadratus lumborum)',tu:'QL1',o:['lateral (anterior)','posterior'],el:QL(),la:'M206 92Q232 86 236 104Q224 116 208 108Z',nd:[8,30,214,98],lb:QLL,
+      cap:'İliak krista üzerinde flankta enine kesit. Enjektat QL kasının anterolateral kenarına, transversus abdominis aponeurozu ile transversalis fasya arasına verilir.',
+      c:'Konveks prob, iliak krista üzerinde transvers; lateral solda, posterior sağda. İğne in-plane anterolateralden; LA QL kasının anterolateral kenarında.'},
+    ql2:{t:'QL2 (posterior kuadratus lumborum)',tu:'QL2',o:['lateral (anterior)','posterior'],el:QL(),la:'M248 72Q300 62 352 74Q300 84 248 72Z',nd:[8,26,262,72],lb:QLL,
+      cap:'Flankta enine kesit. Enjektat QL kasının posterior yüzeyine, QL ile latissimus dorsi ve erector spinae arasındaki torakolomber fasya katmanına verilir.',
+      c:'Konveks prob, flankta transvers; lateral solda. İğne in-plane anterolateralden; LA QL kasının posterior yüzeyinde yayılır.'},
+    ql3:{t:'QL3 (transmüsküler kuadratus lumborum)',tu:'QL3',o:['lateral (anterior)','posterior'],el:QL(),la:'M248 138Q296 128 344 140Q296 150 248 138Z',nd:[412,60,296,138],lb:QLL,
+      cap:'Flankta L4 düzeyinde enine kesit. İğne posteriordan QL kasını geçer; enjektat QL ile psoas arasına verilir.',
+      c:'Konveks prob, flankta transvers, L4; posterior sağda. Transvers çıkıntı, QL, psoas ve ESK yonca biçimi. İğne in-plane posteriordan QL\'yi geçer; LA QL ile psoas arasında.'},
+    tfpb:{t:'Transversalis fasya plan bloğu (TFPB)',tu:'TFPB',o:['lateral (anterior)','posterior'],el:QL(),la:'M150 98Q186 90 220 100Q186 110 150 98Z',nd:[8,40,176,100],lb:QLL,
+      cap:'İliak krista üzerinde enine kesit. Enjektat transversus abdominis ile transversalis fasya arasına, kasın aponeuroza dönüştüğü yerin yakınına verilir.',
+      c:'Lineer veya konveks prob, iliak krista üzerinde transvers; lateral solda. İğne in-plane; LA transversus abdominis ile transversalis fasya arasında.'},
+    ii:{t:'İlioinguinal / iliohipogastrik blok',tu:'İlioinguinal / iliohipogastrik blok',o:['medial','lateral (SİAS)'],
+      el:[fatTop(40),['band','m',40,66],['band','m2',66,104],['band','m',104,124],['line','fs','M0 126H340'],['band','p',127,220],['bone','M340 80Q380 58 420 56',340,420],['ell','a',316,110,4,3],['ell','n',262,104,7,5],['ell','n',292,104,7,5]],
+      la:'M210 104Q262 90 318 104Q262 116 210 104Z',nd:[8,8,232,100],
+      lb:[[8,58,'Dış oblik aponeurozu'],[8,90,'İç oblik'],[8,118,'Transversus abd.'],[8,170,'Periton / barsak'],[384,48,'SİAS','middle'],[262,94,'İH','end'],[296,94,'İİ']],
+      cap:'SİAS\'in hemen medialinde, SİAS ile göbeği birleştiren çizgide enine kesit. İlioinguinal ve iliohipogastrik sinirler iç oblik ile transversus abdominis arasındaki planda seyreder.',
+      c:'Lineer prob, SİAS medialinde oblik; SİAS sağda. İğne in-plane medialden; LA iç oblik ile transversus arasında sinirleri sarar.'},
+    peng:{t:'PENG bloğu',tu:'PENG bloğu',o:LAT,
+      el:[fatTop(30),['ell','m2',230,96,150,36],['ell','l',236,124,22,6],['bone','M0 150Q60 112 120 138Q220 172 320 132Q370 116 420 146',0,420],['ell','a',352,66,13,12],['ell','v',390,72,15,10],['ell','n',318,72,9,6]],
+      la:'M170 150Q232 132 292 152Q232 164 170 150Z',nd:[8,30,232,148],
+      lb:[[230,90,'İliopsoas','middle'],[262,126,'Psoas tendonu'],[60,170,'AİİS','middle'],[340,170,'İliopubik eminens','middle'],[352,50,'FA','middle'],[392,58,'FV','middle'],[310,64,'FS','end']],
+      cap:'İnguinal ligamentin altında pubik ramusa paralel kesit. Psoas tendonu AİİS ile iliopubik eminens arasında, kemiğin üzerindedir. İğne lateralden kemiğe değer; enjektat tendon ile pubik ramus arasına verilir.',
+      c:'Konveks prob, pubik ramusa paralel transvers oblik; lateral solda. İğne in-plane lateralden kemiğe; LA psoas tendonunu kemikten kaldırarak yayılır.'},
+    fib:{t:'Fasya iliaka bloğu (infrainguinal)',tu:'Fasya iliaka bloğu, inguinal transvers',o:LAT,
+      el:[fatTop(30),['line','fs','M0 40H420'],['ell','m',80,64,80,20],['line','fs','M0 90Q200 84 330 92'],['ell','m2',190,144,200,50],['ell','a',350,74,13,12],['ell','v',392,80,16,10],['ell','n',302,98,16,6]],
+      la:'M60 92Q190 80 300 96Q190 106 60 92Z',nd:[8,40,180,92],
+      lb:[[30,36,'Fasya lata'],[80,68,'Sartorius','middle'],[24,86,'Fasya iliaka'],[190,148,'İliak kas','middle'],[350,58,'FA','middle'],[392,64,'FV','middle'],[302,116,'FS','middle']],
+      cap:'Kasıkta enine kesit. Enjektat fasya iliaka ile iliak kas arasında lateralden mediale, femoral sinire doğru yayılır. Suprainguinal yaklaşımda prob inguinal ligamentin üstünde sagitaldir.',
+      c:'Lineer prob, kasıkta transvers; lateral solda. İğne in-plane lateralden fasya iliakayı geçer; LA fasya altında mediale yayılır.'},
+    fnb:{t:'Femoral sinir bloğu',tu:'Femoral sinir bloğu, inguinal kıvrım',o:LAT,
+      el:[fatTop(30),['line','fs','M0 46H420'],['ell','m2',120,142,110,44],['line','fs','M10 98Q140 94 250 98'],['ell','m',360,160,62,30],['rbone',130,196,90,22],['ell','a',268,90,14,13],['ell','v',312,96,18,12],['ell','n',200,108,18,7]],
+      la:'M150 106Q200 96 246 108Q200 120 150 106Z',nd:[8,60,180,108],
+      lb:[[40,42,'Fasya lata','middle'],[40,92,'Fasya iliaka','middle'],[110,146,'İliopsoas','middle'],[360,164,'Pektineus','middle'],[130,214,'Femur başı','middle'],[200,128,'FS','middle'],[268,72,'FA','middle'],[312,80,'FV','middle']],
+      cap:'İnguinal kıvrımda enine kesit. Femoral sinir fasya iliakanın altında, iliopsoasın üzerinde ve femoral arterin lateralindedir; arter ve ven fasya iliakanın üstünde kalır. Enjektat fasya altında siniri sarar. Kuadriseps güçsüzlüğü yapar.',
+      c:'Lineer prob, inguinal kıvrımda enine; lateral solda. İğne in-plane lateralden fasya iliakayı geçer; LA siniri fasya altında sarar.'},
+    acb:{t:'Aduktör kanal bloğu',tu:'Aduktör kanal bloğu, orta uyluk',o:LAT,
+      el:[fatTop(30),['ell','m',232,62,112,30],['ell','m2',80,142,92,56],['ell','m',362,148,70,58],['rbone',120,198,60,26],['ell','a',240,124,13,12],['ell','v',262,148,13,9],['ell','n',216,112,6,5]],
+      la:'M198 108Q236 96 272 112Q262 136 222 136Q196 130 198 108Z',nd:[8,48,212,110],
+      lb:[[232,58,'Sartorius','middle'],[80,146,'Vastus medialis','middle'],[362,152,'Adduktor longus / magnus','middle'],[120,214,'Femur','middle'],[206,106,'SS','end'],[256,120,'FA'],[278,152,'FV']],
+      cap:'Uyluk ortasında enine kesit. Sartorius altındaki kanalda femoral arter, ven ve arterin lateralinde safen sinir bulunur. Enjektat sartorius altında arterin çevresinde yayılır.',
+      c:'Lineer prob, uyluk ortasında transvers; lateral solda. İğne in-plane lateralden sartorius altına; LA arterin lateralinden kanal içinde yayılır.'},
+    ftb:{t:'Femoral üçgen bloğu',tu:'Femoral üçgen bloğu',o:LAT,
+      el:[fatTop(30),['ell','m',220,72,104,26],['ell','m2',82,144,86,50],['ell','m',354,144,64,50],['rbone',110,198,64,24],['ell','a',224,124,13,12],['ell','v',250,146,15,10],['ell','n',172,118,6,5],['ell','n',198,112,6,5]],
+      la:'M162 114Q200 100 236 116Q228 132 196 132Q164 128 162 114Z',nd:[8,48,192,112],
+      lb:[[220,76,'Sartorius','middle'],[82,148,'Vastus medialis','middle'],[354,148,'Adduktor longus','middle'],[110,214,'Femur','middle'],[198,104,'SS','end'],[164,134,'VMS','middle'],[240,122,'FA'],[268,150,'FV']],
+      cap:'Femoral üçgenin apeksine yakın enine kesit: sartoriusun medial kenarı adduktor longusun medial kenarıyla kesişmeden hemen önce. Safen sinir ve vastus medialis siniri arterin lateralinde, sartorius altındadır. Büyük hacim femoral sinire yayılıp kuadriseps güçsüzlüğü yapabilir.',
+      c:'Lineer prob, uyluğun anteromedialinde enine; lateral solda. İğne in-plane lateralden; LA arterin lateralinde sartorius altında yayılır.'},
+    saphen:{t:'Safen sinir bloğu (distal uyluk)',tu:'Safen sinir bloğu, distal uyluk',o:LAT,
+      el:[fatTop(32),['ell','m',220,74,100,28],['ell','m2',80,142,86,52],['ell','m',362,142,64,48],['rbone',110,200,62,24],['ell','a',236,108,5,4],['ell','n',214,104,6,5]],
+      la:'M180 104Q216 92 254 106Q216 118 180 104Z',nd:[8,46,204,104],
+      lb:[[220,70,'Sartorius','middle'],[80,146,'Vastus medialis','middle'],[362,146,'Grasilis','middle'],[110,216,'Femur','middle'],[202,100,'SS','end'],[246,114,'İGA']],
+      cap:'Distal uyluk medialinde, aduktör kanalın distalinde enine kesit. Safen sinir sartorius altında, inen genikülar artere komşudur; enjektat sartorius altında siniri sarar.',
+      c:'Lineer prob, distal uyluk medialinde transvers; lateral solda. İğne in-plane lateralden; LA sartorius altında siniri sarar.'},
+    pop:{t:'Popliteal siyatik sinir bloğu',tu:'Popliteal siyatik blok, bifurkasyon',o:LAT,
+      el:[fatTop(30),['ell','m',72,94,82,40],['ell','m2',350,94,74,42],['bone','M60 196Q210 180 360 196',60,360],['ell','v',206,140,12,8],['ell','a',220,162,11,10],['ell','n',182,92,10,8],['ell','n',214,90,12,9]],
+      la:'M154 92Q194 60 238 86Q242 116 196 120Q154 116 154 92Z',nd:[8,46,194,80],
+      lb:[[72,98,'Biseps femoris','middle'],[350,98,'Semimembranöz / semitendinöz','middle'],[182,76,'OPS','middle'],[214,74,'TS','middle'],[222,138,'PV'],[236,166,'PA'],[210,212,'Femur','middle']],
+      cap:'Popliteal kıvrımın 3–5 cm proksimalinde, bifurkasyon düzeyinde enine kesit. Tibial ve ortak peroneal sinir arter ve venin yüzeyelinde, Vloka (paranöral) kılıfı içindedir. İğne lateralden; enjektat kılıf içinde iki siniri ayırarak çevreler.',
+      c:'Lineer prob, popliteal fossada transvers; lateral solda. İğne in-plane lateralden iki sinir arasına; LA kılıf içinde sinirleri ayırır.'},
+    ipack:{t:'IPACK bloğu',tu:'IPACK bloğu, femur kondilleri düzeyi',o:MED,
+      el:[fatTop(40),['ell','m2',90,96,90,36],['ell','m',336,96,84,36],['bone','M20 196Q90 150 170 176Q210 188 250 176Q330 150 400 196',20,400],['ell','a',214,148,12,11],['ell','v',240,138,11,8],['ell','n',206,104,10,8]],
+      la:'M140 172Q210 156 280 172Q210 184 140 172Z',nd:[8,150,228,172],
+      lb:[[90,100,'Semimembranöz','middle'],[336,100,'Biseps femoris','middle'],[214,151,'PA','middle'],[254,134,'PV'],[222,100,'TS'],[96,206,'Medial kondil','middle'],[330,206,'Lateral kondil','middle']],
+      cap:'Diz arkasında femur kondilleri düzeyinde enine kesit. İğne medialden girer; enjektat popliteal arter ile femur arasındaki boşlukta, diz kapsülünün arkasında yayılır.',
+      c:'Konveks veya lineer prob, diz arkasında transvers; medial solda. İğne in-plane medialden arter ile femur arasına; LA kapsülün arkasında yayılır.'},
+    gnb:{t:'Genikülar sinir bloğu (superomedial hedef)',tu:'Genikülar sinir bloğu, superomedial',o:['proksimal','distal'],
+      el:[fatTop(40),['band','m',40,96],['bone','M0 156Q150 152 240 138Q320 124 420 122',0,420],['ell','a',200,140,6,5],['ell','n',178,142,5,4]],
+      la:'M150 142Q190 130 230 140Q190 150 150 142Z',nd:[40,40,186,140],
+      lb:[[8,70,'Vastus medialis'],[170,132,'SMGS','end'],[208,132,'SMGA'],[90,186,'Femur metafizi','middle'],[330,170,'Medial epikondil','middle']],
+      cap:'Dizin medialinde koronal kesit. Superomedial genikülar sinir femur metafiz-diyafiz bileşkesinde vastus medialis ile kemik arasında, aynı adlı arterin yanındadır; iğne kemiğe değer. Diğer hedefler: superolateral, inferolateral (lateral kollateral bağın derini) ve inferomedial (medial kollateral bağın altı).',
+      c:'Lineer prob, dizin medialinde koronal; proksimal solda. Kemik kortikal çizgisi; arter Doppler ile. İğne kemik temasına kadar; LA kas ile kemik arasında.'},
+    ankle:{t:'Ayak bileği bloğu: tibial sinir',tu:'Ayak bileği bloğu, tibial sinir',o:['anterior','posterior'],
+      el:[fatTop(36),['line','fs','M70 60Q230 54 390 62'],['rbone',40,120,70,60],['ell','l',112,94,13,10],['ell','l',148,90,11,9],['ell','m2',262,160,74,30],['ell','l',372,100,40,20],['ell','v',188,96,6,5],['ell','a',206,92,8,8],['ell','v',224,96,6,5],['ell','n',240,106,12,9]],
+      la:'M210 100Q236 84 268 98Q264 120 238 122Q210 118 210 100Z',nd:[412,40,252,102],
+      lb:[[40,150,'Medial malleol','middle'],[112,80,'TP','middle'],[148,76,'FDL','middle'],[206,78,'PTA','middle'],[256,124,'TS'],[262,164,'FHL','middle'],[372,104,'Aşil','middle'],[300,52,'Fleksör retinakulum','middle']],
+      cap:'Medial malleol ile Aşil tendonu arasında enine kesit. Tibial sinir fleksör retinakulumun derininde, posterior tibial arter ve venlerin posteriorundadır; en büyük ve en geç etki eden sinir olduğu için önce bloke edilir. Derin peroneal, yüzeyel peroneal, sural ve safen sinirler kendi düzeylerinde ayrıca bloke edilir.',
+      c:'Lineer prob, medial malleol ile Aşil arasında enine; anterior solda. Tibial sinir arterin posteriorunda bal peteği. İğne in-plane posteriordan; LA siniri sarar; prob basıncı en az.'},
+    tlip:{t:'Torakolomber interfasyal plan (TLIP) bloğu',tu:'TLIP bloğu, L3 transvers',o:['medial (orta hat)','lateral'],
+      el:[fatTop(36),['line','fs','M0 46H420'],['path','b','M0 46L28 46L28 196L0 196Z'],['ell','m',86,122,58,56],['ell','m2',212,114,66,54],['ell','m',344,106,70,46],['bone','M0 196Q120 190 200 180Q320 172 420 180',0,420],['ell','n',146,166,5,4]],
+      la:'M140 76Q156 118 140 160Q130 118 140 76Z',nd:[412,40,150,118],
+      lb:[[14,120,'SP','middle'],[86,126,'Multifidus','middle'],[212,118,'Longissimus','middle'],[344,110,'İliokostalis','middle'],[158,170,'DR'],[300,42,'Torakolomber fasya','middle'],[220,206,'Lamina / TP','middle']],
+      cap:'L3 düzeyinde orta hattın 2–3 cm lateralinde enine kesit. Klasik yaklaşımda enjektat multifidus ile longissimus arasına, modifiye yaklaşımda longissimus ile iliokostalis arasına verilir; hedef dorsal ramilerdir. Orta hat insizyonunda bilateral yapılır.',
+      c:'Lineer veya konveks prob, L3 düzeyinde enine; medial solda. İğne in-plane lateralden; klasikte LA multifidus ile longissimus arasını ayırır.'},
+    sgb:{t:'Stellat ganglion bloğu (C6, lateral yaklaşım)',tu:'Stellat ganglion bloğu, C6 transvers',o:MED,
+      el:[fatTop(34),['ell','m',300,58,96,18],['path','p','M0 60L46 60L46 144L0 144Z'],['ell','p',84,86,48,28],['line','fs','M110 134H272'],['ell','m2',180,150,52,16],['bone','M110 176Q190 166 270 176',110,270],['rbone',304,166,20,14],['ell','a',200,92,16,16],['ell','v',252,84,22,13],['ell','a',266,186,7,6],['ell','n',176,130,7,5]],
+      la:'M158 131Q200 122 242 131Q200 140 158 131Z',nd:[412,110,224,131],
+      lb:[[300,62,'SKM','middle'],[84,90,'Tiroid','middle'],[23,104,'Trakea','middle'],[200,70,'KA','middle'],[252,66,'İJV','middle'],[180,156,'Longus colli','middle'],[164,124,'SZ','end'],[190,196,'C6','middle'],[278,194,'VA'],[304,150,'AT','middle']],
+      cap:'C6 düzeyinde enine kesit (lateral yaklaşım). Servikal sempatik zincir longus colli kasının önünde, prevertebral fasyanın altındadır. İğne lateralden internal juguler ven ve karotisin arkasından geçer; enjektat prevertebral fasyanın altında yayılır.',
+      c:'Lineer prob, C6 düzeyinde transvers; medial solda. İğne in-plane lateralden İJV ve karotisin arkasından; LA longus colli önünde, fasya altında. Tiroid ve vertebral damarlar Doppler ile kontrol edilir.'},
+    spinal:{t:'Spinal anestezi (paramedian sagital oblik)',tu:'Spinal, paramedian sagital oblik (L3–L4)',o:KR,
+      el:[fatTop(30),['band','m',30,104],['band','c',142,176],['bone','M20 118L120 104L130 112',20,130,134],['bone','M170 118L270 104L280 112',170,280,134],['bone','M320 118L420 104',320,420,134],['line','fs','M130 140H170'],['line','fs','M130 178H170'],['bone','M0 190H420',0,420]],
+      la:'',nd:[8,30,152,160],
+      lb:[[8,70,'Erector spinae'],[70,96,'Lamina','middle'],[220,96,'Lamina','middle'],[150,136,'LF + dura','middle'],[150,166,'BOS','middle'],[150,186,'Ön kompleks','middle'],[300,206,'Vertebra cismi','middle']],
+      cap:'Paramedian sagital oblik kesit, kranial solda. Laminalar arasındaki pencerede posterior kompleks (ligamentum flavum ve dura) ve anterior kompleks görülür. Spinal iğne posterior kompleksi geçip intratekal boşluğa (BOS) ulaşır.',
+      c:'Konveks prob, paramedian sagital oblik; kranial solda. Laminalar "testere dişi"; pencerede posterior ve anterior kompleks. Ön tarama ile orta hat, derinlik ve aralık belirlenir.'},
+    epidural:{t:'Epidural (paramedian sagital oblik)',tu:'Epidural, paramedian sagital oblik (lomber)',o:KR,
+      el:[fatTop(30),['band','m',30,104],['band','c',142,176],['bone','M20 118L120 104L130 112',20,130,134],['bone','M170 118L270 104L280 112',170,280,134],['bone','M320 118L420 104',320,420,134],['line','fs','M130 140H170'],['line','fs','M130 178H170'],['bone','M0 190H420',0,420]],
+      la:'M136 139Q150 132 166 139Q150 144 136 139Z',nd:[8,30,148,134],
+      lb:[[8,70,'Erector spinae'],[70,96,'Lamina','middle'],[220,96,'Lamina','middle'],[198,136,'LF'],[150,166,'BOS','middle'],[150,186,'Ön kompleks','middle'],[300,206,'Vertebra cismi','middle']],
+      cap:'Paramedian sagital oblik kesit, kranial solda. Tuohy iğnesi direnç kaybıyla ligamentum flavumu geçer ve posterior kompleksin hemen önündeki epidural aralıkta durur.',
+      c:'Konveks prob, paramedian sagital oblik; kranial solda. Ön tarama ile orta hat, derinlik ve laminalar arası pencere belirlenir; iğne gerçek zamanlı değil, ön taramaya göre ilerletilir.'}
+    };
+  }
+  /* ---------- Ortak geometriden çizim: kitapçık tarzı kesit + USG animasyonu ---------- */
+  var CZK={m:['t-musc','kas'],m2:['t-musc2','kas'],f:['t-fat','yağ'],b:['t-bone','kemik'],n:['t-nerve','sinir'],a:['t-vessel','arter'],v:['t-vein','ven'],l:['t-lig','tendon / bağ'],lu:['t-lung','akciğer'],p:['t-peri','periton / organ'],c:['t-csf','BOS'],k:['t-cart','kıkırdak']};
+  var CZLEG={m:'musc',m2:'musc',b:'bone',n:'nerve',a:'vessel',v:'vein',l:'lig',lu:'lung',p:'peri',c:'csf',k:'cart'};
+  var CZU={f:sg(44),m:'url(#um1)',m2:'url(#um2)',l:'url(#ulg)',lu:sg(64),p:sg(56)};
+  var USGP='<pattern id="um1" width="16" height="7" patternUnits="userSpaceOnUse"><rect width="16" height="7" fill="'+sg(84)+'"/><path d="M0 3.5Q4 2.3 8 3.5T16 3.5" stroke="'+sg(118)+'" stroke-width=".8" fill="none"/></pattern><pattern id="um2" width="16" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(8)"><rect width="16" height="7" fill="'+sg(74)+'"/><path d="M0 3.5Q4 2.3 8 3.5T16 3.5" stroke="'+sg(106)+'" stroke-width=".8" fill="none"/></pattern><pattern id="ulg" width="10" height="4" patternUnits="userSpaceOnUse"><rect width="10" height="4" fill="'+sg(132)+'"/><path d="M0 2H10" stroke="'+sg(190)+'" stroke-width=".9"/></pattern>';
+  function czShape(e,cls,fill){var a=' class="'+cls+'"'+(fill?' fill="'+fill+'"':'');
+    if(e[0]==='band')return '<rect x="0" y="'+e[2]+'" width="420" height="'+(e[3]-e[2])+'"'+a+'/>';
+    if(e[0]==='ell')return '<ellipse cx="'+e[2]+'" cy="'+e[3]+'" rx="'+e[4]+'" ry="'+e[5]+'"'+a+'/>';
+    if(e[0]==='path')return '<path d="'+e[2]+'"'+a+'/>';return ''}
+  function czBoneD(e,sk){var b=(sk&&e[4])?e[4]:220;return e[0]==='bone'?e[1]+'L'+e[3]+' '+b+'L'+e[2]+' '+b+'Z':''}
+  function czSk(s){var o=R(0,0,420,220,'t-fat')+R(0,0,420,8,'t-skin'),late='';
+    s.el.forEach(function(e){var k=e[1];
+      if(e[0]==='bone'){o+='<path d="'+czBoneD(e,1)+'" class="t-bone"/>';return}
+      if(e[0]==='rbone'){o+=E(e[1],e[2],e[3],e[4],'t-bone');return}
+      if(e[0]==='line'){o+='<path d="'+e[2]+'" fill="none" class="'+(k==='pl'?'czpl':'fas')+'"/>';return}
+      var sh=czShape(e,CZK[k][0]);if(k==='n'||k==='a'||k==='v')late+=sh;else o+=sh});
+    if(s.la)o+='<path class="la" d="'+s.la+'"/>';
+    o+=late+(s.nd?N(s.nd[0],s.nd[1],s.nd[2],s.nd[3]):'')+s.lb.map(function(l){return T(l[0],l[1],l[2],l[3])}).join('')+T(8,215,s.o[0])+T(412,215,s.o[1],'end');
+    var seen={},lg=[];s.el.forEach(function(e){var k=e[0]==='bone'||e[0]==='rbone'?'b':e[0]==='line'?(e[1]==='pl'?'lu':''):e[1];if(k&&k!=='f'&&!seen[CZLEG[k]]){seen[CZLEG[k]]=1;lg.push([CZLEG[k],(s.leg&&s.leg[k])||CZK[k][1]])}});
+    if(s.la)lg.push(['la','lokal anestezik']);
+    return '<div class="fig"><p class="ft">'+s.t+'</p><svg class="sch" viewBox="0 0 420 220" role="img" aria-label="'+s.t+' şematik kesit çizimi">'+o+'</svg>'+leg(lg)+'<p class="fc">'+s.cap+'</p></div>'}
+  function czUs(s){var base='',sharp='',late='';
+    s.el.forEach(function(e){var k=e[1];
+      if(e[0]==='bone'){sharp+='<path d="'+czBoneD(e)+'" fill="#020202"/>'+sL(e[1],4,238);return}
+      if(e[0]==='rbone'){var x1=e[1]-e[3],x2=e[1]+e[3],y=e[2],arc='M'+x1+' '+y+'A'+e[3]+' '+e[4]+' 0 0 1 '+x2+' '+y;sharp+='<path d="'+arc+'L'+x2+' 220L'+x1+' 220Z" fill="#020202"/>'+sL(arc,4,238);return}
+      if(e[0]==='line'){sharp+=k==='pl'?sL(e[2],2.6,232)+'<path d="'+e[2]+'" transform="translate(0 22)" fill="none" stroke="'+sg(120)+'" stroke-width="1.4"/><path d="'+e[2]+'" transform="translate(0 44)" fill="none" stroke="'+sg(90)+'" stroke-width="1.2"/>':sL(e[2],1.6,196);return}
+      if(k==='n'){late+=sNerve(e[2],e[3],e[4],e[5]);return}
+      if(k==='a'){late+=sVes(e[2],e[3],e[4],e[5],1);return}
+      if(k==='v'){late+=sVn(e[2],e[3],e[4],e[5]);return}
+      if(k==='c'){sharp+=czShape(e,'','#040404');return}
+      if(k==='k'){sharp+=czShape(e,'',sg(34)).replace('/>',' stroke="'+sg(175)+'" stroke-width="1.3"/>');return}
+      base+=czShape(e,'',CZU[k]||sg(60))});
+    var la=s.la?'<path class="ula" d="'+s.la+'" fill="#030303" stroke="'+sg(150)+'" stroke-width=".8"/>':'';
+    var tk='';for(var y=20;y<220;y+=20)tk+='<circle cx="414" cy="'+y+'" r="'+(y%100?1:1.8)+'" fill="#bbb"/>';
+    return '<div class="fig"><p class="ft">USG animasyonu · '+s.tu+'</p><svg class="usgsv" viewBox="0 0 420 220" role="img" aria-label="'+s.tu+', USG benzetimi: iğne ilerleyişi ve lokal anestezik yayılımı"><defs>'+USGF+USGP+'</defs><rect width="420" height="220" fill="#000"/><g filter="url(#usgbl)"><rect width="420" height="220" fill="'+sg(44)+'"/>'+base+'</g><rect width="420" height="220" filter="url(#usgsp)" opacity=".5"/>'+sL('M0 4H420',3,205)+sharp+la+late+(s.nd?sN(s.nd[0],s.nd[1],s.nd[2],s.nd[3]):'')+tk+s.lb.map(function(l){return sT(l[0],l[1],l[2],l[3])}).join('')+sT(6,212,s.o[0])+sT(406,212,s.o[1],'end')+'</svg><p class="fc">'+s.c+' Şematik benzetimdir, gerçek hasta görüntüsü değildir.</p></div>'}
+  var CZ=Object.assign(CZDATA(),CZDATA2());
+  Object.keys(CZ).forEach(function(k){ANIM[k]=function(){return czSk(CZ[k])}});
   function usgLinks(k){var a=USGFIG[k];if(!a)return usgSim(k);return usgSim(k)+'<div class="src" style="margin:4px 0 12px"><b>Gerçek USG görüntüsü (açık erişim makale şekli):</b><ul class="notes" style="margin-top:4px">'+a.map(function(l){return '<li><a href="'+l[1]+'" target="_blank" rel="noopener">'+esc(l[0])+'</a></li>'}).join('')+'</ul></div>'}
   USGIMG.forEach(function(b){var q=USGGOOG[b[0]]||(b[0]+' ultrasound guided block needle');b[1].push(['Google Görseller araması: '+b[0]+' (USG ve iğne görüntüsü; görsel hakkı sahibine ait olabilir, kaynak ve lisansı doğrulamadan kopyalamayın)','https://www.google.com/search?tbm=isch&q='+encodeURIComponent(q)])});
   function renderImg(){
