@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "kaynaklar",
   "aciklama": "Kaynak künyeleri ve bağlantıları",
-  "surum": "1.3.0",
-  "tarih": "2026-11-21",
+  "surum": "1.4.0",
+  "tarih": "2026-11-28",
   "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
   "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
-  "kontrol_tarihi": "2026-11-21",
+  "kontrol_tarihi": "2026-11-28",
   "durum": "onaylandı",
-  "not": "1.2.0: 371 DOI/PMID kaynağı PubMed ile eşleştirildi; ilk yazar etiketleri düzeltildi/eklendi (Gürkan sırası belirtildi), Air Med J dergi adı, Kaya 2013 yılı düzeltildi; PROSPECT künyeleri tamamlandı; PROSPECT omuz artroplastisi 2026 ve prostatektomi 2021 güncellemesi eklendi. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı."
+  "not": "1.2.0: 371 DOI/PMID kaynağı PubMed ile eşleştirildi; ilk yazar etiketleri düzeltildi/eklendi (Gürkan sırası belirtildi), Air Med J dergi adı, Kaya 2013 yılı düzeltildi; PROSPECT künyeleri tamamlandı; PROSPECT omuz artroplastisi 2026 ve prostatektomi 2021 güncellemesi eklendi. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı. 1.4.0: güvenlik bölümü, yeni ortopedik cerrahiler ve bloklar için 33 kaynak eklendi. Geliştirici hekim onayı (2026-11-28)."
  },
  "data": {
   "ESAIC": {
@@ -279,6 +279,138 @@
    "liv_pro": {
     "t": "PROSPECT, Reg Anesth Pain Med 2021 (Dieu ve ark.): açık karaciğer rezeksiyonu; torasik epidural veya bilateral oblik subkostal TAP, 31 RCT + 3 sistematik derleme",
     "u": "https://doi.org/10.1136/rapm-2020-101933"
+   },
+   "last_adv": {
+    "t": "Uygulama önerisi, Reg Anesth Pain Med 2018 (ASRA; Neal ve ark.): lokal anestezik sistemik toksisitesi (LAST), üçüncü öneri metni",
+    "u": "https://doi.org/10.1097/AAP.0000000000000720"
+   },
+   "last_chk": {
+    "t": "Kontrol listesi, Reg Anesth Pain Med 2021 (ASRA; Neal ve ark.): LAST kontrol listesi, 2020 sürümü",
+    "u": "https://doi.org/10.1136/rapm-2020-101986"
+   },
+   "la_maxdose": {
+    "t": "Derleme, Reg Anesth Pain Med 2004 (Rosenberg ve ark.): lokal anesteziklerin önerilen en yüksek dozları, çok etkenli yaklaşım",
+    "u": "https://doi.org/10.1016/j.rapm.2004.08.003"
+   },
+   "lbl_bupi": {
+    "t": "Ürün bilgisi (ABD, DailyMed): Marcaine / Marcaine with Epinephrine (bupivakain), 2026",
+    "u": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67578b56-7540-487e-1fba-481255620e78"
+   },
+   "lbl_ropi": {
+    "t": "Ürün bilgisi (ABD, DailyMed): Naropin (ropivakain), 2026",
+    "u": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a2f1f6d-026f-4f39-aee0-5b75b8eb5c02"
+   },
+   "lbl_ropi_eu": {
+    "t": "Ürün bilgisi (İngiltere, eMC): ropivakain 7,5 ve 10 mg/mL",
+    "u": "https://www.medicines.org.uk/emc/medicine/7290"
+   },
+   "lbl_lido": {
+    "t": "Ürün bilgisi (Pfizer): lidokain hidroklorür, en yüksek önerilen dozlar",
+    "u": "https://pfizermedicalinformation.com/lidocaine/dosage-admin"
+   },
+   "oip": {
+    "t": "Gözlemsel çalışma, Anesthesiology 2014 (Gadsden ve ark.): açılış enjeksiyon basıncı ve iğne-sinir teması, USG eşliğinde interskalen blok",
+    "u": "https://doi.org/10.1097/ALN.0000000000000133"
+   },
+   "sh_scb_ma1": {
+    "t": "Sistematik derleme ve meta-analiz, Anesth Analg 2020 (Hussain ve ark.): omuz cerrahisinde supraklaviküler ve interskalen blok, 15 çalışma, 1.065 hasta",
+    "u": "https://doi.org/10.1213/ANE.0000000000004692"
+   },
+   "sh_scb_ma2": {
+    "t": "Sistematik derleme ve meta-analiz, Eur J Anaesthesiol 2019 (Schubert ve ark.): omuz cerrahisinde interskalen ve supraklaviküler blok, 12 çalışma",
+    "u": "https://doi.org/10.1097/EJA.0000000000000988"
+   },
+   "sh_hdp_ma": {
+    "t": "Sistematik derleme ve meta-analiz, J Clin Anesth 2025 (Oliver-Fornies ve ark.): omuz cerrahisinde brakiyal pleksus bloklarından sonra hemidiyafram felci, 28 RCT",
+    "u": "https://doi.org/10.1016/j.jclinane.2025.111874"
+   },
+   "sh_nma26": {
+    "t": "Ağ meta-analizi, Am J Sports Med 2026 (Hurley ve ark.): omuz artroskopisinde sinir blokları, 63 RCT, 4.235 hasta",
+    "u": "https://doi.org/10.1177/03635465261462708"
+   },
+   "sh_ccb_rct": {
+    "t": "Randomize çalışma, Korean J Anesthesiol 2025 (Lee ve ark.): omuz cerrahisinde kostoklaviküler ve interskalen blok, hemidiyafram felci, 66 hasta",
+    "u": "https://doi.org/10.4097/kja.24595"
+   },
+   "sh_ccb_vol": {
+    "t": "Randomize çalışma, Korean J Anesthesiol 2024 (Jo ve ark.): artroskopik omuzda kostoklaviküler blokta 20 ve 40 mL",
+    "u": "https://doi.org/10.4097/kja.23260"
+   },
+   "tka_ftb_ma": {
+    "t": "Meta-analiz, BMC Anesthesiol 2025 (Bai ve ark.): TKA'da femoral üçgen ve aduktör kanal bloğu, 6 RCT, 452 hasta",
+    "u": "https://doi.org/10.1186/s12871-025-03073-3"
+   },
+   "tka_gnb_ma": {
+    "t": "Sistematik derleme ve meta-analiz, Medicine 2025 (Chang ve ark.): TKA'da genikülar sinir bloğu, 6 RCT, 335 hasta",
+    "u": "https://doi.org/10.1097/MD.0000000000044362"
+   },
+   "tka_nma24": {
+    "t": "Ağ meta-analizi, Arch Orthop Trauma Surg 2024 (Wang ve ark.): TKA'da periferik sinir blokları, 30 çalışma",
+    "u": "https://doi.org/10.1007/s00402-024-05507-y"
+   },
+   "cl_cpb_ma": {
+    "t": "Meta-analiz, Trauma Surg Acute Care Open 2026 (Mueed ve ark.): klavikula kırığı cerrahisinde klavipektoral fasyal plan bloğu, 6 RCT, 320 hasta",
+    "u": "https://doi.org/10.1136/tsaco-2025-002227"
+   },
+   "acl_nma23": {
+    "t": "Ağ meta-analizi, Anaesthesia 2023 (Hussain ve ark.): ön çapraz bağ rekonstrüksiyonunda rejyonel teknikler, 57 RCT, 4.069 hasta",
+    "u": "https://doi.org/10.1111/anae.15873"
+   },
+   "acl_nma21": {
+    "t": "Ağ meta-analizi, Arthroscopy 2021 (Davey ve ark.): ön çapraz bağ rekonstrüksiyonu sonrası ağrı yönetimi, 74 RCT",
+    "u": "https://doi.org/10.1016/j.arthro.2021.01.023"
+   },
+   "acl_nma26": {
+    "t": "Ağ meta-analizi, BMC Anesthesiol 2026 (Xu ve ark.): ön çapraz bağ rekonstrüksiyonunda rejyonel ve lokal teknikler, 31 çalışma, 2.470 hasta",
+    "u": "https://doi.org/10.1186/s12871-026-04387-6"
+   },
+   "hv_pro26": {
+    "t": "PROSPECT güncellemesi, Eur J Anaesthesiol 2026 (Wust ve ark.): halluks valgus onarımı sonrası ağrı yönetimi, 17 RCT + 7 sistematik derleme",
+    "u": "https://doi.org/10.1097/EJA.0000000000002302"
+   },
+   "hv_pro20": {
+    "t": "PROSPECT, Reg Anesth Pain Med 2020 (Korwin-Kochanowska ve ark.): halluks valgus onarımı sonrası ağrı yönetimi",
+    "u": "https://doi.org/10.1136/rapm-2020-101479"
+   },
+   "sp_pro21": {
+    "t": "PROSPECT, Eur Spine J 2021 (Peene ve ark.): laminektomi sonrası ağrı yönetimi, 39 RCT",
+    "u": "https://doi.org/10.1007/s00586-020-06661-8"
+   },
+   "sp_esp_ma": {
+    "t": "Sistematik derleme ve meta-analiz, J Clin Anesth 2022 (Oh ve ark.): lomber omurga cerrahisinde ESP bloğu, 12 RCT, 665 hasta",
+    "u": "https://doi.org/10.1016/j.jclinane.2022.110647"
+   },
+   "sp_esp_ma2": {
+    "t": "Sistematik derleme ve meta-analiz, World Neurosurg X 2024 (Muthu ve ark.): lomber omurga cerrahisinde bilateral ESP bloğu, 32 RCT",
+    "u": "https://doi.org/10.1016/j.wnsx.2024.100360"
+   },
+   "sp_tlip_ma": {
+    "t": "Meta-analiz, Pain Physician 2021 (Hu ve ark.): lomber omurga cerrahisinde TLIP bloğu, 9 RCT, 618 hasta",
+    "u": "https://pubmed.ncbi.nlm.nih.gov/34704718/"
+   },
+   "sp_esptlip": {
+    "t": "Meta-analiz, Global Spine J 2025 (Khor ve ark.): lomber omurga cerrahisinde ESP ve TLIP bloğu karşılaştırması, 5 RCT, 432 hasta",
+    "u": "https://doi.org/10.1177/21925682241266518"
+   },
+   "amp_ma": {
+    "t": "Sistematik derleme ve meta-analiz, J Vasc Surg 2023 (Mufarrih ve ark.): alt ekstremite amputasyonunda genel ve rejyonel anestezi, 10 retrospektif çalışma, 81.736 hasta",
+    "u": "https://doi.org/10.1016/j.jvs.2022.10.005"
+   },
+   "amp_pnb": {
+    "t": "Retrospektif çalışma, J Pain Res 2026 (Onyewu ve ark.): alt ekstremite amputasyonunda periferik sinir bloğu, 179 hasta",
+    "u": "https://doi.org/10.2147/JPR.S588924"
+   },
+   "ctr_walant": {
+    "t": "Sistematik derleme ve meta-analiz, J Orthop Surg Res 2026 (Chou ve ark.): karpal tünel gevşetmede WALANT, 8 RCT",
+    "u": "https://doi.org/10.1186/s13018-026-06974-2"
+   },
+   "la_rev18": {
+    "t": "Derleme, Local Reg Anesth 2018 (El-Boghdadly ve ark.): lokal anestezik sistemik toksisitesi, güncel bakış (önerilen en yüksek dozlar tablosu)",
+    "u": "https://doi.org/10.2147/LRA.S154512"
+   },
+   "sp_bupi": {
+    "t": "StatPearls, NCBI Bookshelf 2026 (McAllister ve Patel): bupivakain",
+    "u": "https://www.ncbi.nlm.nih.gov/books/NBK532883/"
    }
   },
   "ASRA5SRC": {

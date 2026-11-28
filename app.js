@@ -25,7 +25,8 @@ function APP(D){
     'upper-open':'Açık üst batın cerrahisi için özet henüz eklenmedi. PROSPECT açık karaciğer rezeksiyonu özeti (2019) mevcut ama okunmadı.',
     'groin-closed':'PROSPECT 2019 herni özeti yalnızca açık inguinal onarımı kapsar. Laparoskopik herni için özet bulunmadı.',
     'breast-closed':'Kapalı meme cerrahisi için özet bulunmadı.',
-    'limb-closed':'Alt ekstremitede kapalı (artroskopik) cerrahi için özet eklenmedi.'
+    'limb-closed':'Alt ekstremitede kapalı (artroskopik) cerrahi için özet eklenmedi.',
+    'spine-closed':'Kapalı (endoskopik, minimal invaziv) omurga cerrahisi için özet eklenmedi.'
   };
 
   /* ---------- Antitrombotik kurallar (ESAIC/ESRA 2022) ---------- */
@@ -270,7 +271,7 @@ function APP(D){
     var o='';
     if(on('osa')&&it.opi)o+='<div class="cm"><b>Uyku apnesi:</b> nöroaksiyel opioidin yararı, rostral yayılımla solunum depresyonu riskine karşı tartılmalı; sistemik opioid için sürekli arka plan infüzyonundan kaçının (ASA 2014).</div>';
     if(on('as')&&it.tech==='neuraxial')o+='<div class="cm"><b>Aort stenozu:</b> nöroaksiyel için mutlak kontrendikasyon sayılmaz; hipotansiyona hazırlıklı olun, ağır veya semptomatik hastada dikkatli seçim ve invaziv izlem (NYSORA, ikincil kaynak).</div>';
-    if(on('copd')&&(it.tech==='periph'||it.tech==='plane')&&/interskalen|supraklav|infraklav|aksiller/i.test(it.n))o+='<div class="cm"><b>KOAH:</b> diyafram tutulumu riskini düşünün.</div>';
+    if(on('copd')&&(it.tech==='periph'||it.tech==='plane')&&/interskalen|supraklav|infraklav|kostoklav|aksiller/i.test(it.n))o+='<div class="cm"><b>KOAH:</b> diyafram tutulumu riskini düşünün.</div>';
     return o;
   }
   var openAnim={};
@@ -602,8 +603,11 @@ function APP(D){
   var VER=D.VER;
   $('verlist').innerHTML=VER.map(function(v){var s=VS[v[0]];return '<li class="v"><span class="chip '+s[0]+'">'+s[1]+'</span><div><b>'+esc(v[1])+'</b></div><div class="d">'+esc(v[2])+'</div></li>'}).join('');
 
+  var SAFE=D.SAFE||[];
+  function renderSafe(){var el=$('p-safe');if(!el)return;
+    el.innerHTML='<h2>Lokal anestezik güvenliği</h2><p class="src" style="margin:6px 0 10px">Doz sınırları ürün bilgisi ve derlemelerden alınmıştır; hastaya göre bireyselleştirin.</p><details><summary>Doz sınırları, LAST tedavisi ve enjeksiyon güvenliği ('+SAFE.length+' madde)</summary><ul class="notes" style="margin-top:10px">'+SAFE.map(function(r){return '<li><b>'+esc(r[0])+':</b> '+esc(r[1])+(PRO[r[2]]?'<br><span class="src">'+src(PRO[r[2]])+'</span>':'')+'</li>'}).join('')+'</ul></details>'}
   showMeta(D.__meta);
-  fillProc();renderAll();
+  fillProc();renderAll();renderSafe();
 
 
 }

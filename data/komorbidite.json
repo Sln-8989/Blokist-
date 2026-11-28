@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "komorbidite",
   "aciklama": "Hasta faktörü (komorbidite) uyarıları",
-  "surum": "1.0.0",
-  "tarih": "2026-11-19",
+  "surum": "1.1.0",
+  "tarih": "2026-11-28",
   "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
   "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
-  "kontrol_tarihi": "2026-11-21",
+  "kontrol_tarihi": "2026-11-28",
   "durum": "onaylandı",
-  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı."
+  "not": "İçerik 18–19 Kasım 2026 prototipinden aktarıldı. İkinci hekim kontrolü yapılınca kontrol_eden, kontrol_tarihi doldurulup durum \"onaylandı\" yapılmalı. 1.1.0: lokal anestezik doz sınırları, LAST tedavisi, enjeksiyon basıncı ve kompartman sendromu notlarından oluşan güvenlik bölümü eklendi. Geliştirici hekim onayı (2026-11-28): bupivakain 2,5 mg/kg, ropivakain 3 mg/kg, lidokain 5–7 mg/kg en yüksek doz olarak eklendi."
  },
  "data": {
   "COM": {
@@ -164,6 +164,73 @@
    [
     [],
     "ASRA satırlarındaki öneri ve kesinlik etiketleri uyarlama metninden alındı; uyarlayıcı kurul etiketleri değiştirmiş olabilir. Sayıların yalnızca DOAK yüksek doz (72 saat), dabigatran 120 saat ve kalıntı düzey eşiği ikinci bir kaynakla uyuşuyor."
+   ]
+  ],
+  "SAFE": [
+   [
+    "Doz sınırı tek sayı değildir",
+    "Önerilen en yüksek doz enjeksiyon yerine, hastanın yaşına, organ işlevine ve gebeliğe göre değişir. Büyük dozda, kontrendikasyon yoksa adrenalin (2,5–5 µg/mL) eklenmesi önerilir. Böbrek, karaciğer ve kalp hastalığında tekrarlayan doz ve infüzyonda azaltın.",
+    "la_maxdose"
+   ],
+   [
+    "Bupivakain",
+    "En yüksek doz: adrenalinsiz 2,5 mg/kg (en çok 175 mg), adrenalinli 3 mg/kg (en çok 225 mg); 24 saatte toplam 400 mg aşılmamalı. mg sınırları ve 400 mg ürün bilgisinden; mg/kg değerleri ürün bilgisinde yoktur ve kaynaklar arasında değişir (2–3,5 mg/kg).",
+    "sp_bupi"
+   ],
+   [
+    "Ropivakain",
+    "En yüksek doz: 3 mg/kg (adrenalinsiz en çok 200 mg, adrenalinli en çok 250 mg).",
+    "la_rev18"
+   ],
+   [
+    "Lidokain",
+    "En yüksek doz: adrenalinsiz 5 mg/kg, adrenalinli 7 mg/kg (en çok 500 mg). Adrenalinsiz mutlak sınır derlemede 350 mg, ürün bilgisinde 300 mg; düşük olanı esas alın.",
+    "la_rev18"
+   ],
+   [
+    "Bupivakain ürün bilgisi",
+    "Periferik blokta tek doz en çok 175 mg (adrenalinsiz) ve 225 mg (adrenalinli); 24 saatte en çok 400 mg. Ürün bilgisi mg/kg sınırı vermez.",
+    "lbl_bupi"
+   ],
+   [
+    "Ropivakain ürün bilgisi (ABD)",
+    "Brakiyal pleksus bloğunda %0,5 ile 35–50 mL (175–250 mg) veya %0,75 ile 10–40 mL (75–300 mg); blok + postoperatif infüzyonda 24 saatte toplam 770 mg iyi tolere edildi.",
+    "lbl_ropi"
+   ],
+   [
+    "Ropivakain ürün bilgisi (AB)",
+    "Büyük sinir blokları için doz önerisi yalnız brakiyal pleksus bloğu için verilir, diğer büyük bloklarda daha düşük doz gerekebilir; 24 saatte toplam 675 mg iyi tolere edildi.",
+    "lbl_ropi_eu"
+   ],
+   [
+    "Lidokain ürün bilgisi",
+    "Adrenalinli lidokain sağlıklı erişkinde 7 mg/kg, genelde toplam 500 mg; adrenalinsiz infiltrasyon ve blok tablolarında toplam doz en çok 300 mg.",
+    "lbl_lido"
+   ],
+   [
+    "Toplam mg hesabı",
+    "Bilateral ve çoklu bloklar, kateter infüzyonu ve cerrahın infiltrasyonu toplam doza eklenir. Küçük vücut ve sarkopeni riski artırır; güncel olgularda belirtiler daha geç başlıyor (USG, infiltrasyon ve infüzyonlar) ve olayların bir kısmı ameliyathane dışında görülüyor.",
+    "last_adv"
+   ],
+   [
+    "LAST tedavisi (ASRA 2020)",
+    "Yardım ve lipid kitini çağırın. %100 oksijen, hiperventilasyondan kaçının. Nöbette benzodiazepin; hemodinamisi bozuk hastada büyük doz propofolden kaçının. Kardiyak arrestte adrenalin <1 µg/kg; vazopressin, kalsiyum kanal blokeri, beta bloker ve lokal anestezikten kaçının. Yanıt yoksa kardiyopulmoner bypass merkezine haber verin.",
+    "last_chk"
+   ],
+   [
+    "Lipid emülsiyonu %20 (ASRA 2020)",
+    ">70 kg: 100 mL 2–3 dakikada bolus, ardından 200–250 mL 15–20 dakikada. ≤70 kg: 1,5 mL/kg (yağsız vücut ağırlığı) 2–3 dakikada bolus, ardından 0,25 mL/kg/dk. Dolaşım düzelmezse bolus 1–2 kez tekrar ve infüzyon iki katına; stabil olduktan sonra en az 10 dakika sürdürün. Üst sınır yaklaşık 12 mL/kg.",
+    "last_chk"
+   ],
+   [
+    "Enjeksiyon basıncı",
+    "Açılış enjeksiyon basıncı ≥15 psi, interskalen blokta iğne-sinir temasını tutarlı biçimde gösterdi (36 enjeksiyonun 35'i); bu eşikte enjeksiyonu başlatmayıp iğneyi yeniden konumlandırmak temas halinde enjeksiyonu önledi. Küçük gözlemsel çalışmadır.",
+    "oip"
+   ],
+   [
+    "Kompartman sendromu riski",
+    "Alt bacak travmasında kılavuz düşük konsantrasyonlu, adjuvansız bloğu uygun izlemle kabul eder; yoğun ve cerrahiyi belirgin aşan uzun bloklardan kaçınılmasını, riskin hastaya anlatılıp kaydedilmesini ve düzenli nesnel izlemi önerir. Kurum protokolünüz preoperatif bloğu dışlıyorsa ona uyun.",
+    "tib_acs_gl"
    ]
   ]
  }

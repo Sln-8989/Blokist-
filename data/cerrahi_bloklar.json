@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "cerrahi_bloklar",
   "aciklama": "Cerrahiye göre blok önerileri (PROSPECT ve diğer çalışmalar)",
-  "surum": "1.3.0",
-  "tarih": "2026-11-21",
+  "surum": "1.4.0",
+  "tarih": "2026-11-28",
   "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
   "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
-  "kontrol_tarihi": "2026-11-21",
+  "kontrol_tarihi": "2026-11-28",
   "durum": "onaylandı",
-  "not": "1.2.0: Omuz: PROSPECT TSA 2026 notları; prostatektomi: PROSPECT 2021 (laparoskopik/robotik TAP ilk tercih, açıkta IV lidokain); kolesistektomi: PROSPECT 2024 RSB notu ve QL önerilmez. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı."
+  "not": "1.2.0: Omuz: PROSPECT TSA 2026 notları; prostatektomi: PROSPECT 2021 (laparoskopik/robotik TAP ilk tercih, açıkta IV lidokain); kolesistektomi: PROSPECT 2024 RSB notu ve QL önerilmez. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı. 1.4.0: klavikula, diz artroskopisi/ÖÇB, halluks valgus, amputasyon ve lomber omurga cerrahisi eklendi; omuzda supraklaviküler satırı düzeltildi, kostoklaviküler eklendi; TKA'ya femoral üçgen ve genikülar blok, ele WALANT eklendi. Geliştirici hekim onayı (2026-11-28)."
  },
  "data": {
   "PROC": {
@@ -181,7 +181,13 @@
      "ul_ssn_an",
      "gk_p36567542",
      "gk_p36514616",
-     "gk_p36847326"
+     "gk_p36847326",
+     "sh_scb_ma1",
+     "sh_scb_ma2",
+     "sh_hdp_ma",
+     "sh_nma26",
+     "sh_ccb_rct",
+     "sh_ccb_vol"
     ],
     "items": [
      {
@@ -190,7 +196,7 @@
       "n": "İnterskalen brakiyal pleksus bloğu (tek doz)",
       "ev": "Güçlü · meta-analizler (15 + 7 RCT)",
       "er": 0,
-      "w": "Artroskopik omuzda intraartiküler infiltrasyona göre 2, 4 ve 24. saatte ağrı skorları daha iyi, opioid tüketimi benzer; periartiküler infiltrasyonla analjezik tüketim, ağrı ve yan etkiler benzer. Frenik sinir felci ve ses kısıklığı riski nedeniyle diyafram koruyucu seçenekler araştırılıyor. PROSPECT (total omuz artroplastisi, 2026): tek doz uzun etkili lokal anestezikle interskalen blok önerilir; kontrendikasyon veya deneyim yoksa lokal infiltrasyon analjezisi makul alternatif; sürekli kateter için kanıt çelişkili."
+      "w": "Artroskopik omuzda intraartiküler infiltrasyona göre 2, 4 ve 24. saatte ağrı skorları daha iyi, opioid tüketimi benzer; periartiküler infiltrasyonla analjezik tüketim, ağrı ve yan etkiler benzer. Frenik sinir felci ve ses kısıklığı riski nedeniyle diyafram koruyucu seçenekler araştırılıyor. PROSPECT (total omuz artroplastisi, 2026): tek doz uzun etkili lokal anestezikle interskalen blok önerilir; kontrendikasyon veya deneyim yoksa lokal infiltrasyon analjezisi makul alternatif; sürekli kateter için kanıt çelişkili. Diyafram koruyucu tekniklerin meta-analizinde (28 RCT) ekstrafasyal enjeksiyon, düşük konsantrasyon ve supraklaviküler blok hemidiyafram felcini azalttı; düşük hacmin etkisi kesinleşmedi."
      },
      {
       "s": "opt",
@@ -219,6 +225,14 @@
      {
       "s": "opt",
       "tech": "periph",
+      "n": "Kostoklaviküler brakiyal pleksus bloğu (diyafram koruyucu seçenek)",
+      "w": "Artroskopik rotator manşet onarımında interskalene göre hemidiyafram felci %5,9 ve %84,4; opioid tüketimi benzer (66 hasta). 20 mL ile 40 mL arasında analjezi ve diyafram etkisi farkı yok; supraklaviküler yayılım görülmesi ağrıyla ilişkili tek etken. Solunum rezervi kısıtlı hastada düşünülebilir; kanıt az sayıda küçük çalışmaya dayanır.",
+      "ev": "Güçlü · randomize çalışmalar (küçük, tek merkez)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
       "n": "Anterior suprascapular sinir bloğu (Gürkan ve ark. çalışmaları)",
       "ev": "Güçlü · randomize çalışma (tek merkez) ve doz bulma çalışması",
       "er": 0,
@@ -241,10 +255,12 @@
       "w": "Kontrole göre istatistiksel ama klinik olarak önemsiz fark (24 saat morfin 11,4 mg); bulantı ve memnuniyet lehine. Tek başına klinik olarak yeterli analjezi sağlamıyor."
      },
      {
-      "s": "na",
+      "s": "opt",
       "tech": "periph",
-      "n": "Supraklaviküler ve infraklaviküler blok",
-      "w": "Omuz cerrahisi analjezisi için bu taramada karşılaştırmalı kanıt bulunamadı."
+      "n": "Supraklaviküler brakiyal pleksus bloğu (diyafram koruyucu alternatif)",
+      "w": "İnterskalene göre 24 saat opioid tüketimi ve ağrıda non-inferior; solunum işlev bozukluğu (OR 0,08), Horner sendromu ve küçük blok komplikasyonları daha az (Hussain 2020). Diğer meta-analizde hemidiyafram felci RR 0,56, kanıt \"kesin sonuç için yetersiz\" (Schubert 2019). Ağ meta-analizinde (63 RCT) opioid tüketimini en tutarlı azaltan yine interskalen blok. İnfraklaviküler blok için ayrı satıra bakın.",
+      "ev": "Güçlü · meta-analizler (15 ve 12 çalışma)",
+      "er": 0
      }
     ]
    },
@@ -259,7 +275,8 @@
      "gk_p23549315",
      "gk_p37493484",
      "gk_p28111732",
-     "gk_p25551815"
+     "gk_p25551815",
+     "ctr_walant"
     ],
     "items": [
      {
@@ -301,6 +318,14 @@
       "ev": "Zayıf · olgu serisi (5) ve olgu bildirimi",
       "er": 3,
       "w": "Çocuklarda 5 olguda derin sedasyon gerekmeden cerrahi anestezi sağlandı; iki ayrı ekstremitede düşük doz lokal anestezikle blok uygulanabildi."
+     },
+     {
+      "s": "opt",
+      "tech": "infil",
+      "n": "Karpal tünel gevşetmede WALANT (uyanık, lokal anestezi, turnikesiz)",
+      "w": "Diğer tekniklere göre intraoperatif ağrı daha düşük ve memnuniyet daha yüksek; ameliyat süresi genelde farksız (açık cerrahide daha uzun), yan etkiler benzer ve seyrek. Pleksus bloğu gerekmeyen kısa el cerrahisi için seçenektir.",
+      "ev": "Güçlü · meta-analiz (8 RCT)",
+      "er": 0
      }
     ]
    },
@@ -1107,7 +1132,10 @@
      "f26",
      "f28",
      "ipack_ma",
-     "ipack_nma"
+     "ipack_nma",
+     "tka_ftb_ma",
+     "tka_gnb_ma",
+     "tka_nma24"
     ],
     "items": [
      {
@@ -1136,6 +1164,14 @@
       "ev": "AAHKS 2022: orta öneri",
       "er": 1,
       "w": "Ağrıyı ve opioid tüketimini advers olay artışı olmadan azaltabilir (AAHKS 1F). PROSPECT özetinde ayrı öneri yok."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Femoral üçgen bloğu (aduktör kanalın proksimali)",
+      "w": "Aduktör kanal bloğuyla 6, 12 ve 24. saatte ağrı farkı yok; 48. saatte hareket ağrısı aduktör kanal lehine. Kuadriseps gücü sonuçları çelişkili (3 çalışma aduktör kanal, 1 çalışma femoral üçgen lehine). Büyük hacim femoral sinire yayılıp kuadriseps güçsüzlüğü yapabilir. PROSPECT ve AAHKS özetlerinde ayrı öneri yok.",
+      "ev": "Orta · meta-analiz (6 RCT, 452 hasta)",
+      "er": 0
      },
      {
       "s": "opt",
@@ -1192,6 +1228,14 @@
       "ev": "Orta · meta-analiz (19 RCT) · AAHKS 2022: sınırlı öneri",
       "er": 1,
       "w": "PROSPECT özetinde yok. AAHKS: ağrıyı azaltabilir ama opioid tüketimini azaltmaz. Meta-analizde (19 RCT, 1.702 hasta) ağrı skoru ve opioid tüketiminde fark yok; eklem hareket açıklığı ve yürüme mesafesi daha iyi. Ağ meta-analizinde sürekli aduktör kanal + IPACK, yürüme mesafesi için en olası en iyi seçenek."
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Genikülar sinir bloğu (tek başına veya aduktör kanal bloğuna ek)",
+      "w": "Erken ağrıyı (4–24. saat) azalttı; opioid tüketimi ve diz fleksiyonunda fark yok, komplikasyonlar değerlendirilmedi. Ağ meta-analizinde sürekli aduktör kanal + genikülar (± IPACK) dinlenme ve hareket ağrısında en olası en iyi seçenekler. PROSPECT ve AAHKS özetlerinde yok.",
+      "ev": "Orta · meta-analiz (6 RCT, 335 hasta) ve ağ meta-analizi",
+      "er": 0
      }
     ]
    },
@@ -1545,6 +1589,190 @@
       "tech": "periph",
       "n": "Yoğun ve cerrahi süresini belirgin aşan uzun süreli bloklar (nöroaksiyel veya periferik)",
       "w": "Kılavuz: kompartman sendromu belirtilerini gizleyebileceği için kaçınılmalı. Riskli hastaya yöntem anlatılıp sözlü onamı kaydedilmeli; eğitimli personelle belirli aralıklarla izlem ve nesnel skorlama çizelgesi önerilir."
+     }
+    ]
+   },
+   "clavicle": {
+    "name": "Klavikula kırığı cerrahisi (PROSPECT özeti yok; meta-analiz)",
+    "reg": "ue",
+    "ap": "open",
+    "src": "cl_cpb_ma",
+    "srcx": [],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Klavipektoral fasyal plan bloğu",
+      "w": "Blok yapılmamasına ve süperfisyal servikal pleksus bloğuna göre 2. ve 6. saatte ağrı daha düşük, interskalenle benzer; 12 ve 24. saatte fark yok. Opioid tüketimi azaldı, ilk kurtarıcı analjeziye süre uzadı; diyafram hareketi korundu. Çalışma sayısı az ve karşılaştırma blokları farklı.",
+      "ev": "Orta · meta-analiz (6 RCT, 320 hasta; kanıt kesinliği orta-düşük)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "İnterskalen blok (± süperfisyal servikal pleksus)",
+      "w": "Klavipektoral blokla erken ağrı benzer, ancak frenik sinir felci riski taşır; solunum rezervi kısıtlı hastada diyafram koruyucu teknik tercih edilmelidir.",
+      "ev": "Orta · meta-analizde karşılaştırma kolu",
+      "er": 0
+     }
+    ]
+   },
+   "acl": {
+    "name": "Diz artroskopisi ve ön çapraz bağ rekonstrüksiyonu (PROSPECT özeti yok; ağ meta-analizleri)",
+    "reg": "limb",
+    "ap": "closed",
+    "src": "acl_nma23",
+    "srcx": [
+     "acl_nma21",
+     "acl_nma26"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Femoral + siyatik sinir bloğu (tek doz)",
+      "w": "Tüm rejyonel teknikler sistemik analjeziden üstün, aralarındaki farklar anlamlı değil; femoral + siyatik 24 saat opioid tüketimi ve ağrı alanı için en yüksek olasılık. Postoperatif işlevi bozması olasıdır.",
+      "ev": "Güçlü · ağ meta-analizleri (57 ve 31 RCT)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Femoral sinir bloğu (tek doz veya sürekli)",
+      "w": "Plaseboya göre ağrı ve 24 saat opioid tüketimi azaldı (−30 mg oral morfin eşdeğeri). Sürekli femoral blok opioid yan etkilerini en çok azaltan; kuadriseps güçsüzlüğü ve düşme riski göz önüne alınmalı.",
+      "ev": "Güçlü · ağ meta-analizleri",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Aduktör kanal bloğu (± greft alanı infiltrasyonu veya IPACK)",
+      "w": "Bir ağ meta-analizinde tek başına aduktör kanal bloğu analjezide zayıf; bir diğerinde blokların etkinliği benzer. Greft alanı infiltrasyonu eklenince 24. saat ağrısı daha düşük; IPACK eklenince ilk analjezik isteğine süre uzun.",
+      "ev": "Orta · ağ meta-analizleri (sonuçlar çelişkili)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "infil",
+      "n": "İntraartiküler veya lokal infiltrasyon analjezisi",
+      "w": "Bupivakain + adjuvanla intraartiküler enjeksiyon 12 saate kadar ağrı ve opioid tüketimini azalttı; lokal infiltrasyon işlevsel iyileşmede en olası en iyi seçenek ama analjezide tek başına zayıf bulundu.",
+      "ev": "Güçlü · ağ meta-analizleri",
+      "er": 0
+     }
+    ]
+   },
+   "forefoot": {
+    "name": "Halluks valgus ve ön ayak cerrahisi (PROSPECT 2026)",
+    "reg": "limb",
+    "ap": "open",
+    "src": "hv_pro26",
+    "src2": "hv_pro20",
+    "srcx": [],
+    "items": [
+     {
+      "s": "rec",
+      "tech": "periph",
+      "n": "Ayak bileği bloğu",
+      "w": "Güncel PROSPECT ayak bileği bloğunu ilk tercih olarak önerir; parasetamol, NSAİİ veya COX-2 inhibitörü ve sistemik deksametazonla birlikte.",
+      "ev": "PROSPECT 2026: ilk tercih",
+      "er": 1
+     },
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Yara infiltrasyonu (ayak bileği bloğuna alternatif)",
+      "w": "Ayak bileği bloğu yapılamıyorsa önerilir.",
+      "ev": "PROSPECT 2026: alternatif",
+      "er": 1
+     },
+     {
+      "s": "na",
+      "tech": "periph",
+      "n": "Popliteal siyatik blok (tek doz)",
+      "w": "PROSPECT 2020 ölçütlerine uyan çalışma bulunamadı (geniş cerrahi kapsamı veya blok yapılmayan kontrol grubu yokluğu); öneri verilmedi."
+     },
+     {
+      "s": "no",
+      "tech": "periph",
+      "n": "Sürekli popliteal siyatik blok, plantar kompartman bloğu",
+      "w": "PROSPECT 2026: kanıt yok."
+     },
+     {
+      "s": "no",
+      "tech": "infil",
+      "n": "Perinöral magnezyum, lipozomal bupivakain",
+      "w": "PROSPECT 2026: yetersiz kanıt."
+     }
+    ]
+   },
+   "amput": {
+    "name": "Alt ekstremite amputasyonu (PROSPECT özeti yok; retrospektif çalışmalar)",
+    "reg": "limb",
+    "ap": "open",
+    "src": "amp_ma",
+    "srcx": [
+     "amp_pnb"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "neuraxial",
+      "n": "Rejyonel anestezi (nöroaksiyel veya periferik blok) genel anesteziye karşı",
+      "w": "Genel anestezide solunum yetmezliği (OR 1,38) ve sepsis (OR 1,21) daha sık; 30 gün mortalite, kardiyak olay ve pnömonide fark yok. Gözlemsel veri: karıştırıcı etkenler dışlanamaz.",
+      "ev": "Zayıf · retrospektif çalışmaların meta-analizi (10 çalışma, 81.736 hasta)",
+      "er": 2
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Periferik sinir bloğu (ör. popliteal veya proksimal siyatik + safen/femoral)",
+      "w": "Genel anesteziye eklenen blok opioid gereksinimini ve ameliyat süresini azalttı; fantom ağrısı insidansında anlamlı fark yok. Fantom ağrısını önlediği kanıtlanmamıştır.",
+      "ev": "Zayıf · retrospektif çalışma (179 hasta)",
+      "er": 2
+     }
+    ]
+   },
+   "spine_lumbar": {
+    "name": "Posterior lomber omurga cerrahisi (laminektomi; PROSPECT 2021 ve meta-analizler)",
+    "reg": "spine",
+    "ap": "open",
+    "src": "sp_pro21",
+    "srcx": [
+     "sp_esp_ma",
+     "sp_esp_ma2",
+     "sp_tlip_ma",
+     "sp_esptlip"
+    ],
+    "items": [
+     {
+      "s": "rec",
+      "tech": "infil",
+      "n": "Yara içine lokal anestezik instilasyonu veya infiltrasyonu (kapamadan önce)",
+      "w": "PROSPECT 2021 laminektomide önerir; parasetamol ve NSAİİ veya COX-2 inhibitörüyle birlikte, opioid kurtarıcı olarak.",
+      "ev": "PROSPECT 2021: önerilir",
+      "er": 1
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Erector spinae plan (ESP) bloğu, bilateral",
+      "w": "Kontrole göre 24 saat opioid tüketimi azaldı (−14,6 mg morfin eşdeğeri), 48 saate kadar ağrı, bulantı-kusma ve memnuniyet lehine; heterojenite yüksek. İnsizyon düzeyinde yapılan blokta opioid azalması daha fazla. PROSPECT 2021 laminektomi önerilerinde yer almıyor.",
+      "ev": "Orta · meta-analizler (12 ve 32 RCT; kanıt kalitesi düşük)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Torakolomber interfasyal plan (TLIP) bloğu, bilateral",
+      "w": "Kontrole göre 24 saate kadar dinlenme ve hareket ağrısı, hasta kontrollü analjezi tüketimi ve bulantı azaldı. ESP ile doğrudan karşılaştırmada (5 RCT) ağrı ve opioid tüketiminde fark yok. PROSPECT 2021 laminektomi önerilerinde yer almıyor.",
+      "ev": "Orta · meta-analiz (9 RCT, 618 hasta)",
+      "er": 0
+     },
+     {
+      "s": "no",
+      "tech": "neuraxial",
+      "n": "İntratekal opioid; gabapentinoidler",
+      "w": "PROSPECT 2021: etkili olabilir ama önemli risk taşıdığı için öneriye alınmadı."
      }
     ]
    }
