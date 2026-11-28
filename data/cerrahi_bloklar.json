@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "cerrahi_bloklar",
   "aciklama": "Cerrahiye göre blok önerileri (PROSPECT ve diğer çalışmalar)",
-  "surum": "1.4.0",
+  "surum": "1.5.0",
   "tarih": "2026-11-28",
   "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
   "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
   "kontrol_tarihi": "2026-11-28",
   "durum": "onaylandı",
-  "not": "1.2.0: Omuz: PROSPECT TSA 2026 notları; prostatektomi: PROSPECT 2021 (laparoskopik/robotik TAP ilk tercih, açıkta IV lidokain); kolesistektomi: PROSPECT 2024 RSB notu ve QL önerilmez. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı. 1.4.0: klavikula, diz artroskopisi/ÖÇB, halluks valgus, amputasyon ve lomber omurga cerrahisi eklendi; omuzda supraklaviküler satırı düzeltildi, kostoklaviküler eklendi; TKA'ya femoral üçgen ve genikülar blok, ele WALANT eklendi. Geliştirici hekim onayı (2026-11-28)."
+  "not": "1.2.0: Omuz: PROSPECT TSA 2026 notları; prostatektomi: PROSPECT 2021 (laparoskopik/robotik TAP ilk tercih, açıkta IV lidokain); kolesistektomi: PROSPECT 2024 RSB notu ve QL önerilmez. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı. 1.4.0: klavikula, diz artroskopisi/ÖÇB, halluks valgus, amputasyon ve lomber omurga cerrahisi eklendi; omuzda supraklaviküler satırı düzeltildi, kostoklaviküler eklendi; TKA'ya femoral üçgen ve genikülar blok, ele WALANT eklendi. Geliştirici hekim onayı (2026-11-28). 1.5.0: femur cisim kırığı ve ayak bileği artroskopisi eklendi; el-önkola distal radius, WALANT, önkol ve kol düzeyi bloklar eklendi. Geliştirici hekim onayı (2026-11-28)."
  },
  "data": {
   "PROC": {
@@ -276,7 +276,11 @@
      "gk_p37493484",
      "gk_p28111732",
      "gk_p25551815",
-     "ctr_walant"
+     "ctr_walant",
+     "dr_ra_ma",
+     "dr_walant",
+     "fa_mid",
+     "ua_sel"
     ],
     "items": [
      {
@@ -325,6 +329,38 @@
       "n": "Karpal tünel gevşetmede WALANT (uyanık, lokal anestezi, turnikesiz)",
       "w": "Diğer tekniklere göre intraoperatif ağrı daha düşük ve memnuniyet daha yüksek; ameliyat süresi genelde farksız (açık cerrahide daha uzun), yan etkiler benzer ve seyrek. Pleksus bloğu gerekmeyen kısa el cerrahisi için seçenektir.",
       "ev": "Güçlü · meta-analiz (8 RCT)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Distal radius kırığı: brakiyal pleksus bloğu (genel anesteziye karşı)",
+      "w": "Genel anesteziye göre 2. saatte ağrı daha düşük, toplam opioid ve bulantı-kusma daha az; 12. saatten sonra ağrıda fark yok. Taburculuk sonrası ilk gün opioid tüketimi daha yüksek (rebound ağrı): blok bitmeden düzenli analjezi planlanmalı.",
+      "ev": "Güçlü · meta-analiz (4 RCT, 248 hasta)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "infil",
+      "n": "Distal radius kırığı fiksasyonunda WALANT",
+      "w": "Rejyonel ve genel anesteziye göre non-inferior; genel anesteziye geçiş WALANT'ta %1,2, rejyonel anestezide %6,5. Kan kaybı ortalama 8,6 mL daha fazla (klinik önemi şüpheli).",
+      "ev": "Orta · meta-analiz (6 çalışma, 410 hasta)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Önkol ortasında median, ulnar ve radial sinir blokları (pleksus bloğuna ek veya kurtarma)",
+      "w": "Kısa etkili supraklaviküler bloğa eklenen önkol blokları (ropivakain %0,75) orta-şiddetli ağrı oranını azalttı (%33 ve %86), motor blok süresini uzatmadı.",
+      "ev": "Güçlü · randomize çalışma (küçük, 30 hasta)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Kolda seçici sinir blokları (aksiller bloğa alternatif)",
+      "w": "Aksiller bloğa göre dirsekte motor blok daha az ve kısa, analjezi benzer, memnuniyet daha yüksek.",
+      "ev": "Güçlü · randomize çalışma (küçük, 24 hasta)",
       "er": 0
      }
     ]
@@ -1773,6 +1809,66 @@
       "tech": "neuraxial",
       "n": "İntratekal opioid; gabapentinoidler",
       "w": "PROSPECT 2021: etkili olabilir ama önemli risk taşıdığı için öneriye alınmadı."
+     }
+    ]
+   },
+   "femur_shaft": {
+    "name": "Femur cisim kırığı (PROSPECT özeti yok; ağ meta-analizi ve randomize çalışmalar)",
+    "reg": "limb",
+    "ap": "open",
+    "src": "fs_nma25",
+    "srcx": [
+     "fs_fnb04"
+    ],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "PENG bloğu (spinal öncesi pozisyon için)",
+      "w": "Pozisyon sırasında ağrı, pozisyon kalitesi, spinal süresi ve memnuniyette en olası en iyi seçenek. Çalışmaların çoğu kalça kırığıdır; femur cisim kırığına özgü kanıt sınırlı.",
+      "ev": "Güçlü · ağ meta-analizi (23 RCT; kalça ve femur cisim kırığı birlikte)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "plane",
+      "n": "Fasya iliaka bloğu",
+      "w": "Postoperatif morfin tüketimini azaltmada en olası en iyi seçenek; pozisyon analjezisinde PENG'den sonra geliyor.",
+      "ev": "Güçlü · ağ meta-analizi (23 RCT)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Femoral sinir bloğu (spinal öncesi pozisyon için)",
+      "w": "Femur cisim kırığında IV fentanile göre oturur pozisyonda ağrı daha düşük (VAS 0,5 ve 3), spinal süresi daha kısa ve pozisyon kalitesi daha iyi. Kuadriseps güçsüzlüğü yapar.",
+      "ev": "Güçlü · randomize çalışma (küçük, 20 hasta) ve ağ meta-analizi",
+      "er": 0
+     }
+    ]
+   },
+   "ankle_arth": {
+    "name": "Ayak bileği artroskopisi ve arka ayak cerrahisi (PROSPECT özeti yok; randomize çalışma)",
+    "reg": "limb",
+    "ap": "closed",
+    "src": "aa_acb",
+    "srcx": [],
+    "items": [
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Popliteal siyatik + aduktör kanal (safen) bloğu",
+      "w": "Ayak bileği artroskopisi, Aşil ve medial ayak bileği cerrahisinde femoral + siyatik bloğa göre ağrı skorları non-inferior; kuadriseps gücü korundu (30. dakikada dinamometre 34 ve 1,7). Düşme riskini azaltmak için femoral bloğa alternatif.",
+      "ev": "Güçlü · randomize çalışma (60 hasta)",
+      "er": 0
+     },
+     {
+      "s": "opt",
+      "tech": "periph",
+      "n": "Femoral sinir + siyatik sinir bloğu",
+      "w": "Etkili ama kuadriseps güçsüzlüğü belirgin; aduktör kanal bloğu benzer analjezi sağlar.",
+      "ev": "Güçlü · randomize çalışmada karşılaştırma kolu",
+      "er": 0
      }
     ]
    }

@@ -2,13 +2,13 @@
  "_meta": {
   "dosya": "kaynaklar",
   "aciklama": "Kaynak künyeleri ve bağlantıları",
-  "surum": "1.4.0",
+  "surum": "1.5.0",
   "tarih": "2026-11-28",
   "hazirlayan": "Geliştirici anestezi hekimi (hazırlama ve ilk kontrol)",
   "kontrol_eden": "Uygulamayı kullanan hekim (her öneriyi bağlı kaynağından doğrular)",
   "kontrol_tarihi": "2026-11-28",
   "durum": "onaylandı",
-  "not": "1.2.0: 371 DOI/PMID kaynağı PubMed ile eşleştirildi; ilk yazar etiketleri düzeltildi/eklendi (Gürkan sırası belirtildi), Air Med J dergi adı, Kaya 2013 yılı düzeltildi; PROSPECT künyeleri tamamlandı; PROSPECT omuz artroplastisi 2026 ve prostatektomi 2021 güncellemesi eklendi. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı. 1.4.0: güvenlik bölümü, yeni ortopedik cerrahiler ve bloklar için 33 kaynak eklendi. Geliştirici hekim onayı (2026-11-28)."
+  "not": "1.2.0: 371 DOI/PMID kaynağı PubMed ile eşleştirildi; ilk yazar etiketleri düzeltildi/eklendi (Gürkan sırası belirtildi), Air Med J dergi adı, Kaya 2013 yılı düzeltildi; PROSPECT künyeleri tamamlandı; PROSPECT omuz artroplastisi 2026 ve prostatektomi 2021 güncellemesi eklendi. 1.3.0: PROSPECT açık kolorektal (2024) ve açık karaciğer rezeksiyonu (2021) önerileri eklendi; geliştirici hekim onayı. 1.4.0: güvenlik bölümü, yeni ortopedik cerrahiler ve bloklar için 33 kaynak eklendi. Geliştirici hekim onayı (2026-11-28). 1.5.0: femur cisim kırığı, distal radius/önkol ve ayak bileği artroskopisi kaynakları eklendi. Geliştirici hekim onayı (2026-11-28)."
  },
  "data": {
   "ESAIC": {
@@ -411,6 +411,34 @@
    "sp_bupi": {
     "t": "StatPearls, NCBI Bookshelf 2026 (McAllister ve Patel): bupivakain",
     "u": "https://www.ncbi.nlm.nih.gov/books/NBK532883/"
+   },
+   "fs_nma25": {
+    "t": "Ağ meta-analizi, Medicine 2025 (Liu ve ark.): kalça ve femur cisim kırığında spinal öncesi analjezi stratejileri, 23 RCT, 1.359 hasta",
+    "u": "https://doi.org/10.1097/MD.0000000000044794"
+   },
+   "fs_fnb04": {
+    "t": "Randomize çalışma, Anesth Analg 2004 (Sia ve ark.): femur cisim kırığında spinal pozisyonu için femoral sinir bloğu ve IV fentanil, 20 hasta",
+    "u": "https://doi.org/10.1213/01.ANE.0000134812.00471.44"
+   },
+   "dr_ra_ma": {
+    "t": "Meta-analiz, J Pers Med 2023 (Roh ve ark.): distal radius kırığı cerrahisinde rejyonel ve genel anestezi, 4 RCT, 248 hasta",
+    "u": "https://doi.org/10.3390/jpm13111543"
+   },
+   "dr_walant": {
+    "t": "Sistematik derleme ve meta-analiz, Surgeon 2023 (Rigney ve ark.): distal radius fiksasyonunda WALANT, genel ve rejyonel anestezi, 6 çalışma, 410 hasta",
+    "u": "https://doi.org/10.1016/j.surge.2022.01.006"
+   },
+   "fa_mid": {
+    "t": "Randomize çalışma, Clin Ther 2018 (Bao ve ark.): el ve el bileği cerrahisinde önkol ortası sinir bloğu (ropivakain %0,75), 30 hasta",
+    "u": "https://doi.org/10.1016/j.clinthera.2018.04.018"
+   },
+   "ua_sel": {
+    "t": "Randomize çalışma, BMC Anesthesiol 2018 (Zhu ve ark.): kolda seçici sinir blokları ve aksiller blok, dirsek motor işlevi, 24 hasta",
+    "u": "https://doi.org/10.1186/s12871-018-0584-7"
+   },
+   "aa_acb": {
+    "t": "Randomize çalışma, Medicine 2016 (Joe ve ark.): arka ayak ve ayak bileği cerrahisinde aduktör kanal veya femoral sinir bloğu + siyatik blok, 60 hasta",
+    "u": "https://doi.org/10.1097/MD.0000000000005758"
    }
   },
   "ASRA5SRC": {

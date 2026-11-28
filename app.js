@@ -847,6 +847,22 @@ function APP(D){
       c:'Konveks prob, paramedian sagital oblik; kranial solda. Ön tarama ile orta hat, derinlik ve laminalar arası pencere belirlenir; iğne gerçek zamanlı değil, ön taramaya göre ilerletilir.'}
     };
   }
+  function CZDATA3(){
+    return {
+    fam:{t:'Önkol ortası blokları (median, ulnar, radial)',tu:'Önkol ortası, median sinir',o:['radial','ulnar'],
+      el:[['band','f',8,26],['path','m','M0 26L420 26L420 70L0 70Z'],['ell','m2',110,98,104,26],['ell','m',300,100,110,28],['line','fs','M60 124Q210 116 360 124'],['ell','m2',210,150,200,24],['rbone',40,186,52,22],['rbone',380,188,52,22],['ell','n',210,122,14,7]],
+      la:'M182 122Q210 108 240 122Q210 136 182 122Z',nd:[8,40,192,120],
+      lb:[[8,48,'FCR / PL / FCU'],[110,102,'FDS','middle'],[300,104,'FDS','middle'],[210,154,'FDP','middle'],[210,114,'MS','middle'],[52,198,'Radius','middle'],[368,200,'Ulna','middle']],
+      cap:'Önkol ortasında enine kesit. Median sinir yüzeyel (FDS) ve derin (FDP) fleksörler arasındaki fasyal planda seyreder. Ulnar sinir ulnar arterin ulnar tarafında, FCU altında; radial sinirin yüzeyel dalı radial arterin radial tarafında, brakioradialis altındadır. Her sinire 3–5 mL ayrı ayrı verilir.',
+      c:'Lineer prob, önkol ortasında enine; radial solda. Median sinir FDS ile FDP arasında bal peteği görünümünde, arter eşliği yok. İğne in-plane; LA siniri çevreler. Ulnar ve radial sinir aynı düzeyde, kendi arterlerinin yanında ayrıca bloke edilir.'},
+    uas:{t:'Kolda seçici sinir blokları (kol orta–üst 1/3)',tu:'Kol orta–üst 1/3, transvers',o:['lateral','medial'],
+      el:[['band','f',8,26],['ell','m',140,64,140,36],['ell','m2',100,150,120,40],['rbone',150,196,56,22],['ell','a',300,96,12,11],['ell','v',330,108,10,7],['ell','n',282,84,8,6],['ell','n',326,84,7,5],['ell','n',356,72,5,4]],
+      la:'M264 88Q300 66 344 84Q348 118 304 122Q264 116 264 88Z',nd:[412,40,330,86],
+      lb:[[140,60,'Biseps','middle'],[100,154,'Triseps / brakiyalis','middle'],[150,214,'Humerus','middle'],[300,100,'BA','middle'],[270,78,'M','end'],[332,76,'U'],[362,66,'MAKS']],
+      cap:'Kolun orta–üst üçte birinde enine kesit. Median ve ulnar sinir brakiyal arter çevresinde, medial antebrakiyal kutanöz sinir yüzeyelde bloke edilir; radial ve muskulokutan sinirler kolun daha distalinde ayrıca bloke edilir. Aksiller bloğa göre dirsekte motor blok daha azdır.',
+      c:'Lineer prob, kolun medialinde transvers; lateral solda. Brakiyal arter çevresinde median ve ulnar sinir. İğne in-plane medialden; LA sinirleri arterin çevresinde ayrı ayrı sarar.'}
+    };
+  }
   /* ---------- Ortak geometriden çizim: kitapçık tarzı kesit + USG animasyonu ---------- */
   var CZK={m:['t-musc','kas'],m2:['t-musc2','kas'],f:['t-fat','yağ'],b:['t-bone','kemik'],n:['t-nerve','sinir'],a:['t-vessel','arter'],v:['t-vein','ven'],l:['t-lig','tendon / bağ'],lu:['t-lung','akciğer'],p:['t-peri','periton / organ'],c:['t-csf','BOS'],k:['t-cart','kıkırdak']};
   var CZLEG={m:'musc',m2:'musc',b:'bone',n:'nerve',a:'vessel',v:'vein',l:'lig',lu:'lung',p:'peri',c:'csf',k:'cart'};
@@ -882,7 +898,7 @@ function APP(D){
     var la=s.la?'<path class="ula" d="'+s.la+'" fill="#030303" stroke="'+sg(150)+'" stroke-width=".8"/>':'';
     var tk='';for(var y=20;y<220;y+=20)tk+='<circle cx="414" cy="'+y+'" r="'+(y%100?1:1.8)+'" fill="#bbb"/>';
     return '<div class="fig"><p class="ft">USG animasyonu · '+s.tu+'</p><svg class="usgsv" viewBox="0 0 420 220" role="img" aria-label="'+s.tu+', USG benzetimi: iğne ilerleyişi ve lokal anestezik yayılımı"><defs>'+USGF+USGP+'</defs><rect width="420" height="220" fill="#000"/><g filter="url(#usgbl)"><rect width="420" height="220" fill="'+sg(44)+'"/>'+base+'</g><rect width="420" height="220" filter="url(#usgsp)" opacity=".5"/>'+sL('M0 4H420',3,205)+sharp+la+late+(s.nd?sN(s.nd[0],s.nd[1],s.nd[2],s.nd[3]):'')+tk+s.lb.map(function(l){return sT(l[0],l[1],l[2],l[3])}).join('')+sT(6,212,s.o[0])+sT(406,212,s.o[1],'end')+'</svg><p class="fc">'+s.c+' Şematik benzetimdir, gerçek hasta görüntüsü değildir.</p></div>'}
-  var CZ=Object.assign(CZDATA(),CZDATA2());
+  var CZ=Object.assign(CZDATA(),CZDATA2(),CZDATA3());USGRX.push(['fam',/nkol ortasında/],['uas',/olda seçici/]);
   Object.keys(CZ).forEach(function(k){ANIM[k]=function(){return czSk(CZ[k])}});
   function usgLinks(k){var a=USGFIG[k];if(!a)return usgSim(k);return usgSim(k)+'<div class="src" style="margin:4px 0 12px"><b>Gerçek USG görüntüsü (açık erişim makale şekli):</b><ul class="notes" style="margin-top:4px">'+a.map(function(l){return '<li><a href="'+l[1]+'" target="_blank" rel="noopener">'+esc(l[0])+'</a></li>'}).join('')+'</ul></div>'}
   USGIMG.forEach(function(b){var q=USGGOOG[b[0]]||(b[0]+' ultrasound guided block needle');b[1].push(['Google Görseller araması: '+b[0]+' (USG ve iğne görüntüsü; görsel hakkı sahibine ait olabilir, kaynak ve lisansı doğrulamadan kopyalamayın)','https://www.google.com/search?tbm=isch&q='+encodeURIComponent(q)])});
