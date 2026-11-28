@@ -2,8 +2,8 @@
 
 Anestezi hekimleri için kılavuz tabanlı rejyonel blok karar rehberi. Cerrahiye, hasta faktörlerine ve antitrombotik ilaca göre blok seçeneklerini kaynaklarıyla gösterir. İnternetsiz çalışır.
 
-**Uygulama:** https://sln-8989.github.io/Blokist-/
-**Gizlilik politikası:** https://sln-8989.github.io/Blokist-/gizlilik.html
+**Uygulama:** https://www.bloknavi.com/
+**Gizlilik politikası:** https://www.bloknavi.com/gizlilik.html
 
 > Yalnızca hekim kullanımı içindir. Klinik yargının yerini tutmaz ve tıbbi cihaz olarak kayıtlı değildir.
 
